@@ -1,79 +1,106 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="myApp"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bento</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="http://www.bentobox.io/images/logo.png"/>
+        <meta property="og:title" content="Bento"/>
+        <meta property="og:url" content="http://www.bentobox.io/"/>
+        <meta property="og:site_name" content="Bento"/>
+        <meta property="og:description" content="Everything you need to know about web development. Neatly packaged. Made by @jonhmchan.">
+        <meta property="og:type" content="website"/>
+        <meta name="description" content="Everything you need to know about web development. Neatly packaged. Made by @jonhmchan.">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Bento : Everything you need to know about web development. Neatly packaged." />
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <link rel="stylesheet" href="stylesheets/normalize.css">
+        <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <script src="javascripts/vendor/modernizr-2.6.2.min.js"></script>
 
-    <title>Bento</title>
-  </head>
+        <!-- Typekit -->
+        <script type="text/javascript" src="//use.typekit.net/nfk4tql.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body ng-controller="masterCtrl">
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=521121077928184";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-  <body>
+        <!-- Add your site or application content here -->
+        <div id="container">
+            <header>
+                <h1>bento</h1>
+                <h4 style="padding: 0px; margin: 0px;">Everything you need to know about web development. Neatly packaged.</h4>
+                <p style="padding: 0px; margin: 0px; color: #999;">Beginners, start by clicking the <strong>html</strong> box and the next lessons you should learn will get highlighted.</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/JonHMChan/bento">View on GitHub</a>
+                <p>Made by <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></p>
 
-          <h1 id="project_title">Bento</h1>
-          <h2 id="project_tagline">Everything you need to know about web development. Neatly packaged.</h2>
+                <div style="padding-left: 28px;">
+                    <div class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/JonHMChan/bento/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/JonHMChan/bento/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
+            </header>
+            <div id="box_container" class="container-fluid">
+                <div class="span3 box_container" ng-repeat="($index, box) in boxes">
+                    <div class="box highlight-(( in_next_boxes(box.name) ))" ng-click="set_next_boxes(box)">
+                        <h2>(( box.name ))</h2>
+                        <p>(( box.description ))</p>
+                        <div ng-repeat="link in box.links">
+                            <a target="_blank" href="(( link.url ))">(( link.name ))</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <h2>Have a suggestion or want to add? Send me a tweet <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></h2>
+            </footer>
+        </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <!-- Sugar -->
+        <script src="http://sugarjs.com/release/current/sugar.min.js"></script>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <!-- Underscore -->
+        <script src="http://underscorejs.org/underscore-min.js"></script>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        <script src="javascripts/plugins.js"></script>
+        <script src="javascripts/main.js"></script>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+          ga('create', 'UA-44156304-1', 'bentobox.io');
+          ga('send', 'pageview');
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Bento maintained by <a href="https://github.com/JonHMChan">JonHMChan</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+        </script>
+    </body>
 </html>
