@@ -320,7 +320,7 @@ var CONTENT = [
       links: [
         {
           name: "Get Started",
-          url: "http://getbootstrap.com/2.3.2/getting-started.html"
+          url: "http://getbootstrap.com/getting-started/"
         }
       ]
     },
