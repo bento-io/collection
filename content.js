@@ -204,6 +204,10 @@ var CONTENT = [
         {
           name: "Style Guide",
           url: "http://nodeguide.com/style.html"
+        },
+        {
+          name: "nodeschool.io",
+          url: "http://nodeschool.io/"
         }
       ]
     },
