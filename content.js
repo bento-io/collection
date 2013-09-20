@@ -1,6 +1,6 @@
 /* FOR ALL THE CONTENT
-This is where all the boxes are made for the page. In each object there is a name of the technology, a short 
-description, what the user should learn next, and an ordered list of resources related to that technology. 
+This is where all the boxes are made for the page. In each object there is a name of the technology, a short
+description, what the user should learn next, and an ordered list of resources related to that technology.
 There are a few things to keep in mind when editing this list:
 
 	RULES TO FOLLOW WHEN MAKING CHANGES
@@ -13,7 +13,7 @@ There are a few things to keep in mind when editing this list:
 	 - Next lessons should NOT include prerequisites (javascript should not be in angular $then)
 	 - Only the FIRST THREE links are shown, in the order of the array
 	 - Link names should be the title of the destination
-	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html 
+	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html
 	 	exercise in codeacademy, rather than codeacademy's home page)
 
 If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
@@ -84,12 +84,32 @@ var CONTENT = [
       name: "json",
       description: "How all data is sent between applications",
       home: "",
-      $then: ["mongo", "http", "jquery", "xml"],
+      $then: ["mongo", "http", "jquery", "xml", "rest"],
       links: [
         {
           name: "What is JSON?",
           url: "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
         }
+      ]
+    },
+    {
+      name: "REST",
+      description: "A way to architecture your applications around verbs and resources",
+      home: "",
+      $then: ["json", "xml"],
+      links: [
+        {
+          name: "Designing HTTP Interfaces and RESTful Web Services",
+          url: "http://munich2012.drupal.org/program/sessions/designing-http-interfaces-and-restful-web-services.html"
+        },
+        {
+          name: "White House Web API Standards",
+          url: "https://github.com/WhiteHouse/api-standards"
+        },
+        {
+          name: "Architectural Styles and the Design of Network-based Software Architectures",
+          url: "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+        },
       ]
     },
     {
@@ -396,7 +416,7 @@ var CONTENT = [
       name: "http",
       description: "The basics of making web requests",
       home: "",
-      $then: ["python", "node", "heroku", "json"],
+      $then: ["python", "node", "heroku", "json", "rest"],
       links: [
         {
           name: "A Beginner's Guide",
@@ -580,7 +600,7 @@ var CONTENT = [
       name: "xml",
       description : "An alternative to json",
       home: "",
-      $then: ["json", "http"],
+      $then: ["json", "http", "rest"],
       links: [
       ]
     }
