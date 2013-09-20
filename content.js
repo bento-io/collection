@@ -63,7 +63,7 @@ var CONTENT = [
     {
       name: "javascript",
       description: "Make your pages interactive",
-      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript"],
+      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "flight"],
       home: "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
       links: [
         {
@@ -115,7 +115,7 @@ var CONTENT = [
     {
       name: "jquery",
       description: "Control the DOM with javascript",
-      $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
+      $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight"],
       home: "http://jquery.com/",
       links: [
       	{
@@ -331,7 +331,7 @@ var CONTENT = [
     {
       name: "bootstrap",
       description: "A popular frontend framework",
-      $then: ["angular", "ember", "backbone", "sass", "less"],
+      $then: ["angular", "ember", "backbone", "flight", "sass", "less"],
       home: "http://getbootstrap.com/",
       links: [
         {
@@ -447,7 +447,7 @@ var CONTENT = [
     {
       name: "angular",
       description: "Build powerful data-driven html and javascript",
-      $then: ["ember", "jquery", "backbone"],
+      $then: ["ember", "jquery", "backbone", "flight"],
       home: "http://angularjs.org/",
       links: [
         { 
@@ -471,7 +471,7 @@ var CONTENT = [
     {
       name: "backbone",
       description: "A framework that makes handling data easier in javascript",
-      $then: ["angular", "jquery", "ember"],
+      $then: ["angular", "jquery", "ember", "flight"],
       home: "http://backbonejs.org/",
       links: [
       ]
@@ -588,7 +588,7 @@ var CONTENT = [
       name: "flight",
       description: "A component-based, event-driven JavaScript framework from Twitter",
       home: "http:/flightjs.github.io",
-      $then: [],
+      $then: ["angular", "backbone", "ember"],
       links: [
         {
           name: "Learn Flight",
