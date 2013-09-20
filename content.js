@@ -464,7 +464,7 @@ var CONTENT = [
     {
       name: "php",
       description: "A server-side language for the web",
-      $then: ["python", "node", "sql"],
+      $then: ["python", "node", "sql", "laravel"],
       links: [
         {
           name: "PHP The Right Way",
@@ -482,8 +482,8 @@ var CONTENT = [
     },
     {
       name: "laravel",
-      description: "The php framework for web artisans.",
-      $then: ["php"],
+      description: "The php framework for web artisans",
+      $then: [],
       links: [
         {
           name: "laravel.com",
