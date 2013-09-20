@@ -244,8 +244,8 @@ var CONTENT = [
       $then: ["python", "ruby", "node"],
       links: [
       	{
-      		name: "Home",
-      		url: "http://golang.org/"
+      		name: "Tour",
+      		url: "http://tour.golang.org/#1"
       	}
       ]
     },
