@@ -127,7 +127,7 @@ var CONTENT = [
     {
       name: "django",
       description: "A popular web framework for python",
-      $then: ["tornado", "flask", "memcached"],
+      $then: ["tornado", "mongo", "flask", "heroku", "memcached"],
       links: [
         {
           name: "Want to Learn Django?",
@@ -135,7 +135,7 @@ var CONTENT = [
         },
         {
           name: "Documentation",
-          url: "http://flask.pocoo.org/docs/"
+          url: "https://docs.djangoproject.com/en/1.5/"
         }
       ]
     },
