@@ -62,7 +62,7 @@
                 <p>Made by <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></p>
 
                 <div style="padding-left: 20px;" ng-show="more_index == null">
-                    <div class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                    <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
 
                     <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
