@@ -455,5 +455,24 @@ var CONTENT = [
           url: "http://www.w3schools.com/php/"
         }
       ]
+    },
+    {
+      name: "dart",
+      description : "A new language, with tools and libraries, for structured web app engineering",
+      $then: ["node"],
+      links: [
+        {
+          name: "Home",
+          url: "http://dartlang.org"
+        },
+        {
+          name: "Programmer’s Guide",
+          url: "https://www.dartlang.org/docs/"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/dart/"
+        }
+      ]
     }
   ]
