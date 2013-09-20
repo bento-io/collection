@@ -583,5 +583,29 @@ var CONTENT = [
           url: "http://www.codecademy.com/tracks/firebase"
         }
       ]
+    },
+    {
+      name: "apache",
+      description: "The most popular http web server around",
+      home: "https://httpd.apache.org/",
+      $then: ["http", "rest", "nginx"],
+      links:[
+        {
+          name: "Apache Documenttion",
+          url: "https://httpd.apache.org/docs/2.4/"
+        }
+      ]
+    },
+    {
+      name: "nginx",
+      description: "A popular http web server, load balancer and http cache",
+      home: "http://nginx.org/",
+      $then: ["http", "rest", "apache"],
+      links:[
+        {
+          name: "Beginner's Guide",
+          url: "http://nginx.org/en/docs/beginners_guide.html"
+        }
+      ]
     }
   ];
