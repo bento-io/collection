@@ -83,7 +83,7 @@ var CONTENT = [
     {
       name: "json",
       description: "How all data is sent between applications",
-      $then: ["mongo", "http", "jquery"],
+      $then: ["mongo", "http", "jquery", "rest"],
       home: "http://www.json.org/",
       links: [
         {
@@ -93,10 +93,10 @@ var CONTENT = [
       ]
     },
     {
-      name: "REST",
+      name: "rest",
       description: "A way to architecture your applications around verbs and resources",
       home: "",
-      $then: ["json", "xml"],
+      $then: ["json", "xml", "http"],
       links: [
         {
           name: "Designing HTTP Interfaces and RESTful Web Services",
@@ -399,7 +399,7 @@ var CONTENT = [
     {
       name: "http",
       description: "The basics of making web requests",
-      $then: ["python", "node", "heroku", "json"],
+      $then: ["python", "node", "heroku", "json", "rest"],
       home: "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
       links: [
         {

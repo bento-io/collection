@@ -1,7 +1,11 @@
 /* FOR ALL THE CONTENT
 This is where all the boxes are made for the page. In each object there is a name of the technology, a short
 description, what the user should learn next, and an ordered list of resources related to that technology.
+<<<<<<< HEAD
 There are a few things to keep in mind when doing editing this list:
+=======
+There are a few things to keep in mind when editing this list:
+>>>>>>> 83973119e725ef10d8b146f4f19ec68022ffeffb
 
 	RULES TO FOLLOW WHEN MAKING CHANGES
 	====================================
@@ -83,13 +87,38 @@ var CONTENT = [
     {
       name: "json",
       description: "How all data is sent between applications",
+<<<<<<< HEAD
       $then: ["mongo", "http", "jquery"],
       home: "http://www.json.org/",
+=======
+      home: "",
+      $then: ["mongo", "http", "jquery", "xml", "rest"],
+>>>>>>> 83973119e725ef10d8b146f4f19ec68022ffeffb
       links: [
         {
           name: "What is JSON?",
           url: "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
         }
+      ]
+    },
+    {
+      name: "REST",
+      description: "A way to architecture your applications around verbs and resources",
+      home: "",
+      $then: ["json", "xml"],
+      links: [
+        {
+          name: "Designing HTTP Interfaces and RESTful Web Services",
+          url: "http://munich2012.drupal.org/program/sessions/designing-http-interfaces-and-restful-web-services.html"
+        },
+        {
+          name: "White House Web API Standards",
+          url: "https://github.com/WhiteHouse/api-standards"
+        },
+        {
+          name: "Architectural Styles and the Design of Network-based Software Architectures",
+          url: "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+        },
       ]
     },
     {
@@ -312,7 +341,7 @@ var CONTENT = [
       links: [
         {
           name: "Get Started",
-          url: "http://getbootstrap.com/2.3.2/getting-started.html"
+          url: "http://getbootstrap.com/getting-started/"
         }
       ]
     },
@@ -379,8 +408,13 @@ var CONTENT = [
     {
       name: "http",
       description: "The basics of making web requests",
+<<<<<<< HEAD
       $then: ["python", "node", "heroku", "json"],
       home: "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+=======
+      home: "",
+      $then: ["python", "node", "heroku", "json", "rest"],
+>>>>>>> 83973119e725ef10d8b146f4f19ec68022ffeffb
       links: [
         {
           name: "A Beginner's Guide",
@@ -422,17 +456,10 @@ var CONTENT = [
       $then: ["ember", "jquery", "backbone"],
       home: "http://angularjs.org/",
       links: [
-        {
-<<<<<<< HEAD
-=======
-          name: "Home",
-          url: "http://angularjs.org/"
-        },
         { 
           name: "egghead.io - comprehensive AngularJS training videos",
           url: "http://egghead.io/lessons"
         {
->>>>>>> 8f3b33759702f4126da05f9f62b0541674cc18dd
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
         }
@@ -534,7 +561,7 @@ var CONTENT = [
       name: "xml",
       description : "An alternative to json",
       home: "",
-      $then: ["json", "http"],
+      $then: ["json", "http", "rest"],
       links: [
       ]
     }
