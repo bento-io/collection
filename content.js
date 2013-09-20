@@ -56,7 +56,7 @@ var CONTENT = [
     {
       name: "javascript",
       description: "Make your pages interactive",
-      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript"],
+      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "dart"],
       links: [
         {
           name: "Codeacademy",
@@ -462,6 +462,25 @@ var CONTENT = [
       ]
     },
     {
+      name: "dart",
+      description : "A new language to replace javascript",
+      $then: ["node"],
+      links: [
+        {
+          name: "Home",
+          url: "http://dartlang.org"
+        },
+        {
+          name: "Programmer’s Guide",
+          url: "https://www.dartlang.org/docs/"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/dart/"
+        }
+      ]
+    },
+    {
       name: "php",
       description: "A server-side language for the web",
       $then: ["python", "node", "sql", "laravel"],
@@ -489,25 +508,6 @@ var CONTENT = [
           name: "laravel.com",
           url: "http://www.laravel.com"
         },
-      ]
-    },
-    {
-      name: "dart",
-      description : "A new language, with tools and libraries, for structured web app engineering",
-      $then: ["node"],
-      links: [
-        {
-          name: "Home",
-          url: "http://dartlang.org"
-        },
-        {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-        }
       ]
     },
     {
