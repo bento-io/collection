@@ -422,10 +422,6 @@ var CONTENT = [
       $then: ["ember", "jquery", "backbone"],
       home: "http://angularjs.org/",
       links: [
-        {
-          name: "Home",
-          url: "http://angularjs.org/"
-        },
         { 
           name: "egghead.io - comprehensive AngularJS training videos",
           url: "http://egghead.io/lessons"

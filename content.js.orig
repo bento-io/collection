@@ -423,6 +423,16 @@ var CONTENT = [
       home: "http://angularjs.org/",
       links: [
         {
+<<<<<<< HEAD
+=======
+          name: "Home",
+          url: "http://angularjs.org/"
+        },
+        { 
+          name: "egghead.io - comprehensive AngularJS training videos",
+          url: "http://egghead.io/lessons"
+        {
+>>>>>>> 8f3b33759702f4126da05f9f62b0541674cc18dd
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
         }
@@ -473,29 +483,6 @@ var CONTENT = [
         {
           name: "Learn X in Y Minutes",
           url: "http://learnxinyminutes.com/docs/coffeescript/"
-<<<<<<< HEAD
-        }
-      ]
-    },
-    {
-      name: "dart",
-      description : "A new language to replace javascript",
-      home: "",
-      $then: ["node"],
-      links: [
-        {
-          name: "Home",
-          url: "http://dartlang.org"
-        },
-        {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-=======
->>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
         }
       ]
     },

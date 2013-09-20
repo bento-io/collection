@@ -164,6 +164,7 @@ header h1 {
     color: #333!important;
 }
 #modal {
+    z-index: 10000;
     position: fixed;
     padding: 25px;
     background: #333;
