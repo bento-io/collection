@@ -125,7 +125,7 @@ header h1 {
     font-size: 0.9em;
     text-align: center;
     padding: 20px;
-    min-height: 200px;
+    height: 200px;
     color: #333;
 }
 .box_container:nth-child(4n) .box {
