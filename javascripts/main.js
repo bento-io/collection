@@ -18,13 +18,6 @@ window.addEventListener('load', function(e) {
 
 var app = angular.module('myApp', []);
 
-/* Change the interpolate provider so it doesn't conflict with tornado template engine */
-
-app.config(function($interpolateProvider) {
-  $interpolateProvider.startSymbol('((');
-  $interpolateProvider.endSymbol('))');
-});
-
 /* Key up event */
 
 app.directive('onKeyupFn', function() {
