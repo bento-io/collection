@@ -571,5 +571,21 @@ var CONTENT = [
       $then: ["json", "http"],
       links: [
       ]
+    },
+    {
+      name: "firebase",
+      description: "A realtime backend for your web or mobile app",
+      home: "https://www.firebase.com/index.html",
+      $then: [],
+      links: [
+        {
+          name: "5 Minute Chat Tutorial",
+          url: "https://www.firebase.com/tutorial/#gettingstarted"
+        },
+        {
+          name: "Codecademy",
+          url: "http://www.codecademy.com/tracks/firebase"
+        }
+      ]
     }
   ];
