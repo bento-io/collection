@@ -101,7 +101,7 @@ var CONTENT = [
     {
       name: "python",
       description: "The best programming language to easily pick up",
-      $then: ["flask", "tornado", "mongo", "heroku", "ruby", "node"],
+      $then: ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
       links: [
         {
           name: "Learn Python",

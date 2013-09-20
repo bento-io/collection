@@ -143,7 +143,7 @@ header h1 {
 .box_container .box.highlight-false {
     background-color: #ccc;
 }
-.box_container .box.highlight-current {
+.box_container .box.highlight-current, .box_container #contact {
     background: #fff;
     color: #333;
 }
@@ -151,6 +151,9 @@ header h1 {
     background: #666;
 }
 .box_container .box.highlight-current a:link, .box_container .box.highlight-current a:visited, .box_container .box.highlight-current a:hover {
+    color: #000;
+}
+.box_container #contact a:link, .box_container #contact a:visited, .box_container #contact a:hover {
     color: #000;
 }
 
