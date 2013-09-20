@@ -176,7 +176,7 @@ var CONTENT = [
     {
       name: "rails",
       description: "An awesome web framework for ruby",
-      $then: ["heroku", "ruby", "coffeescript", "less", "sql", "http"],
+      $then: ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
       links: [
         {
           name: "The Best Way to Learn Rails",
