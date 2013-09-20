@@ -63,8 +63,8 @@
                     <div class="box highlight-(( in_next_boxes(box.name) ))" ng-click="set_next_boxes(box)">
                         <h2>(( box.name ))</h2>
                         <p>(( box.description ))</p>
-                        <div ng-repeat="link in box.links">
-                            <a target="_blank" href="(( link.url ))">(( link.name ))</a>
+                        <div ng-repeat="($key, link) in box.links">
+                            <a target="_blank" href="(( link.url ))" ng-show="$key < 3">(( link.name ))</a>
                         </div>
                     </div>
                 </div>

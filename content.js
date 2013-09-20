@@ -1,3 +1,22 @@
+/* FOR ALL THE CONTENT
+This is where all the boxes are made for the page. In each object there is a name of the technology, a short 
+description, what the user should learn next, and an ordered list of resources related to that technology. 
+There are a few things to keep in mind when doing editing this list:
+
+	RULES TO FOLLOW WHEN MAKING CHANGES
+	====================================
+	 - All names MUST be lowercase (even in the $then fields and descriptions)
+	 - Descriptions should be NO MORE than 100 characters long
+	 - Descriptions should NOT use any complex jargon when possible
+	 - Next lessons to follow-up with ($then) are in no particular order in the array
+	 - Next lessons should NOT include prerequisites (javascript should not be in angular $then)
+	 - Only the FIRST THREE links are shown, in the order of the array
+	 - Link names should be the title of the destination
+	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codeacademy, rather than codeacademy's home page)
+
+If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
+*/
+
 var CONTENT = [
     {
       name: "html",
@@ -62,7 +81,7 @@ var CONTENT = [
     {
       name: "jquery",
       description: "Control the DOM with javascript",
-      $then: ["python", "angular", "backbone", "ember", "sugar", "coffeescript"],
+      $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
       links: [
         {
           name: "Codeacademy",
@@ -77,7 +96,7 @@ var CONTENT = [
     {
       name: "python",
       description: "The best programming language to easily pick up",
-      $then: ["flask", "tornado", "mongo", "heroku"],
+      $then: ["flask", "tornado", "mongo", "heroku", "ruby", "node"],
       links: [
         {
           name: "Learn Python",
@@ -92,7 +111,7 @@ var CONTENT = [
     {
       name: "flask",
       description: "A basic microframework for python on the web",
-      $then: ["tornado", "mongo", "heroku", "memcached"],
+      $then: ["tornado", "mongo", "django", "heroku", "memcached"],
       links: [
         {
           name: "Home",
@@ -105,9 +124,24 @@ var CONTENT = [
       ]
     },
     {
+      name: "django",
+      description: "A popular web framework for python",
+      $then: ["tornado", "flask", "memcached"],
+      links: [
+        {
+          name: "Want to Learn Django?",
+          url: "http://elweb.co/want-to-learn-django-start-here/"
+        },
+        {
+          name: "Documentation",
+          url: "http://flask.pocoo.org/docs/"
+        }
+      ]
+    },
+    {
       name: "tornado",
       description: "An asynchronous microframework for python on the web",
-      $then: ["flask", "mongo", "heroku", "memcached"],
+      $then: ["flask", "mongo", "heroku", "django", "memcached"],
       links: [
         {
           name: "Home",
@@ -116,6 +150,70 @@ var CONTENT = [
         {
           name: "Documentation",
           url: "http://www.tornadoweb.org/en/stable/documentation.html"
+        }
+      ]
+    },
+    {
+      name: "ruby",
+      description: "A simple programming language",
+      $then: ["rails", "heroku", "python"],
+      links: [
+        {
+          name: "Try Ruby",
+          url: "http://tryruby.org/levels/1/challenges/0"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/ruby/"
+        },
+        {
+          name: "Learn Ruby the Hard Way",
+          url: "http://ruby.learncodethehardway.org/"
+        }
+      ]
+    },
+    {
+      name: "rails",
+      description: "An awesome web framework for ruby",
+      $then: ["heroku", "ruby", "coffeescript", "less", "sql", "http"],
+      links: [
+        {
+          name: "The Best Way to Learn Rails",
+          url: "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
+        }
+      ]
+    },
+    {
+      name: "node",
+      description: "Create a backend with javascript",
+      $then: ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
+      links: [
+        {
+          name: "How Do I Get Started?",
+          url: "http://stackoverflow.com/a/5511507/1043674"
+        },
+        {
+          name: "Home",
+          url: "http://nodejs.org/"
+        },
+        {
+          name: "Node Beginner",
+          url: "http://www.nodebeginner.org/"
+        },
+        {
+          name: "Style Guide",
+          url: "http://nodeguide.com/style.html"
+        }
+      ]
+    },
+    {
+      name: "express",
+      description: "The most popular web framework for node",
+      $then: ["heroku", "http", "angular", "ember"],
+      links: [
+        {
+          name: "Guide",
+          url: "http://expressjs.com/guide.html"
         }
       ]
     },
@@ -257,66 +355,6 @@ var CONTENT = [
         {
           name: "An Adventure in Learning Memcached",
           url: "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
-        }
-      ]
-    },
-    {
-      name: "ruby",
-      description: "A simple programming language",
-      $then: ["rails", "heroku", "python"],
-      links: [
-        {
-          name: "Try Ruby",
-          url: "http://tryruby.org/levels/1/challenges/0"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/ruby/"
-        },
-        {
-          name: "Learn Ruby the Hard Way",
-          url: "http://ruby.learncodethehardway.org/"
-        }
-      ]
-    },
-    {
-      name: "rails",
-      description: "An awesome web framework for ruby",
-      $then: ["heroku", "ruby", "coffeescript", "less", "sql", "http"],
-      links: [
-        {
-          name: "The Best Way to Learn Rails",
-          url: "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
-        }
-      ]
-    },
-    {
-      name: "node",
-      description: "Create a backend with javascript",
-      $then: ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
-      links: [
-        {
-          name: "How Do I Get Started?",
-          url: "http://stackoverflow.com/a/5511507/1043674"
-        },
-        {
-          name: "Home",
-          url: "http://nodejs.org/"
-        },
-        {
-          name: "Style Guide",
-          url: "http://nodeguide.com/style.html"
-        }
-      ]
-    },
-    {
-      name: "express",
-      description: "The most popular web framework for node",
-      $then: ["heroku", "http", "angular", "ember"],
-      links: [
-        {
-          name: "Guide",
-          url: "http://expressjs.com/guide.html"
         }
       ]
     },
