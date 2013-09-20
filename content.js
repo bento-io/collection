@@ -423,6 +423,13 @@ var CONTENT = [
       home: "http://angularjs.org/",
       links: [
         {
+          name: "Home",
+          url: "http://angularjs.org/"
+        },
+        { 
+          name: "egghead.io - comprehensive AngularJS training videos",
+          url: "http://egghead.io/lessons"
+        {
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
         }
