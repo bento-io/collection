@@ -203,6 +203,14 @@ var CONTENT = [
       $then: ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
       links: [
         {
+          name: "What is Ruby on Rails?",
+          url: "http://railsapps.github.io/what-is-ruby-rails.html"
+        },
+        {
+          name: "Recommendations for a Rails Tutorial",
+          url: "https://tutorials.railsapps.org/rails-tutorial"
+        },
+        {
           name: "The Best Way to Learn Rails",
           url: "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
         },
