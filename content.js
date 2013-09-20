@@ -477,26 +477,6 @@ var CONTENT = [
       ]
     },
     {
-      name: "dart",
-      description : "A new language to replace javascript",
-      home: "",
-      $then: ["node"],
-      links: [
-        {
-          name: "Home",
-          url: "http://dartlang.org"
-        },
-        {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-        }
-      ]
-    },
-    {
       name: "php",
       description: "A server-side language for the web",
       $then: ["python", "node", "sql"],
