@@ -1,7 +1,7 @@
 /* FOR ALL THE CONTENT
 This is where all the boxes are made for the page. In each object there is a name of the technology, a short 
 description, what the user should learn next, and an ordered list of resources related to that technology. 
-There are a few things to keep in mind when doing editing this list:
+There are a few things to keep in mind when editing this list:
 
 	RULES TO FOLLOW WHEN MAKING CHANGES
 	====================================
@@ -101,7 +101,7 @@ var CONTENT = [
     {
       name: "python",
       description: "The best programming language to easily pick up",
-      $then: ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
+      $then: ["go", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
       links: [
       	{
       	  name: "Intro to Computer Science",
@@ -165,7 +165,7 @@ var CONTENT = [
     {
       name: "ruby",
       description: "An easy, expressive and dynamic scripting language",
-      $then: ["rails", "heroku", "python"],
+      $then: ["go", "node", "rails", "heroku", "python"],
       links: [
         {
           name: "Try Ruby",
@@ -203,7 +203,7 @@ var CONTENT = [
     {
       name: "node",
       description: "Create a backend with javascript",
-      $then: ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
+      $then: ["go", "express", "json", "http", "heroku", "mongo", "ember", "angular"],
       links: [
         {
           name: "How Do I Get Started?",
@@ -236,6 +236,17 @@ var CONTENT = [
           name: "Guide",
           url: "http://expressjs.com/guide.html"
         }
+      ]
+    },
+    {
+      name: "go",
+      description : "A new language for the web",
+      $then: ["python", "ruby", "node"],
+      links: [
+      	{
+      		name: "Home",
+      		url: "http://golang.org/"
+      	}
       ]
     },
     {
