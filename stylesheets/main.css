@@ -159,8 +159,9 @@ header h1 {
 .nolink {
     font-weight: bold!important;
 }
-
-
+h2 a:link, h2 a:visited, h2 a:hover {
+    text-decoration: none!important;
+}
 
 
 

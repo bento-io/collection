@@ -22,6 +22,7 @@ var CONTENT = [
     {
       name: "html",
       description: "Beginners start here! The very basics of putting something on a webpage",
+      home: "",
       $then: ["css", "javascript", "angular", "php"],
       links: [
         {
@@ -41,6 +42,7 @@ var CONTENT = [
     {
       name: "css",
       description: "Styling your webpage",
+      home: "",
       $then: ["javascript", "less", "sass", "bootstrap"],
       links: [
         {
@@ -56,6 +58,7 @@ var CONTENT = [
     {
       name: "javascript",
       description: "Make your pages interactive",
+      home: "",
       $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "dart"],
       links: [
         {
@@ -75,6 +78,7 @@ var CONTENT = [
     {
       name: "json",
       description: "How all data is sent between applications",
+      home: "",
       $then: ["mongo", "http", "jquery", "xml"],
       links: [
         {
@@ -86,6 +90,7 @@ var CONTENT = [
     {
       name: "jquery",
       description: "Control the DOM with javascript",
+      home: "",
       $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
       links: [
       	{
@@ -101,6 +106,7 @@ var CONTENT = [
     {
       name: "python",
       description: "The best programming language to easily pick up",
+      home: "",
       $then: ["go", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
       links: [
       	{
@@ -120,6 +126,7 @@ var CONTENT = [
     {
       name: "flask",
       description: "A basic microframework for python on the web",
+      home: "",
       $then: ["tornado", "mongo", "django", "heroku", "memcached"],
       links: [
         {
@@ -135,6 +142,7 @@ var CONTENT = [
     {
       name: "django",
       description: "A popular web framework for python",
+      home: "",
       $then: ["tornado", "mongo", "flask", "heroku", "memcached"],
       links: [
         {
@@ -150,6 +158,7 @@ var CONTENT = [
     {
       name: "tornado",
       description: "An asynchronous microframework for python on the web",
+      home: "",
       $then: ["flask", "mongo", "heroku", "django", "memcached"],
       links: [
         {
@@ -165,6 +174,7 @@ var CONTENT = [
     {
       name: "ruby",
       description: "An easy, expressive and dynamic scripting language",
+      home: "",
       $then: ["go", "node", "rails", "heroku", "python"],
       links: [
         {
@@ -184,6 +194,7 @@ var CONTENT = [
     {
       name: "rails",
       description: "An awesome web framework for ruby",
+      home: "",
       $then: ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
       links: [
         {
@@ -203,6 +214,7 @@ var CONTENT = [
     {
       name: "node",
       description: "Create a backend with javascript",
+      home: "",
       $then: ["go", "express", "json", "http", "heroku", "mongo", "ember", "angular"],
       links: [
         {
@@ -230,6 +242,7 @@ var CONTENT = [
     {
       name: "express",
       description: "The most popular web framework for node",
+      home: "",
       $then: ["heroku", "http", "angular", "ember"],
       links: [
         {
@@ -241,6 +254,7 @@ var CONTENT = [
     {
       name: "go",
       description : "A new language for the web",
+      home: "http://golang.org/",
       $then: ["python", "ruby", "node"],
       links: [
       	{
@@ -252,6 +266,7 @@ var CONTENT = [
     {
       name: "mongo",
       description: "A simple javascript based database",
+      home: "",
       $then: ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
       links: [
         {
@@ -263,6 +278,7 @@ var CONTENT = [
     {
       name: "sql",
       description: "A popular database language",
+      home: "",
       $then: ["json", "mongo", "neo4j", "redis", "memcached", "php"],
       links: [
       	{
@@ -278,6 +294,7 @@ var CONTENT = [
     {
       name: "neo4j",
       description: "The graph database",
+      home: "",
       $then: ["http", "mongo", "redis", "memcached", "sql"],
       links: [
         {
@@ -289,6 +306,7 @@ var CONTENT = [
     {
       name: "bootstrap",
       description: "A popular frontend framework",
+      home: "",
       $then: ["angular", "ember", "backbone", "sass", "less"],
       links: [
         {
@@ -300,6 +318,7 @@ var CONTENT = [
     {
       name: "less",
       description: "A dynamic stylesheet language",
+      home: "",
       $then: ["sass", "bootstrap", "angular"],
       links: [
         {
@@ -315,6 +334,7 @@ var CONTENT = [
     {
       name: "sass",
       description: "An extension of css",
+      home: "",
       $then: ["less", "bootstrap", "angular"],
       links: [
         {
@@ -330,6 +350,7 @@ var CONTENT = [
     {
       name: "heroku",
       description: "Easily deploy your applications",
+      home: "",
       $then: ["git", "python", "node", "ruby"],
       links: [
         {
@@ -341,6 +362,7 @@ var CONTENT = [
     {
       name: "git",
       description: "Version control that's simple to use",
+      home: "",
       $then: ["http", "heroku"],
       links: [
         {
@@ -360,6 +382,7 @@ var CONTENT = [
     {
       name: "http",
       description: "The basics of making web requests",
+      home: "",
       $then: ["python", "node", "heroku", "json"],
       links: [
         {
@@ -375,6 +398,7 @@ var CONTENT = [
     {
       name: "redis",
       description: "A basic key-value store",
+      home: "",
       $then: ["mongo", "memcached", "heroku", "neo4j", "sql"],
       links: [
         {
@@ -386,6 +410,7 @@ var CONTENT = [
     {
       name: "memcached",
       description: "A way to cache your data in memory",
+      home: "",
       $then: ["mongo", "redis", "heroku", "neo4j", "sql"],
       links: [
         {
@@ -397,6 +422,7 @@ var CONTENT = [
     {
       name: "angular",
       description: "Build powerful data-driven html and javascript",
+      home: "",
       $then: ["ember", "jquery", "backbone"],
       links: [
         {
@@ -412,6 +438,7 @@ var CONTENT = [
     {
       name: "ember",
       description: "Build robust single-page apps with javascript",
+      home: "",
       $then: ["angular", "jquery", "backbone"],
       links: [
         {
@@ -423,6 +450,7 @@ var CONTENT = [
     {
       name: "backbone",
       description: "A framework that makes handling data easier in javascript",
+      home: "",
       $then: ["angular", "jquery", "ember"],
       links: [
         {
@@ -434,6 +462,7 @@ var CONTENT = [
     {
       name: "underscore",
       description: "A utility belt for javascript",
+      home: "",
       $then: ["sugar", "backbone", "coffeescript"],
       links: [
         {
@@ -449,6 +478,7 @@ var CONTENT = [
     {
       name: "sugar",
       description: "Extend the functionality of javascript",
+      home: "",
       $then: ["underscore", "backbone", "coffeescript"],
       links: [
         {
@@ -460,6 +490,7 @@ var CONTENT = [
     {
       name: "coffeescript",
       description: "A language that compiles to javascript",
+      home: "",
       $then: ["underscore", "angular", "backbone"],
       links: [
         {
@@ -475,6 +506,7 @@ var CONTENT = [
     {
       name: "dart",
       description : "A new language to replace javascript",
+      home: "",
       $then: ["node"],
       links: [
         {
@@ -494,6 +526,7 @@ var CONTENT = [
     {
       name: "php",
       description: "A server-side language for the web",
+      home: "",
       $then: ["python", "node", "sql", "laravel"],
       links: [
         {
@@ -513,6 +546,7 @@ var CONTENT = [
     {
       name: "laravel",
       description: "The php framework for web artisans",
+      home: "",
       $then: [],
       links: [
         {
@@ -524,6 +558,7 @@ var CONTENT = [
     {
       name: "java",
       description : "A popular programming language",
+      home: "",
       $then: ["python", "ruby", "node"],
       links: [
       ]
@@ -531,6 +566,7 @@ var CONTENT = [
     {
       name: "xml",
       description : "An alternative to json",
+      home: "",
       $then: ["json", "http"],
       links: [
       ]
