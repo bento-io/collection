@@ -91,7 +91,9 @@ function masterCtrl($scope, $window, $http) {
 
 	$scope.boxes = CONTENT;
 
-  $scope.fire = function($index) {
+  $scope.more_index = null;
 
+  $scope.show_more = function($index) {
+    $scope.more_index = $index;
   }
 }

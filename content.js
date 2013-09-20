@@ -37,6 +37,10 @@ var CONTENT = [
         {
           name: "HTML5 Doctor",
           url: "http://html5doctor.com/"
+        },
+        {
+          name: "Dash",
+          url: "https://dash.generalassemb.ly/projects"
         }
       ]
     },

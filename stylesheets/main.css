@@ -159,9 +159,17 @@ header h1 {
 .nolink {
     font-weight: bold!important;
 }
-h2 a:link, h2 a:visited, h2 a:hover {
+.box h2 a:link, .box h2 a:visited, .box h2 a:hover {
     text-decoration: none!important;
     color: #333!important;
+}
+#modal {
+    position: fixed;
+    padding: 25px;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
 }
 
 

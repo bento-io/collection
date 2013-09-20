@@ -43,6 +43,16 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div id="modal" ng-show="more_index != null">
+            <h2>(( boxes[more_index].name ))</h2>
+            <p>Even more links!</p>
+
+            <div ng-repeat="($key, link) in boxes[more_index].links">
+                <a target="_blank" href="(( link.url ))" ng-show="$key >= 2">(( link.name ))</a>
+            </div>
+            <br/>
+            <a href="#" ng-click="more_index = null">Close</a>
+        </div>
         <div id="container">
             <header>
                 <h1>bento</h1>
@@ -57,6 +67,9 @@
                     <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </div>
+                <div>
+                    <a href="http://www.reddit.com/r/technology/comments/1msise/bento_a_beginners_cheat_sheet_for_learning/" target="_blank">Click here to upvote!</a>
+                </div>
             </header>
             <div id="box_container" class="container-fluid">
                 <div class="span3 box_container" ng-repeat="($index, box) in boxes">
@@ -64,7 +77,10 @@
                         <h2><a target="_blank" href="(( box.home ))">(( box.name ))</a></h2>
                         <p>(( box.description ))</p>
                         <div ng-repeat="($key, link) in box.links">
-                            <a target="_blank" href="(( link.url ))" ng-show="$key < 3">(( link.name ))</a>
+                            <a target="_blank" href="(( link.url ))" ng-show="$key < 2">(( link.name ))</a>
+                        </div>
+                        <div ng-show="box.links.length > 2">
+                            <a target="_blank" href="" ng-click="show_more($index)">More</a>
                         </div>
                         <div ng-show="box.links.length == 0">
                             <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
