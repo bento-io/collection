@@ -185,6 +185,14 @@ var CONTENT = [
         {
           name: "The Best Way to Learn Rails",
           url: "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
+        },
+        {
+          name: "Michael Hartl's Tutorial",
+          url: "http://ruby.railstutorial.org/"
+        },
+        {
+          name: "RailsCasts",
+          url: "http://railscasts.com/"
         }
       ]
     },
