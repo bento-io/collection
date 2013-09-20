@@ -1,7 +1,13 @@
 /* FOR ALL THE CONTENT
+<<<<<<< HEAD
+This is where all the boxes are made for the page. In each object there is a name of the technology, a short 
+description, what the user should learn next, and an ordered list of resources related to that technology. 
+There are a few things to keep in mind when editing this list:
+=======
 This is where all the boxes are made for the page. In each object there is a name of the technology, a short
 description, what the user should learn next, and an ordered list of resources related to that technology.
 There are a few things to keep in mind when doing editing this list:
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
 
 	RULES TO FOLLOW WHEN MAKING CHANGES
 	====================================
@@ -23,6 +29,7 @@ var CONTENT = [
     {
       name: "html",
       description: "Beginners start here! The very basics of putting something on a webpage",
+      home: "",
       $then: ["css", "javascript", "angular", "php"],
       home: "http://developer.mozilla.org/en-US/docs/Web/HTML",
       links: [
@@ -47,6 +54,7 @@ var CONTENT = [
     {
       name: "css",
       description: "Styling your webpage",
+      home: "",
       $then: ["javascript", "less", "sass", "bootstrap"],
       home: "http://developer.mozilla.org/en-US/docs/Web/CSS",
       links: [
@@ -63,8 +71,13 @@ var CONTENT = [
     {
       name: "javascript",
       description: "Make your pages interactive",
+<<<<<<< HEAD
+      home: "",
+      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "dart"],
+=======
       $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript"],
       home: "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
         {
           name: "Codeacademy",
@@ -83,8 +96,13 @@ var CONTENT = [
     {
       name: "json",
       description: "How all data is sent between applications",
+<<<<<<< HEAD
+      home: "",
+      $then: ["mongo", "http", "jquery", "xml"],
+=======
       $then: ["mongo", "http", "jquery"],
       home: "http://www.json.org/",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
         {
           name: "What is JSON?",
@@ -95,6 +113,7 @@ var CONTENT = [
     {
       name: "jquery",
       description: "Control the DOM with javascript",
+      home: "",
       $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
       home: "http://jquery.com/",
       links: [
@@ -111,8 +130,13 @@ var CONTENT = [
     {
       name: "python",
       description: "The best programming language to easily pick up",
+<<<<<<< HEAD
+      home: "",
+      $then: ["go", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
+=======
       $then: ["flask", "tornado", "mongo", "heroku", "ruby", "node"],
       home: "http://www.python.org/",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
       	{
       	  name: "Intro to Computer Science",
@@ -131,6 +155,7 @@ var CONTENT = [
     {
       name: "flask",
       description: "A basic microframework for python on the web",
+      home: "",
       $then: ["tornado", "mongo", "django", "heroku", "memcached"],
       home: "http://flask.pocoo.org/",
       links: [
@@ -143,6 +168,7 @@ var CONTENT = [
     {
       name: "django",
       description: "A popular web framework for python",
+      home: "",
       $then: ["tornado", "mongo", "flask", "heroku", "memcached"],
       home: "http://www.djangoproject.com",
       links: [
@@ -159,6 +185,7 @@ var CONTENT = [
     {
       name: "tornado",
       description: "An asynchronous microframework for python on the web",
+      home: "",
       $then: ["flask", "mongo", "heroku", "django", "memcached"],
       home: "http://www.tornadoweb.org/en/stable/",
       links: [
@@ -171,8 +198,13 @@ var CONTENT = [
     {
       name: "ruby",
       description: "An easy, expressive and dynamic scripting language",
+<<<<<<< HEAD
+      home: "",
+      $then: ["go", "node", "rails", "heroku", "python"],
+=======
       $then: ["rails", "heroku", "python"],
       home: "http://www.ruby-lang.org/en/",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
         {
           name: "Try Ruby",
@@ -191,6 +223,7 @@ var CONTENT = [
     {
       name: "rails",
       description: "An awesome web framework for ruby",
+      home: "",
       $then: ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
       home: "http://rubyonrails.org/",
       links: [
@@ -219,8 +252,13 @@ var CONTENT = [
     {
       name: "node",
       description: "Create a backend with javascript",
+<<<<<<< HEAD
+      home: "",
+      $then: ["go", "express", "json", "http", "heroku", "mongo", "ember", "angular"],
+=======
       $then: ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
       home: "http://nodejs.org/",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
         {
           name: "How Do I Get Started?",
@@ -243,6 +281,7 @@ var CONTENT = [
     {
       name: "express",
       description: "The most popular web framework for node",
+      home: "",
       $then: ["heroku", "http", "angular", "ember"],
       home: "http://expressjs.com/",
       links: [
@@ -267,6 +306,7 @@ var CONTENT = [
     {
       name: "mongo",
       description: "A simple javascript based database",
+      home: "",
       $then: ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
       home: "http://www.mongodb.org/",
       links: [
@@ -279,6 +319,7 @@ var CONTENT = [
     {
       name: "sql",
       description: "A popular database language",
+      home: "",
       $then: ["json", "mongo", "neo4j", "redis", "memcached", "php"],
       home: "http://www.mysql.com/",
       links: [
@@ -295,6 +336,7 @@ var CONTENT = [
     {
       name: "neo4j",
       description: "The graph database",
+      home: "",
       $then: ["http", "mongo", "redis", "memcached", "sql"],
       home: "http://www.neo4j.org/",
       links: [
@@ -307,6 +349,7 @@ var CONTENT = [
     {
       name: "bootstrap",
       description: "A popular frontend framework",
+      home: "",
       $then: ["angular", "ember", "backbone", "sass", "less"],
       home: "http://getbootstrap.com/2.3.2/",
       links: [
@@ -319,6 +362,7 @@ var CONTENT = [
     {
       name: "less",
       description: "A dynamic stylesheet language",
+      home: "",
       $then: ["sass", "bootstrap", "angular"],
       home: "http://lesscss.org/",
       links: [
@@ -331,6 +375,7 @@ var CONTENT = [
     {
       name: "sass",
       description: "An extension of css",
+      home: "",
       $then: ["less", "bootstrap", "angular"],
       home: "http://sass-lang.com/",
       links: [
@@ -347,6 +392,7 @@ var CONTENT = [
     {
       name: "heroku",
       description: "Easily deploy your applications",
+      home: "",
       $then: ["git", "python", "node", "ruby"],
       home: "http://heroku.com/",
       links: [
@@ -359,6 +405,7 @@ var CONTENT = [
     {
       name: "git",
       description: "Version control that's simple to use",
+      home: "",
       $then: ["http", "heroku"],
       home: "http://git-scm.com/",
       links: [
@@ -379,6 +426,7 @@ var CONTENT = [
     {
       name: "http",
       description: "The basics of making web requests",
+      home: "",
       $then: ["python", "node", "heroku", "json"],
       home: "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
       links: [
@@ -395,6 +443,7 @@ var CONTENT = [
     {
       name: "redis",
       description: "A basic key-value store",
+      home: "",
       $then: ["mongo", "memcached", "heroku", "neo4j", "sql"],
       home: "http://redis.io/",
       links: [
@@ -407,6 +456,7 @@ var CONTENT = [
     {
       name: "memcached",
       description: "A way to cache your data in memory",
+      home: "",
       $then: ["mongo", "redis", "heroku", "neo4j", "sql"],
       home: "http://memcached.org/",
       links: [
@@ -419,6 +469,7 @@ var CONTENT = [
     {
       name: "angular",
       description: "Build powerful data-driven html and javascript",
+      home: "",
       $then: ["ember", "jquery", "backbone"],
       home: "http://angularjs.org/",
       links: [
@@ -431,6 +482,7 @@ var CONTENT = [
     {
       name: "ember",
       description: "Build robust single-page apps with javascript",
+      home: "",
       $then: ["angular", "jquery", "backbone"],
       home: "http://emberjs.com/",
       links: [
@@ -439,6 +491,7 @@ var CONTENT = [
     {
       name: "backbone",
       description: "A framework that makes handling data easier in javascript",
+      home: "",
       $then: ["angular", "jquery", "ember"],
       home: "http://backbonejs.org/",
       links: [
@@ -447,6 +500,7 @@ var CONTENT = [
     {
       name: "underscore",
       description: "A utility belt for javascript",
+      home: "",
       $then: ["sugar", "backbone", "coffeescript"],
       home: "http://underscorejs.org/",
       links: [
@@ -459,6 +513,7 @@ var CONTENT = [
     {
       name: "sugar",
       description: "Extend the functionality of javascript",
+      home: "",
       $then: ["underscore", "backbone", "coffeescript"],
       home: "http://sugarjs.com/",
       links: [
@@ -467,6 +522,7 @@ var CONTENT = [
     {
       name: "coffeescript",
       description: "A language that compiles to javascript",
+      home: "",
       $then: ["underscore", "angular", "backbone"],
       home: "http://coffeescript.org/",
       links: [
@@ -499,8 +555,13 @@ var CONTENT = [
     {
       name: "php",
       description: "A server-side language for the web",
+<<<<<<< HEAD
+      home: "",
+      $then: ["python", "node", "sql", "laravel"],
+=======
       $then: ["python", "node", "sql"],
       home: "http://php.net/",
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       links: [
         {
           name: "PHP The Right Way",
@@ -517,19 +578,16 @@ var CONTENT = [
       ]
     },
     {
-      name: "dart",
-      description : "A new language, with tools and libraries, for structured web app engineering",
-      $then: ["node"],
-      home: "http://dartlang.org",
+<<<<<<< HEAD
+      name: "laravel",
+      description: "The php framework for web artisans",
+      home: "",
+      $then: [],
       links: [
         {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
+          name: "laravel.com",
+          url: "http://www.laravel.com"
         },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-        }
       ]
     },
     {
@@ -546,6 +604,21 @@ var CONTENT = [
       home: "",
       $then: ["json", "http"],
       links: [
+=======
+      name: "dart",
+      description : "A new language, with tools and libraries, for structured web app engineering",
+      $then: ["node"],
+      home: "http://dartlang.org",
+      links: [
+        {
+          name: "Programmer’s Guide",
+          url: "https://www.dartlang.org/docs/"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/dart/"
+        }
+>>>>>>> 649c92581d83e77f7f79fb859eb984dc7744145e
       ]
     }
   ];
