@@ -93,6 +93,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: "proxima-nova";
 }
 h1,h2,h3,h4 {
