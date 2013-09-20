@@ -93,6 +93,26 @@ var CONTENT = [
       ]
     },
     {
+      name: "REST",
+      description: "A way to architecture your applications around verbs and resources",
+      home: "",
+      $then: ["json", "xml"],
+      links: [
+        {
+          name: "Designing HTTP Interfaces and RESTful Web Services",
+          url: "http://munich2012.drupal.org/program/sessions/designing-http-interfaces-and-restful-web-services.html"
+        },
+        {
+          name: "White House Web API Standards",
+          url: "https://github.com/WhiteHouse/api-standards"
+        },
+        {
+          name: "Architectural Styles and the Design of Network-based Software Architectures",
+          url: "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+        },
+      ]
+    },
+    {
       name: "jquery",
       description: "Control the DOM with javascript",
       $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
