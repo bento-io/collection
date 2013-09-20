@@ -126,7 +126,7 @@ header h1 {
     text-align: center;
     padding: 20px;
     min-height: 200px;
-    color: #fff;
+    color: #333;
 }
 .box_container:nth-child(4n) .box {
     background: #0776A0;
@@ -161,6 +161,7 @@ header h1 {
 }
 h2 a:link, h2 a:visited, h2 a:hover {
     text-decoration: none!important;
+    color: #333!important;
 }
 
 
