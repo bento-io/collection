@@ -328,7 +328,7 @@ var CONTENT = [
       name: "bootstrap",
       description: "A popular frontend framework",
       $then: ["angular", "ember", "backbone", "sass", "less"],
-      home: "http://getbootstrap.com/2.3.2/",
+      home: "http://getbootstrap.com/",
       links: [
         {
           name: "Get Started",
@@ -361,7 +361,7 @@ var CONTENT = [
         {
           name: "Try",
           url: "http://sass-lang.com/try.html"
-        }
+        },
         {
           name: "SassMeister",
           url: "http://sassmeister.com"
@@ -447,8 +447,9 @@ var CONTENT = [
       home: "http://angularjs.org/",
       links: [
         { 
-          name: "egghead.io - comprehensive AngularJS training videos",
+          name: "egghead.io",
           url: "http://egghead.io/lessons"
+      	},
         {
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
@@ -504,9 +505,25 @@ var CONTENT = [
       ]
     },
     {
+      name: "dart",
+      description : "A new language for structured web app engineering",
+      $then: ["node"],
+      home: "http://dartlang.org",
+      links: [
+        {
+          name: "Programmer’s Guide",
+          url: "https://www.dartlang.org/docs/"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/dart/"
+        }
+      ]
+    },
+    {
       name: "php",
       description: "A server-side language for the web",
-      $then: ["python", "node", "sql"],
+      $then: ["python", "node", "sql", "laravel"],
       home: "http://php.net/",
       links: [
         {
@@ -524,19 +541,11 @@ var CONTENT = [
       ]
     },
     {
-      name: "dart",
-      description : "A new language, with tools and libraries, for structured web app engineering",
-      $then: ["node"],
-      home: "http://dartlang.org",
+      name: "laravel",
+      description: "The php framework for web artisans.",
+      $then: [],
+      home: "http://www.laravel.com",
       links: [
-        {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-        }
       ]
     },
     {
