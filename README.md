@@ -9,6 +9,7 @@ content.js (in the gh-pages branch) is where all the resources are defined. In e
 * All names MUST be lowercase (even in the $then fields and descriptions)
 * Descriptions should be NO MORE than 100 characters long
 * Descriptions should NOT use any complex jargon when possible
+* Home should be the top domain when possible
 * Next lessons to follow-up with ($then) are in no particular order in the array
 * Next lessons should NOT include prerequisites (javascript should not be in angular $then)
 * Only the FIRST THREE links are shown, in the order of the array
