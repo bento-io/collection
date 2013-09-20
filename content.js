@@ -447,6 +447,10 @@ var CONTENT = [
       $then: ["python", "node", "sql"],
       links: [
         {
+          name: "PHP The Right Way",
+          url: "http://www.phptherightway.com"
+        },
+        {
           name: "Learn X in Y Minutes",
           url: "http://learnxinyminutes.com/docs/php/"
         },
