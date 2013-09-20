@@ -583,5 +583,17 @@ var CONTENT = [
           url: "http://www.codecademy.com/tracks/firebase"
         }
       ]
+    },
+    {
+      name: "flight",
+      description: "A component-based, event-driven JavaScript framework from Twitter",
+      home: "http:/flightjs.github.io",
+      $then: [],
+      links: [
+        {
+          name: "Learn Flight",
+          url: "http://learnflight.io"
+        }
+      ]
     }
   ];
