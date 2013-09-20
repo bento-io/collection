@@ -328,7 +328,7 @@ var CONTENT = [
       name: "bootstrap",
       description: "A popular frontend framework",
       $then: ["angular", "ember", "backbone", "sass", "less"],
-      home: "http://getbootstrap.com/",
+      home: "http://getbootstrap.com/2.3.2/",
       links: [
         {
           name: "Get Started",
@@ -361,7 +361,7 @@ var CONTENT = [
         {
           name: "Try",
           url: "http://sass-lang.com/try.html"
-        },
+        }
         {
           name: "SassMeister",
           url: "http://sassmeister.com"
@@ -447,9 +447,8 @@ var CONTENT = [
       home: "http://angularjs.org/",
       links: [
         { 
-          name: "egghead.io",
+          name: "egghead.io - comprehensive AngularJS training videos",
           url: "http://egghead.io/lessons"
-      	},
         {
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
@@ -505,25 +504,9 @@ var CONTENT = [
       ]
     },
     {
-      name: "dart",
-      description : "A new language for structured web app engineering",
-      $then: ["node"],
-      home: "http://dartlang.org",
-      links: [
-        {
-          name: "Programmer’s Guide",
-          url: "https://www.dartlang.org/docs/"
-        },
-        {
-          name: "Learn X in Y Minutes",
-          url: "http://learnxinyminutes.com/docs/dart/"
-        }
-      ]
-    },
-    {
       name: "php",
       description: "A server-side language for the web",
-      $then: ["python", "node", "sql", "laravel"],
+      $then: ["python", "node", "sql"],
       home: "http://php.net/",
       links: [
         {
@@ -541,11 +524,19 @@ var CONTENT = [
       ]
     },
     {
-      name: "laravel",
-      description: "The php framework for web artisans.",
-      $then: [],
-      home: "http://www.laravel.com",
+      name: "dart",
+      description : "A new language, with tools and libraries, for structured web app engineering",
+      $then: ["node"],
+      home: "http://dartlang.org",
       links: [
+        {
+          name: "Programmer’s Guide",
+          url: "https://www.dartlang.org/docs/"
+        },
+        {
+          name: "Learn X in Y Minutes",
+          url: "http://learnxinyminutes.com/docs/dart/"
+        }
       ]
     },
     {
@@ -554,6 +545,10 @@ var CONTENT = [
       home: "",
       $then: ["python", "ruby", "node"],
       links: [
+      	{
+      	  name: "CS106A: Programming Methodology"
+      	  url:"http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
+      	}
       ]
     },
     {
