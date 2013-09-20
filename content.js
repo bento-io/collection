@@ -537,10 +537,6 @@ var CONTENT = [
         {
           name: "Learn X in Y Minutes",
           url: "http://learnxinyminutes.com/docs/php/"
-        },
-        {
-          name: "w3schools",
-          url: "http://www.w3schools.com/php/"
         }
       ]
     },
