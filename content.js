@@ -473,6 +473,17 @@ var CONTENT = [
       ]
     },
     {
+      name: "laravel",
+      description: "The php framework for web artisans.",
+      $then: ["php"],
+      links: [
+        {
+          name: "laravel.com",
+          url: "http://www.laravel.com"
+        },
+      ]
+    },
+    {
       name: "dart",
       description : "A new language, with tools and libraries, for structured web app engineering",
       $then: ["node"],
