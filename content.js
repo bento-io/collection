@@ -373,8 +373,8 @@ var CONTENT = [
           url: "http://angularjs.org/"
         },
         {
-          name: "Egghead.io",
-          url: "http://egghead.io/lessons"
+          name: "A Better Way to Learn Angular",
+          url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
         }
       ]
     },
