@@ -82,8 +82,8 @@ var CONTENT = [
     },
     {
       name: "json",
-      description: "How all data is sent between applications",
-      $then: ["mongo", "http", "jquery", "rest"],
+      description: "How data is sent between applications",
+      $then: ["mongo", "http", "jquery", "rest", "xml"],
       home: "http://www.json.org/",
       links: [
         {
@@ -130,7 +130,7 @@ var CONTENT = [
     },
     {
       name: "python",
-      description: "The best programming language to easily pick up",
+      description: "A programming language to easily pick up",
       $then: ["flask", "tornado", "mongo", "heroku", "ruby", "node"],
       home: "http://www.python.org/",
       links: [
