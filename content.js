@@ -31,6 +31,10 @@ var CONTENT = [
         {
           name: "HTML Dog",
           url: "http://htmldog.com/guides/html/beginner/"
+        },
+        {
+          name: "HTML5 Doctor",
+          url: "http://html5doctor.com/"
         }
       ]
     },
