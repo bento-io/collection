@@ -48,7 +48,7 @@
             <p>Even more links!</p>
 
             <div ng-repeat="($key, link) in boxes[more_index].links">
-                <a target="_blank" href="{{ link.url  }}" ng-show="$key >= 1">{{ link.name  }}</a>
+                <a target="_blank" href="{{ link.url  }}" ng-show="$key > 1">{{ link.name  }}</a>
             </div>
             <br/>
             <a href="" ng-click="more_index = null">Close</a>
