@@ -156,6 +156,9 @@ header h1 {
 .box_container #contact a:link, .box_container #contact a:visited, .box_container #contact a:hover {
     color: #000;
 }
+.nolink {
+    font-weight: bold!important;
+}
 
 
 

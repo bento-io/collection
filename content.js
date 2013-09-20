@@ -75,7 +75,7 @@ var CONTENT = [
     {
       name: "json",
       description: "How all data is sent between applications",
-      $then: ["mongo", "http", "jquery"],
+      $then: ["mongo", "http", "jquery", "xml"],
       links: [
         {
           name: "What is JSON?",
@@ -103,6 +103,10 @@ var CONTENT = [
       description: "The best programming language to easily pick up",
       $then: ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
       links: [
+      	{
+      	  name: "Intro to Computer Science",
+      	  url: "https://www.udacity.com/course/cs101"
+      	},
         {
           name: "Learn Python",
           url: "http://www.learnpython.org/"
@@ -485,6 +489,20 @@ var CONTENT = [
           name: "Learn X in Y Minutes",
           url: "http://learnxinyminutes.com/docs/dart/"
         }
+      ]
+    },
+    {
+      name: "java",
+      description : "A popular programming language",
+      $then: ["python", "ruby", "node"],
+      links: [
+      ]
+    },
+    {
+      name: "xml",
+      description : "An alternative to json",
+      $then: ["json", "http"],
+      links: [
       ]
     }
   ]
