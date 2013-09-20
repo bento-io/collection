@@ -145,6 +145,10 @@ var CONTENT = [
         {
           name: "Learn X in Y Minutes",
           url: "http://learnxinyminutes.com/docs/python/"
+        },
+        {
+          name: "New Coder",
+          url: "http://newcoder.io"
         }
       ]
     },
