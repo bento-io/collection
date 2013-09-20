@@ -12,7 +12,8 @@ There are a few things to keep in mind when doing editing this list:
 	 - Next lessons should NOT include prerequisites (javascript should not be in angular $then)
 	 - Only the FIRST THREE links are shown, in the order of the array
 	 - Link names should be the title of the destination
-	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codeacademy, rather than codeacademy's home page)
+	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html 
+	 	exercise in codeacademy, rather than codeacademy's home page)
 
 If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
 */
@@ -28,8 +29,8 @@ var CONTENT = [
           url: "http://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1?curriculum_id=50579fb998b470000202dc8b"
         },
         {
-          name: "w3schools",
-          url: "http://www.w3schools.com/html/default.asp"
+          name: "HTML Dog",
+          url: "http://htmldog.com/guides/html/beginner/"
         }
       ]
     },
@@ -43,8 +44,8 @@ var CONTENT = [
           url: "http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b"
         },
         {
-          name: "w3schools",
-          url: "http://www.w3schools.com/css/default.asp"
+          name: "HTML Dog",
+          url: "http://htmldog.com/guides/css/beginner/"
         }
       ]
     },
@@ -73,8 +74,8 @@ var CONTENT = [
       $then: ["mongo", "http", "jquery"],
       links: [
         {
-          name: "w3schools",
-          url: "http://www.w3schools.com/json/default.asp"
+          name: "What is JSON?",
+          url: "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
         }
       ]
     },
@@ -83,13 +84,13 @@ var CONTENT = [
       description: "Control the DOM with javascript",
       $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
       links: [
+      	{
+          name: "jQuery in 30 Minutes",
+          url: "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
+        },
         {
           name: "Codeacademy",
           url: "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
-        },
-        {
-          name: "w3schools",
-          url: "http://www.w3schools.com/jquery/"
         }
       ]
     },
@@ -155,7 +156,7 @@ var CONTENT = [
     },
     {
       name: "ruby",
-      description: "A simple programming language",
+      description: "An easy, expressive and dynamic scripting language",
       $then: ["rails", "heroku", "python"],
       links: [
         {
@@ -233,6 +234,10 @@ var CONTENT = [
       description: "A popular database language",
       $then: ["json", "mongo", "neo4j", "redis", "memcached", "php"],
       links: [
+      	{
+      	  name: "Problems and Solutions",
+      	  url: "http://www.sql-tutorial.ru/en/book_Intro.html"
+      	},
         {
           name: "w3schools",
           url: "http://www.w3schools.com/sql/"
@@ -366,12 +371,16 @@ var CONTENT = [
         {
           name: "Home",
           url: "http://angularjs.org/"
+        },
+        {
+          name: "Egghead.io",
+          url: "http://egghead.io/lessons"
         }
       ]
     },
     {
       name: "ember",
-      description: "Bind your data between html and javascript",
+      description: "Build robust single-page apps with javascript",
       $then: ["angular", "jquery", "backbone"],
       links: [
         {
