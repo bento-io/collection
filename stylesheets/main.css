@@ -176,6 +176,7 @@ header h1 {
 .box h2 a:link, .box h2 a:visited, .box h2 a:hover {
     text-decoration: none!important;
     color: #333!important;
+    font-weight: normal;
 }
 #modal {
     z-index: 10000;
