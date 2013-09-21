@@ -708,7 +708,7 @@ var CONTENT = [
       name: "perl",
       description: "Perl is an ideal web programming language due to its text manipulation capabilities and rapid development cycle.",
       home: "http://www.perl.org/",
-      $then: [],
+      $then: ["postgresql"],
       links:[
         {
           name: "Learn Perl",
@@ -728,12 +728,31 @@ var CONTENT = [
       name: "postgresql",
       description: "The world's most advanced open source database.",
       home: "http://www.postgresql.org/",
-      $then: [],
+      $then: ["vagrant"],
       links:[
         {
           name: "PostgresApp",
           url: "http://postgresapp.com/"
         }
       ]
+    }
+    {
+      name: "vagrant",
+      description: "An open source tool for building and managing virtualized development environments.",
+      home: "http://www.vagrantup.com/",
+      $then: [],
+      links:[
+      	{
+	   name:"Why Vagrant?",
+	   url: "http://docs-v1.vagrantup.com/v1/docs/getting-started/why.html"
+      		
+      	 },
+      	{
+      	   name: "Getting Started",
+      	   url: "http://docs.vagrantup.com/v2/getting-started/index.html"
+      		
+       	 }
+      ]
+    	
     }
   ];
