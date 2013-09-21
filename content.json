@@ -142,7 +142,7 @@
 {
   "name": "python",
   "description": "A programming language to easily pick up",
-  "$then": ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node"],
+  "$then": ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go"],
   "home": "http://www.python.org/",
   "links": [
   	{
