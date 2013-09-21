@@ -3,18 +3,18 @@ This is where all the boxes are made for the page. In each object there is a nam
 description, what the user should learn next, and an ordered list of resources related to that technology.
 There are a few things to keep in mind when doing editing this list:
 
-	RULES TO FOLLOW WHEN MAKING CHANGES
-	====================================
-	 - All names MUST be lowercase (even in the $then fields and descriptions)
-	 - Descriptions should be NO MORE than 100 characters long
-	 - Descriptions should NOT use any complex jargon when possible
-	 - Home should be the top domain when possible
-	 - Next lessons to follow-up with ($then) are in no particular order in the array
-	 - Next lessons should NOT include prerequisites (javascript should not be in angular $then)
-	 - Only the FIRST THREE links are shown, in the order of the array
-	 - Link names should be the title of the destination
-	 - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html
-	 	exercise in codeacademy, rather than codeacademy's home page)
+    RULES TO FOLLOW WHEN MAKING CHANGES
+    ====================================
+     - All names MUST be lowercase (even in the $then fields and descriptions)
+     - Descriptions should be NO MORE than 100 characters long
+     - Descriptions should NOT use any complex jargon when possible
+     - Home should be the top domain when possible
+     - Next lessons to follow-up with ($then) are in no particular order in the array
+     - Next lessons should NOT include prerequisites (javascript should not be in angular $then)
+     - Only the FIRST THREE links are shown, in the order of the array
+     - Link names should be the title of the destination
+     - Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html
+        exercise in codeacademy, rather than codeacademy's home page)
 
 If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
 */
@@ -134,7 +134,7 @@ var CONTENT = [
       $then: ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
       home: "http://jquery.com/",
       links: [
-      	{
+        {
           name: "jQuery in 30 Minutes",
           url: "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
         },
@@ -154,10 +154,10 @@ var CONTENT = [
       $then: ["flask", "tornado", "mongo", "heroku", "ruby", "node"],
       home: "http://www.python.org/",
       links: [
-      	{
-      	  name: "Intro to Computer Science",
-      	  url: "https://www.udacity.com/course/cs101"
-      	},
+        {
+          name: "Intro to Computer Science",
+          url: "https://www.udacity.com/course/cs101"
+        },
         {
           name: "Learn Python",
           url: "http://www.learnpython.org/"
@@ -310,10 +310,10 @@ var CONTENT = [
       home: "http://golang.org/",
       $then: ["python", "ruby", "node"],
       links: [
-      	{
-      		name: "Tour",
-      		url: "http://tour.golang.org/#1"
-      	}
+        {
+            name: "Tour",
+            url: "http://tour.golang.org/#1"
+        }
       ]
     },
     {
@@ -338,10 +338,10 @@ var CONTENT = [
       $then: ["json", "mongo", "neo4j", "redis", "memcached", "php"],
       home: "http://www.mysql.com/",
       links: [
-      	{
-      	  name: "Problems and Solutions",
-      	  url: "http://www.sql-tutorial.ru/en/book_Intro.html"
-      	},
+        {
+          name: "Problems and Solutions",
+          url: "http://www.sql-tutorial.ru/en/book_Intro.html"
+        },
         {
           name: "w3schools",
           url: "http://www.w3schools.com/sql/"
@@ -497,7 +497,7 @@ var CONTENT = [
         { 
           name: "egghead.io",
           url: "http://egghead.io/lessons"
-      	},
+        },
         {
           name: "A Better Way to Learn Angular",
           url: "http://www.thinkster.io/pick/GtaQ0oMGIl/"
@@ -530,10 +530,10 @@ var CONTENT = [
       $then: ["angular", "jquery", "ember"],
       home: "http://backbonejs.org/",
       links: [
-      	{
-      	  name: "Developing Backbone.js Applications",
-      	  url: "http://addyosmani.github.io/backbone-fundamentals/"
-      	}
+        {
+          name: "Developing Backbone.js Applications",
+          url: "http://addyosmani.github.io/backbone-fundamentals/"
+        }
       ]
     },
     {
@@ -618,26 +618,26 @@ var CONTENT = [
       $then: [],
       home: "http://www.laravel.com",
       links: [
-      	{
-      	  name: "Laravel Docs",
-      	  url: "http://laravel.com/docs"
-      	},
-      	{
-      	  name: "Laravel Ins and Outs"
-      	  url: "http://laravel.io"
-      	},
-      	{
-      	  name: "Laravel Cheatsheet"
-      	  url: "http://cheats.jesse-obrien.ca/"
-      	}
-      	{
-      	  name: "Laravel 4 Mastery"
-      	  url: "http://net.tutsplus.com/tutorials/php/laravel-4-mastery/"
-      	},
-      	{
-      	  name: "Laravel Tutorials via Jason Lewis",
-      	  url: "http://jasonlewis.me/laravel-tutorials"
-      	}
+        {
+          name: "Laravel Docs",
+          url: "http://laravel.com/docs"
+        },
+        {
+          name: "Laravel Ins and Outs",
+          url: "http://laravel.io"
+        },
+        {
+          name: "Laravel Cheatsheet",
+          url: "http://cheats.jesse-obrien.ca/"
+        },
+        {
+          name: "Laravel 4 Mastery",
+          url: "http://net.tutsplus.com/tutorials/php/laravel-4-mastery/"
+        },
+        {
+          name: "Laravel Tutorials via Jason Lewis",
+          url: "http://jasonlewis.me/laravel-tutorials"
+        }
       ]
     },
     {
@@ -646,10 +646,10 @@ var CONTENT = [
       home: "",
       $then: ["python", "ruby", "node"],
       links: [
-      	{
-      		name: "Programming Methodology",
-      		url: "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
-      	}
+        {
+            name: "Programming Methodology",
+            url: "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
+        }
       ]
     },
     {
@@ -715,12 +715,12 @@ var CONTENT = [
           url: "http://www.perl.org/learn.html"
         },
         {
-        	name: "CPAN",
-        	url: "http://www.cpan.org/"
+            name: "CPAN",
+            url: "http://www.cpan.org/"
         },
         {
-        	name: "metacpan",
-        	url: "http://www.metacpan.org/"
+            name: "metacpan",
+            url: "http://www.metacpan.org/"
         }
       ]
     },
