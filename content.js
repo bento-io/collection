@@ -510,6 +510,10 @@ var CONTENT = [
       $then: ["angular", "jquery", "ember"],
       home: "http://backbonejs.org/",
       links: [
+      	{
+      	  name: "Developing Backbone.js Applications",
+      	  url: "http://addyosmani.github.io/backbone-fundamentals/"
+      	}
       ]
     },
     {
