@@ -60,7 +60,11 @@ app.directive('ngBlur', ['$parse', function($parse) {
   }
 }]);
 
-function masterCtrl($scope, $window, $http) {
+function masterCtrl($scope, $window, $http, $timeout) {
+
+  $timeout(function() {
+    $("#message").css("display", "block")
+  }, 750);
 
   $scope.current_box = null;
 
@@ -83,6 +87,9 @@ function masterCtrl($scope, $window, $http) {
   }
 
 	$scope.boxes = CONTENT;
+
+  // Remove fallback
+  $scope.working = true;
 
   $scope.more_index = null;
 

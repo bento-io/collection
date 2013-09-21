@@ -43,6 +43,12 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div id="hide" ng-hide="working">
+            <div id="message" style="display: none;">
+                <h1>Making some changes</h1>
+                <p>Please come back in a few moments! If you want updates, tweet at me <a href="http://twitter.com/johmchan">@jonhmchan</a></p>
+            </div>
+        </div>
         <div id="modal" ng-show="more_index != null">
             <h2>{{ boxes[more_index].name  }}</h2>
             <p>Even more links!</p>

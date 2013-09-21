@@ -97,6 +97,18 @@ body {
     padding: 0px;
     font-family: "proxima-nova";
 }
+#hide {
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+    position: fixed;
+    background: white;
+}
+#hide #message {
+    width: 600px;
+    margin: 250px auto;
+    text-align: center;
+}
 h1,h2,h3,h4 {
     font-weight: normal;
 }
