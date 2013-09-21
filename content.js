@@ -629,7 +629,7 @@ var CONTENT = [
       	{
       	  name: "Laravel Cheatsheet",
       	  url: "http://cheats.jesse-obrien.ca/"
-      	}
+      	},
       	{
       	  name: "Laravel 4 Mastery",
       	  url: "http://net.tutsplus.com/tutorials/php/laravel-4-mastery/"
