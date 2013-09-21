@@ -85,7 +85,7 @@ function masterCtrl($scope, $window, $http, $timeout) {
   $scope.load_boxes = function() {
     $scope.boxes = CONTENT_BACKUP;
     // Remove fallback
-    $scope.working = true;
+    if (CONTENT_BACKUP) $scope.working = true;
     // Fallback message
     $timeout(function() { $("#message").css("display", "block") }, 750);
     $.getJSON( "content.json", function(data) { $scope.boxes = data; });
