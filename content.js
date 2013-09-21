@@ -370,6 +370,10 @@ var CONTENT = [
           name: "Get Started",
           url: "http://getbootstrap.com/getting-started/"
         }
+        {
+          name: "Getting Started with Bootstrap 3",
+          url: "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
+        }
       ]
     },
     {
