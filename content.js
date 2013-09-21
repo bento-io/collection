@@ -505,6 +505,14 @@ var CONTENT = [
         {
           name: "Getting Started TodoMVC Guide",
           url: "http://emberjs.com/guides/getting-started/"
+        },
+        {
+          name: "Ember 101",
+          url: "http://ember101.com/"
+        },
+        {
+          name: "Let's Learn Ember",
+          url: "http://freecourses.tutsplus.com/lets-learn-ember/"
         }
       ]
     },
