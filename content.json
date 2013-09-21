@@ -328,6 +328,42 @@
     ]
   },
   {
+    "name": "ios",
+    "description": "Build apps for iOS devices",
+    "home": "https://developer.apple.com/devcenter/ios/index.action",
+    "$then": ["windows phone", "android"],
+    "links":[
+      {
+        "name": "Try iOS",
+        "url": "http://www.codeschool.com/courses/try-ios"
+      }
+    ]
+  },
+  {
+    "name": "android",
+    "description": "Build apps for Android devices",
+    "home": "http://developer.android.com/index.html",
+    "$then": ["windows phone", "ios"],
+    "links":[
+      {
+        "name": "Building your first app",
+        "url": "http://developer.android.com/training/basics/firstapp/creating-project.html"
+      }
+    ]
+  },
+  {
+    "name": "windows phone",
+    "description": "Build apps for windows phones",
+    "home": "https://dev.windowsphone.com/en-us",
+    "$then": [".net", "ios", "android"],
+    "links":[
+      {
+        "name": "Windows App Builder",
+        "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
+      }
+    ]
+  },
+  {
     "name": "sql",
     "description": "A popular database language",
     "$then": ["json", "mongo", "neo4j", "redis", "memcached", "php"],
@@ -776,18 +812,6 @@
       {
         "name": "Getting Started",
         "url": "http://docs.vagrantup.com/v2/getting-started/index.html"
-      }
-    ]
-  },
-  {
-    "name": "windows phone",
-    "description": "Build apps for windows phones",
-    "home": "https://dev.windowsphone.com/en-us",
-    "$then": [".net"],
-    "links":[
-      {
-        "name": "Windows App Builder",
-        "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
       }
     ]
   },
