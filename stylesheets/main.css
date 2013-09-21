@@ -193,7 +193,7 @@ header h1 {
     z-index: 9000;
     position: fixed;
     bottom: 0;
-    background: #fff;
+    background-color: #fff;
     padding: 15px 0px;
     width: 100%;
     text-align: center;
