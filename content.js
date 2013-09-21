@@ -502,6 +502,10 @@ var CONTENT = [
       $then: ["angular", "jquery", "backbone"],
       home: "http://emberjs.com/",
       links: [
+        {
+          name: "Getting Started TodoMVC Guide",
+          url: "http://emberjs.com/guides/getting-started/"
+        }
       ]
     },
     {
