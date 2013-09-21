@@ -188,6 +188,10 @@
       {
         "name": "Documentation",
         "url": "https://docs.djangoproject.com/en/1.5/"
+      },
+      {
+        "name": "Setting up a Django Project from Scratch",
+        "url": "http://realdjango.herokuapp.com/"
       }
     ]
   },
