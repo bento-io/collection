@@ -708,7 +708,7 @@ var CONTENT = [
       name: "perl",
       description: "Perl is an ideal web programming language due to its text manipulation capabilities and rapid development cycle.",
       home: "http://www.perl.org/",
-      $then: ["postgresql"],
+      $then: ["postgresql", "vagrant"],
       links:[
         {
           name: "Learn Perl",
