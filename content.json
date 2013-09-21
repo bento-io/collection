@@ -50,7 +50,7 @@
   {
     "name": "javascript",
     "description": "Make your pages interactive",
-    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor"],
+    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -122,7 +122,7 @@
   {
     "name": "jquery",
     "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript"],
+    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
     "home": "http://jquery.com/",
     "links": [
       {
@@ -358,7 +358,7 @@
   {
     "name": "bootstrap",
     "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less"],
+    "$then": ["angular", "ember", "backbone", "sass", "less", "flight"],
     "home": "http://getbootstrap.com/",
     "links": [
       {
@@ -372,9 +372,21 @@
     ]
   },
   {
+    "name": "flight",
+    "description": "An event-driven web framework for javascript",
+    "home": "http:/flightjs.github.io",
+    "$then": ["ember", "angular", "backbone", "bootstrap"],
+    "links": [
+      {
+        "name": "Learn Flight",
+        "url": "http://learnflight.io"
+      }
+    ]
+  },
+  {
     "name": "meteor",
     "description": "A framework to build realtime web applications in JavaScript",
-    "$then": ["angular", "ember", "backbone"],
+    "$then": ["angular", "ember", "backbone", "flight"],
     "home": "https://www.meteor.com",
     "links": [
       {
@@ -502,7 +514,7 @@
   {
     "name": "angular",
     "description": "Build powerful data-driven html and javascript",
-    "$then": ["ember", "jquery", "backbone"],
+    "$then": ["ember", "jquery", "backbone", "flight"],
     "home": "http://angularjs.org/",
     "links": [
       { 
@@ -518,7 +530,7 @@
   {
     "name": "ember",
     "description": "Build robust single-page apps with javascript",
-    "$then": ["angular", "jquery", "backbone"],
+    "$then": ["angular", "jquery", "backbone", "flight"],
     "home": "http://emberjs.com/",
     "links": [
       {
@@ -538,7 +550,7 @@
   {
     "name": "backbone",
     "description": "A framework that makes handling data easier in javascript",
-    "$then": ["angular", "jquery", "ember"],
+    "$then": ["angular", "jquery", "ember", "flight"],
     "home": "http://backbonejs.org/",
     "links": [
     	{
@@ -550,7 +562,7 @@
   {
     "name": "underscore",
     "description": "A utility belt for javascript",
-    "$then": ["sugar", "backbone", "coffeescript","lodash"],
+    "$then": ["sugar", "backbone", "coffeescript","lodash", "flight"],
     "home": "http://underscorejs.org/",
     "links": [
       {
@@ -764,6 +776,18 @@
     ]
   },
   {
+    "name": "windows phone",
+    "description": "Build apps for windows phones",
+    "home": "https://dev.windowsphone.com/en-us",
+    "$then": [".net"],
+    "links":[
+      {
+        "name": "Windows App Builder",
+        "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
+      }
+    ]
+  },
+  {
     "name": ".net",
     "description": "A development framework for the web",
     "home": "http://www.microsoft.com/net",
@@ -775,6 +799,14 @@
     "name": "coldfusion",
     "description": "A server application for java",
     "home": "http://www.adobe.com/products/coldfusion-family.html",
+    "$then": [],
+    "links":[
+    ]
+  },
+  {
+    "name": "seo",
+    "description": "Ranking well in search engines",
+    "home": "",
     "$then": [],
     "links":[
     ]
