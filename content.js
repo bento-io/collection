@@ -610,6 +610,26 @@ var CONTENT = [
       $then: [],
       home: "http://www.laravel.com",
       links: [
+      	{
+      	  name: "Laravel Docs",
+      	  url: "http://laravel.com/docs"
+      	},
+      	{
+      	  name: "Laravel Ins and Outs"
+      	  url: "http://laravel.io"
+      	},
+      	{
+      	  name: "Laravel Cheatsheet"
+      	  url: "http://cheats.jesse-obrien.ca/"
+      	}
+      	{
+      	  name: "Laravel 4 Mastery"
+      	  url: "http://net.tutsplus.com/tutorials/php/laravel-4-mastery/"
+      	},
+      	{
+      	  name: "Laravel Tutorials via Jason Lewis",
+      	  url: "http://jasonlewis.me/laravel-tutorials"
+      	}
       ]
     },
     {
