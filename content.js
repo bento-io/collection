@@ -417,6 +417,10 @@ var CONTENT = [
         {
           name: "Get Started",
           url: "https://devcenter.heroku.com/articles/quickstart"
+        },
+        {
+          name: "Intro to Heroku Screencast",
+          url: "http://www.codeschool.com/code_tv/heroku"
         }
       ]
     },
@@ -622,6 +626,10 @@ var CONTENT = [
       home: "",
       $then: ["json", "http"],
       links: [
+        {
+          name: "XML Tutorial",
+          url: "http://www.quackit.com/xml/tutorial/"
+        }
       ]
     },
     {
