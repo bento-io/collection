@@ -50,7 +50,7 @@
   {
     "name": "javascript",
     "description": "Make your pages interactive",
-    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex"],
+    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -368,6 +368,26 @@
       {
         "name": "Getting Started with Bootstrap 3",
         "url": "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
+      }
+    ]
+  },
+  {
+    "name": "meteor",
+    "description": "A framework to build realtime web applications in JavaScript",
+    "$then": ["angular", "ember", "backbone"],
+    "home": "https://www.meteor.com",
+    "links": [
+      {
+        "name": "Friendly walkthrough",
+        "url": "http://andrewscala.com/meteor/"
+      },
+      {
+        "name": "Discover Meteor book",
+        "url": "http://www.discovermeteor.com/"
+      },
+      {
+        "name": "EventedMind advanced screencasts",
+        "url": "https://www.eventedmind.com/"
       }
     ]
   },
