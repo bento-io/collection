@@ -325,6 +325,10 @@ var CONTENT = [
         {
           name: "Try Mongo",
           url: "http://try.mongodb.org/"
+        },
+        {
+          name: "MongoDB University",
+          url: "https://education.mongodb.com/"
         }
       ]
     },
