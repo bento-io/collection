@@ -43,7 +43,7 @@ var CONTENT = [
           url: "https://dash.generalassemb.ly/projects"
         },
         {
-          name: "Treehouse",
+          name: "Treehouse"
           url: "http://teamtreehouse.com/library"
         }
       ]
@@ -63,7 +63,7 @@ var CONTENT = [
           url: "http://htmldog.com/guides/css/beginner/"
         },
         {
-          name: "Treehouse - CSS Foundations",
+          name: "Treehouse - CSS Foundations"
           url: "http://teamtreehouse.com/library/websites/css-foundations-2"
         }
       ]
@@ -87,7 +87,7 @@ var CONTENT = [
           url: "http://learnxinyminutes.com/docs/javascript/"
         },
         {
-          name: "Treehouse - JavaScript Foundations",
+          name: "Treehouse - JavaScript Foundations"
           url: "http://teamtreehouse.com/library/websites/javascript-foundations"
         }
       ]
@@ -103,7 +103,7 @@ var CONTENT = [
           url: "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
         },
         {
-          name: "Treehouse - Getting data from the web",
+          name: "Treehouse - Getting data from the web"
           url: "http://teamtreehouse.com/library/ios-development/build-a-blog-reader-iphone-app/getting-data-from-the-web"
         }
       ]
@@ -143,7 +143,7 @@ var CONTENT = [
           url: "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
         },
         {
-          name: "Treehouse - Build an Interactive Website",
+          name: "Treehouse - Build an Interactive Website"
           url: "http://teamtreehouse.com/library/websites/build-an-interactive-website"
         }
       ]
@@ -231,7 +231,7 @@ var CONTENT = [
           url: "http://ruby.learncodethehardway.org/"
         },
         {
-          name: "Treehouse - Ruby Foundations",
+          name: "Treehouse - Ruby Foundations"
           url: "http://teamtreehouse.com/library/programming/ruby-foundations"
         }
       ]
@@ -263,7 +263,7 @@ var CONTENT = [
           url: "http://railscasts.com/"
         },
         {
-          name: "Treehouse - Build a Simple Ruby on Rails Application",
+          name: "Treehouse - Build a Simple Ruby on Rails Application"
           url: "http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application"
         }
       ]
@@ -343,7 +343,7 @@ var CONTENT = [
           url: "http://www.w3schools.com/sql/"
         },
         {
-          name: "Treehouse - Database Foundations",
+          name: "Treehouse - Database Foundations"
           url: "http://teamtreehouse.com/library/programming/database-foundations"
         }
       ]
@@ -369,7 +369,7 @@ var CONTENT = [
         {
           name: "Get Started",
           url: "http://getbootstrap.com/getting-started/"
-        },
+        }
         {
           name: "Getting Started with Bootstrap 3",
           url: "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
@@ -502,6 +502,10 @@ var CONTENT = [
       $then: ["angular", "jquery", "backbone"],
       home: "http://emberjs.com/",
       links: [
+      	{
+      	  name: "ember 101",
+      	  url: "http://www.ember101.com"
+      	}
       ]
     },
     {
@@ -583,7 +587,7 @@ var CONTENT = [
           url: "http://learnxinyminutes.com/docs/php/"
         },
         {
-          name: "Treehouse - Become a PHP Developer",
+          name: "Treehouse - Become a PHP Developer"
           url: "http://teamtreehouse.com/learning-adventures/become-a-php-developer"
         }
       ]
