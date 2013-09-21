@@ -50,7 +50,7 @@
 {
   "name": "javascript",
   "description": "Make your pages interactive",
-  "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript"],
+  "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex"],
   "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
   "links": [
     {
@@ -84,6 +84,18 @@
     {
       "name": "Treehouse - Getting data from the web",
       "url": "http://teamtreehouse.com/library/ios-development/build-a-blog-reader-iphone-app/getting-data-from-the-web"
+    }
+  ]
+},
+{
+  "name": "regex",
+  "description": "A popular syntax for pattern matching.",
+  "home": "http://www.regular-expressions.info/",
+  "$then": ["json", "rest"],
+  "links":[
+    {
+      "name": "Learn Regex the Hard Way",
+      "url": "http://regex.learncodethehardway.org/book/"
     }
   ]
 },
