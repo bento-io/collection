@@ -6,7 +6,7 @@ http://www.bentobox.io/
 Everything you need to know about web development. Neatly packaged.
 
 # Make a contribution
-content.js (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
+content.json (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
 
 * All names MUST be lowercase (even in the $then fields and descriptions)
 * Descriptions should be NO MORE than 100 characters long

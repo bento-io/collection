@@ -62,10 +62,6 @@ app.directive('ngBlur', ['$parse', function($parse) {
 
 function masterCtrl($scope, $window, $http, $timeout) {
 
-  $timeout(function() {
-    $("#message").css("display", "block")
-  }, 750);
-
   $scope.current_box = null;
 
   $scope.next_boxes = null;
@@ -86,10 +82,14 @@ function masterCtrl($scope, $window, $http, $timeout) {
     return ($scope.current_box == null || $scope.next_boxes.indexOf($name) > -1);
   }
 
-	$scope.boxes = CONTENT;
-
-  // Remove fallback
-  $scope.working = true;
+  $scope.load_boxes = function() {
+    $scope.boxes = CONTENT_BACKUP;
+    // Remove fallback
+    $scope.working = true;
+    // Fallback message
+    $timeout(function() { $("#message").css("display", "block") }, 750);
+    $.getJSON( "content.json", function(data) { $scope.boxes = data; });
+  }();
 
   $scope.more_index = null;
 
