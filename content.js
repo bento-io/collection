@@ -479,13 +479,21 @@ var CONTENT = [
     {
       name: "underscore",
       description: "A utility belt for javascript",
-      $then: ["sugar", "backbone", "coffeescript"],
+      $then: ["sugar", "backbone", "coffeescript","lodash"],
       home: "http://underscorejs.org/",
       links: [
         {
           name: "Getting Cozy with Underscore",
           url: "http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/"
         }
+      ]
+    },
+    {
+      name: "lodash",
+      description: "A utility library delivering performance",
+      $then: ["sugar", "backbone", "coffeescript","underscore"],
+      home: "http://lodash.com/",
+      links: [
       ]
     },
     {
