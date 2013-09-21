@@ -749,7 +749,7 @@
   },
   {
     "name": "vagrant",
-    "description": "An tool for building and managing virtual environments",
+    "description": "A tool for building and managing virtual environments",
     "home": "http://www.vagrantup.com/",
     "$then": [],
     "links":[
