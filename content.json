@@ -655,7 +655,7 @@
     "name": "java",
     "description": "A popular programming language",
     "home": "",
-    "$then": ["python", "ruby", "node"],
+    "$then": ["python", "ruby", "node", "coldfusion"],
     "links": [
     	{
     		"name": "Programming Methodology",
@@ -761,6 +761,22 @@
         "name": "Getting Started",
         "url": "http://docs.vagrantup.com/v2/getting-started/index.html"
       }
+    ]
+  },
+  {
+    "name": ".net",
+    "description": "A development framework for the web",
+    "home": "http://www.microsoft.com/net",
+    "$then": [],
+    "links":[
+    ]
+  },
+  {
+    "name": "coldfusion",
+    "description": "A server application for java",
+    "home": "http://www.adobe.com/products/coldfusion-family.html",
+    "$then": [],
+    "links":[
     ]
   }
 ]

@@ -180,7 +180,7 @@ header h1 {
 #modal {
     z-index: 10000;
     position: fixed;
-    padding: 25px;
+    padding: 25px 0px;
     background: #333;
     color: #fff;
     width: 100%;
