@@ -71,7 +71,7 @@ var CONTENT = [
     {
       name: "javascript",
       description: "Make your pages interactive",
-      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript"],
+      $then: ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "meteor", "sugar", "coffeescript"],
       home: "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
       links: [
         {
@@ -105,6 +105,25 @@ var CONTENT = [
         {
           name: "Treehouse - Getting data from the web",
           url: "http://teamtreehouse.com/library/ios-development/build-a-blog-reader-iphone-app/getting-data-from-the-web"
+        }
+      ]
+    },
+    {
+      name: "meteor",
+      description: "A framework helping to build end-to-end realtime web applications in JavaScript",
+      home: "https://www.meteor.com",
+      links: [
+        {
+          name: "Friendly walkthrough",
+          url: "http://andrewscala.com/meteor/"
+        },
+        {
+          name: "Discover Meteor book",
+          url: "http://www.discovermeteor.com/"
+        },
+        {
+          name: "EventedMind advanced screencasts",
+          url: "https://www.eventedmind.com/"
         }
       ]
     },
