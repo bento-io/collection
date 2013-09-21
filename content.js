@@ -703,5 +703,17 @@ var CONTENT = [
           url: "http://postgresapp.com/"
         }
       ]
+    },
+    {
+      name: "regex",
+      description: "A popular syntax for pattern matching.",
+      home: "http://www.regular-expressions.info/",
+      $then: [],
+      links:[
+        {
+          name: "Learn Regex the Hard Way",
+          url: "http://regex.learncodethehardway.org/book/"
+        }
+      ]
     }
   ];
