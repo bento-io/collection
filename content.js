@@ -541,6 +541,32 @@ var CONTENT = [
       ]
     },
     {
+    	name:"mvc",
+    	description: "Popular software architecture pattern.",
+    	$then: ["codeigniter", "laravel"],
+    	home: "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    	links: [
+    		{
+    			name:"The Model-View-Controller Pattern",
+    			url:"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
+    		},
+    		{
+    			name:"What are the benefits of MVC?",
+    			url:"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
+    		}
+    	]
+    }
+    {
+      name: "codeigniter",
+      description: "An awesome MVC PHP Framework.",
+      $then: ["mysql"],
+      home: "http://ellislab.com/codeigniter",
+      links: [
+      	name:"CodeIgniter user manual.",
+      	url: "http://ellislab.com/codeigniter/user-guide/"
+      ]
+    },
+    {
       name: "laravel",
       description: "The php framework for web artisans.",
       $then: [],
@@ -581,30 +607,6 @@ var CONTENT = [
         {
           name: "Codecademy",
           url: "http://www.codecademy.com/tracks/firebase"
-        }
-      ]
-    },
-    {
-      name: "apache",
-      description: "The most popular http web server around",
-      home: "https://httpd.apache.org/",
-      $then: ["http", "rest", "nginx"],
-      links:[
-        {
-          name: "Apache Documenttion",
-          url: "https://httpd.apache.org/docs/2.4/"
-        }
-      ]
-    },
-    {
-      name: "nginx",
-      description: "A popular http web server, load balancer and http cache",
-      home: "http://nginx.org/",
-      $then: ["http", "rest", "apache"],
-      links:[
-        {
-          name: "Beginner's Guide",
-          url: "http://nginx.org/en/docs/beginners_guide.html"
         }
       ]
     }
