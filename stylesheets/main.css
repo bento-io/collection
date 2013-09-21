@@ -188,6 +188,16 @@ header h1 {
     text-align: center;
     margin: 0px;
 }
+#donate {
+    display: none;
+    z-index: 9000;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    padding: 15px 0px;
+    width: 100%;
+    text-align: center;
+}
 
 
 
