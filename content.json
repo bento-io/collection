@@ -2,7 +2,7 @@
   {
     "name": "html",
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php"],
+    "$then": ["css", "javascript", "angular", "php", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -30,7 +30,7 @@
   {
     "name": "css",
     "description": "Styling your webpage",
-    "$then": ["javascript", "less", "sass", "bootstrap"],
+    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/CSS",
     "links": [
       {
@@ -50,7 +50,7 @@
   {
     "name": "javascript",
     "description": "Make your pages interactive",
-    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight"],
+    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -68,6 +68,30 @@
       {
         "name": "Treehouse - JavaScript Foundations",
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
+      }
+    ]
+  },
+  {
+    "name": "sublime text",
+    "description": "A popular text editor",
+    "$then": ["vim"],
+    "home": "http://www.sublimetext.com/",
+    "links": [
+      {
+        "name": "tuts+",
+        "url": "https://tutsplus.com/lesson/hello-2/"
+      }
+    ]
+  },
+  {
+    "name": "vim",
+    "description": "A text editor in your console",
+    "$then": ["vim"],
+    "home": "http://vim.sourceforge.net/",
+    "links": [
+      {
+        "name": "Vim Adventures",
+        "url": "http://vim-adventures.com/"
       }
     ]
   },

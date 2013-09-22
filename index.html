@@ -98,6 +98,7 @@
             <div id="box_container" class="container-fluid">
                 <div class="span3 box_container" ng-repeat="($index, box) in boxes">
                     <div class="box highlight-{{ in_next_boxes(box.name) }}" ng-click="set_next_boxes(box)">
+                        <a name="{{ box.name }}"></a>
                         <h2><a target="_blank" href="{{ box.home }}">{{ box.name }}</a></h2>
                         <p>{{ box.description }}</p>
                         <div ng-repeat="($key, link) in box.links">
