@@ -538,13 +538,37 @@
   {
     "name": "http",
     "description": "The basics of making web requests",
-    "$then": ["python", "node", "heroku", "json", "rest"],
+    "$then": ["python", "node", "heroku", "json", "rest", "https"],
     "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
     "links": [
       {
         "name": "A Beginner's Guide",
         "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
+      }
+    ]
+  },
+  {
+    "name": "security",
+    "description": "General tips around security",
+    "$then": ["https"],
+    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
+    "links": [
+      {
+        "name": "How Encryption Works",
+        "url": "http://www.wimp.com/howencryption/"
       },
+      {
+        "name": "Google security handbook",
+        "url": "https://code.google.com/p/browsersec/wiki/Main"
+      }
+    ]
+  },
+  {
+    "name": "https",
+    "description": "The basics of secure connections",
+    "$then": [],
+    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
+    "links": [
       {
         "name": "First Milliseconds https",
         "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
@@ -861,6 +885,18 @@
     "home": "",
     "$then": [],
     "links":[
+    ]
+  },
+  {
+    "name": "api",
+    "description": "How to expose and access data from different services",
+    "home": "",
+    "$then": ["facebook", "foursquare", "twilio", "ribbon"],
+    "links": [
+      {
+        "name": "Designing an API",
+        "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api?hn"
+      }
     ]
   },
   {
