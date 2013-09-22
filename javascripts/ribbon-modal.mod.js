@@ -56,7 +56,7 @@
       if (iOS==true) {
                 var curClass = link.getAttribute('class') || '';
                 console.log("in ios subroutine")
-                if(!checkPlainClass(link) && curClass!='noribbon') {
+                if(!checkPlainClass(link) && curClass==='ribbon-ios') {
                   link.setAttribute('class', 'ribbon-modal-btn');
                 }
                 link.addEventListener('onclick', function(e) { window.location=link;
