@@ -26,9 +26,6 @@
         <link rel="stylesheet" href="stylesheets/main.css">
         <script src="javascripts/vendor/modernizr-2.6.2.min.js"></script>
 
-        <!-- Ribbon -->
-        <script type="text/javascript" src="https://www.ribbon.co/ribbon-modal.js"></script>
-
         <!-- Typekit -->
         <script type="text/javascript" src="//use.typekit.net/nfk4tql.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -50,7 +47,7 @@
         <div id="hide" ng-hide="working">
             <div id="message" style="display: none;">
                 <h1>Making some changes</h1>
-                <p>Please come back in a few moments! If you want updates, tweet at me <a href="http://twitter.com/johmchan">@jonhmchan</a></p>
+                <p>Please come back in a few moments! If you want updates, tweet at me <a class="noribbon" href="http://twitter.com/johmchan">@jonhmchan</a></p>
                 <p>Developers, take a look at <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">the GitHub</a></p>
             </div>
         </div>
@@ -74,7 +71,7 @@
                 <h4 style="padding: 0px; margin: 0px;">Everything you need to know about web development. Neatly packaged.</h4>
                 <p style="padding: 0px; margin: 0px; color: #999;">Beginners, start by clicking the <strong>html</strong> box and the next lessons you should learn will get highlighted.</p>
 
-                <p>Made by <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></p>
+                <p>Made by <a href="http://twitter.com/jonhmchan" class="noribbon" target="_blank">@jonhmchan</a></p>
 
                 <div style="padding-left: 20px;" ng-show="more_index == null">
                     <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
@@ -92,7 +89,7 @@
                 <div class="span3 box_container" ng-repeat="($index, box) in boxes">
                     <div class="box highlight-{{ in_next_boxes(box.name) }}" ng-click="set_next_boxes(box)">
                         <a name="{{ box.name }}"></a>
-                        <a target="_blank" class="title" href="{{ box.home }}"><h2>{{ box.name }}</h2></a>                        
+                        <a target="_blank" class="title noribbon" href="{{ box.home }}"><h2>{{ box.name }}</h2></a>                        
                         <p>{{ box.description }}</p>
                         <div ng-repeat="($key, link) in box.links">
                             <a target="_blank" href="{{ link.url  }}" ng-show="$key < 2">{{ link.name  }}</a>
@@ -110,13 +107,13 @@
                         <h2>About Me</h2>
                         <p>Thanks for checking this out!</p>
                         <div>
-                            <a target="_blank" href="http://www.linkedin.com/in/jonhmchan">Resume</a>
+                            <a target="_blank" class="noribbon" href="http://www.linkedin.com/in/jonhmchan">Resume</a>
                         </div>
                         <div>
-                            <a target="_blank" href="mailto:me@jonhmchan.com">Email</a>
+                            <a target="_blank" class="noribbon" href="mailto:me@jonhmchan.com">Email</a>
                         </div>
                         <div>
-                            <a target="_blank" href="http://jonhmchan.com/">Blog</a>
+                            <a target="_blank" class="noribbon" href="http://jonhmchan.com/">Blog</a>
                         </div>
                     </div>
                 </div>
@@ -139,6 +136,8 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
+        <!-- Ribbon -->
+        <script type="text/javascript" src="https://www.ribbon.co/ribbon-modal.js"></script>
 
         <script src="javascripts/plugins.js"></script>
         <script src="content_backup.js"></script>
@@ -153,7 +152,6 @@
 
           ga('create', 'UA-44156304-1', 'bentobox.io');
           ga('send', 'pageview');
-
         </script>
     </body>
 </html>
