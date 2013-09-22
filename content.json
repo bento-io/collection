@@ -950,5 +950,29 @@
         "url": "http://vimeo.com/65430073"
       }
     ]
+  },
+  {
+    "name": "parse",
+    "description": "A backend for mobile apps",
+    "home": "https://parse.com/",
+    "$then": ["facebook", "foursquare", "twilio"],
+    "links":[
+      {
+        "name": "Tutorials",
+        "url": "https://parse.com/tutorials"
+      }
+    ]
+  },
+  {
+    "name": "alchemy",
+    "description": "A natural language processing service",
+    "home": "http://www.alchemyapi.com/",
+    "$then": ["facebook", "foursquare", "twilio"],
+    "links":[
+      {
+        "name": "Demo",
+        "url": "http://www.alchemyapi.com/products/demo/"
+      }
+    ]
   }
 ]
