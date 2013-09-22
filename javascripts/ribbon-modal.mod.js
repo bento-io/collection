@@ -56,8 +56,8 @@
       if (iOS==true) {
                 var curClass = link.getAttribute('class') || '';
                 console.log("in ios subroutine")
-                if(!checkPlainClass(link)) {
-                  // link.setAttribute('class', 'ribbon-modal-btn');
+                if(!checkPlainClass(link) && curClass!='noribbon') {
+                  link.setAttribute('class', 'ribbon-modal-btn');
                 }
                 link.addEventListener('onclick', function(e) { window.location=link;
                      console.log("IOS detected"); } );
