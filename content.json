@@ -337,7 +337,7 @@
   },
   {
     "name": "elixir",
-    "description": "",
+    "description": "A functional language built on top of the Erlang VM",
     "$then": [],
     "home": "http://elixir-lang.org/",
     "links": [
