@@ -942,7 +942,7 @@
   {
     "name": "ribbon",
     "description": "Accept payments on your site",
-    "home": "http://ribbon.co/",
+    "home": "http://bit.ly/UHd0Et",
     "$then": ["facebook", "foursquare", "twilio"],
     "links":[
       {
