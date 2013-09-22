@@ -862,5 +862,57 @@
     "$then": [],
     "links":[
     ]
+  },
+  {
+    "name": "facebook",
+    "description": "Get data about people and their networks",
+    "home": "https://developers.facebook.com/",
+    "$then": ["foursquare", "ribbon", "twilio"],
+    "links":[
+      {
+        "name": "Explore",
+        "url": "https://developers.facebook.com/tools/explorer"
+      }
+    ]
+  },
+  {
+    "name": "foursquare",
+    "description": "Get data about places",
+    "home": "http://developer.foursquare.com/",
+    "$then": ["facebook", "twilio", "ribbon"],
+    "links":[
+      {
+        "name": "Tutorial",
+        "url": "https://developer.foursquare.com/overview/tutorial"
+      },
+      {
+        "name": "Explore",
+        "url": "https://developer.foursquare.com/docs/explore"
+      }
+    ]
+  },
+  {
+    "name": "twilio",
+    "description": "Send and receive texts and calls",
+    "home": "http://twilio.com/",
+    "$then": ["facebook", "foursquare", "ribbon"],
+    "links":[
+      {
+        "name": "Quickstart",
+        "url": "http://www.twilio.com/docs/quickstart"
+      }
+    ]
+  },
+  {
+    "name": "ribbon",
+    "description": "Accept payments on your site",
+    "home": "http://ribbon.co/",
+    "$then": ["facebook", "foursquare", "twilio"],
+    "links":[
+      {
+        "name": "About video",
+        "url": "http://vimeo.com/65430073"
+      }
+    ]
   }
 ]
