@@ -140,6 +140,10 @@
       {
         "name": "Architectural Styles and the Design of Network-based Software Architectures",
         "url": "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+      },
+      {
+        "name": "Create a Super Basic REST API with django-tastypie",
+        "url": "http://www.realpython.com/blog/python/create-a-super-basic-rest-api-with-django-tastypie"
       }
     ]
   },
@@ -196,6 +200,18 @@
       {
         "name": "Documentation",
         "url": "http://flask.pocoo.org/docs/"
+      }
+    ]
+  },
+    {
+    "name": "bottle",
+    "description": "Bottle is a fast, simple and lightweight micro framework for Python.",
+    "$then": ["flask", "tornado", "mongo", "django", "heroku", "memcached"],
+    "home": "http://bottlepy.org/docs/dev/",
+    "links": [
+      {
+        "name": "Developing with Bottle",
+        "url": "http://www.realpython.com/blog/python/developing-with-bottle-part-1"
       }
     ]
   },
@@ -284,6 +300,10 @@
       {
         "name": "Treehouse - Build a Simple Ruby on Rails Application",
         "url": "http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application"
+      },
+      {
+        "name": "When Should You Use Scaffolding?",
+        "url": "http://gun.io/blog/using-scaffolding/"
       }
     ]
   },
