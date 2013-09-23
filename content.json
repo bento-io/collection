@@ -984,11 +984,27 @@
     "name": "api",
     "description": "How to expose and access data from different services",
     "home": "",
-    "$then": ["facebook", "foursquare", "twilio", "ribbon"],
+    "$then": ["mashape"],
     "links": [
       {
         "name": "Designing an API",
         "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api?hn"
+      },
+      {
+        "name": "A list of 40+ tutorials on how to make an api",
+        "url": "http://blog.mashape.com/post/60820526317/list-of-40-tutorials-on-how-to-create-an-api"
+      }
+    ]
+  },
+  {
+    "name": "mashape",
+    "description": "An easy way to distribute, monetize and consume multiple APIs",
+    "home": "",
+    "$then": ["facebook", "foursquare", "twilio", "ribbon"],
+    "links": [
+      {
+        "name": "Codeacademy",
+        "url": "http://www.codecademy.com/tracks/mashape"
       }
     ]
   },
