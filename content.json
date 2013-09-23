@@ -340,6 +340,10 @@
       {
         "name": "Guide",
         "url": "http://expressjs.com/guide.html"
+      },
+      {
+        "name": "Introduction to Express",
+        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
       }
     ]
   },
@@ -572,6 +576,10 @@
       {
         "name": "Git Immersion",
         "url": "http://gitimmersion.com/"
+      },
+      {
+        "name":"Git: Offical Documentation",
+        "url":"http://git-scm.com/book/en/Getting-Started"
       }
     ]
   },
@@ -970,6 +978,22 @@
     "home": "http://www.adobe.com/products/coldfusion-family.html",
     "$then": [],
     "links":[
+      {
+        "name":"Coldfusion Tutorials",
+        "url": "http://www.quackit.com/coldfusion/tutorial/"
+      },
+      {
+        "name":"Raymond Camden's CF Blog",
+        "url": "http://www.raymondcamden.com/index.cfm/ColdFusion"
+      },
+      {
+        "name": "Dan Vega's CF Blog entries",
+        "url": "http://www.danvega.org/blog/coldfusion"
+      },
+      {
+        "name": "Ben Nadel CF Blog entries",
+        "url": "http://www.bennadel.com/blog/tags/1-ColdFusion-blog-entries.htm"
+      }
     ]
   },
   {
