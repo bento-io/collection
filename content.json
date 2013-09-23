@@ -336,6 +336,26 @@
     ]
   },
   {
+    "name": "elixir",
+    "description": "A functional language built on top of the Erlang VM",
+    "$then": [],
+    "home": "http://elixir-lang.org/",
+    "links": [
+      {
+        "name": "Try Elixir",
+        "url": "http://tryelixir.org/"
+      },
+      {
+        "name": "Getting Started",
+        "url": "http://elixir-lang.org/getting_started/1.html"
+      },
+      {
+        "name": "Learn X in Y minutes",
+        "url": "http://learnxinyminutes.com/docs/elixir/"
+      }
+    ]
+  },
+  {
     "name": "mongo",
     "description": "A simple javascript based database",
     "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
@@ -605,7 +625,7 @@
     "$then": ["ember", "jquery", "backbone", "flight"],
     "home": "http://angularjs.org/",
     "links": [
-      { 
+      {
         "name": "egghead.io",
         "url": "http://egghead.io/lessons"
     	},
