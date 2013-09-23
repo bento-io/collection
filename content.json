@@ -778,7 +778,7 @@
         "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
       }
     ]
-  }
+  },
   {
     "name": "codeigniter",
     "description": "An awesome MVC PHP Framework",
@@ -823,13 +823,27 @@
     "name": "java",
     "description": "A popular programming language",
     "home": "",
-    "$then": ["python", "ruby", "node", "coldfusion"],
+    "$then": ["python", "ruby", "node", "coldfusion", "scala"],
     "links": [
     	{
     		"name": "Programming Methodology",
     		"url": "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
     	}
     ]
+  },
+  {
+    "name": "scala",
+    "description": "A new, highly performant language that works with Java",
+    "home": "http://www.scala-lang.org/",
+    "$then": ["play"],
+    "links":[]
+  },
+  {
+    "name": "play",
+    "description": "A popular web framework for scala",
+    "home": "http://www.playframework.com/",
+    "$then": [],
+    "links":[]
   },
   {
     "name": "xml",
@@ -919,7 +933,7 @@
     "name": "vagrant",
     "description": "A tool for building and managing virtual environments",
     "home": "http://www.vagrantup.com/",
-    "$then": [],
+    "$then": ["docker"],
     "links":[
       {
         "name":"Why Vagrant?",
@@ -930,6 +944,13 @@
         "url": "http://docs.vagrantup.com/v2/getting-started/index.html"
       }
     ]
+  },
+  {
+    "name": "docker",
+    "description": "Create lightweight, portable, self-sufficient containers",
+    "home": "http://http://www.docker.io/",
+    "$then": ["vagrant"],
+    "links":[]
   },
   {
     "name": ".net",
