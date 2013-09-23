@@ -113,7 +113,7 @@
   },
   {
     "name": "regex",
-    "description": "A popular syntax for pattern matching.",
+    "description": "A popular syntax for pattern matching",
     "home": "http://www.regular-expressions.info/",
     "$then": ["json", "rest"],
     "links":[
@@ -205,7 +205,7 @@
   },
     {
     "name": "bottle",
-    "description": "Bottle is a fast, simple and lightweight micro framework for Python.",
+    "description": "Bottle is a fast, simple and lightweight micro framework for Python",
     "$then": ["flask", "tornado", "mongo", "django", "heroku", "memcached"],
     "home": "http://bottlepy.org/docs/dev/",
     "links": [
@@ -760,6 +760,34 @@
       {
         "name": "Treehouse - Become a PHP Developer",
         "url": "http://teamtreehouse.com/learning-adventures/become-a-php-developer"
+      }
+    ]
+  },
+  {
+    "name":"mvc",
+    "description": "Popular software architecture pattern",
+    "$then": ["codeigniter", "laravel"],
+    "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "links": [
+      {
+        "name":"The Model-View-Controller Pattern",
+        "url":"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
+      },
+      {
+        "name":"What are the benefits of MVC?",
+        "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
+      }
+    ]
+  }
+  {
+    "name": "codeigniter",
+    "description": "An awesome MVC PHP Framework",
+    "$then": ["mysql"],
+    "home": "http://ellislab.com/codeigniter",
+    "links": [
+      {
+        "name": "CodeIgniter user manual",
+        "url": "http://ellislab.com/codeigniter/user-guide/"
       }
     ]
   },
