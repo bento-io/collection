@@ -130,7 +130,7 @@ function masterCtrl($scope, $window, $http, $timeout) {
 
   $scope.load_sponsors = function() {
     // Remove fallback
-    $.getJSON( "sponsors.json", function(data) {
+    $.getJSON( "/sponsors.json", function(data) {
       $scope.sponsors = data;
       $scope.sponsors.other.sort()
     });
