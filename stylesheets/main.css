@@ -98,6 +98,10 @@ body {
     padding-bottom: 150px;
     font-family: "proxima-nova";
 }
+#container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
 #hide {
     width: 100%;
     height: 100%;
@@ -205,20 +209,23 @@ header h1 {
 }
 #sponsors {
     color: #999;
-    max-width: 1200px;
-    margin: 0px auto;
     text-align: center;
 }
 .sponsor {
     transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
     -webkit-transition: color .25s ease-in-out;
+    margin: 0px;
 }
 .sponsor:hover {
     color: #333;
     cursor: default;
 }
-
+#sponsor_container {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
 
 
 
