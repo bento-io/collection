@@ -832,6 +832,22 @@
     ]
   },
   {
+    "name": "PHPixie",
+    "description": "Lightweight, fast and easy to learn framework",
+    "$then": [],
+    "home": "http://phpixie.com/",
+    "links": [
+      {
+          "name": "30 Minute Tutorial",
+          "url": "http://phpixie.com/tutorials/learn-phpixie-in-30-minutes/"
+        },
+        {
+          "name": "Developer Blog",
+          "url": "http://phpixie.com/blog/"
+        }
+    ]
+  },
+  {
     "name": "java",
     "description": "A popular programming language",
     "home": "",
