@@ -204,6 +204,8 @@ header h1 {
     padding-bottom: 50px;
 }
 #sponsors {
+    max-width: 1080px;
+    margin: 0px auto;
     text-align: center;
 }
 .sponsor {
