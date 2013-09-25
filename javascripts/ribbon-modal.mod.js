@@ -50,9 +50,6 @@
       var link = links[x];
       var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
       var href_text = links[x].getAttribute("href");
-      console.log("ios was: ")
-      console.log(iOS)
-      console.log(navigator.userAgent)
       if (iOS==true) {
                 var curClass = link.getAttribute('class') || '';
                 console.log("in ios subroutine")
