@@ -201,13 +201,20 @@ header h1 {
 }
 #pull {
     text-align: center;
+    padding-bottom: 50px;
 }
 #sponsors {
     text-align: center;
 }
 .sponsor {
-    width: 20%;
-    float: left;
+    color: #999;
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+}
+.sponsor:hover {
+    color: #333;
+    cursor: default;
 }
 
 
