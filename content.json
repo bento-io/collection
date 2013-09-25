@@ -855,7 +855,12 @@
     "description": "A popular web framework for scala",
     "home": "http://www.playframework.com/",
     "$then": [],
-    "links":[]
+    "links":[
+      {
+        "name": "Your first Play application",
+        "url": "http://www.playframework.com/documentation/2.2.x/ScalaTodoList"
+      }
+    ]
   },
   {
     "name": "xml",
