@@ -204,12 +204,12 @@ header h1 {
     padding-bottom: 50px;
 }
 #sponsors {
-    max-width: 1080px;
+    color: #999;
+    max-width: 1200px;
     margin: 0px auto;
     text-align: center;
 }
 .sponsor {
-    color: #999;
     transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
     -webkit-transition: color .25s ease-in-out;
