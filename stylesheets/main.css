@@ -95,6 +95,7 @@ textarea {
 body {
     margin: 0px;
     padding: 0px;
+    padding-bottom: 150px;
     font-family: "proxima-nova";
 }
 #hide {
@@ -197,6 +198,16 @@ header h1 {
     padding: 15px 0px;
     width: 100%;
     text-align: center;
+}
+#pull {
+    text-align: center;
+}
+#sponsors {
+    text-align: center;
+}
+.sponsor {
+    width: 20%;
+    float: left;
 }
 
 

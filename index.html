@@ -31,7 +31,7 @@
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body ng-controller="masterCtrl">
-    <div id="fb-root"></div>
+        <div id="fb-root"></div>
         <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
@@ -118,9 +118,16 @@
                     </div>
                 </div>
             </div>
-            <footer>
+            <div id="pull" class="container-fluid">
                 <h2>Have a suggestion or want to add? Make a <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">pull request</a></h2>
-            </footer>
+            </div>
+            <div id="sponsors" class="container-fluid">
+                <h2>sponsors</h2>
+                    <div class="span3" ng-repeat="sponsor in sponsors.other">
+                        {{ sponsor }}
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Sugar -->

@@ -127,4 +127,12 @@ function masterCtrl($scope, $window, $http, $timeout) {
   $scope.show_more = function($index) {
     $scope.more_index = $index;
   }
+
+  $scope.load_sponsors = function() {
+    // Remove fallback
+    $.getJSON( "sponsors.json", function(data) {
+      $scope.sponsors = data;
+      $scope.sponsors.other.sort()
+    });
+  }();
 }
