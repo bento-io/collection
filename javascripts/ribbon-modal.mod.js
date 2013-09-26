@@ -54,7 +54,7 @@
                 var curClass = link.getAttribute('class') || '';
                 console.log("in ios subroutine")
                 if(!checkPlainClass(link) && curClass==='ribbon-ios') {
-                  link.setAttribute('class', 'ribbon-modal-btn');
+                  // link.setAttribute('class', 'ribbon-modal-btn');
                 }
                 link.addEventListener('onclick', function(e) { window.location=link;
                      console.log("IOS detected"); } );
@@ -84,7 +84,7 @@
         			  if(!checkPlainClass(link)) {
         				  //need to append the class to the old one to not overwrite the class attribute
         				  var curClass = link.getAttribute('class') || '';
-        				  link.setAttribute('class', curClass + ' ribbon-modal-btn');
+        				  // link.setAttribute('class', curClass + ' ribbon-modal-btn');
         			  }
         			  //attachEvent for IE pre 9
         			}
