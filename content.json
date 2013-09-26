@@ -282,16 +282,16 @@
     "home": "http://rubyonrails.org/",
     "links": [
       {
+        "name": "The Best Way to Learn Rails",
+        "url": "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
+      },
+      {
         "name": "What is Ruby on Rails?",
         "url": "http://railsapps.github.io/what-is-ruby-rails.html"
       },
       {
         "name": "Recommendations for a Rails Tutorial",
         "url": "https://tutorials.railsapps.org/rails-tutorial"
-      },
-      {
-        "name": "The Best Way to Learn Rails",
-        "url": "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
       },
       {
         "name": "Michael Hartl's Tutorial",
@@ -865,6 +865,14 @@
     "home": "http://www.scala-lang.org/",
     "$then": ["play"],
     "links":[
+      {
+        "name": "Scala Tutorials",
+        "url": "http://scalatutorials.com/tour/"
+      },
+      {
+        "name": "Learning Scala",
+        "url": "http://stackoverflow.com/a/1380699"
+      },
       {
         "name": "Coursera",
         "url": "https://www.coursera.org/course/progfun"
