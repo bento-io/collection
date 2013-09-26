@@ -226,7 +226,19 @@ header h1 {
     margin: 0px auto;
     text-align: center;
 }
-
+#sponsor_container .span3 {
+    padding: 15px 0px;
+}
+#sponsor_container h3, #sponsor_container h4 {
+    margin: 0px;
+    padding: 0px;
+}
+#sponsor_container .highlight {
+    color: #FFB600;
+}
+#sponsor_container .highlight_2 {
+    color: #FF6140;
+}
 
 
 

@@ -47,19 +47,40 @@
             </header>
             <div id="sponsor_container" class="container-fluid">
                 <h1>Help others learn by becoming a sponsor</h1>
-                <h2>just $1/mo</h2>
+                <h2 class="highlight_2">just $1/mo</h2>
                 <div class="row-fluid">
-                    <div class="span4">
-                        <h3>$10</h3>
+                    <div class="span3">
+                        <h2 class="highlight_2">Individuals</h2>
+                    </div>
+                    <div class="span3">
+                        <h3 class="highlight">$10</h3>
                         <h4>Added to the sponsors section</h4>
                     </div>
-                    <div class="span4">
-                        <h3>$25</h3>
+                    <div class="span3">
+                        <h3 class="highlight">$25</h3>
                         <h4>Link to your twitter</h4>
                     </div>
-                    <div class="span4">
-                        <h3>$50</h3>
+                    <div class="span3">
+                        <h3 class="highlight">$50</h3>
                         <h4>Shout out on twitter</h4>
+                    </div>
+                </div>
+                <br/>
+                <div class="row-fluid">
+                    <div class="span3">
+                        <h2 class="highlight_2">Corporate</h2>
+                    </div>
+                    <div class="span3">
+                        <h3 class="highlight">$250</h3>
+                        <h4>Logo with link in sponsors list</h4>
+                    </div>
+                    <div class="span3">
+                        <h3 class="highlight">$500</h3>
+                        <h4>Logo with link in dedicated boxes</h4>
+                    </div>
+                    <div class="span3">
+                        <h3 class="highlight">$1000</h3>
+                        <h4>A dedicated box with linked logo</h4>
                     </div>
                 </div>
                 <br/>
@@ -74,9 +95,9 @@
 
             <div id="sponsors" class="container-fluid">
                 <h2>sponsors</h2>
-                        <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
-                            {{ sponsor }}
-                        </div>
+                    <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
+                        {{ sponsor }}
+                    </div>
                 </div>
             </div>
         </div>
