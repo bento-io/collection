@@ -10,7 +10,7 @@
         "url": "http://dash.ga.co/?vip=bento"
       },
       {
-        "name": "Codeacademy",
+        "name": "Codecademy",
         "url": "http://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1?curriculum_id=50579fb998b470000202dc8b"
       },
       {
@@ -38,7 +38,7 @@
         "url": "http://dash.ga.co/?vip=bento"
       },
       {
-        "name": "Codeacademy",
+        "name": "Codecademy",
         "url": "http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b"
       },
       {
@@ -58,7 +58,7 @@
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
-        "name": "Codeacademy",
+        "name": "Codecademy",
         "url": "http://www.codecademy.com/courses/getting-started-v2/0/1?curriculum_id=506324b3a7dffd00020bf661"
       },
       {
@@ -162,7 +162,7 @@
         "url": "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
       },
       {
-        "name": "Codeacademy",
+        "name": "Codecademy",
         "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
       },
       {
@@ -1057,7 +1057,7 @@
     "$then": ["facebook", "foursquare", "twilio", "ribbon"],
     "links": [
       {
-        "name": "Codeacademy",
+        "name": "Codecademy",
         "url": "http://www.codecademy.com/tracks/mashape"
       }
     ]
