@@ -981,7 +981,7 @@
   {
     "name": "docker",
     "description": "Create lightweight, portable, self-sufficient containers",
-    "home": "http://http://www.docker.io/",
+    "home": "http://www.docker.io/",
     "$then": ["vagrant"],
     "links":[]
   },
