@@ -864,7 +864,12 @@
     "description": "A new, highly performant language that works with Java",
     "home": "http://www.scala-lang.org/",
     "$then": ["play"],
-    "links":[]
+    "links":[
+      {
+        "name": "Coursera",
+        "url": "https://www.coursera.org/course/progfun"
+      }
+    ]
   },
   {
     "name": "play",
