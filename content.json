@@ -766,16 +766,16 @@
     "home": "http://php.net/",
     "links": [
       {
-        "name": "PHP The Right Way",
-        "url": "http://www.phptherightway.com"
+        "name": "Treehouse - Become a PHP Developer",
+        "url": "http://teamtreehouse.com/library/programming/build-a-simple-php-application/getting-started-with-php"
       },
       {
         "name": "Learn X in Y Minutes",
         "url": "http://learnxinyminutes.com/docs/php/"
       },
       {
-        "name": "Treehouse - Become a PHP Developer",
-        "url": "http://teamtreehouse.com/learning-adventures/become-a-php-developer"
+        "name": "PHP The Right Way",
+        "url": "http://www.phptherightway.com"
       }
     ]
   },
