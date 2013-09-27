@@ -16,6 +16,9 @@ content.json (in the gh-pages branch) is where all the resources are defined. In
 * Next lessons should NOT include prerequisites (javascript should not be in angular $then)
 * Only the FIRST THREE links are shown, in the order of the array
 * Link names should be the title of the destination
-* Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codeacademy, rather than codeacademy's home page)
+* Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codecademy, rather than codeacademy's home page)
+* Make sure that if you are testing locally to open in Firefox - Chrome does not allow for local pulls of JSON files
 
 If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
+
+Also, consider becoming a sponsor: https://ribbon.co/0d4199
