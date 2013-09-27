@@ -406,6 +406,10 @@
     "$then": ["windows phone", "android"],
     "links":[
       {
+        "name": "A primer in Objective-C",
+        "url": "http://courseware.codeschool.com/try_ios/objective_c_primer.pdf"
+      },
+      {
         "name": "Try iOS",
         "url": "http://www.codeschool.com/courses/try-ios"
       }
