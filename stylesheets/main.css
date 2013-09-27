@@ -242,6 +242,12 @@ header h1 {
 #sponsor_container .highlight_3 {
     color: #999;
 }
+ol {
+    text-align: left;
+}
+ol li {
+    padding: 10px 0px;
+}
 
 
 

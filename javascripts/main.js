@@ -132,7 +132,8 @@ function masterCtrl($scope, $window, $http, $timeout) {
     // Remove fallback
     $.getJSON( "sponsors.json", function(data) {
       $scope.sponsors = data;
-      $scope.sponsors.other.sort()
+      $scope.sponsors.other.sort();
+      $scope.sponsors.desired.sort();
     });
   }();
 }

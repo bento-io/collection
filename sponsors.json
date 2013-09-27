@@ -10,5 +10,19 @@
 		"Harsh Patel",
 		"Jeremy Heath",
 		"Nicole Moss"
+	],
+	"desired": [
+		"Google",
+		"Apple",
+		"Facebook",
+		"Twitter",
+		"Codecademy",
+		"Code.org",
+		"Udacity",
+		"General Assembly",
+		"New York Tech Meetup",
+		"General Assembly",
+		"Amazon",
+		"Microsoft"
 	]
 }
