@@ -385,7 +385,7 @@
   },
   {
     "name": "mongo",
-    "description": "A simple javascript based database",
+    "description": "A highly scalable nosql database",
     "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
     "home": "http://www.mongodb.org/",
     "links": [
