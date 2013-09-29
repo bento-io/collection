@@ -209,7 +209,7 @@
   },
     {
     "name": "bottle",
-    "description": "Bottle is a fast, simple and lightweight micro framework for Python",
+    "description": "A fast, simple and lightweight micro framework for python",
     "$then": ["flask", "tornado", "mongo", "django", "heroku", "memcached"],
     "home": "http://bottlepy.org/docs/dev/",
     "links": [
