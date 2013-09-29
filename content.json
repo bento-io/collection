@@ -261,6 +261,10 @@
         "name": "Try Ruby",
         "url": "http://tryruby.org/levels/1/challenges/0"
       },
+	  {
+		"name":"RubyMonk",
+		"url":"http://rubymonk.com/"
+	  },
       {
         "name": "Learn X in Y Minutes",
         "url": "http://learnxinyminutes.com/docs/ruby/"
