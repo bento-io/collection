@@ -82,7 +82,8 @@
             <div id="sponsors" class="container-fluid">
                 <h2>sponsors</h2>
                     <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
-                        {{ sponsor }}
+                        <span ng-show="sponsor.tier == 0">{{ sponsor.name }}</span>
+                        <a href="http://twitter.com/{{ sponsor.twitter }}" target="_blank" class="sponsor_top_{{ sponsor.tier == 2 }} " ng-show="sponsor.tier > 0">{{ sponsor.name }}</a>
                     </div>
                 </div>
             </div>
