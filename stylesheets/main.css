@@ -167,6 +167,9 @@ header h1 {
     color: #333;
 }
 .box_container .box.highlight-true:hover {
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
     background: #666;
 }
 .box_container .box.highlight-current a:link, .box_container .box.highlight-current a:visited, .box_container .box.highlight-current a:hover {
@@ -221,6 +224,9 @@ header h1 {
     color: #333;
     cursor: default;
 }
+.sponsor_top_true {
+    font-weight: bold;
+}
 #sponsor_container {
     max-width: 1200px;
     margin: 0px auto;
@@ -248,7 +254,11 @@ ol {
 ol li {
     padding: 10px 0px;
 }
-
+#group_container {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
 
 
 

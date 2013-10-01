@@ -83,7 +83,7 @@
 <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
                 </div>
 
-                <strong><a target="_self" href="http://rbn.co/0d4199" class="ribbon-ios">Become a sponsor</a></strong> | <strong><a href="sponsorship.html" target="_blank">Are you a company?</a></strong>
+                <strong><a target="_self" href="http://rbn.co/0d4199" class="ribbon-ios">Become a sponsor</a></strong> | <strong><a href="sponsorship.html" target="_blank">Are you a company?</a></strong> | <strong><a href="group.html" target="_blank">Join the community</a></strong>
             </header>
             <div id="box_container" class="container-fluid">
                 <div class="span3 box_container" ng-repeat="($index, box) in boxes">
@@ -124,7 +124,8 @@
             <div id="sponsors" class="container-fluid">
                 <h2>sponsors</h2>
                     <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
-                        {{ sponsor }}
+                        <span ng-show="sponsor.tier == 0">{{ sponsor.name }}</span>
+                        <a href="http://twitter.com/{{ sponsor.twitter }}" target="_blank" class="sponsor_top_{{ sponsor.tier == 2 }} " ng-show="sponsor.tier > 0">{{ sponsor.name }}</a>
                     </div>
                 </div>
             </div>

@@ -1,17 +1,61 @@
 {
 	"major": [],
 	"other": [
-		"Jeff Hackart", 
-		"Ron Reiter", 
-		"Papageorgiou Nikolaos", 
-		"Nathan Bashaw", 
-		"Gareth Glaser", 
-		"Kris Walker",
-		"Harsh Patel",
-		"Jeremy Heath",
-		"Nicole Moss",
-		"Cathy Chen",
-		"Madan Babu"
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Jeff Hackart"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Ron Reiter"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Papageorgiou Nikolaos"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Nathan Bashaw"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Gareth Glaser"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Kris Walker"
+		},
+		{
+			"tier": 0,
+			"twitter": "makersquare",
+			"name": "Harsh Patel"
+		},
+		{
+			"tier": 0,
+			"twitter": "jjheath",
+			"name": "Jeremy Heath"
+		},
+		{
+			"tier": 0,
+			"twitter": "nmoss4",
+			"name": "Nicole Moss"
+		},
+		{
+			"tier": 0,
+			"twitter": "",
+			"name": "Cathy Chen"
+		},
+		{
+			"tier": 2,
+			"twitter": "madanbabu",
+			"name": "Madan Babu"
+		}
 	],
 	"desired": [
 		"Google",

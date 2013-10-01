@@ -115,10 +115,20 @@ function masterCtrl($scope, $window, $http, $timeout) {
     // Remove fallback
     // Fallback message
     $timeout(function() { $("#message").css("display", "block") }, 750);
-    $.getJSON( "content.json", function(data) {
+    $.getJSON("content.json", function(data) {
       $scope.boxes = data;
       $scope.working = true;
       $timeout(function() { $("#donate").hide().slideDown("normal") }, 13000);
+    });
+  }();
+
+  $scope.load_sponsors = function() {
+    // Remove fallback
+    /* JSON mime type */
+    $.getJSON("sponsors.json", function(data) {
+      $scope.sponsors = data;
+      $scope.sponsors.other.sort();
+      $scope.sponsors.desired.sort();
     });
   }();
 
@@ -128,12 +138,4 @@ function masterCtrl($scope, $window, $http, $timeout) {
     $scope.more_index = $index;
   }
 
-  $scope.load_sponsors = function() {
-    // Remove fallback
-    $.getJSON( "sponsors.json", function(data) {
-      $scope.sponsors = data;
-      $scope.sponsors.other.sort();
-      $scope.sponsors.desired.sort();
-    });
-  }();
 }
