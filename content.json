@@ -1008,7 +1008,12 @@
     "description": "Create lightweight, portable, self-sufficient containers",
     "home": "http://www.docker.io/",
     "$then": ["vagrant"],
-    "links":[]
+    "links":[
+      {
+        "name": "Docker Interactive Tutorial",
+        "url": "http://www.docker.io/gettingstarted/#h_tutorial"
+      }
+    ]
   },
   {
     "name": ".net",
