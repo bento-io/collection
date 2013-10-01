@@ -1050,7 +1050,7 @@
     "name": "api",
     "description": "How to expose and access data from different services",
     "home": "",
-    "$then": ["mashape"],
+    "$then": ["rest", "webhooks", "mashape"],
     "links": [
       {
         "name": "Designing an API",
@@ -1059,6 +1059,30 @@
       {
         "name": "A list of 40+ tutorials on how to make an api",
         "url": "http://blog.mashape.com/post/60820526317/list-of-40-tutorials-on-how-to-create-an-api"
+      },
+      {
+        "name": "Debug and test APIs and backend services.",
+        "url": "https://www.runscope.com"
+      }
+    ]
+  },
+  {
+    "name": "webhooks",
+    "description": "Simple HTTP Push Notifications",
+    "home": "",
+    "$then": ["api"],
+    "links": [
+      {
+        "name": "RequestBin - Inspect HTTP Requests",
+        "url": "http://requestb.in"
+      },
+      {
+        "name": "7 Reasons Webhooks are Magic",
+        "url": "http://blog.iron.io/2013/09/7-reasons-webhooks-are-magic.html"
+      },
+      {
+        "name": "Troubleshooting Webhooks",
+        "url": "https://www.runscope.com/provider-guide/troubleshooting-webhooks"
       }
     ]
   },
