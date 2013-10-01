@@ -161,6 +161,10 @@
         "name": "jQuery in 30 Minutes",
         "url": "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
       },
+	  {
+		"name":"Try jQuery",
+		"url":"http://try.jquery.com/"
+	  },
       {
         "name": "Codecademy",
         "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
@@ -261,6 +265,10 @@
         "name": "Try Ruby",
         "url": "http://tryruby.org/levels/1/challenges/0"
       },
+	  {
+		"name":"RubyMonk",
+		"url":"http://rubymonk.com/"
+	  },
       {
         "name": "Learn X in Y Minutes",
         "url": "http://learnxinyminutes.com/docs/ruby/"
