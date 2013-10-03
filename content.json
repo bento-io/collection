@@ -770,7 +770,7 @@
   {
     "name": "php",
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel"],
+    "$then": ["python", "node", "sql", "laravel", "symfony"],
     "home": "http://php.net/",
     "links": [
       {
@@ -790,7 +790,7 @@
   {
     "name":"mvc",
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel"],
+    "$then": ["codeigniter", "laravel", "symfony"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -812,6 +812,38 @@
       {
         "name": "CodeIgniter user manual",
         "url": "http://ellislab.com/codeigniter/user-guide/"
+      }
+    ]
+  },
+  {
+    "name": "symfony",
+    "description": "High Performance PHP Framework for Web Development",
+    "$then": ["twig"],
+    "home": "http://symfony.com/",
+    "links": [
+      {
+        "name": "Symfony in 5 minutes",
+        "url": "http://symfony.com/in-five-minutes"
+      },
+      {
+        "name": "Get started",
+        "url": "http://symfony.com/get-started"
+      },
+      {
+        "name": "Cookbook",
+        "url": "http://symfony.com/doc/current/book/index.html"
+      }
+    ]
+  },
+  {
+    "name": "twig",
+    "description": "The flexible, fast, and secure template engine for PHP ",
+    "$then": [],
+    "home": "http://twig.sensiolabs.org/",
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "http://twig.sensiolabs.org/documentation"
       }
     ]
   },
