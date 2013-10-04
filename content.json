@@ -54,7 +54,7 @@
   {
     "name": "javascript",
     "description": "Make your pages interactive",
-    "$then": ["python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text"],
+    "$then": ["big-o", "python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -116,6 +116,78 @@
     ]
   },
   {
+    "name": "jquery",
+    "description": "Control the DOM with javascript",
+    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
+    "home": "http://jquery.com/",
+    "links": [
+      {
+        "name": "jQuery in 30 Minutes",
+        "url": "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
+      },
+	  {
+		"name":"Try jQuery",
+		"url":"http://try.jquery.com/"
+	  },
+      {
+        "name": "Codecademy",
+        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
+      },
+      {
+        "name": "Treehouse - Build an Interactive Website",
+        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      }
+    ]
+  },
+  {
+    "name": "python",
+    "description": "A programming language to easily pick up",
+    "$then": ["big-o", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go"],
+    "home": "http://www.python.org/",
+    "links": [
+    	{
+    	  "name": "Intro to Computer Science",
+    	  "url": "https://www.udacity.com/course/cs101"
+    	},
+      {
+        "name": "Learn Python",
+        "url": "http://www.learnpython.org/"
+      },
+      {
+        "name": "Learn X in Y Minutes",
+        "url": "http://learnxinyminutes.com/docs/python/"
+      },
+      {
+        "name": "New Coder",
+        "url": "http://newcoder.io"
+      }
+    ]
+  },
+  {
+    "name": "big-o",
+    "description": "How to measure your code's performance",
+    "$then": ["data structures", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Big_O_notation",
+    "links": [
+      {
+        "name": "Algorithm Analysis",
+        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
+      }
+    ]
+  },
+  {
+    "name": "data structures",
+    "description": "Efficiently organize your data in code",
+    "$then": ["big-o", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Data_structure",
+    "links": [
+      {
+        "name": "Basic Data Structures",
+        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
+      }
+    ]
+  },
+  {
     "name": "regex",
     "description": "A popular syntax for pattern matching",
     "home": "http://www.regular-expressions.info/",
@@ -148,54 +220,6 @@
       {
         "name": "Create a Super Basic REST API with django-tastypie",
         "url": "http://www.realpython.com/blog/python/create-a-super-basic-rest-api-with-django-tastypie"
-      }
-    ]
-  },
-  {
-    "name": "jquery",
-    "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
-    "home": "http://jquery.com/",
-    "links": [
-      {
-        "name": "jQuery in 30 Minutes",
-        "url": "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
-      },
-	  {
-		"name":"Try jQuery",
-		"url":"http://try.jquery.com/"
-	  },
-      {
-        "name": "Codecademy",
-        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
-      },
-      {
-        "name": "Treehouse - Build an Interactive Website",
-        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
-      }
-    ]
-  },
-  {
-    "name": "python",
-    "description": "A programming language to easily pick up",
-    "$then": ["flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go"],
-    "home": "http://www.python.org/",
-    "links": [
-    	{
-    	  "name": "Intro to Computer Science",
-    	  "url": "https://www.udacity.com/course/cs101"
-    	},
-      {
-        "name": "Learn Python",
-        "url": "http://www.learnpython.org/"
-      },
-      {
-        "name": "Learn X in Y Minutes",
-        "url": "http://learnxinyminutes.com/docs/python/"
-      },
-      {
-        "name": "New Coder",
-        "url": "http://newcoder.io"
       }
     ]
   },
