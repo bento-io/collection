@@ -185,6 +185,7 @@ header h1 {
     text-decoration: none!important;
     color: #333!important;
     font-weight: normal;
+    font-size: 2.0em;
 }
 #modal {
     z-index: 10000;
