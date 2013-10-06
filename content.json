@@ -232,10 +232,14 @@
       {
         "name": "Documentation",
         "url": "http://flask.pocoo.org/docs/"
+      },
+      { 
+      	"name": "Flask Tutorial",
+      	"url": "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"
       }
     ]
   },
-    {
+  {
     "name": "bottle",
     "description": "A fast, simple and lightweight micro framework for python",
     "$then": ["flask", "tornado", "mongo", "django", "heroku", "memcached"],
