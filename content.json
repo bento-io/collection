@@ -2,7 +2,7 @@
   {
     "name": "html",
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php", "sublime text"],
+    "$then": ["css", "javascript", "angular", "php", "python", "rails", "perl", ".net", "coldfusion", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -142,7 +142,7 @@
   {
     "name": "python",
     "description": "A programming language to easily pick up",
-    "$then": ["big-o", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go"],
+    "$then": ["big-o", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go", "sql"],
     "home": "http://www.python.org/",
     "links": [
     	{
@@ -474,7 +474,7 @@
   {
     "name": "sql",
     "description": "A popular database language",
-    "$then": ["json", "mongo", "neo4j", "redis", "memcached", "php"],
+    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
     "home": "http://www.mysql.com/",
     "links": [
     	{
@@ -506,7 +506,7 @@
   {
     "name": "bootstrap",
     "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less", "flight"],
+    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
     "home": "http://getbootstrap.com/",
     "links": [
       {
@@ -1019,7 +1019,7 @@
     "name": "perl",
     "description": "A web programming language great for text manipulation and rapid development",
     "home": "http://www.perl.org/",
-    "$then": ["postgresql", "vagrant"],
+    "$then": ["sql", "postgresql", "vagrant"],
     "links":[
       {
         "name": "Learn Perl",
@@ -1079,7 +1079,7 @@
     "name": ".net",
     "description": "A development framework for the web",
     "home": "http://www.microsoft.com/net",
-    "$then": ["api","bootstrap","twitterbootstrapmvc"],
+    "$then": ["api","sql","bootstrap","twitterbootstrapmvc"],
     "links":[
       {
         "name": "Intro to ASP.NET MVC 5",
@@ -1091,7 +1091,7 @@
     "name": "coldfusion",
     "description": "A server application for java",
     "home": "http://www.adobe.com/products/coldfusion-family.html",
-    "$then": [],
+    "$then": ["sql"],
     "links":[
       {
         "name":"Coldfusion Tutorials",
