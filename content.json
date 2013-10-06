@@ -160,6 +160,10 @@
       {
         "name": "New Coder",
         "url": "http://newcoder.io"
+      },
+      {
+        "name": "Codecademy",
+        "url": "http://www.codecademy.com/tracks/python"
       }
     ]
   },
