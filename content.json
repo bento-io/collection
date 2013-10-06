@@ -1263,4 +1263,16 @@
       }
     ]
   }
+  {
+    "name": "sdl",
+    "description": "Simple DirectMedia Layer : C++ framework for game development",
+    "home": "http://www.libsdl.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "Lazy Foo' Productions",
+        "url": "http://lazyfoo.net/SDL_tutorials/"
+      }
+    ]
+  }
 ]
