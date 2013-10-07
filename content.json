@@ -1092,6 +1092,18 @@
     ]
   },
   {
+    "name": "lightswitch",
+    "description": "A development framework for the web/mobile",
+    "home": "http://msdn.microsoft.com/en-us/vstudio/ff796201",
+    "$then": [".net","sql"],
+    "links":[
+      {
+        "name": "Intro to Lightswitch",
+        "url": "http://blogs.msdn.com/b/bethmassi/archive/2011/12/01/beginning-lightswitch-getting-started.aspx"
+      }
+    ]
+  },
+  {
     "name": "coldfusion",
     "description": "A server application for java",
     "home": "http://www.adobe.com/products/coldfusion-family.html",
