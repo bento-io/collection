@@ -923,7 +923,7 @@
     "name": "java",
     "description": "A popular programming language",
     "home": "",
-    "$then": ["python", "ruby", "node", "coldfusion", "scala"],
+    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure"],
     "links": [
         {
     	  "name": "Intro to Programming in Java",
@@ -952,6 +952,18 @@
       {
         "name": "Coursera",
         "url": "https://www.coursera.org/course/progfun"
+      }
+    ]
+  },
+  {
+    "name": "clojure",
+    "description": "A lisp dialect which runs on the JVM",
+    "home": "http://www.clojure.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "4clojure",
+        "url": "http://4clojure.com/"
       }
     ]
   },
