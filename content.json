@@ -2,7 +2,7 @@
   {
     "name": "html",
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php", "python", "rails", "perl", ".net", "coldfusion", "sublime text"],
+    "$then": ["css", "javascript", "angular", "php", "python", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -136,6 +136,38 @@
       {
         "name": "Treehouse - Build an Interactive Website",
         "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      }
+    ]
+  },
+  {
+    "name": "less",
+    "description": "A dynamic stylesheet language",
+    "$then": ["sass", "bootstrap", "angular"],
+    "home": "http://lesscss.org/",
+    "links": [
+      {
+        "name": "Try It!",
+        "url": "http://less2css.org/"
+      }
+    ]
+  },
+  {
+    "name": "sass",
+    "description": "An extension of css",
+    "$then": ["less", "bootstrap", "angular"],
+    "home": "http://sass-lang.com/",
+    "links": [
+      {
+        "name": "Tutorial",
+        "url": "http://sass-lang.com/tutorial.html"
+      },
+      {
+        "name": "Try",
+        "url": "http://sass-lang.com/try.html"
+      },
+      {
+        "name": "SassMeister",
+        "url": "http://sassmeister.com"
       }
     ]
   },
@@ -552,38 +584,6 @@
       {
         "name": "EventedMind advanced screencasts",
         "url": "https://www.eventedmind.com/"
-      }
-    ]
-  },
-  {
-    "name": "less",
-    "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap", "angular"],
-    "home": "http://lesscss.org/",
-    "links": [
-      {
-        "name": "Try It!",
-        "url": "http://less2css.org/"
-      }
-    ]
-  },
-  {
-    "name": "sass",
-    "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular"],
-    "home": "http://sass-lang.com/",
-    "links": [
-      {
-        "name": "Tutorial",
-        "url": "http://sass-lang.com/tutorial.html"
-      },
-      {
-        "name": "Try",
-        "url": "http://sass-lang.com/try.html"
-      },
-      {
-        "name": "SassMeister",
-        "url": "http://sassmeister.com"
       }
     ]
   },
