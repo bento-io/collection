@@ -1053,7 +1053,7 @@
     "name": "java",
     "description": "A popular programming language",
     "home": "",
-    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure"],
+    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
     "links": [
         {
         "name": "Intro to Programming in Java",
@@ -1064,6 +1064,19 @@
         "name": "Programming Methodology",
         "level": 0,
         "url": "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
+      }
+    ]
+  },
+  {
+    "name": "groovy",
+    "description": "A dynamic language that works with Java",
+    "home": "",
+    "$then": ["scala"],
+    "links": [
+        {
+        "name": "Beginner's Tutorial",
+        "level": 0,
+        "url": "http://groovy.codehaus.org/Beginners+Tutorial"
       }
     ]
   },
