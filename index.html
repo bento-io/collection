@@ -94,7 +94,7 @@
                         <div ng-repeat="($key, link) in box.links">
                             <a target="_blank" href="{{ link.url  }}" ng-show="$key < 2">{{ link.name  }}</a>
                         </div>
-                        <div ng-show="box.links.length >= 2">
+                        <div ng-show="box.links.length > 2">
                             <a target="_blank" href="" ng-click="show_more($index)">More</a>
                         </div>
                         <div ng-show="box.links.length == 0">

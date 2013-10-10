@@ -208,6 +208,10 @@
       {
         "name": "Algorithm Analysis",
         "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
+      },
+      {
+        "name": "Codility: Time Complexity",
+        "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
       }
     ]
   },
