@@ -57,10 +57,34 @@
         </div>
         <div id="modal" ng-show="more_index != null">
             <h2>{{ boxes[more_index].name  }}</h2>
-            <p>Even more links!</p>
-
-            <div ng-repeat="($key, link) in boxes[more_index].links">
-                <a target="_blank" href="{{ link.url  }}" ng-show="$key > 1">{{ link.name  }}</a>
+            <div class="row-fluid">
+                <div class="span2 offset3">
+                    <h4>Easy</h4>
+                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 0})">
+                        <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
+                    </div>
+                    <div ng-show="boxes[more_index].links.findAll({level: 0}).length == 0">
+                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
+                    </div>
+                </div>
+                <div class="span2">
+                    <h4>Medium</h4>
+                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 1})">
+                        <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
+                    </div>
+                    <div ng-show="boxes[more_index].links.findAll({level: 1}).length == 0">
+                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
+                    </div>
+                </div>
+                <div class="span2">
+                    <h4>Hard</h4>
+                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 2})">
+                        <a target="_blank" href="{{ link.url }}">{{ link.name  }}</a>
+                    </div>
+                    <div ng-show="boxes[more_index].links.findAll({level: 2}).length == 0">
+                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
+                    </div>
+                </div>
             </div>
             <br/>
             <a href="" ng-click="more_index = null">Close</a>
@@ -91,7 +115,7 @@
                         <a name="{{ box.name }}"></a>
                         <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
                         <p>{{ box.description }}</p>
-                        <div ng-repeat="($key, link) in box.links">
+                        <div ng-repeat="($key, link) in box.links.findAll({level: 0})">
                             <a target="_blank" href="{{ link.url  }}" ng-show="$key < 2">{{ link.name  }}</a>
                         </div>
                         <div ng-show="box.links.length > 2">
