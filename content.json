@@ -212,6 +212,10 @@
       {
         "name": "Codility: Time Complexity",
         "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
+      },
+      {
+      	"name": "Big-O Cheat Sheet",
+      	"url": "http://bigocheatsheet.com/",
       }
     ]
   },
