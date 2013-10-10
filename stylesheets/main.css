@@ -186,6 +186,8 @@ header h1 {
     color: #333!important;
     font-weight: normal;
     font-size: 2.0em;
+    max-width: 90%;
+    overflow: hidden;
 }
 #modal {
     z-index: 10000;
