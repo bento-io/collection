@@ -104,6 +104,7 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll) 
       if (box) $scope.set_next_boxes(box);
       $location.hash(hash);
       $anchorScroll();
+      console.log("Jump to: "+hash);
     }
   }
 
