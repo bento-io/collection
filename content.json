@@ -95,6 +95,11 @@
         "name": "Superhero.js",
         "level": 1,
         "url": "http://superherojs.com/"
+      },
+      {
+        "name": "Learning Javascript Design Patterns",
+        "level": 2,
+        "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
       }
     ]
   },
