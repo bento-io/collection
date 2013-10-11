@@ -57,6 +57,11 @@
         "name": "Treehouse - CSS Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/css-foundations-2"
+      },
+      {
+        "name": "Scalable and Modular Architecture for CSS",
+        "level": 1,
+        "url": "http://smacss.com/"
       }
     ]
   },
@@ -85,6 +90,11 @@
         "name": "Treehouse - JavaScript Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
+      },
+      {
+        "name": "Superhero.js",
+        "level": 1,
+        "url": "http://superherojs.com/"
       }
     ]
   },
