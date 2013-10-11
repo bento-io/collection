@@ -105,10 +105,11 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll) 
     }
   }
 
-  $scope.set_next_boxes = function($box) {
+  $scope.set_next_boxes = function($box, $index) {
     if ($scope.current_box === null || $box != $scope.current_box) {
       $scope.current_box = $box
       $scope.next_boxes = $box.$then;
+      if ($index != $scope.more_index) $scope.more_index = null;
     } else {
       $scope.current_box = null;
       $scope.next_boxes = null;
