@@ -133,7 +133,7 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll) 
       $scope.boxes = data;
       $scope.working = true;
       $timeout(function() { $("#donate").hide().slideDown("normal") }, 9000);
-      $timeout(function() { $(document).load(function() { $scope.use_hash() }) }, 1);
+      $timeout(function() { $(document).load(function() { $scope.use_hash() }) }, 1500);
     });
   }();
 
