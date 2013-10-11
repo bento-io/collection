@@ -926,7 +926,7 @@
   {
     "name": "php",
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony", "phpixie"],
+    "$then": ["python", "node", "sql", "laravel", "symfony", "phpixie", "cakephp"],
     "home": "http://php.net/",
     "links": [
       {
@@ -949,7 +949,7 @@
   {
     "name":"mvc",
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony"],
+    "$then": ["codeigniter", "laravel", "symfony", "cakephp"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -961,6 +961,29 @@
         "name":"What are the benefits of MVC?",
         "level": 0,
         "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
+      }
+    ]
+  },
+  {
+    "name": "cakephp",
+    "description": "CakePHP makes building web applications simpler, faster and require less code.",
+    "$then": [],
+    "home": "http://cakephp.org/",
+    "links": [
+      {
+        "name": "CakePHP Cookbook (Docs)",
+        "level": 0,
+        "url": "http://book.cakephp.org/2.0/en/"
+      },
+      {
+        "name": "Blog Tutorial",
+        "level": 0,
+        "url": "http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html"
+      },
+      {
+        "name": "Community & Help",
+        "level": 0,
+        "url": "http://community.cakephp.org/"
       }
     ]
   },
