@@ -85,6 +85,11 @@
         "name": "Treehouse - JavaScript Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
+      },
+      {
+        "name": "Superhero.js",
+        "level": 1,
+        "url": "http://superherojs.com/"
       }
     ]
   },
