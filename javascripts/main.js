@@ -16,7 +16,10 @@ window.addEventListener('load', function(e) {
 
 }, false);
 
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', []).config(function($locationProvider) {
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix = '';
+});
 
 /* Key up event */
 
@@ -88,11 +91,20 @@ url:"http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-86
 {name:"apache",description:"A very popular http web server",home:"https://httpd.apache.org/",$then:["http","rest","nginx"],links:[{name:"Apache Documenttion",url:"https://httpd.apache.org/docs/2.4/"}]},{name:"nginx",description:"A popular http web server, load balancer and http cache",home:"http://nginx.org/",$then:["http","rest","apache"],links:[{name:"Beginner's Guide",url:"http://nginx.org/en/docs/beginners_guide.html"}]},{name:"perl",description:"A web programming language great for text manipulation and rapid development",
 home:"http://www.perl.org/",$then:[],links:[{name:"Learn Perl",url:"http://www.perl.org/learn.html"},{name:"CPAN",url:"http://www.cpan.org/"},{name:"metacpan",url:"http://www.metacpan.org/"}]},{name:"postgresql",description:"The world's most advanced open source database",home:"http://www.postgresql.org/",$then:[],links:[{name:"PostgresApp",url:"http://postgresapp.com/"}]}];
 
-function masterCtrl($scope, $window, $http, $timeout) {
+function masterCtrl($scope, $window, $http, $timeout, $location) {
 
   $scope.current_box = null;
 
   $scope.next_boxes = null;
+
+  $scope.use_hash = function() {
+    if ($window.location.hash) {
+      var hash = $window.location.hash.toLowerCase().replace(/[^a-zA-Z0-9]/g,'');
+      $location.hash = hash;
+      var box = $scope.boxes.findAll({name: hash})[0];
+      if (box) $scope.set_next_boxes(box);
+    }
+  }
 
   $scope.set_next_boxes = function($box) {
     if ($scope.current_box === null || $box != $scope.current_box) {
@@ -119,6 +131,7 @@ function masterCtrl($scope, $window, $http, $timeout) {
       $scope.boxes = data;
       $scope.working = true;
       $timeout(function() { $("#donate").hide().slideDown("normal") }, 9000);
+      $scope.use_hash();
     });
   }();
 
