@@ -305,10 +305,6 @@
         "name": "Codility: Time Complexity",
         "level": 1,
         "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
-      },
-      {
-      	"name": "Big-O Cheat Sheet",
-      	"url": "http://bigocheatsheet.com/"
       }
     ]
   },
@@ -325,6 +321,7 @@
       },
       {
       	"name": "Rosetta Code",
+        "level": 0,
       	"url": "http://rosettacode.org/"
       }
     ]
