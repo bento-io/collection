@@ -1125,6 +1125,11 @@
         "name": "Beginner's Tutorial",
         "level": 0,
         "url": "http://groovy.codehaus.org/Beginners+Tutorial"
+      },
+        {
+        "name": "The Groovy Goodness Blog",
+        "level": 0,
+        "url": "http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness"
       }
     ]
   },
