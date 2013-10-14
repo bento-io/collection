@@ -154,8 +154,13 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     $scope.tiers_hidden = false;
   }
 
+  $scope.set_sponsorship = function($amount) {
+    $("#max_amount").val($amount);
+    $scope.fire_sponsorship();git add .
+  }
+
   $scope.fire_sponsorship = function() {
-    if ($("#max_amount").val() != true) $("#max_amount").val("10");
+    if ($("#max_amount").val().length == 0) $("#max_amount").val("10");
     $("#sponsorship").submit();
   }
 

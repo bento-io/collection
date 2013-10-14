@@ -217,6 +217,12 @@ header h1 {
     color: #999;
     text-align: center;
 }
+.sponsorship_tier {
+    cursor: pointer;
+}
+.sponsorship_tier h3:hover {
+    color: #08c;
+}
 .sponsor {
     transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
