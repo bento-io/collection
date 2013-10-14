@@ -156,7 +156,6 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
 
   $scope.set_sponsorship = function($amount) {
     $("#max_amount").val($amount);
-    $scope.fire_sponsorship();
   }
 
   $scope.fire_sponsorship = function() {
