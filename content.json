@@ -287,6 +287,11 @@
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/tracks/python"
+      },
+      {
+        "name": "Learn Python the Hard Way",
+        "level": 0,
+        "url": "http://learnpythonthehardway.org/book/"
       }
     ]
   },
