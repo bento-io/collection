@@ -26,10 +26,6 @@
         <link rel="stylesheet" href="stylesheets/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="stylesheets/main.css">
         <script src="javascripts/vendor/modernizr-2.6.2.min.js"></script>
-
-        <!-- Typekit -->
-        <script type="text/javascript" src="//use.typekit.net/nfk4tql.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body ng-controller="masterCtrl">
         <div id="fb-root"></div>
@@ -45,115 +41,138 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div id="hide" ng-hide="working">
-            <div id="message" style="display: none;">
-                <h1>Making some changes</h1>
-                <p>Please come back in a few moments! If you want updates, tweet at me <a href="http://twitter.com/johmchan">@jonhmchan</a></p>
-                <p>Developers, take a look at <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">the GitHub</a></p>
-            </div>
-        </div>
-        <div id="donate">
-            <h2>Find this useful? Give back and <a target="_self" href="http://rbn.co/0d4199" class="ribbon-ios">become a sponsor</a> for just $1!</h2>
-        </div>
-        <div id="modal" ng-show="more_index != null">
-            <h2>{{ boxes[more_index].name  }}</h2>
-            <div class="row-fluid">
-                <div class="span2 offset3">
-                    <h4>Easy</h4>
-                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 0})">
-                        <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
-                    </div>
-                    <div ng-show="boxes[more_index].links.findAll({level: 0}).length == 0">
-                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
-                    </div>
-                </div>
-                <div class="span2">
-                    <h4>Medium</h4>
-                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 1})">
-                        <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
-                    </div>
-                    <div ng-show="boxes[more_index].links.findAll({level: 1}).length == 0">
-                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
-                    </div>
-                </div>
-                <div class="span2">
-                    <h4>Hard</h4>
-                    <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 2})">
-                        <a target="_blank" href="{{ link.url }}">{{ link.name  }}</a>
-                    </div>
-                    <div ng-show="boxes[more_index].links.findAll({level: 2}).length == 0">
-                        <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
-                    </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" name="sponsorship" id="sponsorship"> <!-- Paypal Form -->
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="894L6CFYWV3BG">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            <div id="hide" ng-hide="working">
+                <div id="message" style="display: none;">
+                    <h1>Making some changes</h1>
+                    <p>Please come back in a few moments! If you want updates, tweet at me <a href="http://twitter.com/johmchan">@jonhmchan</a></p>
+                    <p>Developers, take a look at <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">the GitHub</a></p>
                 </div>
             </div>
-            <br/>
-            <a href="" ng-click="more_index = null">Close</a>
-        </div>
-        <div id="container">
-            <header>
-                <h1>bento</h1>
-                <h4 style="padding: 0px; margin: 0px;">Everything you need to know about web development. Neatly packaged.</h4>
-                <p style="padding: 0px; margin: 0px; color: #999;">Beginners, start by clicking the <strong>html</strong> box and the next lessons you should learn will get highlighted.</p>
-
-                <p><a href="http://nytm.org/made-in-nyc" target="_blank">Made with &#9829; in NYC</a> by <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></p>
-
-                <div style="padding-left: 20px;">
-                    <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
-
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-                    <a data-pocket-label="pocket" data-pocket-count="none" class="pocket-btn" data-lang="en"></a>
-<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
-                </div>
-
-                 <strong><a href="group.html" target="_blank">Join the community</a></strong> | <strong><a target="_self" href="http://rbn.co/0d4199" class="ribbon-ios">Become a sponsor</a></strong> | <strong><a href="sponsorship.html" target="_blank">Are you a company?</a></strong>
-            </header>
-            <div id="box_container" class="container-fluid">
-                <div class="span3 box_container" ng-repeat="($index, box) in boxes">
-                    <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }}" ng-click="set_next_boxes(box, $index)">
-                        <a name="{{ box.name }}"></a>
-                        <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
-                        <p>{{ box.description }}</p>
-                        <div ng-repeat="($key, link) in box.links.findAll({level: 0})">
-                            <a target="_blank" href="{{ link.url  }}" ng-show="$key < 2">{{ link.name  }}</a>
+            <div id="donate">
+                <h2>Find this useful? Give back and <a target="_self" href="#" ng-click="fire_sponsorship()">become a sponsor</a> for just $1!</h2>
+            </div>
+            <div id="modal" ng-show="more_index != null">
+                <h2>{{ boxes[more_index].name  }}</h2>
+                <div class="row-fluid">
+                    <div class="span2 offset3">
+                        <h4>Easy</h4>
+                        <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 0})">
+                            <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
                         </div>
-                        <div ng-show="box.links.length > 2">
-                            <a target="_blank" href="" ng-click="show_more($index)">More</a>
+                        <div ng-show="boxes[more_index].links.findAll({level: 0}).length == 0">
+                            <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
                         </div>
-                        <div ng-show="box.links.length == 0">
+                    </div>
+                    <div class="span2">
+                        <h4>Medium</h4>
+                        <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 1})">
+                            <a target="_blank" href="{{ link.url  }}">{{ link.name  }}</a>
+                        </div>
+                        <div ng-show="boxes[more_index].links.findAll({level: 1}).length == 0">
+                            <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
+                        </div>
+                    </div>
+                    <div class="span2">
+                        <h4>Hard</h4>
+                        <div ng-repeat="($key, link) in boxes[more_index].links.findAll({level: 2})">
+                            <a target="_blank" href="{{ link.url }}">{{ link.name  }}</a>
+                        </div>
+                        <div ng-show="boxes[more_index].links.findAll({level: 2}).length == 0">
                             <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
                         </div>
                     </div>
                 </div>
-                <div class="span3 box_container">
-                    <div id="contact" class="box">
-                        <h2>About Me</h2>
-                        <p>Thanks for checking this out!</p>
-                        <div>
-                            <a target="_blank" href="http://www.linkedin.com/in/jonhmchan">Resume</a>
+                <br/>
+                <a href="" ng-click="more_index = null">Close</a>
+            </div>
+            <div id="container">
+                <header>
+                    <h1>bento</h1>
+                    <h4 style="padding: 0px; margin: 0px;">Everything you need to know about web development. Neatly packaged.</h4>
+                    <p style="padding: 0px; margin: 0px; color: #999;">Beginners, start by clicking the <strong>html</strong> box and the next lessons you should learn will get highlighted.</p>
+
+                    <p><a href="http://nytm.org/made-in-nyc" target="_blank">Made with &#9829; in NYC</a> by <a href="http://twitter.com/jonhmchan" target="_blank">@jonhmchan</a></p>
+
+                    <div style="padding-left: 20px;">
+                        <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </div>
+
+                     <p><strong><a href="group.html" target="_blank">Join the community</a></strong> | <strong><a href="sponsorship.html" target="_blank">Are you a company?</a></strong></p>
+
+                     <p ng-mouseover="show_sponsorship()">Find this useful? Consider becoming a sponsor for just $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;"> a month. <a target="_self" href="#" ng-click="fire_sponsorship()">Give back!</a></p>
+                     <div id="sponsorship_tiers" class="row-fluid hidden">
+                        <div class="span4">
+                            <h3>$10</h3>
+                            <p>Added to <a href="#sponsors">sponsors section</a></p>
                         </div>
-                        <div>
-                            <a target="_blank" href="mailto:me@jonhmchan.com">Email</a>
+                        <div class="span4">
+                            <h3>$25</h3>
+                            <p>Link to your <a href="#sponsors">twitter</a></p>
                         </div>
-                        <div>
-                            <a target="_blank" href="http://jonhmchan.com/">Blog</a>
+                        <div class="span4">
+                            <h3>$50</h3>
+                            <p>Video chat with me</p>
+                        </div>
+                     </div>
+                </header>
+                <div id="box_container" class="container-fluid">
+                    <div class="span3 box_container" ng-repeat="($index, box) in boxes">
+                        <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }}" ng-click="set_next_boxes(box, $index)">
+                            <a name="{{ box.name }}"></a>
+                            <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
+                            <p>{{ box.description }}</p>
+                            <div ng-repeat="($key, link) in box.links.findAll({level: 0})">
+                                <a target="_blank" href="{{ link.url  }}" ng-show="$key < 2">{{ link.name  }}</a>
+                            </div>
+                            <div ng-show="box.links.length > 2">
+                                <a target="_blank" href="" ng-click="show_more($index)">More</a>
+                            </div>
+                            <div ng-show="box.links.length == 0">
+                                <a target="_blank" href="https://github.com/JonHMChan/bento/tree/gh-pages" class="nolink">No links yet! Add one</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span3 box_container">
+                        <div id="contact" class="box">
+                            <h2>About Me</h2>
+                            <p>Thanks for checking this out!</p>
+                            <div>
+                                <a target="_blank" href="http://www.linkedin.com/in/jonhmchan">Resume</a>
+                            </div>
+                            <div>
+                                <a target="_blank" href="mailto:me@jonhmchan.com">Email</a>
+                            </div>
+                            <div>
+                                <a target="_blank" href="http://jonhmchan.com/">Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pull" class="container-fluid">
+                    <h2>Have a suggestion or want to add? Make a <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">pull request</a></h2>
+                </div>
+                <div id="sponsors" class="container-fluid"> 
+                    <a name="sponsors"></a>     
+                    <h2>sponsors</h2>
+                        <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
+                            <span ng-show="sponsor.tier == 0">{{ sponsor.name }}</span>
+                            <a href="http://twitter.com/{{ sponsor.twitter }}" target="_blank" class="sponsor_top_{{ sponsor.tier == 2 }} " ng-show="sponsor.tier > 0">{{ sponsor.name }}</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="pull" class="container-fluid">
-                <h2>Have a suggestion or want to add? Make a <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">pull request</a></h2>
-            </div>
-            <div id="sponsors" class="container-fluid">
-                <h2>sponsors</h2>
-                    <div class="span3 sponsor" ng-repeat="sponsor in sponsors.other">
-                        <span ng-show="sponsor.tier == 0">{{ sponsor.name }}</span>
-                        <a href="http://twitter.com/{{ sponsor.twitter }}" target="_blank" class="sponsor_top_{{ sponsor.tier == 2 }} " ng-show="sponsor.tier > 0">{{ sponsor.name }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </form>
+
+        <!-- Typekit -->
+        <script type="text/javascript" src="//use.typekit.net/nfk4tql.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
         <!-- Sugar -->
         <script src="http://sugarjs.com/release/current/sugar.min.js"></script>
