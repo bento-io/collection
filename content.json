@@ -976,7 +976,7 @@
   },
   {
     "name": "cakephp",
-    "description": "CakePHP makes building web applications simpler, faster and require less code.",
+    "description": "CakePHP makes building web applications simpler, faster and require less code",
     "$then": [],
     "home": "http://cakephp.org/",
     "links": [
