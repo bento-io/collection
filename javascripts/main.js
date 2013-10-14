@@ -130,7 +130,7 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     $.getJSON("content.json", function(data) {
       $scope.boxes = data;
       $scope.working = true;
-      $timeout(function() { $("#donate").hide().slideDown("normal") }, 9000);
+      $timeout(function() { $("#donate").hide().slideDown("normal") }, 13000);
     });
   }();
 
