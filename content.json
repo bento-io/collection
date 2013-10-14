@@ -441,14 +441,14 @@
     "home": "http://www.ruby-lang.org/en/",
     "links": [
       {
-        "name": "Code Academy",
-        "level": 0,
-        "url": "http://www.codecademy.com/tracks/ruby"
-      },
-      {
         "name": "Try Ruby",
         "level": 0,
         "url": "http://tryruby.org/levels/1/challenges/0"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/tracks/ruby"
       },
       {
         "name": "RubyMonk",
