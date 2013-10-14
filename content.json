@@ -441,6 +441,11 @@
     "home": "http://www.ruby-lang.org/en/",
     "links": [
       {
+        "name": "Code Academy",
+        "level": 0,
+        "url": "http://www.codecademy.com/tracks/ruby"
+      },
+      {
         "name": "Try Ruby",
         "level": 0,
         "url": "http://tryruby.org/levels/1/challenges/0"
@@ -449,6 +454,16 @@
         "name": "RubyMonk",
         "level": 0,
         "url":"http://rubymonk.com/"
+      },
+      {
+        "name": "Ruby Warrior",
+        "level": 0,
+        "url": "https://www.bloc.io/ruby-warrior/#/"
+      },
+      {
+        "name": "Ruby Koans",
+        "level": 0,
+        "url": "http://rubykoans.com/"
       },
       {
         "name": "Learn X in Y Minutes",
@@ -464,6 +479,11 @@
         "name": "Treehouse - Ruby Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/programming/ruby-foundations"
+      },
+      {
+        "name": "Code Wars",
+        "level": 0,
+        "url": "http://www.codewars.com/"
       }
     ]
   },
@@ -477,6 +497,21 @@
         "name": "The Best Way to Learn Rails",
         "level": 0,
         "url": "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
+      },
+      {
+        "name": "Rails for Zombies",
+        "level": 0,
+        "url": "http://railsforzombies.org/"
+      },
+      {
+        "name": "Rails Anatomy",
+        "level": 0,
+        "url": "https://www.codeschool.com/code_tv/rails-anatomy"
+      },
+      {
+        "name": "Introduction to Rails",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/ruby/the-intro-to-rails-screencast-i-wish-i-had/"
       },
       {
         "name": "What is Ruby on Rails?",
