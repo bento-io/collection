@@ -121,6 +121,16 @@
         "name": "Vim Adventures",
         "level": 0,
         "url": "http://vim-adventures.com/"
+      },
+      {
+        "name": "Vim Genius",
+        "level": 0,
+        "url": "http://vimgenius.com/"
+      },
+      {
+        "name": "Vim Golf",
+        "level": 0,
+        "url": "http://vimgolf.com/"
       }
     ]
   },
