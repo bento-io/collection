@@ -218,14 +218,14 @@
     "home": "http://nodejs.org/",
     "links": [
       {
-        "name": "How Do I Get Started?",
-        "level": 0,
-        "url": "http://stackoverflow.com/a/5511507/1043674"
-      },
-      {
         "name": "Node Beginner",
         "level": 0,
         "url": "http://www.nodebeginner.org/"
+      },
+      {
+        "name": "How Do I Get Started?",
+        "level": 0,
+        "url": "http://stackoverflow.com/a/5511507/1043674"
       },
       {
         "name": "Style Guide",
