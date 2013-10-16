@@ -287,6 +287,11 @@
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/tracks/python"
+      },
+      {
+        "name": "Learn Python the Hard Way",
+        "level": 0,
+        "url": "http://learnpythonthehardway.org/book/"
       }
     ]
   },
@@ -484,6 +489,11 @@
         "name": "Code Wars",
         "level": 0,
         "url": "http://www.codewars.com/"
+      },
+      {
+        "name": "Why's (Poignant) Guide to Ruby",
+        "level": 0,
+        "url": "http://mislav.uniqpath.com/poignant-guide/"
       }
     ]
   },
