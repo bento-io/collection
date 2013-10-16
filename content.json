@@ -124,12 +124,12 @@
       },
       {
         "name": "Vim Genius",
-        "level": 0,
+        "level": 1,
         "url": "http://vimgenius.com/"
       },
       {
         "name": "Vim Golf",
-        "level": 0,
+        "level": 2,
         "url": "http://vimgolf.com/"
       }
     ]
