@@ -8,7 +8,7 @@ Everything you need to know about web development. Neatly packaged.
 # Make a contribution
 **content.json** (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
 
-1.. Not really a rule, but **if you are contributing your own link, tutorial, or lesson, please do the right thing and become a sponsor back at the site** ($25 is typical) - it's honor system right now, but if there's suspected abuse, it will be made public and your links will be removed
+1. Not really a rule, but **if you are contributing your own link, tutorial, or lesson, please do the right thing and become a sponsor back at the site** ($25 is typical) - it's honor system right now, but if there's suspected abuse, it will be made public and your links will be removed
 2. Links should be free (no pay walls) and take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codecademy, rather than codeacademy's home page - the user should not have to do any searching to start learning)
 3. All names MUST be lowercase (even in the $then fields and descriptions)
 4. Descriptions should be no more than 100 characters long
