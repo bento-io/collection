@@ -343,6 +343,11 @@
     "$then": ["json", "rest"],
     "links":[
       {
+        "name": "RegexOne",
+        "level": 0,
+        "url": "http://regexone.com/"
+      },
+      {
         "name": "Learn Regex the Hard Way",
         "level": 0,
         "url": "http://regex.learncodethehardway.org/book/"
