@@ -14,6 +14,7 @@ content.json (in the gh-pages branch) is where all the resources are defined. In
 * Home should be the top domain when possible
 * Next lessons to follow-up with ($then) are in no particular order in the array
 * Next lessons should NOT include prerequisites (javascript should not be in angular $then)
+* Each LINK (not the box) must be categorized as "easy" (level: 0, no previous experience necessary), "medium" (level: 1, requires "easy" information), and "hard" (level: 2, requires "medium" information)
 * Only the FIRST TWO "easy" links are shown, in the order of the array
 * Link names should be the title of the destination
 * Links should take the user DIRECTLY to the relevant information (i.e. for html go to the html exercise in codecademy, rather than codeacademy's home page)
