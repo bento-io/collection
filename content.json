@@ -773,6 +773,11 @@
     "home": "http://git-scm.com/",
     "links": [
       {
+        "name": "Getting Started",
+        "level": 0,
+        "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
         "name": "The simple guide",
         "level": 0,
         "url": "http://rogerdudler.github.io/git-guide/"
@@ -786,11 +791,6 @@
         "name": "Git Immersion",
         "level": 0,
         "url": "http://gitimmersion.com/"
-      },
-      {
-        "name":"Git: Offical Documentation",
-        "level": 0,
-        "url":"http://git-scm.com/book/en/Getting-Started"
       }
     ]
   },
