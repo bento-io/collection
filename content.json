@@ -131,6 +131,16 @@
         "name": "Interactive Vim Tutorial",
         "level": 0,
         "url": "http://www.openvim.com/tutorial.html"
+      },
+      {
+        "name": "Vim Genius",
+        "level": 1,
+        "url": "http://vimgenius.com/"
+      },
+      {
+        "name": "Vim Golf",
+        "level": 2,
+        "url": "http://vimgolf.com/"
       }
     ]
   },
