@@ -126,6 +126,11 @@
         "name": "Vim Adventures",
         "level": 0,
         "url": "http://vim-adventures.com/"
+      },
+      {
+        "name": "Interactive Vim Tutorial",
+        "level": 0,
+        "url": "http://www.openvim.com/tutorial.html"
       }
     ]
   },
