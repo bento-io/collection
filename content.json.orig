@@ -128,11 +128,11 @@
         "url": "http://vim-adventures.com/"
       },
       {
+<<<<<<< HEAD
         "name": "Interactive Vim Tutorial",
         "level": 0,
         "url": "http://www.openvim.com/tutorial.html"
-      },
-      {
+=======
         "name": "Vim Genius",
         "level": 1,
         "url": "http://vimgenius.com/"
@@ -141,6 +141,7 @@
         "name": "Vim Golf",
         "level": 2,
         "url": "http://vimgolf.com/"
+>>>>>>> 97d63b3f61c97473a6ec9ff9f940d9631be5df00
       }
     ]
   },
@@ -730,7 +731,7 @@
   {
     "name": "flight",
     "description": "An event-driven web framework for javascript",
-    "home": "http://flightjs.github.io",
+    "home": "http:/flightjs.github.io",
     "$then": ["ember", "angular", "backbone", "bootstrap"],
     "links": [
       {
