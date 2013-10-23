@@ -307,6 +307,11 @@
         "name": "Learn Python the Hard Way",
         "level": 0,
         "url": "http://learnpythonthehardway.org/book/"
+      },
+      {
+        "name": "Think Python: How to Think Like a Computer Scientist",
+        "level": 0,
+        "url": "http://www.greenteapress.com/thinkpython/html/index.html"
       }
     ]
   },
