@@ -1241,6 +1241,11 @@
         "name": "4clojure",
         "level": 0,
         "url": "http://4clojure.com/"
+      },
+      {
+        "name": "Clojure for the Brave and True",
+        "level": 0,
+        "url": "http:/http://www.braveclojure.com/"
       }
     ]
   },
