@@ -886,6 +886,11 @@
         "name": "An Adventure in Learning Memcached",
         "level": 0,
         "url": "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
+      },
+      {
+        "name": "Distributed Caching with Memcached",
+        "level": 0,
+        "url": "http://www.linuxjournal.com/article/7451"
       }
     ]
   },
