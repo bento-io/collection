@@ -1011,7 +1011,7 @@
   {
     "name": "php",
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony", "phpixie", "cakephp"],
+    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
     "home": "http://php.net/",
     "links": [
       {
@@ -1034,7 +1034,7 @@
   {
     "name":"mvc",
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony", "cakephp"],
+    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -1105,6 +1105,34 @@
         "name": "Cookbook",
         "level": 0,
         "url": "http://symfony.com/doc/current/book/index.html"
+      }
+    ]
+  },
+    {
+    "name": "yii",
+    "description": "The Fast, Secure and Professional PHP Framework",
+    "$then": ["twig"],
+    "home": "http://yiiframework.com/",
+    "links": [
+      {
+        "name": "The Definitive Guide to Yii",
+        "level": 0,
+        "url": "http://www.yiiframework.com/doc/guide/"
+      },
+      {
+        "name": "Larry Ullman's Learning Yii Series",
+        "level": 0,
+        "url": "http://www.larryullman.com/series/learning-the-yii-framework/"
+      },
+      {
+        "name":"Yii Screencasts",
+        "level": 0,
+        "url": "http://www.yiiframework.com/screencasts/"
+      },
+      {
+        "name": "The Yii Blog Tutorial",
+        "level": 1,
+        "url": "http://www.yiiframework.com/doc/blog/1.1/en/prototype.auth"
       }
     ]
   },
