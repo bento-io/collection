@@ -811,6 +811,11 @@
         "name": "Git Best Practices",
         "level": 1,
         "url": "http://sethrobertson.github.io/GitBestPractices/"
+      },
+      {
+        "name": "Git from the bottom up",
+        "level": 2,
+        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
       }
     ]
   },
