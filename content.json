@@ -100,6 +100,16 @@
         "name": "Learning Javascript Design Patterns",
         "level": 2,
         "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+      },
+      {
+        "name": "Fight Code Game",
+        "level": 1,
+        "url": "http://fightcodegame.com/"
+      },
+      {
+        "name": "Code Wars",
+        "level": 1,
+        "url": "http://www.codewars.com/"
       }
     ]
   },
