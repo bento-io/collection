@@ -143,6 +143,11 @@
         "url": "http://www.openvim.com/tutorial.html"
       },
       {
+        "name": "Vim Novice Tutorial Videos",
+        "level": 0,
+        "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
+      },
+      {
         "name": "Vim Genius",
         "level": 1,
         "url": "http://vimgenius.com/"
