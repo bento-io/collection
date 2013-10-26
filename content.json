@@ -1353,7 +1353,7 @@
     "$then": ["http", "rest", "nginx"],
     "links":[
       {
-        "name": "Apache Documenttion",
+        "name": "Apache Documentation",
         "level": 0,
         "url": "https://httpd.apache.org/docs/2.4/"
       }
