@@ -327,6 +327,11 @@
         "name": "Think Python: How to Think Like a Computer Scientist",
         "level": 0,
         "url": "http://www.greenteapress.com/thinkpython/html/thinkpython002.html"
+      },
+      {
+        "name": "Python Module of the Week",
+        "level": 1,
+        "url": "http://pymotw.com/2/"
       }
     ]
   },
