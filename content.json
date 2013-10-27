@@ -396,8 +396,13 @@
     "$then": ["json", "xml", "http"],
     "links": [
       {
-        "name": "Designing HTTP Interfaces and RESTful Web Services",
+        "name": "Best Practices for Designing Pragmatic RESTful APIs",
         "level": 0,
+        "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api?hn"
+      },
+      {
+        "name": "Designing HTTP Interfaces and RESTful Web Services",
+        "level": 1,
         "url": "http://munich2012.drupal.org/program/sessions/designing-http-interfaces-and-restful-web-services.html"
       },
       {
