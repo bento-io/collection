@@ -2,7 +2,7 @@
   {
     "name": "html",
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php", "python", "sublime text"],
+    "$then": ["css", "javascript", "angular", "php", "python", "sublime text", "play"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -1079,7 +1079,7 @@
   {
     "name":"mvc",
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
+    "$then": ["codeigniter", "laravel", "symfony", "yii", "cakephp", "play"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -1326,7 +1326,7 @@
     "name": "play",
     "description": "A popular web framework for scala",
     "home": "http://www.playframework.com/",
-    "$then": [],
+    "$then": ["less", "coffeescript", "bootstrap"],
     "links":[
       {
         "name": "Your first Play application",
