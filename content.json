@@ -430,7 +430,7 @@
   {
     "name": "flask",
     "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
+    "$then": ["tornado", "mongo", "django", "heroku", "memcached", "sqlalchemy"],
     "home": "http://flask.pocoo.org/",
     "links": [
       {
@@ -1678,6 +1678,19 @@
         "name": "Documentation For Bootstrap 2",
         "level": 0,
         "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
+      }
+    ]
+  },
+  {
+    "name": "sqlalchemy",
+    "description": "Powerful database abstraction in Python",
+    "home": "http://www.sqlalchemy.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "SQLAlchemy in Flask",
+        "level": 0,
+        "url": "http://flask.pocoo.org/docs/patterns/sqlalchemy/"
       }
     ]
   }
