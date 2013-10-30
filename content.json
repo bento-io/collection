@@ -715,14 +715,19 @@
     "home": "http://www.mysql.com/",
     "links": [
       {
-        "name": "Problems and Solutions",
+        "name": "SQLZoo",
         "level": 0,
-        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
+        "url": "http://sqlzoo.net/wiki/Main_Page"
       },
       {
         "name": "w3schools",
         "level": 0,
         "url": "http://www.w3schools.com/sql/"
+      },
+      {
+        "name": "Problems and Solutions",
+        "level": 0,
+        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
       },
       {
         "name": "Treehouse - Database Foundations",
