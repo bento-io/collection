@@ -99,7 +99,7 @@
 
                      <p><strong><a href="group.html" target="_blank">Join the community</a></strong></p>
 
-                     <p>Find this useful? Consider becoming a sponsor for just $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month. <a target="_self" href="#" ng-click="fire_sponsorship()">Give back</a></p>
+                     <p id="donate_line">Find this useful? Consider donating $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month and help others learn to code. <a target="_self" href="#" ng-click="fire_sponsorship()">Give back</a></p>
                      <div id="sponsorship_tiers" class="row-fluid hidden">
                         <div class="row-fluid"><p>Contribute as little as $1. Cancel any amount at any time</p></div>
                         <div class="row-fluid">
@@ -116,6 +116,14 @@
                                 <p>Video chat with me</p>
                             </div>
                         </div>
+                     </div>
+                     <div class="row-fluid">
+                         <div class="span8 offset2" id="donate_container">
+                            <div id="donate_progress" style="width: {{ donate_progress }}%;">
+                                <div id="donate_progress_number">{{ donate_progress }}%</div>
+                            </div>
+                            <div id="donate_progress_label">Progress to donations goal</div>
+                         </div>
                      </div>
                 </header>
                 <div id="box_container" class="container-fluid">

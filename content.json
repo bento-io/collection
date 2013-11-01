@@ -61,7 +61,7 @@
       {
         "name": "Scalable and Modular Architecture for CSS",
         "level": 1,
-        "url": "http://smacss.com/"
+        "url": "http://smacss.com/book/"
       }
     ]
   },
@@ -127,167 +127,6 @@
     ]
   },
   {
-    "name": "vim",
-    "description": "A text editor in your console",
-    "$then": ["vim"],
-    "home": "http://vim.sourceforge.net/",
-    "links": [
-      {
-        "name": "Vim Adventures",
-        "level": 0,
-        "url": "http://vim-adventures.com/"
-      },
-      {
-        "name": "Interactive Vim Tutorial",
-        "level": 0,
-        "url": "http://www.openvim.com/tutorial.html"
-      },
-      {
-        "name": "Vim Novice Tutorial Videos",
-        "level": 0,
-        "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
-      },
-      {
-        "name": "Vim Genius",
-        "level": 1,
-        "url": "http://vimgenius.com/"
-      },
-      {
-        "name": "Vim Golf",
-        "level": 2,
-        "url": "http://vimgolf.com/"
-      }
-    ]
-  },
-  {
-    "name": "json",
-    "description": "How data is sent between applications",
-    "$then": ["mongo", "http", "jquery", "rest", "xml"],
-    "home": "http://www.json.org/",
-    "links": [
-      {
-        "name": "What is JSON?",
-        "level": 0,
-        "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
-      },
-      {
-        "name": "Treehouse - Getting data from the web",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/ios-development/build-a-blog-reader-iphone-app/getting-data-from-the-web"
-      }
-    ]
-  },
-  {
-    "name": "jquery",
-    "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
-    "home": "http://jquery.com/",
-    "links": [
-      {
-        "name": "jQuery in 30 Minutes",
-        "level": 0,
-        "url": "http://highoncoding.com/Videos/537_Extended_Screencast_on_JQuery_Whole_38_Minutes_.aspx"
-      },
-    {
-    "name":"Try jQuery",
-    "level": 0,
-    "url":"http://try.jquery.com/"
-    },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
-      },
-      {
-        "name": "Treehouse - Build an Interactive Website",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
-      }
-    ]
-  },
-  {
-    "name": "less",
-    "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap", "angular"],
-    "home": "http://lesscss.org/",
-    "links": [
-      {
-        "name": "Try It!",
-        "level": 0,
-        "url": "http://less2css.org/"
-      }
-    ]
-  },
-  {
-    "name": "sass",
-    "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular"],
-    "home": "http://sass-lang.com/",
-    "links": [
-      {
-        "name": "Tutorial",
-        "level": 0,
-        "url": "http://sass-lang.com/tutorial.html"
-      },
-      {
-        "name": "Try",
-        "level": 0,
-        "url": "http://sass-lang.com/try.html"
-      },
-      {
-        "name": "SassMeister",
-        "level": 0,
-        "url": "http://sassmeister.com"
-      }
-    ]
-  },
-  {
-    "name": "node",
-    "description": "Create a backend with javascript",
-    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
-    "home": "http://nodejs.org/",
-    "links": [
-      {
-        "name": "Node Beginner",
-        "level": 0,
-        "url": "http://www.nodebeginner.org/"
-      },
-      {
-        "name": "How Do I Get Started?",
-        "level": 0,
-        "url": "http://stackoverflow.com/a/5511507/1043674"
-      },
-      {
-        "name": "Style Guide",
-        "level": 0,
-        "url": "http://nodeguide.com/style.html"
-      },
-      {
-        "name": "nodeschool.io",
-        "level": 0,
-        "url": "http://nodeschool.io/"
-      }
-    ]
-  },
-  {
-    "name": "express",
-    "description": "The most popular web framework for node",
-    "$then": ["heroku", "http", "angular", "ember"],
-    "home": "http://expressjs.com/",
-    "links": [
-      {
-        "name": "Guide",
-        "level": 0,
-        "url": "http://expressjs.com/guide.html"
-      },
-      {
-        "name": "Introduction to Express",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
-      }
-    ]
-  },
-  {
     "name": "python",
     "description": "A programming language to easily pick up",
     "$then": ["big-o", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go", "sql"],
@@ -332,6 +171,175 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
+      }
+    ]
+  },
+  {
+    "name": "sql",
+    "description": "A popular database language",
+    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
+    "home": "http://www.mysql.com/",
+    "links": [
+      {
+        "name": "SQLZoo",
+        "level": 0,
+        "url": "http://sqlzoo.net/wiki/Main_Page"
+      },
+      {
+        "name": "w3schools",
+        "level": 0,
+        "url": "http://www.w3schools.com/sql/"
+      },
+      {
+        "name": "Problems and Solutions",
+        "level": 0,
+        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
+      },
+      {
+        "name": "Treehouse - Database Foundations",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/programming/database-foundations"
+      }
+    ]
+  },
+  {
+    "name": "json",
+    "description": "How data is sent between applications",
+    "$then": ["mongo", "http", "jquery", "rest", "xml"],
+    "home": "http://www.json.org/",
+    "links": [
+      {
+        "name": "What is JSON?",
+        "level": 0,
+        "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
+      }
+    ]
+  },
+  {
+    "name": "mongo",
+    "description": "A simple javascript based database",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "home": "http://www.mongodb.org/",
+    "links": [
+      {
+        "name": "Try Mongo",
+        "level": 0,
+        "url": "http://try.mongodb.org/"
+      },
+      {
+        "name": "MongoDB University",
+        "level": 0,
+        "url": "https://education.mongodb.com/"
+      }
+    ]
+  },
+  {
+    "name": "jquery",
+    "description": "Control the DOM with javascript",
+    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
+    "home": "http://jquery.com/",
+    "links": [
+      {
+        "name":"Try jQuery",
+        "level": 0,
+        "url":"http://try.jquery.com/"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
+      },
+      {
+        "name": "jQuery in 30 Minutes",
+        "level": 0,
+        "url": "http://screencastaday.s3.amazonaws.com/Video_80/JQueryPresentation.swf"
+      },
+      {
+        "name": "Treehouse - Build an Interactive Website",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      }
+    ]
+  },
+  {
+    "name": "less",
+    "description": "A dynamic stylesheet language",
+    "$then": ["sass", "bootstrap", "angular"],
+    "home": "http://lesscss.org/",
+    "links": [
+      {
+        "name": "Synopsis",
+        "level": 0,
+        "url": "http://lesscss.org/#synopsis"
+      },
+      {
+        "name": "Try It!",
+        "level": 1,
+        "url": "http://less2css.org/"
+      }
+    ]
+  },
+  {
+    "name": "sass",
+    "description": "An extension of css",
+    "$then": ["less", "bootstrap", "angular"],
+    "home": "http://sass-lang.com/",
+    "links": [
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "http://sass-lang.com/tutorial.html"
+      },
+      {
+        "name": "SassMeister",
+        "level": 1,
+        "url": "http://sassmeister.com"
+      }
+    ]
+  },
+  {
+    "name": "node",
+    "description": "Create a backend with javascript",
+    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
+    "home": "http://nodejs.org/",
+    "links": [
+      {
+        "name": "Node Beginner",
+        "level": 0,
+        "url": "http://www.nodebeginner.org/"
+      },
+      {
+        "name": "nodeschool.io",
+        "level": 0,
+        "url": "http://nodeschool.io/"
+      },
+      {
+        "name": "How Do I Get Started?",
+        "level": 0,
+        "url": "http://stackoverflow.com/a/5511507/1043674"
+      },
+      {
+        "name": "Style Guide",
+        "level": 1,
+        "url": "http://nodeguide.com/style.html"
+      }
+    ]
+  },
+  {
+    "name": "express",
+    "description": "The most popular web framework for node",
+    "$then": ["heroku", "http", "angular", "ember"],
+    "home": "http://expressjs.com/",
+    "links": [
+      {
+        "name": "Guide",
+        "level": 0,
+        "url": "http://expressjs.com/guide.html"
+      },
+      {
+        "name": "Introduction to Express",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
       }
     ]
   },
@@ -391,6 +399,39 @@
         "name": "Learn Regex the Hard Way",
         "level": 0,
         "url": "http://regex.learncodethehardway.org/book/"
+      }
+    ]
+  },
+  {
+    "name": "vim",
+    "description": "A text editor in your console",
+    "$then": ["vim"],
+    "home": "http://vim.sourceforge.net/",
+    "links": [
+      {
+        "name": "Vim Adventures",
+        "level": 0,
+        "url": "http://vim-adventures.com/"
+      },
+      {
+        "name": "Interactive Vim Tutorial",
+        "level": 0,
+        "url": "http://www.openvim.com/tutorial.html"
+      },
+      {
+        "name": "Vim Novice Tutorial Videos",
+        "level": 0,
+        "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
+      },
+      {
+        "name": "Vim Genius",
+        "level": 1,
+        "url": "http://vimgenius.com/"
+      },
+      {
+        "name": "Vim Golf",
+        "level": 2,
+        "url": "http://vimgolf.com/"
       }
     ]
   },
@@ -642,24 +683,6 @@
     ]
   },
   {
-    "name": "mongo",
-    "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
-    "home": "http://www.mongodb.org/",
-    "links": [
-      {
-        "name": "Try Mongo",
-        "level": 0,
-        "url": "http://try.mongodb.org/"
-      },
-      {
-        "name": "MongoDB University",
-        "level": 0,
-        "url": "https://education.mongodb.com/"
-      }
-    ]
-  },
-  {
     "name": "ios",
     "description": "Build apps for iOS devices",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
@@ -705,34 +728,6 @@
         "name": "Windows App Builder",
         "level": 0,
         "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
-      }
-    ]
-  },
-  {
-    "name": "sql",
-    "description": "A popular database language",
-    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
-    "home": "http://www.mysql.com/",
-    "links": [
-      {
-        "name": "SQLZoo",
-        "level": 0,
-        "url": "http://sqlzoo.net/wiki/Main_Page"
-      },
-      {
-        "name": "w3schools",
-        "level": 0,
-        "url": "http://www.w3schools.com/sql/"
-      },
-      {
-        "name": "Problems and Solutions",
-        "level": 0,
-        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
-      },
-      {
-        "name": "Treehouse - Database Foundations",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/programming/database-foundations"
       }
     ]
   },

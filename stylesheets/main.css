@@ -210,6 +210,33 @@ header h1 {
     width: 100%;
     text-align: center;
 }
+#donate_container {
+    background-color: #ccc;
+    height: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+#donate_progress {
+    background-color: #08c;
+    float: left;
+    height: 30px;
+}
+#donate_progress_number {
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    padding: 5px 5px;
+}
+#donate_progress_label {
+    color: #333;
+    font-weight: bold;
+    float: left;
+    padding: 5px 10px;
+}
+#donate_line {
+    font-size: 1.2em;
+}
 #pull {
     text-align: center;
     padding-bottom: 50px;

@@ -90,6 +90,8 @@ home:"http://www.perl.org/",$then:[],links:[{name:"Learn Perl",url:"http://www.p
 
 function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, $document) {
 
+  $scope.donate_progress = Math.round(217.4*100/2083.33);
+
   $scope.current_box = null;
 
   $scope.next_boxes = null;
