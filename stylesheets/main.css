@@ -170,7 +170,7 @@ header h1 {
     transition: background .25s ease-in-out;
     -moz-transition: background .25s ease-in-out;
     -webkit-transition: background .25s ease-in-out;
-    background: #666;
+    background: #999;
 }
 .box_container .box.highlight-current a:link, .box_container .box.highlight-current a:visited, .box_container .box.highlight-current a:hover {
     color: #000;
