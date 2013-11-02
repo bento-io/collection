@@ -322,7 +322,7 @@
         "name": "How Do I Get Started?",
         "level": 0,
         "url": "http://stackoverflow.com/a/5511507/1043674"
-      },
+      },      
       {
         "name": "Style Guide",
         "level": 1,
@@ -346,11 +346,21 @@
         "level": 0,
         "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
       },
+      { 
+        "name": "Tutorial: Node.js and MongoDB JSON REST API server with Mongoskin and Express.js",
+        "level": 3,
+        "url": "http://webapplog.com/tutorial-node-js-and-mongodb-json-rest-api-server-with-mongoskin-and-express-js/"
+      },
       {
         "name": "ExpressWorks",
         "level": 1,
         "url": "http://npmjs.org/expressworks"
-      }
+      },
+      {
+        "name": "Express.js FUNdamentals",
+        "level": 0,
+        "url": "http://webapplog.com/express-js-fundamentals/"
+      }       
     ]
   },
   {
