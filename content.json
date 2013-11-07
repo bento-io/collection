@@ -1520,6 +1520,11 @@
     "$then": [],
     "links":[
       {
+        "name": "Google's Starter Guide",
+        "level": 0,
+        "url": "https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf"
+      },
+      {
         "name": "The Advanced Guide to SEO",
         "level": 0,
         "url": "http://www.quicksprout.com/the-advanced-guide-to-seo/"
