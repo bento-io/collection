@@ -2,7 +2,7 @@
   {
     "name": "html",
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php", "python", "sublime text"],
+    "$then": ["css", "javascript", "angular", "php", "python", "sublime text", "play"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -471,7 +471,7 @@
   {
     "name": "flask",
     "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
+    "$then": ["tornado", "mongo", "django", "heroku", "memcached", "sqlalchemy"],
     "home": "http://flask.pocoo.org/",
     "links": [
       {
@@ -1079,7 +1079,7 @@
   {
     "name":"mvc",
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
+    "$then": ["codeigniter", "laravel", "symfony", "yii", "cakephp", "play"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -1326,7 +1326,7 @@
     "name": "play",
     "description": "A popular web framework for scala",
     "home": "http://www.playframework.com/",
-    "$then": [],
+    "$then": ["less", "coffeescript", "bootstrap"],
     "links":[
       {
         "name": "Your first Play application",
@@ -1678,6 +1678,19 @@
         "name": "Documentation For Bootstrap 2",
         "level": 0,
         "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
+      }
+    ]
+  },
+  {
+    "name": "sqlalchemy",
+    "description": "Powerful database abstraction in Python",
+    "home": "http://www.sqlalchemy.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "SQLAlchemy in Flask",
+        "level": 0,
+        "url": "http://flask.pocoo.org/docs/patterns/sqlalchemy/"
       }
     ]
   }
