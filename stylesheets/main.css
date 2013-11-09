@@ -162,6 +162,9 @@ header h1 {
 .box_container .box.highlight-false {
     background-color: #ccc;
 }
+.box_container.hidden-false-true {
+    display: none;
+}
 .box_container .box.highlight-current, .box_container #contact {
     background: #fff;
     color: #333;
@@ -196,6 +199,15 @@ header h1 {
     padding: 25px 0px;
     background: #333;
     color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+#toolbar {
+    position: fixed;
+    top: 0;
+    padding: 25px 0px;
+    background: #f0f0f0;
     width: 100%;
     text-align: center;
     margin: 0px;

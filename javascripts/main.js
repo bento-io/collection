@@ -107,6 +107,21 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     }
   }
 
+  $scope.showInactiveBoxes = true;
+
+  $scope.toggleInactiveBoxes = function() {
+    $scope.showInactiveBoxes = !$scope.showInactiveBoxes;
+  }
+
+  $scope.toggleAction = function() {
+    return ($scope.showInactiveBoxes) ? "Hide" : "Show";
+  }
+
+  $scope.set_previous_boxes = function() {
+    $scope.set_next_boxes($scope.previous_box, $scope.previous_index);
+  }
+
+  // Show what the next boxes are
   $scope.set_next_boxes = function($box, $index) {
     if ($scope.current_box === null || $box != $scope.current_box) {
       $scope.current_box = $box

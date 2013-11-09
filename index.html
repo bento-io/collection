@@ -48,6 +48,11 @@
             <div id="donate">
                 <h2>Find this useful? Give back and <a target="_self" href="#" ng-click="fire_sponsorship()">become a sponsor</a> for just $1!</h2>
             </div>
+            <div id="toolbar" ng-show="current_box != null">
+                <div class="row-fluid">
+                    <a ng-click="toggleInactiveBoxes()" href="#{{ current_box }}">{{ toggleAction() }} inactive boxes</a> | <a ng-click="current_box = null" href="#{{ current_box }}">Close active box</a>
+                </div>
+            </div>
             <div id="modal" ng-show="more_index != null">
                 <h2>{{ boxes[more_index].name  }}</h2>
                 <div class="row-fluid">
@@ -127,8 +132,8 @@
                      </div>
                 </header>
                 <div id="box_container" class="container-fluid">
-                    <div class="span3 box_container" ng-repeat="($index, box) in boxes">
-                        <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }}" ng-click="set_next_boxes(box, $index)">
+                    <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes">
+                        <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }} hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-click="set_next_boxes(box, $index)">
                             <a name="{{ box.name }}"></a>
                             <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
                             <p>{{ box.description }}</p>
