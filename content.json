@@ -29,7 +29,12 @@
         "name": "Treehouse",
         "level": 0,
         "url": "http://teamtreehouse.com/learning-adventures/learn-html-and-css"
-      }
+      },
+      {
+        "name": "Code Avengers",
+        "level": 0,
+        "url": "http://www.codeavengers.com/web/1"
+      },
     ]
   },
   {
@@ -62,7 +67,12 @@
         "name": "Scalable and Modular Architecture for CSS",
         "level": 1,
         "url": "http://smacss.com/book/"
-      }
+      },
+      {
+        "name": "Code Avengers",
+        "level": 0,
+        "url": "http://www.codeavengers.com/web/1"
+      },
     ]
   },
   {
@@ -110,6 +120,16 @@
         "name": "Code Wars",
         "level": 1,
         "url": "http://www.codewars.com/"
+      },
+      {
+        "name": "Code Avengers",
+        "level": 0,
+        "url": "http://www.codeavengers.com/javascript/1"
+      },
+      {
+        "name": "Learnstreet",
+        "level": 0,
+        "url": "http://www.learnstreet.com/lessons/study/javascript"
       }
     ]
   },
@@ -171,6 +191,17 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
+      },
+      {
+        "name": "Python Challenge",
+        "level": 2,
+        "url": "http://www.pythonchallenge.com/about.php"
+      },
+      {
+        "name": "Learnstreet",
+        "level": 1,
+        "url": "http://www.learnstreet.com/lessons/study/python"
+      }
       }
     ]
   },
@@ -585,6 +616,11 @@
         "name": "Why's (Poignant) Guide to Ruby",
         "level": 0,
         "url": "http://mislav.uniqpath.com/poignant-guide/"
+      },
+      {
+        "name": "Learnstreet",
+        "level": 0,
+        "url": "http://www.learnstreet.com/lessons/study/ruby"
       }
     ]
   },
@@ -1073,6 +1109,11 @@
         "name": "PHP The Right Way",
         "level": 0,
         "url": "http://www.phptherightway.com"
+      },
+      {
+        "name": "Phpcademy",
+        "level": 0,
+        "url": "https://phpacademy.org/"
       }
     ]
   },
