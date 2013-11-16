@@ -737,6 +737,29 @@
     ]
   },
   {
+    "name": "windows",
+    "description": "A full toolkit of resources from Microsoft",
+    "home": "http://developers.microsoft.com/",
+    "$then": [],
+    "links": [
+      {
+        "name": "Hackathon Guide to Windows 8",
+        "level": 0,
+        "url": "http://marianaggaga.azurewebsites.net/?p=5651"
+      },
+      {
+        "name": "Dev Center",
+        "level": 0,
+        "url": "http://www.bing.com/dev/en-us/dev-center"
+      },
+      {
+        "name": "Windows App Starter Kits",
+        "level": 0,
+        "url": "https://github.com/winappkits"
+      }
+    ]
+  },
+  {
     "name": "neo4j",
     "description": "The graph database",
     "$then": ["http", "mongo", "redis", "memcached", "sql"],
@@ -1583,6 +1606,19 @@
     ]
   },
   {
+    "name": "google",
+    "description": "An enormous collection of apis from Google",
+    "home": "http://developers.google.com",
+    "$then": [],
+    "links": [
+      {
+        "name": "Google API Explorer",
+        "level": 0,
+        "url": "https://developers.google.com/apis-explorer/#p/"
+      }
+    ]
+  },
+  {
     "name": "mashape",
     "description": "An easy way to distribute, monetize and consume multiple APIs",
     "home": "",
@@ -1623,6 +1659,37 @@
         "name": "Explore",
         "level": 0,
         "url": "https://developer.foursquare.com/docs/explore"
+      }
+    ]
+  },
+  {
+    "name": "sendgrid",
+    "description": "An email API",
+    "home": "http://sendgrid.com",
+    "$then": [],
+    "links":[
+      {
+        "name": "Hackathon",
+        "level": 0,
+        "url": "http://hack.sendgrid.com"
+      },
+      {
+        "name": "Docs",
+        "level": 0,
+        "url": "http://docs.sendgrid.com"
+      }
+    ]
+  },
+  {
+    "name": "semantria",
+    "description": "An text and sentiment analysis API",
+    "home": "http://semantria.com",
+    "$then": [],
+    "links":[
+      {
+        "name": "Develop Portal",
+        "level": 0,
+        "url": "https://semantria.com/developer"
       }
     ]
   },
