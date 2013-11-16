@@ -1681,11 +1681,11 @@
         "level": 0,
         "url": "http://www.alchemyapi.com/products/demo/"
       },
-	  {
+  	  {
         "name": "Get a free API key",
-		"level": 1,
-		"url": "http://www.alchemyapi.com/api/register.html"
-	  },
+  		  "level": 1,
+  		  "url": "http://www.alchemyapi.com/api/register.html"
+  	  },
       {
         "name": "Docs",
         "level": 1,
@@ -1695,6 +1695,19 @@
         "name": "SDKs",
         "level": 1,
         "url": "http://www.alchemyapi.com/developers/sdks/"
+      }
+    ]
+  },
+  {
+    "name": "lob",
+    "description": "A printing API",
+    "home": "http://lob.com",
+    "$then": [],
+    "links": [
+      {
+        "name": "Docs",
+        "level": 0,
+        "url": "https://www.lob.com/docs"
       }
     ]
   },
