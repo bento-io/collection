@@ -1666,15 +1666,35 @@
     ]
   },
   {
-    "name": "alchemy",
-    "description": "A natural language processing service",
+    "name": "alchemyapi",
+    "description": "A NLP text analysis API to extract meaning from your blogs, tweets, reviews and news articles",
     "home": "http://www.alchemyapi.com/",
     "$then": ["facebook", "foursquare", "twilio"],
     "links":[
       {
-        "name": "Demo",
+        "name": "Getting started guide",
+        "level": 0,
+        "url": "http://www.alchemyapi.com/developers/getting-started-guide/"
+      },
+      {
+        "name": "Interactive web demo",
         "level": 0,
         "url": "http://www.alchemyapi.com/products/demo/"
+      },
+	  {
+        "name": "Get a free API key",
+		"level": 1,
+		"url": "http://www.alchemyapi.com/api/register.html"
+	  },
+      {
+        "name": "Docs",
+        "level": 1,
+        "url": "http://www.alchemyapi.com/api/"
+      },
+      {
+        "name": "SDKs",
+        "level": 1,
+        "url": "http://www.alchemyapi.com/developers/sdks/"
       }
     ]
   },
