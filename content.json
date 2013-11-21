@@ -1682,12 +1682,12 @@
   },
   {
     "name": "semantria",
-    "description": "An text and sentiment analysis API",
+    "description": "A text and sentiment analysis API",
     "home": "http://semantria.com",
     "$then": [],
     "links":[
       {
-        "name": "Develop Portal",
+        "name": "Developer Portal",
         "level": 0,
         "url": "https://semantria.com/developer"
       }
