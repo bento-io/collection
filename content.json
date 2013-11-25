@@ -1790,5 +1790,40 @@
         "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
       }
     ]
+  },
+  {
+
+    "name": "D3.js",
+
+    "description": "A JavaScript library for creation and control of dynamic and interactive graphical forms in browser. ",
+
+    "$then": [ "angular", "backbone"],
+
+    "home": "http://d3js.org/",
+
+    "links": [
+
+      {
+
+        "name": "Codecademy",
+
+        "level": 0,
+
+        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
+
+      },
+
+      {
+
+        "name": "alignedleft",
+
+        "level": 0,
+
+        "url": "http://alignedleft.com/tutorials/d3/"
+
+      }
+
+    ]
+
   }
 ]
