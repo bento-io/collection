@@ -236,7 +236,7 @@
   {
     "name": "jquery",
     "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart"],
+    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
     "home": "http://jquery.com/",
     "links": [
       {
@@ -399,6 +399,24 @@
         "name": "Learn Regex the Hard Way",
         "level": 0,
         "url": "http://regex.learncodethehardway.org/book/"
+      }
+    ]
+  },
+  {
+    "name": "d3",
+    "description": "A javascript library for visualizing data",
+    "$then": ["angular", "backbone"],
+    "home": "http://d3js.org/",
+    "links": [
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
+      },
+      {
+        "name": "alignedleft",
+        "level": 0,
+        "url": "http://alignedleft.com/tutorials/d3/"
       }
     ]
   },
@@ -1790,40 +1808,5 @@
         "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
       }
     ]
-  },
-  {
-
-    "name": "D3.js",
-
-    "description": "A JavaScript library for creation and control of dynamic and interactive graphical forms in browser. ",
-
-    "$then": [ "angular", "backbone"],
-
-    "home": "http://d3js.org/",
-
-    "links": [
-
-      {
-
-        "name": "Codecademy",
-
-        "level": 0,
-
-        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
-
-      },
-
-      {
-
-        "name": "alignedleft",
-
-        "level": 0,
-
-        "url": "http://alignedleft.com/tutorials/d3/"
-
-      }
-
-    ]
-
   }
 ]
