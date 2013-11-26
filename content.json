@@ -533,6 +533,11 @@
         "level": 0,
         "url": "http://realdjango.herokuapp.com/"
       }
+      {
+        "name": "Learn Django by developing application called Rango",
+        "level": 0,
+        "url": "http://tangowithdjango.com/"
+      }
     ]
   },
   {
