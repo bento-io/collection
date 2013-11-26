@@ -175,6 +175,34 @@
     ]
   },
   {
+    "name": "php",
+    "description": "A server-side language for the web",
+    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
+    "home": "http://php.net/",
+    "links": [
+      {
+        "name": "Learn PHP",
+        "level": 0,
+        "url": "http://learn-php.org"
+      },
+      {
+        "name": "Treehouse - Become a PHP Developer",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/programming/build-a-simple-php-application/getting-started-with-php"
+      },
+      {
+        "name": "Learn X in Y Minutes",
+        "level": 0,
+        "url": "http://learnxinyminutes.com/docs/php/"
+      },
+      {
+        "name": "PHP The Right Way",
+        "level": 0,
+        "url": "http://www.phptherightway.com"
+      }
+    ]
+  },
+  {
     "name": "sql",
     "description": "A popular database language",
     "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
@@ -1100,29 +1128,6 @@
     ]
   },
   {
-    "name": "php",
-    "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
-    "home": "http://php.net/",
-    "links": [
-      {
-        "name": "Treehouse - Become a PHP Developer",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/programming/build-a-simple-php-application/getting-started-with-php"
-      },
-      {
-        "name": "Learn X in Y Minutes",
-        "level": 0,
-        "url": "http://learnxinyminutes.com/docs/php/"
-      },
-      {
-        "name": "PHP The Right Way",
-        "level": 0,
-        "url": "http://www.phptherightway.com"
-      }
-    ]
-  },
-  {
     "name":"mvc",
     "description": "Popular software architecture pattern",
     "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
@@ -1297,7 +1302,12 @@
     "home": "",
     "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
     "links": [
-        {
+      {
+        "name": "Learn Java",
+        "level": 0,
+        "url": "http://learnjavaonline.org"
+      },
+      {
         "name": "Intro to Programming in Java",
         "level": 0,
         "url": "https://www.udacity.com/course/cs046"
@@ -1806,6 +1816,32 @@
         "name": "Documentation For Bootstrap 2",
         "level": 0,
         "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
+      }
+    ]
+  },
+  {
+    "name": "csharp",
+    "description": "Java-like programming language by Microsoft.",
+    "home": "http://www.bash.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "Learn C#",
+        "level": 0,
+        "url": "http://learncs.org"
+      }
+    ]
+  },
+  {
+    "name": "bash",
+    "description": "A programming language for writing Linux shell scripts.",
+    "home": "http://www.bash.org/",
+    "$then": [],
+    "links":[
+      {
+        "name": "Learn Shell",
+        "level": 0,
+        "url": "http://learnshell.org"
       }
     ]
   }
