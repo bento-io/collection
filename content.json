@@ -496,6 +496,11 @@
         "name": "Documentation",
         "level": 0,
         "url": "http://flask.pocoo.org/docs/"
+      },
+      {
+        "name": "Flaskr: Intro to Flask and Test Driven Development",
+        "level": 0,
+        "url": "https://github.com/mjhea0/flaskr-tdd"
       }
     ]
   },
@@ -531,7 +536,7 @@
       {
         "name": "Setting up a Django Project from Scratch",
         "level": 0,
-        "url": "http://realdjango.herokuapp.com/"
+        "url": "http://realdjango.com/"
       }
     ]
   },
