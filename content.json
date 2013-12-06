@@ -203,6 +203,124 @@
     ]
   },
   {
+    "name": "shell",
+    "description": "Use the command line",
+    "$then": ["heroku"],
+    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
+    "links": [
+      {
+        "name": "Explain Shell",
+        "level": 0,
+        "url": "http://explainshell.com/"
+      }
+    ]
+  },
+  {
+    "name": "heroku",
+    "description": "Easily deploy your applications",
+    "$then": ["git", "python", "node", "ruby"],
+    "home": "http://heroku.com/",
+    "links": [
+      {
+        "name": "Get Started",
+        "level": 0,
+        "url": "https://devcenter.heroku.com/articles/quickstart"
+      },
+      {
+        "name": "Intro to Heroku Screencast",
+        "level": 0,
+        "url": "http://www.codeschool.com/code_tv/heroku"
+      }
+    ]
+  },
+  {
+    "name": "git",
+    "description": "Version control that's simple to use",
+    "$then": ["http", "heroku"],
+    "home": "http://git-scm.com/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "The simple guide",
+        "level": 0,
+        "url": "http://rogerdudler.github.io/git-guide/"
+      },
+      {
+        "name": "Try Git",
+        "level": 0,
+        "url": "http://try.github.io/levels/1/challenges/1"
+      },
+      {
+        "name": "Git Immersion",
+        "level": 0,
+        "url": "http://gitimmersion.com/"
+      },
+      {
+        "name": "Git Best Practices",
+        "level": 1,
+        "url": "http://sethrobertson.github.io/GitBestPractices/"
+      },
+      {
+        "name": "Git from the bottom up",
+        "level": 2,
+        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
+      }
+    ]
+  },
+  {
+    "name": "http",
+    "description": "The basics of making web requests",
+    "$then": ["python", "node", "heroku", "json", "rest", "https"],
+    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "links": [
+      {
+        "name": "A Beginner's Guide",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
+      }
+    ]
+  },
+  {
+    "name": "security",
+    "description": "General tips around security",
+    "$then": ["https"],
+    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
+    "links": [
+      {
+        "name": "How Encryption Works",
+        "level": 0,
+        "url": "http://www.wimp.com/howencryption/"
+      },
+      {
+        "name": "Google security handbook",
+        "level": 0,
+        "url": "https://code.google.com/p/browsersec/wiki/Main"
+      }
+    ]
+  },
+  {
+    "name": "https",
+    "description": "The basics of secure connections",
+    "$then": [],
+    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
+    "links": [
+      {
+        "name": "First Milliseconds https",
+        "level": 0,
+        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
+      },
+      {
+        "name": "Switch your website to use https",
+        "level": 0,
+        "url": "https://konklone.com/post/switch-to-https-now-for-free"
+      }
+    ]
+  },
+  {
     "name": "json",
     "description": "How data is sent between applications",
     "$then": ["mongo", "http", "jquery", "rest", "xml"],
@@ -846,124 +964,6 @@
         "name": "EventedMind advanced screencasts",
         "level": 0,
         "url": "https://www.eventedmind.com/"
-      }
-    ]
-  },
-  {
-    "name": "shell",
-    "description": "Use the command line",
-    "$then": ["heroku"],
-    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
-    "links": [
-      {
-        "name": "Explain Shell",
-        "level": 0,
-        "url": "http://explainshell.com/"
-      }
-    ]
-  },
-  {
-    "name": "heroku",
-    "description": "Easily deploy your applications",
-    "$then": ["git", "python", "node", "ruby"],
-    "home": "http://heroku.com/",
-    "links": [
-      {
-        "name": "Get Started",
-        "level": 0,
-        "url": "https://devcenter.heroku.com/articles/quickstart"
-      },
-      {
-        "name": "Intro to Heroku Screencast",
-        "level": 0,
-        "url": "http://www.codeschool.com/code_tv/heroku"
-      }
-    ]
-  },
-  {
-    "name": "git",
-    "description": "Version control that's simple to use",
-    "$then": ["http", "heroku"],
-    "home": "http://git-scm.com/",
-    "links": [
-      {
-        "name": "Getting Started",
-        "level": 0,
-        "url":"http://git-scm.com/book/en/Getting-Started"
-      },
-      {
-        "name": "The simple guide",
-        "level": 0,
-        "url": "http://rogerdudler.github.io/git-guide/"
-      },
-      {
-        "name": "Try Git",
-        "level": 0,
-        "url": "http://try.github.io/levels/1/challenges/1"
-      },
-      {
-        "name": "Git Immersion",
-        "level": 0,
-        "url": "http://gitimmersion.com/"
-      },
-      {
-        "name": "Git Best Practices",
-        "level": 1,
-        "url": "http://sethrobertson.github.io/GitBestPractices/"
-      },
-      {
-        "name": "Git from the bottom up",
-        "level": 2,
-        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
-      }
-    ]
-  },
-  {
-    "name": "http",
-    "description": "The basics of making web requests",
-    "$then": ["python", "node", "heroku", "json", "rest", "https"],
-    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
-    "links": [
-      {
-        "name": "A Beginner's Guide",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
-      }
-    ]
-  },
-  {
-    "name": "security",
-    "description": "General tips around security",
-    "$then": ["https"],
-    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
-    "links": [
-      {
-        "name": "How Encryption Works",
-        "level": 0,
-        "url": "http://www.wimp.com/howencryption/"
-      },
-      {
-        "name": "Google security handbook",
-        "level": 0,
-        "url": "https://code.google.com/p/browsersec/wiki/Main"
-      }
-    ]
-  },
-  {
-    "name": "https",
-    "description": "The basics of secure connections",
-    "$then": [],
-    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
-    "links": [
-      {
-        "name": "First Milliseconds https",
-        "level": 0,
-        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
-      },
-      {
-        "name": "Switch your website to use https",
-        "level": 0,
-        "url": "https://konklone.com/post/switch-to-https-now-for-free"
       }
     ]
   },
