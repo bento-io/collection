@@ -120,14 +120,14 @@
     "home": "http://www.sublimetext.com/",
     "links": [
       {
-        "name": "Sublime Text Tips",
-        "level": 0,
-        "url": "http://sublimetexttips.com/"
-      },
-      {
         "name": "tuts+",
         "level": 0,
         "url": "https://tutsplus.com/lesson/hello-2/"
+      },
+      {
+        "name": "Sublime Text Tips",
+        "level": 0,
+        "url": "http://sublimetexttips.com/"
       }
     ]
   },
