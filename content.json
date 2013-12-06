@@ -499,7 +499,7 @@
       },
       {
         "name": "Flaskr: Intro to Flask and Test Driven Development",
-        "level": 0,
+        "level": 1,
         "url": "https://github.com/mjhea0/flaskr-tdd"
       }
     ]
@@ -960,6 +960,11 @@
     "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
     "home": "http://redis.io/",
     "links": [
+      {
+        "name": "The Little Redis Book",
+        "level": 0,
+        "url": "http://openmymind.net/redis.pdf"
+      },
       {
         "name": "Try Redis",
         "level": 0,
