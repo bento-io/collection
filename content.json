@@ -850,6 +850,19 @@
     ]
   },
   {
+    "name": "shell",
+    "description": "Use the command line",
+    "$then": ["heroku"],
+    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
+    "links": [
+      {
+        "name": "Explain Shell",
+        "level": 0,
+        "url": "http://explainshell.com/"
+      }
+    ]
+  },
+  {
     "name": "heroku",
     "description": "Easily deploy your applications",
     "$then": ["git", "python", "node", "ruby"],
