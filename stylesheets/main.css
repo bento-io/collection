@@ -192,6 +192,16 @@ header h1 {
     max-width: 90%;
     overflow: hidden;
 }
+#started {
+    background: #333;
+    color: #fff;
+}
+#started a:link, #started a:active, #started a:visited {
+    color: #08c;
+}
+#welcome_container {
+    margin-bottom: 25px;
+}
 #modal {
     z-index: 10000;
     position: fixed;

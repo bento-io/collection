@@ -102,8 +102,6 @@
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </div>
 
-                     <p><strong><a href="group.html" target="_blank">Join the community</a></strong></p>
-
                      <p id="donate_line">Find this useful? Consider donating $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month and help others learn to code. <a target="_self" href="#" ng-click="fire_sponsorship()">Give back</a></p>
                      <div id="sponsorship_tiers" class="row-fluid hidden">
                         <div class="row-fluid"><p>Contribute as little as $1. Cancel any amount at any time</p></div>
@@ -131,7 +129,28 @@
                          </div>
                      </div>
                 </header>
+                <div id="welcome_container" ng-show="welcome">
+                    <div class="row-fluid">
+                        <div class="span2 offset1"><img src="images/author.png" alt="Jon Chan" width="175" height="175"></div>
+                        <div class="span8">
+                            <h2>Welcome</h2>
+                            <p>My name is <a href="http://twitter.com/jonhmchan" target="_blank">Jon Chan</a>, and I'm the creator of Bento. I made Bento to help people learn how to code. As someone that's completely self-taught in web development, I learned to code on the web when there were few resources out there. Things are different now - there are so many ways to learn that it's hard to figure out where to start. I'll be your guide in navigating the many resources out there. This is my way of passing on the knowledge that I have about coding to others. <a href="#" ng-click="welcome = false">Let's get started</a></p>
+                        </div>
+                    </div>
+                </div>
                 <div id="box_container" class="container-fluid">
+                    <div class="span3 box_container">
+                        <div id="started" class="box">
+                            <h2>Start here</h2>
+                            <p>Learn more about this site</p>
+                            <div>
+                                <a href="#" ng-click="welcome = true">Welcome</a>
+                            </div>
+                            <div>
+                                <a href="group.html" target="_blank">Join the community</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes">
                         <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }} hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-click="set_next_boxes(box, $index)">
                             <a name="{{ box.name }}"></a>
