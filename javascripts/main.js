@@ -139,6 +139,9 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     return ($scope.current_box == null || $scope.next_boxes.indexOf($name) > -1);
   }
 
+  $scope.welcome = true;
+  $scope.next_steps = true;
+
   $scope.load_boxes = function() {
     $scope.boxes = CONTENT_BACKUP;
     // Remove fallback
@@ -147,6 +150,8 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     $.getJSON("content.json", function(data) {
       $scope.boxes = data;
       $scope.working = true;
+      $scope.welcome = false;
+      $scope.next_steps = false;
       $timeout(function() { $("#donate").hide().slideDown("normal") }, 13000);
     });
   }();
