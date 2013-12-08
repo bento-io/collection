@@ -199,8 +199,15 @@ header h1 {
 #started a:link, #started a:active, #started a:visited {
     color: #08c;
 }
-#welcome_container {
+.top_info {
     margin-bottom: 25px;
+}
+#welcome_image {
+    text-align: center;
+}
+#next_steps_image {
+    text-align: center;
+    padding-top: 25px;
 }
 #modal {
     z-index: 10000;

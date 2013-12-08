@@ -98,8 +98,7 @@
                     <div style="padding-left: 20px;">
                         <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
 
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        &nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
                     </div>
 
                      <p id="donate_line">Find this useful? Consider donating $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month and help others learn to code. <a target="_self" href="#" ng-click="fire_sponsorship()">Give back</a></p>
@@ -129,12 +128,40 @@
                          </div>
                      </div>
                 </header>
-                <div id="welcome_container" ng-show="welcome">
+                <div id="welcome_container" class="top_info" ng-show="welcome">
                     <div class="row-fluid">
-                        <div class="span2 offset1"><img src="images/author.png" alt="Jon Chan" width="175" height="175"></div>
+                        <div class="span2 offset1" id="welcome_image">
+                            <p><img src="images/author.png" alt="Jon Chan" width="175" height="175"></p>
+                            <p><a href="https://twitter.com/JonHMChan" class="twitter-follow-button" data-show-count="false">Follow @JonHMChan</a>
+                            </p>
+                        </div>
                         <div class="span8">
                             <h2>Welcome</h2>
-                            <p>My name is <a href="http://twitter.com/jonhmchan" target="_blank">Jon Chan</a>, and I'm the creator of Bento. I made Bento to help people learn how to code. As someone that's completely self-taught in web development, I learned to code on the web when there were few resources out there. Things are different now - there are so many ways to learn that it's hard to figure out where to start. I'll be your guide in navigating the many resources out there. This is my way of passing on the knowledge that I have about coding to others. <a href="#" ng-click="welcome = false">Let's get started</a></p>
+                            <p>My name is <a href="http://twitter.com/jonhmchan" target="_blank">Jon Chan</a>, and I'm the creator of Bento. I made Bento to help people learn how to code. As someone that's completely self-taught in web development, I learned to code on the web when there were few resources out there. Things are different now - there are so many ways to learn that it's hard to figure out where to start. I'll be your guide in navigating the many resources out there. This is my way of passing on the knowledge that I have about coding to others. <a href="#" ng-click="welcome = false; next_steps = true;">Let's get started</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="next_steps_container" class="top_info" ng-show="next_steps">
+                    <div class="row-fluid">
+                        <div class="span2 offset1" id="next_steps_image">
+                            <p>
+                                <a href="https://twitter.com/JonHMChan" class="twitter-follow-button" data-show-count="false">Follow @JonHMChan</a>
+                            </p>
+                            <p>
+                                <div ng-show="more_index == null" class="fb-like" data-href="http://www.bentobox.io/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
+                            </p>
+                            <p>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
+                            </p>
+                        </div>
+                        <div class="span8">
+                            <h2>How to use Bento</h2>
+                            <p>There's no right way to use Bento, but there are definitely things you should keep in mind</p>
+                            <ul>
+                                <li>When you click on a box, the next lessons you get will be highlighted</li>
+                                <li>You can see more links for each box by clicking 'more' at the bottom</li>
+                                <li>Use the <a href="group.html" target="_blank">study group</a> if you're having trouble</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -144,7 +171,10 @@
                             <h2>Start here</h2>
                             <p>Learn more about this site</p>
                             <div>
-                                <a href="#" ng-click="welcome = true">Welcome</a>
+                                <a href="#" ng-click="welcome = true; next_steps = false;">Welcome</a>
+                            </div>
+                            <div>
+                                <a href="#" ng-click="welcome = false; next_steps = true">Next steps</a>
                             </div>
                             <div>
                                 <a href="group.html" target="_blank">Join the community</a>
@@ -232,6 +262,9 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
         </script>
+
+        <!-- Twitter -->
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
         <!-- Facebook -->
         <script>(function(d, s, id) {
