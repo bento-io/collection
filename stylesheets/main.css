@@ -428,6 +428,9 @@ ol li {
     }
     #donate h2 {
         font-size: 1.2em;
+        line-height: 1.0em;
+        padding: 10px;
+        margin: 0px;
     }
 }
 
