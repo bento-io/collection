@@ -336,7 +336,7 @@
   {
     "name": "mongo",
     "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
     "home": "http://www.mongodb.org/",
     "links": [
       {
@@ -348,6 +348,24 @@
         "name": "MongoDB University",
         "level": 0,
         "url": "https://education.mongodb.com/"
+      }
+    ]
+  },
+  {
+    "name": "rethinkdb",
+    "description": "An open-source distributed database built with love.",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "home": "http://www.rethinkdb.com/",
+    "links": [
+      {
+        "name": "RethinkDB Quickstart",
+        "level": 0,
+        "url": "http://www.rethinkdb.com/docs/quickstart/"
+      },
+      {
+        "name": "RethinkDB and Flask",
+        "level": 1,
+        "url": "http://www.realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/"
       }
     ]
   },
