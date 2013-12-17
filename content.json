@@ -110,6 +110,11 @@
         "name": "Code Wars",
         "level": 1,
         "url": "http://www.codewars.com/"
+      },
+      {
+        "name": "Kipik - JS Game Tutorials",
+        "level": 1,
+        "url": "http://kipik.herokuapp.com"
       }
     ]
   },
