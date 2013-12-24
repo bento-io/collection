@@ -578,6 +578,11 @@
         "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
       },
       {
+        "name": "Vim as a Design Tool",
+        "level": 0,
+        "url": "http://hackdesign.org/lessons/49"
+      },
+      {
         "name": "Vim Genius",
         "level": 1,
         "url": "http://vimgenius.com/"
