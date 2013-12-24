@@ -205,13 +205,61 @@
   {
     "name": "shell",
     "description": "Use the command line",
-    "$then": ["heroku"],
+    "$then": ["git"],
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
+      {
+        "name": "Introduction to Linux",
+        "level": 0,
+        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
+      },
       {
         "name": "Explain Shell",
         "level": 0,
         "url": "http://explainshell.com/"
+      }
+    ]
+  },
+  {
+    "name": "git",
+    "description": "Version control that's simple to use",
+    "$then": ["http", "heroku"],
+    "home": "http://git-scm.com/",
+    "links": [
+      {
+        "name": "Try Git",
+        "level": 0,
+        "url": "http://try.github.io/levels/1/challenges/1"
+      },
+      {
+        "name": "The simple guide",
+        "level": 0,
+        "url": "http://rogerdudler.github.io/git-guide/"
+      },
+      {
+        "name": "Git Immersion",
+        "level": 0,
+        "url": "http://gitimmersion.com/"
+      },
+      {
+        "name": "Git Basics",
+        "level": 0,
+        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
+      },
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "Git Best Practices",
+        "level": 1,
+        "url": "http://sethrobertson.github.io/GitBestPractices/"
+      },
+      {
+        "name": "Git from the bottom up",
+        "level": 2,
+        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
       }
     ]
   },
@@ -234,93 +282,6 @@
     ]
   },
   {
-    "name": "git",
-    "description": "Version control that's simple to use",
-    "$then": ["http", "heroku"],
-    "home": "http://git-scm.com/",
-    "links": [
-      {
-        "name": "Getting Started",
-        "level": 0,
-        "url":"http://git-scm.com/book/en/Getting-Started"
-      },
-      {
-        "name": "The simple guide",
-        "level": 0,
-        "url": "http://rogerdudler.github.io/git-guide/"
-      },
-      {
-        "name": "Try Git",
-        "level": 0,
-        "url": "http://try.github.io/levels/1/challenges/1"
-      },
-      {
-        "name": "Git Immersion",
-        "level": 0,
-        "url": "http://gitimmersion.com/"
-      },
-      {
-        "name": "Git Best Practices",
-        "level": 1,
-        "url": "http://sethrobertson.github.io/GitBestPractices/"
-      },
-      {
-        "name": "Git from the bottom up",
-        "level": 2,
-        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
-      }
-    ]
-  },
-  {
-    "name": "http",
-    "description": "The basics of making web requests",
-    "$then": ["python", "node", "heroku", "json", "rest", "https"],
-    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
-    "links": [
-      {
-        "name": "A Beginner's Guide",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
-      }
-    ]
-  },
-  {
-    "name": "security",
-    "description": "General tips around security",
-    "$then": ["https"],
-    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
-    "links": [
-      {
-        "name": "How Encryption Works",
-        "level": 0,
-        "url": "http://www.wimp.com/howencryption/"
-      },
-      {
-        "name": "Google security handbook",
-        "level": 0,
-        "url": "https://code.google.com/p/browsersec/wiki/Main"
-      }
-    ]
-  },
-  {
-    "name": "https",
-    "description": "The basics of secure connections",
-    "$then": [],
-    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
-    "links": [
-      {
-        "name": "First Milliseconds https",
-        "level": 0,
-        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
-      },
-      {
-        "name": "Switch your website to use https",
-        "level": 0,
-        "url": "https://konklone.com/post/switch-to-https-now-for-free"
-      }
-    ]
-  },
-  {
     "name": "json",
     "description": "How data is sent between applications",
     "$then": ["mongo", "http", "jquery", "rest", "xml"],
@@ -330,42 +291,6 @@
         "name": "What is JSON?",
         "level": 0,
         "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
-      }
-    ]
-  },
-  {
-    "name": "mongo",
-    "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
-    "home": "http://www.mongodb.org/",
-    "links": [
-      {
-        "name": "Try Mongo",
-        "level": 0,
-        "url": "http://try.mongodb.org/"
-      },
-      {
-        "name": "MongoDB University",
-        "level": 0,
-        "url": "https://education.mongodb.com/"
-      }
-    ]
-  },
-  {
-    "name": "rethinkdb",
-    "description": "An open-source distributed database built with love.",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
-    "home": "http://www.rethinkdb.com/",
-    "links": [
-      {
-        "name": "RethinkDB Quickstart",
-        "level": 0,
-        "url": "http://www.rethinkdb.com/docs/quickstart/"
-      },
-      {
-        "name": "RethinkDB and Flask",
-        "level": 1,
-        "url": "http://www.realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/"
       }
     ]
   },
@@ -412,6 +337,219 @@
         "name": "Try It!",
         "level": 1,
         "url": "http://less2css.org/"
+      }
+    ]
+  },
+  {
+    "name": "bootstrap",
+    "description": "A popular frontend framework",
+    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
+    "home": "http://getbootstrap.com/",
+    "links": [
+      {
+        "name": "Get Started",
+        "level": 0,
+        "url": "http://getbootstrap.com/getting-started/"
+      },
+      {
+        "name": "Getting Started with Bootstrap 3",
+        "level": 0,
+        "url": "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
+      }
+    ]
+  },
+  {
+    "name": "big-o",
+    "description": "How to measure your code's performance",
+    "$then": ["data structures", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Big_O_notation",
+    "links": [
+      {
+        "name": "Algorithm Analysis",
+        "level": 0,
+        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
+      },
+      {
+        "name": "Big-O Cheat Sheet",
+        "level": 0,
+        "url": "http://bigocheatsheet.com/"
+      },
+      {
+        "name": "Codility: Time Complexity",
+        "level": 1,
+        "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
+      }
+    ]
+  },
+  {
+    "name": "data structures",
+    "description": "Efficiently organize your data in code",
+    "$then": ["big-o", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Data_structure",
+    "links": [
+      {
+        "name": "Basic Data Structures",
+        "level": 0,
+        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
+      },
+      {
+        "name": "Data Structure Visualizations",
+        "level": 1,
+        "url": "http://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+      }
+    ]
+  },
+  {
+    "name": "http",
+    "description": "The basics of making web requests",
+    "$then": ["python", "node", "heroku", "json", "rest", "https"],
+    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "links": [
+      {
+        "name": "A Beginner's Guide",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
+      }
+    ]
+  },
+  {
+    "name": "security",
+    "description": "General tips around security",
+    "$then": ["https"],
+    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
+    "links": [
+      {
+        "name": "How Encryption Works",
+        "level": 0,
+        "url": "http://www.wimp.com/howencryption/"
+      },
+      {
+        "name": "An Introduction to Cryptography and Cryptanalysis",
+        "level": 0,
+        "url": "http://math.scu.edu/~eschaefe/book.pdf"
+      },
+      {
+        "name": "Google security handbook",
+        "level": 1,
+        "url": "https://code.google.com/p/browsersec/wiki/Main"
+      }
+    ]
+  },
+  {
+    "name": "https",
+    "description": "The basics of secure connections",
+    "$then": [],
+    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
+    "links": [
+      {
+        "name": "First Milliseconds https",
+        "level": 0,
+        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
+      },
+      {
+        "name": "Switch your website to use https",
+        "level": 0,
+        "url": "https://konklone.com/post/switch-to-https-now-for-free"
+      }
+    ]
+  },
+  {
+    "name": "mongo",
+    "description": "A simple javascript based database",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "home": "http://www.mongodb.org/",
+    "links": [
+      {
+        "name": "Try Mongo",
+        "level": 0,
+        "url": "http://try.mongodb.org/"
+      },
+      {
+        "name": "MongoDB University",
+        "level": 0,
+        "url": "https://education.mongodb.com/"
+      }
+    ]
+  },
+  {
+    "name": "elasticsearch",
+    "description": "Distributed, restful, open-source search",
+    "$then": [],
+    "home": "http://www.elasticsearch.org/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/webinars/getting-started-with-elasticsearch/"
+      },
+      {
+        "name": "Introducing Query DSL",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/videos/introducing-query-dsl/"
+      },
+      {
+        "name": "Reference",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup.html"
+      }
+    ]
+  },
+  {
+    "name": "redis",
+    "description": "A basic key-value store",
+    "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
+    "home": "http://redis.io/",
+    "links": [
+      {
+        "name": "The Little Redis Book",
+        "level": 0,
+        "url": "http://openmymind.net/redis.pdf"
+      },
+      {
+        "name": "Try Redis",
+        "level": 0,
+        "url": "http://try.redis.io/"
+      }
+    ]
+  },
+  {
+    "name": "memcached",
+    "description": "A way to cache your data in memory",
+    "$then": ["mongo", "redis", "heroku", "neo4j", "sql"],
+    "home": "http://memcached.org/",
+    "links": [
+      {
+        "name": "An Adventure in Learning Memcached",
+        "level": 0,
+        "url": "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
+      },
+      {
+        "name": "Distributed Caching with Memcached",
+        "level": 0,
+        "url": "http://www.linuxjournal.com/article/7451"
+      }
+    ]
+  },
+  {
+    "name": "angular",
+    "description": "Build powerful data-driven html and javascript",
+    "$then": ["ember", "jquery", "backbone", "flight"],
+    "home": "http://angularjs.org/",
+    "links": [
+      {
+        "name": "egghead.io",
+        "level": 0,
+        "url": "http://egghead.io/lessons"
+      },
+      {
+        "name": "A Better Way to Learn Angular",
+        "level": 0,
+        "url": "http://www.thinkster.io/pick/GtaQ0oMGIl/"
+      },
+      {
+        "name": "Beginner to expert guide to AngularJS 7-part series",
+        "level": 0,
+        "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
       }
     ]
   },
@@ -480,47 +618,6 @@
     ]
   },
   {
-    "name": "big-o",
-    "description": "How to measure your code's performance",
-    "$then": ["data structures", "algorithms"],
-    "home": "http://en.wikipedia.org/wiki/Big_O_notation",
-    "links": [
-      {
-        "name": "Algorithm Analysis",
-        "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
-      },
-      {
-        "name": "Big-O Cheat Sheet",
-        "level": 0,
-        "url": "http://bigocheatsheet.com/"
-      },
-      {
-        "name": "Codility: Time Complexity",
-        "level": 1,
-        "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
-      }
-    ]
-  },
-  {
-    "name": "data structures",
-    "description": "Efficiently organize your data in code",
-    "$then": ["big-o", "algorithms"],
-    "home": "http://en.wikipedia.org/wiki/Data_structure",
-    "links": [
-      {
-        "name": "Basic Data Structures",
-        "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
-      },
-      {
-      	"name": "Rosetta Code",
-        "level": 0,
-      	"url": "http://rosettacode.org/"
-      }
-    ]
-  },
-  {
     "name": "regex",
     "description": "A popular syntax for pattern matching",
     "home": "http://www.regular-expressions.info/",
@@ -545,14 +642,19 @@
     "home": "http://d3js.org/",
     "links": [
       {
+        "name": "D3 Tutorials",
+        "level": 0,
+        "url": "http://alignedleft.com/tutorials/d3/"
+      },
+      {
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
       },
       {
-        "name": "alignedleft",
-        "level": 0,
-        "url": "http://alignedleft.com/tutorials/d3/"
+        "name": "Interactive Data Visualization for the Web",
+        "level": 1,
+        "url": "http://chimera.labs.oreilly.com/books/1230000000345/index.html"
       }
     ]
   },
@@ -937,20 +1039,20 @@
     ]
   },
   {
-    "name": "bootstrap",
-    "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
-    "home": "http://getbootstrap.com/",
+    "name": "rethinkdb",
+    "description": "An open-source distributed database built with love.",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "home": "http://www.rethinkdb.com/",
     "links": [
       {
-        "name": "Get Started",
+        "name": "RethinkDB Quickstart",
         "level": 0,
-        "url": "http://getbootstrap.com/getting-started/"
+        "url": "http://www.rethinkdb.com/docs/quickstart/"
       },
       {
-        "name": "Getting Started with Bootstrap 3",
-        "level": 0,
-        "url": "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
+        "name": "RethinkDB and Flask",
+        "level": 1,
+        "url": "http://www.realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/"
       }
     ]
   },
@@ -987,65 +1089,6 @@
         "name": "EventedMind advanced screencasts",
         "level": 0,
         "url": "https://www.eventedmind.com/"
-      }
-    ]
-  },
-  {
-    "name": "redis",
-    "description": "A basic key-value store",
-    "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
-    "home": "http://redis.io/",
-    "links": [
-      {
-        "name": "The Little Redis Book",
-        "level": 0,
-        "url": "http://openmymind.net/redis.pdf"
-      },
-      {
-        "name": "Try Redis",
-        "level": 0,
-        "url": "http://try.redis.io/"
-      }
-    ]
-  },
-  {
-    "name": "memcached",
-    "description": "A way to cache your data in memory",
-    "$then": ["mongo", "redis", "heroku", "neo4j", "sql"],
-    "home": "http://memcached.org/",
-    "links": [
-      {
-        "name": "An Adventure in Learning Memcached",
-        "level": 0,
-        "url": "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
-      },
-      {
-        "name": "Distributed Caching with Memcached",
-        "level": 0,
-        "url": "http://www.linuxjournal.com/article/7451"
-      }
-    ]
-  },
-  {
-    "name": "angular",
-    "description": "Build powerful data-driven html and javascript",
-    "$then": ["ember", "jquery", "backbone", "flight"],
-    "home": "http://angularjs.org/",
-    "links": [
-      {
-        "name": "egghead.io",
-        "level": 0,
-        "url": "http://egghead.io/lessons"
-      },
-      {
-        "name": "A Better Way to Learn Angular",
-        "level": 0,
-        "url": "http://www.thinkster.io/pick/GtaQ0oMGIl/"
-      },
-      {
-        "name": "Beginner to expert guide to AngularJS 7-part series",
-        "level": 0,
-        "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
       }
     ]
   },
@@ -1504,19 +1547,6 @@
         "name": "metacpan",
         "level": 0,
         "url": "http://www.metacpan.org/"
-      }
-    ]
-  },
-  {
-    "name": "postgresql",
-    "description": "The world's most advanced open source database",
-    "home": "http://www.postgresql.org/",
-    "$then": ["vagrant"],
-    "links":[
-      {
-        "name": "PostgresApp",
-        "level": 0,
-        "url": "http://postgresapp.com/"
       }
     ]
   },
