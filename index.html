@@ -48,11 +48,9 @@
                     <p>Developers, take a look at <a href="https://github.com/JonHMChan/bento/tree/gh-pages" target="_blank">the GitHub</a></p>
                 </div>
             </div>
-            <!--
             <div id="donate">
                 <h2>Find this useful? Give back and <a target="_self" href="#" ng-click="fire_sponsorship()">become a sponsor</a> for just $1!</h2>
             </div>
-            -->
             <div id="toolbar" ng-show="current_box != null">
                 <div class="row-fluid">
                     <a ng-click="toggleInactiveBoxes()" href="#{{ current_box }}">{{ toggleAction() }} inactive boxes</a> | <a ng-click="current_box = null" href="#{{ current_box }}">Close active box</a>
@@ -105,7 +103,6 @@
                         &nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
                     </div>
 
-                    <!--
                      <p id="donate_line" style="margin: 0px;">Find this useful? Consider donating $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month and help others learn to code
                      </p>
                      <p style="padding: 0px; font-weight: bold;">
@@ -136,7 +133,6 @@
                             <div id="donate_progress_label">Progress to donations goal</div>
                          </div>
                      </div>
-                     -->
                 </header>
                 <div id="welcome_container" class="top_info" ng-hide="!welcome">
                     <div class="row-fluid">
