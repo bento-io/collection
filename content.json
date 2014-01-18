@@ -92,6 +92,11 @@
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
       },
       {
+        "name": "A Dive Into Plain Javascript",
+        "level": 1,
+        "url": "http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/"
+      },
+      {
         "name": "Superhero.js",
         "level": 1,
         "url": "http://superherojs.com/"
@@ -209,13 +214,18 @@
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
+        "name": "The Command Line Crash Course",
+        "level": 0,
+        "url": "http://cli.learncodethehardway.org/book/introduction.html"
+      },
+      {
         "name": "Introduction to Linux",
         "level": 0,
         "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
       },
       {
         "name": "Explain Shell",
-        "level": 0,
+        "level": 1,
         "url": "http://explainshell.com/"
       }
     ]
@@ -922,6 +932,11 @@
         "name": "Tour",
         "level": 0,
         "url": "http://tour.golang.org/#1"
+      },
+      {
+        "name": "Go by Example",
+        "level": 0,
+        "url": "https://gobyexample.com/"
       }
     ]
   },
@@ -1446,14 +1461,14 @@
     "$then": [],
     "links":[
       {
-        "name": "4clojure",
-        "level": 0,
-        "url": "http://4clojure.com/"
-      },
-      {
         "name": "Clojure for the Brave and True",
         "level": 0,
         "url": "http://www.braveclojure.com/"
+      },
+      {
+        "name": "4clojure",
+        "level": 1,
+        "url": "http://4clojure.com/"
       }
     ]
   },
