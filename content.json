@@ -68,7 +68,7 @@
   {
     "name": "javascript",
     "description": "Make your pages interactive",
-    "$then": ["big-o", "python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text"],
+    "$then": ["big-o", "python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text", "d3", "leaflet"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -648,7 +648,7 @@
   {
     "name": "d3",
     "description": "A javascript library for visualizing data",
-    "$then": ["angular", "backbone"],
+    "$then": ["angular", "backbone","leaflet"],
     "home": "http://d3js.org/",
     "links": [
       {
@@ -668,6 +668,25 @@
       }
     ]
   },
+  {
+    "name": "leaflet",
+    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
+    "$then": ["d3"],
+    "home": "http://leafletjs.com/index.html",
+    "links": [
+      {
+        "name": "Leaflet Tutorials",
+        "level": 0,
+        "url": "http://leafletjs.com/examples.html"
+      },
+      {
+        "name": "API Reference",
+        "level": 0,
+        "url": "http://leafletjs.com/reference.html"
+      }
+    ]
+  },
+
   {
     "name": "vim",
     "description": "A text editor in your console",
@@ -1857,11 +1876,11 @@
         "level": 0,
         "url": "http://www.alchemyapi.com/products/demo/"
       },
-  	  {
+      {
         "name": "Get a free API key",
-  		  "level": 1,
-  		  "url": "http://www.alchemyapi.com/api/register.html"
-  	  },
+        "level": 1,
+        "url": "http://www.alchemyapi.com/api/register.html"
+      },
       {
         "name": "Docs",
         "level": 1,
