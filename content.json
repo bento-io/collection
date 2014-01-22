@@ -670,6 +670,7 @@
   },
   {
     "name": "leaflet",
+    "new": 1,
     "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
     "$then": ["d3"],
     "home": "http://leafletjs.com/index.html",
