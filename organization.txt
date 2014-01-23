@@ -92,10 +92,10 @@ parse
 <b>IDE</b>
 sublime text
 vim
+regex
 
 <b>BRIDGE</b>
 shell
-regex
 
 security
 http

@@ -122,16 +122,343 @@
     ]
   },
   {
-    "name": "sublime text",
-    "tags": "ide",
-    "description": "A popular text editor",
-    "$then": ["vim"],
-    "home": "http://www.sublimetext.com/",
+    "name": "jquery",
+    "tags": "frontend",
+    "description": "Control the DOM with javascript",
+    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
+    "home": "http://jquery.com/",
     "links": [
       {
-        "name": "tuts+",
+        "name":"Try jQuery",
         "level": 0,
-        "url": "https://tutsplus.com/lesson/hello-2/"
+        "url":"http://try.jquery.com/"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
+      },
+      {
+        "name": "jQuery in 30 Minutes",
+        "level": 0,
+        "url": "http://screencastaday.s3.amazonaws.com/Video_80/JQueryPresentation.swf"
+      },
+      {
+        "name": "Treehouse - Build an Interactive Website",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      }
+    ]
+  },
+  {
+    "name": "less",
+    "tags": "frontend",
+    "description": "A dynamic stylesheet language",
+    "$then": ["sass", "bootstrap", "angular"],
+    "home": "http://lesscss.org/",
+    "links": [
+      {
+        "name": "Synopsis",
+        "level": 0,
+        "url": "http://lesscss.org/#synopsis"
+      },
+      {
+        "name": "Try It!",
+        "level": 1,
+        "url": "http://less2css.org/"
+      }
+    ]
+  },
+   {
+    "name": "sass",
+    "tags": "frontend",
+    "description": "An extension of css",
+    "$then": ["less", "bootstrap", "angular"],
+    "home": "http://sass-lang.com/",
+    "links": [
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "http://sass-lang.com/tutorial.html"
+      },
+      {
+        "name": "SassMeister",
+        "level": 1,
+        "url": "http://sassmeister.com"
+      }
+    ]
+  },
+  {
+    "name": "bootstrap",
+    "tags": "frontend",
+    "description": "A popular frontend framework",
+    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
+    "home": "http://getbootstrap.com/",
+    "links": [
+      {
+        "name": "Get Started",
+        "level": 0,
+        "url": "http://getbootstrap.com/getting-started/"
+      },
+      {
+        "name": "Getting Started with Bootstrap 3",
+        "level": 0,
+        "url": "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
+      }
+    ]
+  },
+  {
+    "name": "d3",
+    "tags": "frontend",
+    "description": "A javascript library for visualizing data",
+    "$then": ["angular", "backbone","leaflet"],
+    "home": "http://d3js.org/",
+    "links": [
+      {
+        "name": "D3 Tutorials",
+        "level": 0,
+        "url": "http://alignedleft.com/tutorials/d3/"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
+      },
+      {
+        "name": "Interactive Data Visualization for the Web",
+        "level": 1,
+        "url": "http://chimera.labs.oreilly.com/books/1230000000345/index.html"
+      }
+    ]
+  },
+  {
+    "name": "leaflet",
+    "tags": "frontend",
+    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
+    "$then": ["d3"],
+    "home": "http://leafletjs.com/index.html",
+    "links": [
+      {
+        "name": "Leaflet Tutorials",
+        "level": 0,
+        "url": "http://leafletjs.com/examples.html"
+      },
+      {
+        "name": "API Reference",
+        "level": 0,
+        "url": "http://leafletjs.com/reference.html"
+      }
+    ]
+  },
+  {
+    "name": "angular",
+    "tags": "frontend",
+    "description": "Build powerful data-driven html and javascript",
+    "$then": ["ember", "jquery", "backbone", "flight"],
+    "home": "http://angularjs.org/",
+    "links": [
+      {
+        "name": "egghead.io",
+        "level": 0,
+        "url": "http://egghead.io/lessons"
+      },
+      {
+        "name": "A Better Way to Learn Angular",
+        "level": 0,
+        "url": "http://www.thinkster.io/pick/GtaQ0oMGIl/"
+      },
+      {
+        "name": "Beginner to expert guide to AngularJS 7-part series",
+        "level": 0,
+        "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
+      }
+    ]
+  },
+  {
+    "name": "node",
+    "tags": "backend",
+    "description": "Create a backend with javascript",
+    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
+    "home": "http://nodejs.org/",
+    "links": [
+      {
+        "name": "Node Beginner",
+        "level": 0,
+        "url": "http://www.nodebeginner.org/"
+      },
+      {
+        "name": "nodeschool.io",
+        "level": 0,
+        "url": "http://nodeschool.io/"
+      },
+      {
+        "name": "How Do I Get Started?",
+        "level": 0,
+        "url": "http://stackoverflow.com/a/5511507/1043674"
+      },
+      {
+        "name": "Style Guide",
+        "level": 1,
+        "url": "http://nodeguide.com/style.html"
+      }
+    ]
+  },
+  {
+    "name": "meteor",
+    "tags": "backend",
+    "description": "A framework to build realtime web applications in JavaScript",
+    "$then": ["angular", "ember", "backbone", "flight"],
+    "home": "https://www.meteor.com",
+    "links": [
+      {
+        "name": "Friendly walkthrough",
+        "level": 0,
+        "url": "http://andrewscala.com/meteor/"
+      },
+      {
+        "name": "Discover Meteor book",
+        "level": 0,
+        "url": "http://www.discovermeteor.com/"
+      },
+      {
+        "name": "EventedMind advanced screencasts",
+        "level": 0,
+        "url": "https://www.eventedmind.com/"
+      }
+    ]
+  },
+  {
+    "name": "express",
+    "tags": "backend",
+    "description": "The most popular web framework for node",
+    "$then": ["heroku", "http", "angular", "ember"],
+    "home": "http://expressjs.com/",
+    "links": [
+      {
+        "name": "Guide",
+        "level": 0,
+        "url": "http://expressjs.com/guide.html"
+      },
+      {
+        "name": "Introduction to Express",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
+      }
+    ]
+  },
+  {
+    "name": "flight",
+    "tags": "backend",
+    "description": "An event-driven web framework for javascript",
+    "home": "http://flightjs.github.io",
+    "$then": ["ember", "angular", "backbone", "bootstrap"],
+    "links": [
+      {
+        "name": "Learn Flight",
+        "level": 0,
+        "url": "http://learnflight.io"
+      }
+    ]
+  },
+  {
+    "name": "ember",
+    "tags": "backend",
+    "description": "Build robust single-page apps with javascript",
+    "$then": ["angular", "jquery", "backbone", "flight"],
+    "home": "http://emberjs.com/",
+    "links": [
+      {
+        "name": "Getting Started TodoMVC Guide",
+        "level": 0,
+        "url": "http://emberjs.com/guides/getting-started/"
+      },
+      {
+        "name": "Ember 101",
+        "level": 0,
+        "url": "http://ember101.com/"
+      },
+      {
+        "name": "Let's Learn Ember",
+        "level": 0,
+        "url": "http://freecourses.tutsplus.com/lets-learn-ember/"
+      }
+    ]
+  },
+  {
+    "name": "backbone",
+    "tags": "backend",
+    "description": "A framework that makes handling data easier in javascript",
+    "$then": ["angular", "jquery", "ember", "flight"],
+    "home": "http://backbonejs.org/",
+    "links": [
+      {
+        "name": "Developing Backbone.js Applications",
+        "level": 0,
+        "url": "http://addyosmani.github.io/backbone-fundamentals/"
+      }
+    ]
+  },
+  {
+    "name": "underscore",
+    "tags": "backend",
+    "description": "A utility belt for javascript",
+    "$then": ["sugar", "backbone", "coffeescript","lodash", "flight"],
+    "home": "http://underscorejs.org/",
+    "links": [
+      {
+        "name": "Getting Cozy with Underscore",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/"
+      }
+    ]
+  },
+  {
+    "name": "lodash",
+    "description": "A utility library delivering performance",
+    "$then": ["sugar", "backbone", "coffeescript","underscore"],
+    "home": "http://lodash.com/",
+    "links": [
+    ]
+  },
+  {
+    "name": "sugar",
+    "tags": "backend",
+    "description": "Extend the functionality of javascript",
+    "$then": ["underscore", "backbone", "coffeescript"],
+    "home": "http://sugarjs.com/",
+    "links": [
+    ]
+  },
+  {
+    "name": "dart",
+    "tags": "backend",
+    "description": "A new language for structured web app engineering",
+    "$then": ["node"],
+    "home": "http://dartlang.org",
+    "links": [
+      {
+        "name": "Programmer’s Guide",
+        "level": 0,
+        "url": "https://www.dartlang.org/docs/"
+      },
+      {
+        "name": "Learn X in Y Minutes",
+        "level": 0,
+        "url": "http://learnxinyminutes.com/docs/dart/"
+      }
+    ]
+  },
+  {
+    "name": "coffeescript",
+    "tags": "backend",
+    "description": "A language that compiles to javascript",
+    "$then": ["underscore", "angular", "backbone"],
+    "home": "http://coffeescript.org/",
+    "links": [
+      {
+        "name": "Learn X in Y Minutes",
+        "level": 0,
+        "url": "http://learnxinyminutes.com/docs/coffeescript/"
       }
     ]
   },
@@ -180,611 +507,6 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
-      }
-    ]
-  },
-  {
-    "name": "sql",
-    "tags": "database",
-    "description": "A popular database language",
-    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
-    "home": "http://www.mysql.com/",
-    "links": [
-      {
-        "name": "SQLZoo",
-        "level": 0,
-        "url": "http://sqlzoo.net/wiki/Main_Page"
-      },
-      {
-        "name": "w3schools",
-        "level": 0,
-        "url": "http://www.w3schools.com/sql/"
-      },
-      {
-        "name": "Problems and Solutions",
-        "level": 0,
-        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
-      },
-      {
-        "name": "Treehouse - Database Foundations",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/programming/database-foundations"
-      }
-    ]
-  },
-  {
-    "name": "shell",
-    "tags": "bridge",
-    "description": "Use the command line",
-    "$then": ["git"],
-    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
-    "links": [
-      {
-        "name": "The Command Line Crash Course",
-        "level": 0,
-        "url": "http://cli.learncodethehardway.org/book/introduction.html"
-      },
-      {
-        "name": "Introduction to Linux",
-        "level": 0,
-        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
-      },
-      {
-        "name": "Explain Shell",
-        "level": 1,
-        "url": "http://explainshell.com/"
-      }
-    ]
-  },
-  {
-    "name": "git",
-    "tags": "bridge",
-    "description": "Version control that's simple to use",
-    "$then": ["http", "heroku"],
-    "home": "http://git-scm.com/",
-    "links": [
-      {
-        "name": "Try Git",
-        "level": 0,
-        "url": "http://try.github.io/levels/1/challenges/1"
-      },
-      {
-        "name": "The simple guide",
-        "level": 0,
-        "url": "http://rogerdudler.github.io/git-guide/"
-      },
-      {
-        "name": "Git Immersion",
-        "level": 0,
-        "url": "http://gitimmersion.com/"
-      },
-      {
-        "name": "Git Basics",
-        "level": 0,
-        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
-      },
-      {
-        "name": "Getting Started",
-        "level": 0,
-        "url":"http://git-scm.com/book/en/Getting-Started"
-      },
-      {
-        "name": "Git Best Practices",
-        "level": 1,
-        "url": "http://sethrobertson.github.io/GitBestPractices/"
-      },
-      {
-        "name": "Git from the bottom up",
-        "level": 2,
-        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
-      }
-    ]
-  },
-  {
-    "name": "heroku",
-    "tags": "bridge",
-    "description": "Easily deploy your applications",
-    "$then": ["git", "python", "node", "ruby"],
-    "home": "http://heroku.com/",
-    "links": [
-      {
-        "name": "Get Started",
-        "level": 0,
-        "url": "https://devcenter.heroku.com/articles/quickstart"
-      },
-      {
-        "name": "Intro to Heroku Screencast",
-        "level": 0,
-        "url": "http://www.codeschool.com/code_tv/heroku"
-      }
-    ]
-  },
-  {
-    "name": "json",
-    "tags": "database",
-    "description": "How data is sent between applications",
-    "$then": ["mongo", "http", "jquery", "rest", "xml"],
-    "home": "http://www.json.org/",
-    "links": [
-      {
-        "name": "What is JSON?",
-        "level": 0,
-        "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
-      }
-    ]
-  },
-  {
-    "name": "jquery",
-    "tags": "frontend",
-    "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
-    "home": "http://jquery.com/",
-    "links": [
-      {
-        "name":"Try jQuery",
-        "level": 0,
-        "url":"http://try.jquery.com/"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
-      },
-      {
-        "name": "jQuery in 30 Minutes",
-        "level": 0,
-        "url": "http://screencastaday.s3.amazonaws.com/Video_80/JQueryPresentation.swf"
-      },
-      {
-        "name": "Treehouse - Build an Interactive Website",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
-      }
-    ]
-  },
-  {
-    "name": "less",
-    "tags": "frontend",
-    "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap", "angular"],
-    "home": "http://lesscss.org/",
-    "links": [
-      {
-        "name": "Synopsis",
-        "level": 0,
-        "url": "http://lesscss.org/#synopsis"
-      },
-      {
-        "name": "Try It!",
-        "level": 1,
-        "url": "http://less2css.org/"
-      }
-    ]
-  },
-  {
-    "name": "bootstrap",
-    "tags": "frontend",
-    "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
-    "home": "http://getbootstrap.com/",
-    "links": [
-      {
-        "name": "Get Started",
-        "level": 0,
-        "url": "http://getbootstrap.com/getting-started/"
-      },
-      {
-        "name": "Getting Started with Bootstrap 3",
-        "level": 0,
-        "url": "http://www.realpython.com/blog/design/getting-started-with-bootstrap-3"
-      }
-    ]
-  },
-  {
-    "name": "big-o",
-    "tags": "bridge",
-    "description": "How to measure your code's performance",
-    "$then": ["data structures", "algorithms"],
-    "home": "http://en.wikipedia.org/wiki/Big_O_notation",
-    "links": [
-      {
-        "name": "Algorithm Analysis",
-        "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
-      },
-      {
-        "name": "Big-O Cheat Sheet",
-        "level": 0,
-        "url": "http://bigocheatsheet.com/"
-      },
-      {
-        "name": "Codility: Time Complexity",
-        "level": 1,
-        "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
-      }
-    ]
-  },
-  {
-    "name": "data structures",
-    "tags": "bridge",
-    "description": "Efficiently organize your data in code",
-    "$then": ["big-o", "algorithms"],
-    "home": "http://en.wikipedia.org/wiki/Data_structure",
-    "links": [
-      {
-        "name": "Basic Data Structures",
-        "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
-      },
-      {
-        "name": "Data Structure Visualizations",
-        "level": 1,
-        "url": "http://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
-      }
-    ]
-  },
-  {
-    "name": "http",
-    "tags": "bridge",
-    "description": "The basics of making web requests",
-    "$then": ["python", "node", "heroku", "json", "rest", "https"],
-    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
-    "links": [
-      {
-        "name": "A Beginner's Guide",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
-      }
-    ]
-  },
-  {
-    "name": "security",
-    "tags": "frontend",
-    "description": "General tips around security",
-    "$then": ["https"],
-    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
-    "links": [
-      {
-        "name": "How Encryption Works",
-        "level": 0,
-        "url": "http://www.wimp.com/howencryption/"
-      },
-      {
-        "name": "An Introduction to Cryptography and Cryptanalysis",
-        "level": 0,
-        "url": "http://math.scu.edu/~eschaefe/book.pdf"
-      },
-      {
-        "name": "Google security handbook",
-        "level": 1,
-        "url": "https://code.google.com/p/browsersec/wiki/Main"
-      }
-    ]
-  },
-  {
-    "name": "https",
-    "tags": "bridge",
-    "description": "The basics of secure connections",
-    "$then": [],
-    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
-    "links": [
-      {
-        "name": "First Milliseconds https",
-        "level": 0,
-        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
-      },
-      {
-        "name": "Switch your website to use https",
-        "level": 0,
-        "url": "https://konklone.com/post/switch-to-https-now-for-free"
-      }
-    ]
-  },
-  {
-    "name": "mongo",
-    "tags": "database",
-    "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
-    "home": "http://www.mongodb.org/",
-    "links": [
-      {
-        "name": "Try Mongo",
-        "level": 0,
-        "url": "http://try.mongodb.org/"
-      },
-      {
-        "name": "MongoDB University",
-        "level": 0,
-        "url": "https://education.mongodb.com/"
-      }
-    ]
-  },
-  {
-    "name": "elasticsearch",
-    "tags": "database",
-    "description": "Distributed, restful, open-source search",
-    "$then": [],
-    "home": "http://www.elasticsearch.org/",
-    "links": [
-      {
-        "name": "Getting Started",
-        "level": 0,
-        "url": "http://www.elasticsearch.org/webinars/getting-started-with-elasticsearch/"
-      },
-      {
-        "name": "Introducing Query DSL",
-        "level": 0,
-        "url": "http://www.elasticsearch.org/videos/introducing-query-dsl/"
-      },
-      {
-        "name": "Reference",
-        "level": 0,
-        "url": "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup.html"
-      }
-    ]
-  },
-  {
-    "name": "redis",
-    "tags": "database",
-    "description": "A basic key-value store",
-    "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
-    "home": "http://redis.io/",
-    "links": [
-      {
-        "name": "The Little Redis Book",
-        "level": 0,
-        "url": "http://openmymind.net/redis.pdf"
-      },
-      {
-        "name": "Try Redis",
-        "level": 0,
-        "url": "http://try.redis.io/"
-      }
-    ]
-  },
-  {
-    "name": "memcached",
-    "tags": "database",
-    "description": "A way to cache your data in memory",
-    "$then": ["mongo", "redis", "heroku", "neo4j", "sql"],
-    "home": "http://memcached.org/",
-    "links": [
-      {
-        "name": "An Adventure in Learning Memcached",
-        "level": 0,
-        "url": "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
-      },
-      {
-        "name": "Distributed Caching with Memcached",
-        "level": 0,
-        "url": "http://www.linuxjournal.com/article/7451"
-      }
-    ]
-  },
-  {
-    "name": "angular",
-    "tags": "frontend",
-    "description": "Build powerful data-driven html and javascript",
-    "$then": ["ember", "jquery", "backbone", "flight"],
-    "home": "http://angularjs.org/",
-    "links": [
-      {
-        "name": "egghead.io",
-        "level": 0,
-        "url": "http://egghead.io/lessons"
-      },
-      {
-        "name": "A Better Way to Learn Angular",
-        "level": 0,
-        "url": "http://www.thinkster.io/pick/GtaQ0oMGIl/"
-      },
-      {
-        "name": "Beginner to expert guide to AngularJS 7-part series",
-        "level": 0,
-        "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
-      }
-    ]
-  },
-  {
-    "name": "sass",
-    "tags": "frontend",
-    "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular"],
-    "home": "http://sass-lang.com/",
-    "links": [
-      {
-        "name": "Tutorial",
-        "level": 0,
-        "url": "http://sass-lang.com/tutorial.html"
-      },
-      {
-        "name": "SassMeister",
-        "level": 1,
-        "url": "http://sassmeister.com"
-      }
-    ]
-  },
-  {
-    "name": "node",
-    "tags": "backend",
-    "description": "Create a backend with javascript",
-    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
-    "home": "http://nodejs.org/",
-    "links": [
-      {
-        "name": "Node Beginner",
-        "level": 0,
-        "url": "http://www.nodebeginner.org/"
-      },
-      {
-        "name": "nodeschool.io",
-        "level": 0,
-        "url": "http://nodeschool.io/"
-      },
-      {
-        "name": "How Do I Get Started?",
-        "level": 0,
-        "url": "http://stackoverflow.com/a/5511507/1043674"
-      },
-      {
-        "name": "Style Guide",
-        "level": 1,
-        "url": "http://nodeguide.com/style.html"
-      }
-    ]
-  },
-  {
-    "name": "express",
-    "tags": "backend",
-    "description": "The most popular web framework for node",
-    "$then": ["heroku", "http", "angular", "ember"],
-    "home": "http://expressjs.com/",
-    "links": [
-      {
-        "name": "Guide",
-        "level": 0,
-        "url": "http://expressjs.com/guide.html"
-      },
-      {
-        "name": "Introduction to Express",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
-      }
-    ]
-  },
-  {
-    "name": "regex",
-    "tags": "ide",
-    "description": "A popular syntax for pattern matching",
-    "home": "http://www.regular-expressions.info/",
-    "$then": ["json", "rest"],
-    "links":[
-      {
-        "name": "RegexOne",
-        "level": 0,
-        "url": "http://regexone.com/"
-      },
-      {
-        "name": "Learn Regex the Hard Way",
-        "level": 0,
-        "url": "http://regex.learncodethehardway.org/book/"
-      }
-    ]
-  },
-  {
-    "name": "d3",
-    "tags": "frontend",
-    "description": "A javascript library for visualizing data",
-    "$then": ["angular", "backbone","leaflet"],
-    "home": "http://d3js.org/",
-    "links": [
-      {
-        "name": "D3 Tutorials",
-        "level": 0,
-        "url": "http://alignedleft.com/tutorials/d3/"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
-      },
-      {
-        "name": "Interactive Data Visualization for the Web",
-        "level": 1,
-        "url": "http://chimera.labs.oreilly.com/books/1230000000345/index.html"
-      }
-    ]
-  },
-  {
-    "name": "leaflet",
-    "tags": "frontend",
-    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
-    "$then": ["d3"],
-    "home": "http://leafletjs.com/index.html",
-    "links": [
-      {
-        "name": "Leaflet Tutorials",
-        "level": 0,
-        "url": "http://leafletjs.com/examples.html"
-      },
-      {
-        "name": "API Reference",
-        "level": 0,
-        "url": "http://leafletjs.com/reference.html"
-      }
-    ]
-  },
-
-  {
-    "name": "vim",
-    "tags": "ide",
-    "description": "A text editor in your console",
-    "$then": ["vim"],
-    "home": "http://vim.sourceforge.net/",
-    "links": [
-      {
-        "name": "Vim Adventures",
-        "level": 0,
-        "url": "http://vim-adventures.com/"
-      },
-      {
-        "name": "Interactive Vim Tutorial",
-        "level": 0,
-        "url": "http://www.openvim.com/tutorial.html"
-      },
-      {
-        "name": "Vim Novice Tutorial Videos",
-        "level": 0,
-        "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
-      },
-      {
-        "name": "Vim as a Design Tool",
-        "level": 0,
-        "url": "http://hackdesign.org/lessons/49"
-      },
-      {
-        "name": "Vim Genius",
-        "level": 1,
-        "url": "http://vimgenius.com/"
-      },
-      {
-        "name": "Vim Golf",
-        "level": 2,
-        "url": "http://vimgolf.com/"
-      }
-    ]
-  },
-  {
-    "name": "rest",
-    "tags": "api",
-    "description": "A way to architecture your applications around verbs and resources",
-    "home": "",
-    "$then": ["json", "xml", "http"],
-    "links": [
-      {
-        "name": "Best Practices for Designing Pragmatic RESTful APIs",
-        "level": 0,
-        "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api?hn"
-      },
-      {
-        "name": "Designing HTTP Interfaces and RESTful Web Services",
-        "level": 1,
-        "url": "http://www.youtube.com/watch?v=zEyg0TnieLg"
-      },
-      {
-        "name": "White House Web API Standards",
-        "level": 0,
-        "url": "https://github.com/WhiteHouse/api-standards"
-      },
-      {
-        "name": "Architectural Styles and the Design of Network-based Software Architectures",
-        "level": 0,
-        "url": "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
-      },
-      {
-        "name": "Create a Super Basic REST API with django-tastypie",
-        "level": 0,
-        "url": "http://www.realpython.com/blog/python/create-a-super-basic-rest-api-with-django-tastypie"
       }
     ]
   },
@@ -1021,264 +743,10 @@
     ]
   },
   {
-    "name": "ios",
-    "tags": "mobile",
-    "description": "Build apps for iOS devices",
-    "home": "https://developer.apple.com/devcenter/ios/index.action",
-    "$then": ["windows phone", "android"],
-    "links":[
-      {
-        "name": "A primer in Objective-C",
-        "level": 0,
-        "url": "http://courseware.codeschool.com/try_ios/objective_c_primer.pdf"
-      },
-      {
-        "name": "Try iOS",
-        "level": 0,
-        "url": "http://www.codeschool.com/courses/try-ios"
-      },
-      {
-        "name": "X-Code Cheat Sheet",
-        "level": 0,
-        "url": "http://www.git-tower.com/blog/xcode-cheat-sheet-detail/"
-      },
-      {
-        "name": "Code Coalition iOS Bootcamp",
-        "level": 1,
-        "url": "https://www.codecoalition.com/courses/CodeCoalition/iOS101/2013_fall/about"
-      }
-    ]
-  },
-  {
-    "name": "android",
-    "tags": "mobile",
-    "description": "Build apps for Android devices",
-    "home": "http://developer.android.com/index.html",
-    "$then": ["windows phone", "ios"],
-    "links":[
-      {
-        "name": "Building your first app",
-        "level": 0,
-        "url": "http://developer.android.com/training/basics/firstapp/creating-project.html"
-      }
-    ]
-  },
-  {
-    "name": "windows phone",
-    "tags": "mobile",
-    "description": "Build apps for windows phones",
-    "home": "https://dev.windowsphone.com/en-us",
-    "$then": [".net", "ios", "android"],
-    "links":[
-      {
-        "name": "Windows App Builder",
-        "level": 0,
-        "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
-      }
-    ]
-  },
-  {
-    "name": "windows",
-    "tags": "mobile",
-    "description": "A full toolkit of resources from Microsoft",
-    "home": "http://developers.microsoft.com/",
-    "$then": [],
-    "links": [
-      {
-        "name": "Hackathon Guide to Windows 8",
-        "level": 0,
-        "url": "http://marianaggaga.azurewebsites.net/?p=5651"
-      },
-      {
-        "name": "Dev Center",
-        "level": 0,
-        "url": "http://www.bing.com/dev/en-us/dev-center"
-      },
-      {
-        "name": "Windows App Starter Kits",
-        "level": 0,
-        "url": "https://github.com/winappkits"
-      }
-    ]
-  },
-  {
-    "name": "neo4j",
-    "tags": "database",
-    "description": "The graph database",
-    "$then": ["http", "mongo", "redis", "memcached", "sql"],
-    "home": "http://www.neo4j.org/",
-    "links": [
-      {
-        "name": "Learn Cypher",
-        "level": 0,
-        "url": "http://www.neo4j.org/learn/cypher"
-      }
-    ]
-  },
-  {
-    "name": "rethinkdb",
-    "tags": "database",
-    "description": "An open-source distributed database built with love.",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
-    "home": "http://www.rethinkdb.com/",
-    "links": [
-      {
-        "name": "RethinkDB Quickstart",
-        "level": 0,
-        "url": "http://www.rethinkdb.com/docs/quickstart/"
-      },
-      {
-        "name": "RethinkDB and Flask",
-        "level": 1,
-        "url": "http://www.realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/"
-      }
-    ]
-  },
-  {
-    "name": "flight",
-    "tags": "backend",
-    "description": "An event-driven web framework for javascript",
-    "home": "http://flightjs.github.io",
-    "$then": ["ember", "angular", "backbone", "bootstrap"],
-    "links": [
-      {
-        "name": "Learn Flight",
-        "level": 0,
-        "url": "http://learnflight.io"
-      }
-    ]
-  },
-  {
-    "name": "meteor",
-    "tags": "backend",
-    "description": "A framework to build realtime web applications in JavaScript",
-    "$then": ["angular", "ember", "backbone", "flight"],
-    "home": "https://www.meteor.com",
-    "links": [
-      {
-        "name": "Friendly walkthrough",
-        "level": 0,
-        "url": "http://andrewscala.com/meteor/"
-      },
-      {
-        "name": "Discover Meteor book",
-        "level": 0,
-        "url": "http://www.discovermeteor.com/"
-      },
-      {
-        "name": "EventedMind advanced screencasts",
-        "level": 0,
-        "url": "https://www.eventedmind.com/"
-      }
-    ]
-  },
-  {
-    "name": "ember",
-    "tags": "backend",
-    "description": "Build robust single-page apps with javascript",
-    "$then": ["angular", "jquery", "backbone", "flight"],
-    "home": "http://emberjs.com/",
-    "links": [
-      {
-        "name": "Getting Started TodoMVC Guide",
-        "level": 0,
-        "url": "http://emberjs.com/guides/getting-started/"
-      },
-      {
-        "name": "Ember 101",
-        "level": 0,
-        "url": "http://ember101.com/"
-      },
-      {
-        "name": "Let's Learn Ember",
-        "level": 0,
-        "url": "http://freecourses.tutsplus.com/lets-learn-ember/"
-      }
-    ]
-  },
-  {
-    "name": "backbone",
-    "tags": "backend",
-    "description": "A framework that makes handling data easier in javascript",
-    "$then": ["angular", "jquery", "ember", "flight"],
-    "home": "http://backbonejs.org/",
-    "links": [
-      {
-        "name": "Developing Backbone.js Applications",
-        "level": 0,
-        "url": "http://addyosmani.github.io/backbone-fundamentals/"
-      }
-    ]
-  },
-  {
-    "name": "underscore",
-    "tags": "backend",
-    "description": "A utility belt for javascript",
-    "$then": ["sugar", "backbone", "coffeescript","lodash", "flight"],
-    "home": "http://underscorejs.org/",
-    "links": [
-      {
-        "name": "Getting Cozy with Underscore",
-        "level": 0,
-        "url": "http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/"
-      }
-    ]
-  },
-  {
-    "name": "lodash",
-    "description": "A utility library delivering performance",
-    "$then": ["sugar", "backbone", "coffeescript","underscore"],
-    "home": "http://lodash.com/",
-    "links": [
-    ]
-  },
-  {
-    "name": "sugar",
-    "tags": "backend",
-    "description": "Extend the functionality of javascript",
-    "$then": ["underscore", "backbone", "coffeescript"],
-    "home": "http://sugarjs.com/",
-    "links": [
-    ]
-  },
-  {
-    "name": "coffeescript",
-    "tags": "backend",
-    "description": "A language that compiles to javascript",
-    "$then": ["underscore", "angular", "backbone"],
-    "home": "http://coffeescript.org/",
-    "links": [
-      {
-        "name": "Learn X in Y Minutes",
-        "level": 0,
-        "url": "http://learnxinyminutes.com/docs/coffeescript/"
-      }
-    ]
-  },
-  {
-    "name": "dart",
-    "tags": "backend",
-    "description": "A new language for structured web app engineering",
-    "$then": ["node"],
-    "home": "http://dartlang.org",
-    "links": [
-      {
-        "name": "Programmer’s Guide",
-        "level": 0,
-        "url": "https://www.dartlang.org/docs/"
-      },
-      {
-        "name": "Learn X in Y Minutes",
-        "level": 0,
-        "url": "http://learnxinyminutes.com/docs/dart/"
-      }
-    ]
-  },
-  {
     "name": "php",
     "tags": "backend",
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
+    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "codeigniter", "phpixie", "cakephp", "twig"],
     "home": "http://php.net/",
     "links": [
       {
@@ -1295,25 +763,6 @@
         "name": "PHP The Right Way",
         "level": 0,
         "url": "http://www.phptherightway.com"
-      }
-    ]
-  },
-  {
-    "name":"mvc",
-    "tags": "bridge",
-    "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
-    "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
-    "links": [
-      {
-        "name":"The Model-View-Controller Pattern",
-        "level": 0,
-        "url":"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
-      },
-      {
-        "name":"What are the benefits of MVC?",
-        "level": 0,
-        "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
       }
     ]
   },
@@ -1410,7 +859,7 @@
   },
   {
     "name": "twig",
-    "tags": "backend",
+    "tags": "frontend",
     "description": "The flexible, fast, and secure template engine for PHP ",
     "$then": [],
     "home": "http://twig.sensiolabs.org/",
@@ -1514,6 +963,35 @@
     ]
   },
   {
+    "name": "coldfusion",
+    "tags": "backend",
+    "description": "A server application for java",
+    "home": "http://www.adobe.com/products/coldfusion-family.html",
+    "$then": ["sql"],
+    "links":[
+      {
+        "name":"Coldfusion Tutorials",
+        "level": 0,
+        "url": "http://www.quackit.com/coldfusion/tutorial/"
+      },
+      {
+        "name":"Raymond Camden's CF Blog",
+        "level": 0,
+        "url": "http://www.raymondcamden.com/index.cfm/ColdFusion"
+      },
+      {
+        "name": "Dan Vega's CF Blog entries",
+        "level": 0,
+        "url": "http://www.danvega.org/blog/coldfusion"
+      },
+      {
+        "name": "Ben Nadel CF Blog entries",
+        "level": 0,
+        "url": "http://www.bennadel.com/blog/tags/1-ColdFusion-blog-entries.htm"
+      }
+    ]
+  },
+  {
     "name": "scala",
     "tags": "backend",
     "description": "A new, highly performant language that works with Java",
@@ -1538,6 +1016,20 @@
     ]
   },
   {
+    "name": "play",
+    "tags": "backend",
+    "description": "A popular web framework for scala",
+    "home": "http://www.playframework.com/",
+    "$then": [],
+    "links":[
+      {
+        "name": "Your first Play application",
+        "level": 0,
+        "url": "http://www.playframework.com/documentation/2.2.x/ScalaTodoList"
+      }
+    ]
+  },
+    {
     "name": "clojure",
     "tags": "backend",
     "description": "A lisp dialect which runs on the JVM",
@@ -1557,15 +1049,87 @@
     ]
   },
   {
-    "name": "play",
-    "description": "A popular web framework for scala",
-    "home": "http://www.playframework.com/",
+    "name": ".net",
+    "tags": "backend",
+    "description": "A development framework for the web",
+    "home": "http://www.microsoft.com/net",
+    "$then": ["api","sql","bootstrap","twitterbootstrapmvc"],
+    "links":[
+      {
+        "name": "Intro to ASP.NET MVC 5",
+        "level": 0,
+        "url": "http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started"
+      }
+    ]
+  },
+  {
+    "name": "twitterbootstrapmvc",
+    "tags": "backend",
+    "description": "Fluent implementation of ASP.NET-MVC HTML helpers for Twitter Bootstrap.",
+    "home": "https://www.twitterbootstrapmvc.com/",
     "$then": [],
     "links":[
       {
-        "name": "Your first Play application",
+        "name": "Documentation For Bootstrap 2",
         "level": 0,
-        "url": "http://www.playframework.com/documentation/2.2.x/ScalaTodoList"
+        "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
+      }
+    ]
+  },
+  {
+    "name": "lightswitch",
+    "tags": "backend",
+    "description": "A development framework for the web/mobile",
+    "home": "http://msdn.microsoft.com/en-us/vstudio/ff796201",
+    "$then": [".net","sql"],
+    "links":[
+      {
+        "name": "Intro to Lightswitch",
+        "level": 0,
+        "url": "http://blogs.msdn.com/b/bethmassi/archive/2011/12/01/beginning-lightswitch-getting-started.aspx"
+      }
+    ]
+  },
+    {
+    "name": "parse",
+    "tags": "backend",
+    "description": "A backend for mobile apps",
+    "home": "https://parse.com/",
+    "$then": ["facebook", "foursquare", "twilio"],
+    "links":[
+      {
+        "name": "Tutorials",
+        "level": 0,
+        "url": "https://parse.com/tutorials"
+      }
+    ]
+  },
+  {
+    "name": "sql",
+    "tags": "database",
+    "description": "A popular database language",
+    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
+    "home": "http://www.mysql.com/",
+    "links": [
+      {
+        "name": "SQLZoo",
+        "level": 0,
+        "url": "http://sqlzoo.net/wiki/Main_Page"
+      },
+      {
+        "name": "w3schools",
+        "level": 0,
+        "url": "http://www.w3schools.com/sql/"
+      },
+      {
+        "name": "Problems and Solutions",
+        "level": 0,
+        "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
+      },
+      {
+        "name": "Treehouse - Database Foundations",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/programming/database-foundations"
       }
     ]
   },
@@ -1580,6 +1144,215 @@
         "name": "XML Tutorial",
         "level": 0,
         "url": "http://www.quackit.com/xml/tutorial/"
+      }
+    ]
+  },
+  {
+    "name": "json",
+    "tags": "database",
+    "description": "How data is sent between applications",
+    "$then": ["mongo", "http", "jquery", "rest", "xml"],
+    "home": "http://www.json.org/",
+    "links": [
+      {
+        "name": "What is JSON?",
+        "level": 0,
+        "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
+      }
+    ]
+  },
+  {
+    "name": "mongo",
+    "tags": "database",
+    "description": "A simple javascript based database",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "home": "http://www.mongodb.org/",
+    "links": [
+      {
+        "name": "Try Mongo",
+        "level": 0,
+        "url": "http://try.mongodb.org/"
+      },
+      {
+        "name": "MongoDB University",
+        "level": 0,
+        "url": "https://education.mongodb.com/"
+      }
+    ]
+  },
+  {
+    "name": "elasticsearch",
+    "tags": "database",
+    "description": "Distributed, restful, open-source search",
+    "$then": [],
+    "home": "http://www.elasticsearch.org/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/webinars/getting-started-with-elasticsearch/"
+      },
+      {
+        "name": "Introducing Query DSL",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/videos/introducing-query-dsl/"
+      },
+      {
+        "name": "Reference",
+        "level": 0,
+        "url": "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup.html"
+      }
+    ]
+  },
+  {
+    "name": "redis",
+    "tags": "database",
+    "description": "A basic key-value store",
+    "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
+    "home": "http://redis.io/",
+    "links": [
+      {
+        "name": "The Little Redis Book",
+        "level": 0,
+        "url": "http://openmymind.net/redis.pdf"
+      },
+      {
+        "name": "Try Redis",
+        "level": 0,
+        "url": "http://try.redis.io/"
+      }
+    ]
+  },
+  {
+    "name": "memcached",
+    "tags": "database",
+    "description": "A way to cache your data in memory",
+    "$then": ["mongo", "redis", "heroku", "neo4j", "sql"],
+    "home": "http://memcached.org/",
+    "links": [
+      {
+        "name": "An Adventure in Learning Memcached",
+        "level": 0,
+        "url": "https://code.google.com/p/memcached/wiki/TutorialCachingStory"
+      },
+      {
+        "name": "Distributed Caching with Memcached",
+        "level": 0,
+        "url": "http://www.linuxjournal.com/article/7451"
+      }
+    ]
+  },
+  {
+    "name": "neo4j",
+    "tags": "database",
+    "description": "The graph database",
+    "$then": ["http", "mongo", "redis", "memcached", "sql"],
+    "home": "http://www.neo4j.org/",
+    "links": [
+      {
+        "name": "Learn Cypher",
+        "level": 0,
+        "url": "http://www.neo4j.org/learn/cypher"
+      }
+    ]
+  },
+  {
+    "name": "rethinkdb",
+    "tags": "database",
+    "description": "An open-source distributed database built with love.",
+    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "home": "http://www.rethinkdb.com/",
+    "links": [
+      {
+        "name": "RethinkDB Quickstart",
+        "level": 0,
+        "url": "http://www.rethinkdb.com/docs/quickstart/"
+      },
+      {
+        "name": "RethinkDB and Flask",
+        "level": 1,
+        "url": "http://www.realpython.com/blog/python/rethink-flask-a-simple-todo-list-powered-by-flask-and-rethinkdb/"
+      }
+    ]
+  },
+  {
+    "name": "ios",
+    "tags": "mobile",
+    "description": "Build apps for iOS devices",
+    "home": "https://developer.apple.com/devcenter/ios/index.action",
+    "$then": ["windows phone", "android"],
+    "links":[
+      {
+        "name": "A primer in Objective-C",
+        "level": 0,
+        "url": "http://courseware.codeschool.com/try_ios/objective_c_primer.pdf"
+      },
+      {
+        "name": "Try iOS",
+        "level": 0,
+        "url": "http://www.codeschool.com/courses/try-ios"
+      },
+      {
+        "name": "X-Code Cheat Sheet",
+        "level": 0,
+        "url": "http://www.git-tower.com/blog/xcode-cheat-sheet-detail/"
+      },
+      {
+        "name": "Code Coalition iOS Bootcamp",
+        "level": 1,
+        "url": "https://www.codecoalition.com/courses/CodeCoalition/iOS101/2013_fall/about"
+      }
+    ]
+  },
+  {
+    "name": "android",
+    "tags": "mobile",
+    "description": "Build apps for Android devices",
+    "home": "http://developer.android.com/index.html",
+    "$then": ["windows phone", "ios"],
+    "links":[
+      {
+        "name": "Building your first app",
+        "level": 0,
+        "url": "http://developer.android.com/training/basics/firstapp/creating-project.html"
+      }
+    ]
+  },
+  {
+    "name": "windows phone",
+    "tags": "mobile",
+    "description": "Build apps for windows phones",
+    "home": "https://dev.windowsphone.com/en-us",
+    "$then": [".net", "ios", "android"],
+    "links":[
+      {
+        "name": "Windows App Builder",
+        "level": 0,
+        "url": "https://build.windowsstore.com/#fbid=9lOGdzuGAkZ"
+      }
+    ]
+  },
+  {
+    "name": "windows",
+    "tags": "mobile",
+    "description": "A full toolkit of resources from Microsoft",
+    "home": "http://developers.microsoft.com/",
+    "$then": [],
+    "links": [
+      {
+        "name": "Hackathon Guide to Windows 8",
+        "level": 0,
+        "url": "http://marianaggaga.azurewebsites.net/?p=5651"
+      },
+      {
+        "name": "Dev Center",
+        "level": 0,
+        "url": "http://www.bing.com/dev/en-us/dev-center"
+      },
+      {
+        "name": "Windows App Starter Kits",
+        "level": 0,
+        "url": "https://github.com/winappkits"
       }
     ]
   },
@@ -1599,6 +1372,318 @@
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/tracks/firebase"
+      }
+    ]
+  },
+   {
+    "name": "vim",
+    "tags": "ide",
+    "description": "A text editor in your console",
+    "$then": ["vim"],
+    "home": "http://vim.sourceforge.net/",
+    "links": [
+      {
+        "name": "Vim Adventures",
+        "level": 0,
+        "url": "http://vim-adventures.com/"
+      },
+      {
+        "name": "Interactive Vim Tutorial",
+        "level": 0,
+        "url": "http://www.openvim.com/tutorial.html"
+      },
+      {
+        "name": "Vim Novice Tutorial Videos",
+        "level": 0,
+        "url": "http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/"
+      },
+      {
+        "name": "Vim as a Design Tool",
+        "level": 0,
+        "url": "http://hackdesign.org/lessons/49"
+      },
+      {
+        "name": "Vim Genius",
+        "level": 1,
+        "url": "http://vimgenius.com/"
+      },
+      {
+        "name": "Vim Golf",
+        "level": 2,
+        "url": "http://vimgolf.com/"
+      }
+    ]
+  },
+  {
+    "name": "sublime text",
+    "tags": "ide",
+    "description": "A popular text editor",
+    "$then": ["vim"],
+    "home": "http://www.sublimetext.com/",
+    "links": [
+      {
+        "name": "tuts+",
+        "level": 0,
+        "url": "https://tutsplus.com/lesson/hello-2/"
+      }
+    ]
+  },
+  {
+    "name": "regex",
+    "tags": "ide",
+    "description": "A popular syntax for pattern matching",
+    "home": "http://www.regular-expressions.info/",
+    "$then": ["json", "rest"],
+    "links":[
+      {
+        "name": "RegexOne",
+        "level": 0,
+        "url": "http://regexone.com/"
+      },
+      {
+        "name": "Learn Regex the Hard Way",
+        "level": 0,
+        "url": "http://regex.learncodethehardway.org/book/"
+      }
+    ]
+  },
+  {
+    "name": "shell",
+    "tags": "bridge",
+    "description": "Use the command line",
+    "$then": ["git"],
+    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
+    "links": [
+      {
+        "name": "The Command Line Crash Course",
+        "level": 0,
+        "url": "http://cli.learncodethehardway.org/book/introduction.html"
+      },
+      {
+        "name": "Introduction to Linux",
+        "level": 0,
+        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
+      },
+      {
+        "name": "Explain Shell",
+        "level": 1,
+        "url": "http://explainshell.com/"
+      }
+    ]
+  },
+  {
+    "name": "git",
+    "tags": "bridge",
+    "description": "Version control that's simple to use",
+    "$then": ["http", "heroku"],
+    "home": "http://git-scm.com/",
+    "links": [
+      {
+        "name": "Try Git",
+        "level": 0,
+        "url": "http://try.github.io/levels/1/challenges/1"
+      },
+      {
+        "name": "The simple guide",
+        "level": 0,
+        "url": "http://rogerdudler.github.io/git-guide/"
+      },
+      {
+        "name": "Git Immersion",
+        "level": 0,
+        "url": "http://gitimmersion.com/"
+      },
+      {
+        "name": "Git Basics",
+        "level": 0,
+        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
+      },
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "Git Best Practices",
+        "level": 1,
+        "url": "http://sethrobertson.github.io/GitBestPractices/"
+      },
+      {
+        "name": "Git from the bottom up",
+        "level": 2,
+        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
+      }
+    ]
+  },
+  {
+    "name": "big-o",
+    "tags": "bridge",
+    "description": "How to measure your code's performance",
+    "$then": ["data structures", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Big_O_notation",
+    "links": [
+      {
+        "name": "Algorithm Analysis",
+        "level": 0,
+        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
+      },
+      {
+        "name": "Big-O Cheat Sheet",
+        "level": 0,
+        "url": "http://bigocheatsheet.com/"
+      },
+      {
+        "name": "Codility: Time Complexity",
+        "level": 1,
+        "url": "http://codility.com/media/train/1-TimeComplexity.pdf"
+      }
+    ]
+  },
+  {
+    "name": "http",
+    "tags": "bridge",
+    "description": "The basics of making web requests",
+    "$then": ["python", "node", "heroku", "json", "rest", "https"],
+    "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+    "links": [
+      {
+        "name": "A Beginner's Guide",
+        "level": 0,
+        "url": "http://net.tutsplus.com/tutorials/other/a-beginners-introduction-to-http-and-rest/"
+      }
+    ]
+  },
+  {
+    "name": "security",
+    "tags": "bridge",
+    "description": "General tips around security",
+    "$then": ["https"],
+    "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
+    "links": [
+      {
+        "name": "How Encryption Works",
+        "level": 0,
+        "url": "http://www.wimp.com/howencryption/"
+      },
+      {
+        "name": "An Introduction to Cryptography and Cryptanalysis",
+        "level": 0,
+        "url": "http://math.scu.edu/~eschaefe/book.pdf"
+      },
+      {
+        "name": "Google security handbook",
+        "level": 1,
+        "url": "https://code.google.com/p/browsersec/wiki/Main"
+      }
+    ]
+  },
+  {
+    "name": "https",
+    "tags": "bridge",
+    "description": "The basics of secure connections",
+    "$then": [],
+    "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
+    "links": [
+      {
+        "name": "First Milliseconds https",
+        "level": 0,
+        "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
+      },
+      {
+        "name": "Switch your website to use https",
+        "level": 0,
+        "url": "https://konklone.com/post/switch-to-https-now-for-free"
+      }
+    ]
+  },
+  {
+    "name": "seo",
+    "tags": "bridge",
+    "description": "Ranking well in search engines",
+    "home": "",
+    "$then": [],
+    "links":[
+      {
+        "name": "Google's Starter Guide",
+        "level": 0,
+        "url": "https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf"
+      },
+      {
+        "name": "The Advanced Guide to SEO",
+        "level": 0,
+        "url": "http://www.quicksprout.com/the-advanced-guide-to-seo/"
+      }
+    ]
+  },
+  {
+    "name": "data structures",
+    "tags": "bridge",
+    "description": "Efficiently organize your data in code",
+    "$then": ["big-o", "algorithms"],
+    "home": "http://en.wikipedia.org/wiki/Data_structure",
+    "links": [
+      {
+        "name": "Basic Data Structures",
+        "level": 0,
+        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
+      },
+      {
+        "name": "Data Structure Visualizations",
+        "level": 1,
+        "url": "http://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+      }
+    ]
+  },
+  {
+    "name":"mvc",
+    "tags": "bridge",
+    "description": "Popular software architecture pattern",
+    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
+    "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "links": [
+      {
+        "name":"The Model-View-Controller Pattern",
+        "level": 0,
+        "url":"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
+      },
+      {
+        "name":"What are the benefits of MVC?",
+        "level": 0,
+        "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
+      }
+    ]
+  },
+  {
+    "name": "rest",
+    "tags": "api",
+    "description": "A way to architecture your applications around verbs and resources",
+    "home": "",
+    "$then": ["json", "xml", "http"],
+    "links": [
+      {
+        "name": "Best Practices for Designing Pragmatic RESTful APIs",
+        "level": 0,
+        "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api?hn"
+      },
+      {
+        "name": "Designing HTTP Interfaces and RESTful Web Services",
+        "level": 1,
+        "url": "http://www.youtube.com/watch?v=zEyg0TnieLg"
+      },
+      {
+        "name": "White House Web API Standards",
+        "level": 0,
+        "url": "https://github.com/WhiteHouse/api-standards"
+      },
+      {
+        "name": "Architectural Styles and the Design of Network-based Software Architectures",
+        "level": 0,
+        "url": "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"
+      },
+      {
+        "name": "Create a Super Basic REST API with django-tastypie",
+        "level": 0,
+        "url": "http://www.realpython.com/blog/python/create-a-super-basic-rest-api-with-django-tastypie"
       }
     ]
   },
@@ -1627,6 +1712,25 @@
         "name": "Beginner's Guide",
         "level": 0,
         "url": "http://nginx.org/en/docs/beginners_guide.html"
+      }
+    ]
+  },
+   {
+    "name": "heroku",
+    "tags": "bridge",
+    "description": "Easily deploy your applications",
+    "$then": ["git", "python", "node", "ruby"],
+    "home": "http://heroku.com/",
+    "links": [
+      {
+        "name": "Get Started",
+        "level": 0,
+        "url": "https://devcenter.heroku.com/articles/quickstart"
+      },
+      {
+        "name": "Intro to Heroku Screencast",
+        "level": 0,
+        "url": "http://www.codeschool.com/code_tv/heroku"
       }
     ]
   },
@@ -1684,82 +1788,6 @@
         "name": "Docker Interactive Tutorial",
         "level": 0,
         "url": "http://www.docker.io/gettingstarted/#h_tutorial"
-      }
-    ]
-  },
-  {
-    "name": ".net",
-    "tags": "backend",
-    "description": "A development framework for the web",
-    "home": "http://www.microsoft.com/net",
-    "$then": ["api","sql","bootstrap","twitterbootstrapmvc"],
-    "links":[
-      {
-        "name": "Intro to ASP.NET MVC 5",
-        "level": 0,
-        "url": "http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started"
-      }
-    ]
-  },
-  {
-    "name": "lightswitch",
-    "tags": "backend",
-    "description": "A development framework for the web/mobile",
-    "home": "http://msdn.microsoft.com/en-us/vstudio/ff796201",
-    "$then": [".net","sql"],
-    "links":[
-      {
-        "name": "Intro to Lightswitch",
-        "level": 0,
-        "url": "http://blogs.msdn.com/b/bethmassi/archive/2011/12/01/beginning-lightswitch-getting-started.aspx"
-      }
-    ]
-  },
-  {
-    "name": "coldfusion",
-    "tags": "backend",
-    "description": "A server application for java",
-    "home": "http://www.adobe.com/products/coldfusion-family.html",
-    "$then": ["sql"],
-    "links":[
-      {
-        "name":"Coldfusion Tutorials",
-        "level": 0,
-        "url": "http://www.quackit.com/coldfusion/tutorial/"
-      },
-      {
-        "name":"Raymond Camden's CF Blog",
-        "level": 0,
-        "url": "http://www.raymondcamden.com/index.cfm/ColdFusion"
-      },
-      {
-        "name": "Dan Vega's CF Blog entries",
-        "level": 0,
-        "url": "http://www.danvega.org/blog/coldfusion"
-      },
-      {
-        "name": "Ben Nadel CF Blog entries",
-        "level": 0,
-        "url": "http://www.bennadel.com/blog/tags/1-ColdFusion-blog-entries.htm"
-      }
-    ]
-  },
-  {
-    "name": "seo",
-    "tags": "bridge",
-    "description": "Ranking well in search engines",
-    "home": "",
-    "$then": [],
-    "links":[
-      {
-        "name": "Google's Starter Guide",
-        "level": 0,
-        "url": "https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf"
-      },
-      {
-        "name": "The Advanced Guide to SEO",
-        "level": 0,
-        "url": "http://www.quicksprout.com/the-advanced-guide-to-seo/"
       }
     ]
   },
@@ -1934,20 +1962,6 @@
     ]
   },
   {
-    "name": "parse",
-    "tags": "backend",
-    "description": "A backend for mobile apps",
-    "home": "https://parse.com/",
-    "$then": ["facebook", "foursquare", "twilio"],
-    "links":[
-      {
-        "name": "Tutorials",
-        "level": 0,
-        "url": "https://parse.com/tutorials"
-      }
-    ]
-  },
-  {
     "name": "alchemyapi",
     "tags": "api",
     "description": "A NLP text analysis API to extract meaning from your blogs, tweets, reviews and news articles",
@@ -1992,20 +2006,6 @@
         "name": "Docs",
         "level": 0,
         "url": "https://www.lob.com/docs"
-      }
-    ]
-  },
-  {
-    "name": "twitterbootstrapmvc",
-    "tags": "backend",
-    "description": "Fluent implementation of ASP.NET-MVC HTML helpers for Twitter Bootstrap.",
-    "home": "https://www.twitterbootstrapmvc.com/",
-    "$then": [],
-    "links":[
-      {
-        "name": "Documentation For Bootstrap 2",
-        "level": 0,
-        "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
       }
     ]
   }
