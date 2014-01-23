@@ -22,9 +22,12 @@ django
 tornado
 
 node
+dart
 express
 flight
 meteor
+backbone
+underscore
 
 ruby
 rails
@@ -51,7 +54,10 @@ play
 perl
 .net
 twitterbootstrapmvc
-ligtswitch
+
+firebase
+lightswitch
+parse
 
 <b>DATABASES</b>
 sql
@@ -86,10 +92,10 @@ parse
 <b>IDE</b>
 sublime text
 vim
+regex
 
 <b>BRIDGE</b>
 shell
-regex
 
 security
 http
