@@ -1227,6 +1227,7 @@
   },
   {
     "name": "lodash",
+    "tags": ["backend"],
     "description": "A utility library delivering performance",
     "$then": ["sugar", "backbone", "coffeescript","underscore"],
     "home": "http://lodash.com/",
@@ -1559,6 +1560,7 @@
   },
   {
     "name": "play",
+    "tags": ["backend"],
     "description": "A popular web framework for scala",
     "home": "http://www.playframework.com/",
     "$then": [],
