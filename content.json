@@ -236,6 +236,11 @@
         "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
       },
       {
+        "name": "Learn Shell",
+        "level": 0,
+        "url": "http://learnshell.org"
+      }
+      {
         "name": "Explain Shell",
         "level": 1,
         "url": "http://explainshell.com/"
@@ -1302,6 +1307,11 @@
         "name": "PHP The Right Way",
         "level": 0,
         "url": "http://www.phptherightway.com"
+      }
+      {
+        "name": "Learn PHP",
+        "level": 0,
+        "url": "http://learn-php.org"
       }
     ]
   },
