@@ -64,7 +64,12 @@
         "name": "Scalable and Modular Architecture for CSS",
         "level": 1,
         "url": "http://smacss.com/book/"
-      }
+      },
+      {
+        "name": "Learn HTML & CSS in one easy to use guide",
+        "level": 0,
+        "url": "http://learn.shayhowe.com/html-css/"
+      }      
     ]
   },
   {
