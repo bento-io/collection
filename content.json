@@ -123,6 +123,11 @@
         "name": "Code Wars",
         "level": 1,
         "url": "http://www.codewars.com/"
+      },
+      {
+        "name":"Code Combate",
+        "level":1,
+        "url":"http://codecombat.com/"
       }
     ]
   },
