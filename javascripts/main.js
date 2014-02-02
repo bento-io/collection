@@ -148,6 +148,7 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
     // Fallback message
     $timeout(function() { $("#message").css("display", "block") }, 750);
     $.getJSON("content.json", function(data) {
+      console.log("Done");
       $scope.boxes = data;
       $scope.working = true;
       $scope.welcome = false;
