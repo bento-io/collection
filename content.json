@@ -3,7 +3,7 @@
     "name": "html",
     "tags": ["frontend"],
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "angular", "php", "python", "sublime text"],
+    "$then": ["css", "javascript", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -20,16 +20,6 @@
         "name": "HTML Dog",
         "level": 0,
         "url": "http://htmldog.com/guides/html/beginner/"
-      },
-      {
-        "name": "HTML5 Doctor",
-        "level": 1,
-        "url": "http://html5doctor.com/"
-      },
-      {
-        "name": "Treehouse",
-        "level": 0,
-        "url": "http://teamtreehouse.com/learning-adventures/learn-html-and-css"
       }
     ]
   },
