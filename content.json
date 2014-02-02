@@ -1088,7 +1088,7 @@
     "tags": ["mobile"],
     "description": "A full toolkit of resources from Microsoft",
     "home": "http://developers.microsoft.com/",
-    "$then": [],
+    "$then": ["mobile"],
     "links": [
       {
         "name": "Hackathon Guide to Windows 8",
@@ -1302,7 +1302,7 @@
         "name": "PHP The Right Way",
         "level": 0,
         "url": "http://www.phptherightway.com"
-      }
+      },
       {
         "name": "Learn PHP",
         "level": 0,
