@@ -1861,6 +1861,29 @@
     ]
   },
   {
+    "name": "SimilarWeb API",
+    "description": "SimilarWeb develops innovative web technologies including unique algorithms that analyze all aspects of every website on the internet",
+    "$then": ["google", "javascript", "angular", "php", "python"],
+    "home": "http://developer.similarweb.com",
+    "links": [
+      {
+        "name": "Getting started with SimilarWeb API",
+        "level": 0,
+        "url": "http://developer.similarweb.com"
+      },
+      {
+        "name": "Our Technology",
+        "level": 0,
+        "url": "http://www.similargroup.com/technology-2/"
+      },
+      {
+        "name": "Cool Data Tools to play with",
+        "level": 1,
+        "url": "https://developer.similarweb.com/tools"
+      }
+    ]
+  },
+  {
     "name": "alchemyapi",
     "description": "A NLP text analysis API to extract meaning from your blogs, tweets, reviews and news articles",
     "home": "http://www.alchemyapi.com/",
