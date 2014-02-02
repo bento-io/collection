@@ -181,6 +181,11 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
+      },
+      {
+        "name": "An Introduction to Interactive Programming in Python",
+        "level": 1,
+        "url": "https://www.coursera.org/course/interactivepython"
       }
     ]
   },
