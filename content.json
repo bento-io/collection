@@ -371,7 +371,7 @@
     "name": "bootstrap",
     "tags": ["frontend"],
     "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less", "flight", "twitterbootstrapmvc"],
+    "$then": ["angular", "ember", "backbone", "sass", "less", "flight"],
     "home": "http://getbootstrap.com/",
     "links": [
       {
@@ -1705,7 +1705,7 @@
     "tags": ["backend"],
     "description": "A development framework for the web",
     "home": "http://www.microsoft.com/net",
-    "$then": ["api","sql","bootstrap","twitterbootstrapmvc"],
+    "$then": ["api","sql","bootstrap"],
     "links":[
       {
         "name": "Intro to ASP.NET MVC 5",
@@ -2005,20 +2005,6 @@
         "name": "Docs",
         "level": 0,
         "url": "https://www.lob.com/docs"
-      }
-    ]
-  },
-  {
-    "name": "twitterbootstrapmvc",
-    "tags": ["backend"],
-    "description": "Fluent implementation of ASP.NET-MVC HTML helpers for Twitter Bootstrap.",
-    "home": "https://www.twitterbootstrapmvc.com/",
-    "$then": [],
-    "links":[
-      {
-        "name": "Documentation For Bootstrap 2",
-        "level": 0,
-        "url": "https://www.twitterbootstrapmvc.com/documentation/v2"
       }
     ]
   }
