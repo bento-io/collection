@@ -509,7 +509,7 @@
     "name": "elasticsearch",
     "tags": ["database"],
     "description": "Distributed, restful, open-source search",
-    "$then": [],
+    "$then": ["mongo", "sql", "json"],
     "home": "http://www.elasticsearch.org/",
     "links": [
       {
