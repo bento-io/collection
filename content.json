@@ -1905,6 +1905,20 @@
     ]
   },
   {
+    "name": "mandrill",
+    "tags": ["api"],
+    "description": "An email API",
+    "home": "http://mandrill.com",
+    "$then": [],
+    "links": [
+      {
+        "name": "Getting Started with Mandrill",
+        "level": 0,
+        "url": "http://help.mandrill.com/entries/21650603-How-do-I-get-started-with-Mandrill-"
+      }
+    ]
+  },
+  {
     "name": "semantria",
     "tags": ["api"],
     "description": "A text and sentiment analysis API",
