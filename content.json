@@ -1893,14 +1893,14 @@
     "$then": [],
     "links":[
       {
-        "name": "Hackathon",
-        "level": 0,
-        "url": "http://hack.sendgrid.com"
-      },
-      {
         "name": "Docs",
         "level": 0,
-        "url": "http://docs.sendgrid.com"
+        "url": "http://sendgrid.com/docs/"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/tracks/sendgrid"
       }
     ]
   },
