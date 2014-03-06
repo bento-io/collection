@@ -3,7 +3,7 @@
     "name": "html",
     "tags": ["frontend"],
     "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "sublime text"],
+    "$then": ["css", "javascript", "sublime text", "jade"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -27,7 +27,7 @@
     "name": "css",
     "tags": ["frontend"],
     "description": "Styling your webpage",
-    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text"],
+    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text", "grunt"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/CSS",
     "links": [
       {
@@ -66,7 +66,7 @@
     "name": "javascript",
     "tags": ["frontend"],
     "description": "Make your pages interactive",
-    "$then": ["big-o", "python", "jquery", "mongo", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text", "d3", "leaflet"],
+    "$then": ["big-o", "python", "jquery", "mongo", "couchdb", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text", "d3", "leaflet", "grunt"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -183,7 +183,7 @@
     "name": "sql",
     "tags": ["database"],
     "description": "A popular database language",
-    "$then": ["mongo", "neo4j", "redis", "memcached", "postgresql"],
+    "$then": ["mongo", "couchdb", "neo4j", "redis", "memcached", "postgresql"],
     "home": "http://www.mysql.com/",
     "links": [
       {
@@ -309,7 +309,7 @@
     "name": "json",
     "tags": ["database"],
     "description": "How data is sent between applications",
-    "$then": ["mongo", "http", "jquery", "rest", "xml"],
+    "$then": ["mongo", "couchdb", "http", "jquery", "rest", "xml"],
     "home": "http://www.json.org/",
     "links": [
       {
@@ -352,7 +352,7 @@
     "name": "less",
     "tags": ["frontend"],
     "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap", "angular"],
+    "$then": ["sass", "bootstrap", "angular", "jade", "grunt"],
     "home": "http://lesscss.org/",
     "links": [
       {
@@ -490,7 +490,7 @@
     "name": "mongo",
     "tags": ["database"],
     "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "$then": ["heroku", "json", "http", "couchdb", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
     "home": "http://www.mongodb.org/",
     "links": [
       {
@@ -506,10 +506,29 @@
     ]
   },
   {
+    "name": "couchdb",
+    "tags": ["database"],
+    "description": "A nosql database for the web",
+    "$then": ["mongo", "json", "elasticsearch", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "home": "http://couchdb.apache.org/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "http://docs.couchdb.org/en/latest/intro/tour.html"
+      },
+      {
+        "name": "Learn CouchDB",
+        "level": 0,
+        "url": "http://code.tutsplus.com/articles/getting-started-with-couchdb--net-18801"
+      }
+    ]
+  },
+  {
     "name": "elasticsearch",
     "tags": ["database"],
     "description": "Distributed, restful, open-source search",
-    "$then": ["mongo", "sql", "json"],
+    "$then": ["mongo", "couchdb", "sql", "json"],
     "home": "http://www.elasticsearch.org/",
     "links": [
       {
@@ -533,7 +552,7 @@
     "name": "redis",
     "tags": ["database"],
     "description": "A basic key-value store",
-    "$then": ["mongo", "memcached", "heroku", "neo4j", "sql"],
+    "$then": ["mongo", "couchdb", "memcached", "heroku", "neo4j", "sql"],
     "home": "http://redis.io/",
     "links": [
       {
@@ -552,7 +571,7 @@
     "name": "memcached",
     "tags": ["database"],
     "description": "A way to cache your data in memory",
-    "$then": ["mongo", "redis", "heroku", "neo4j", "sql"],
+    "$then": ["mongo", "couchdb", "redis", "heroku", "neo4j", "sql"],
     "home": "http://memcached.org/",
     "links": [
       {
@@ -595,7 +614,7 @@
     "name": "sass",
     "tags": ["frontend"],
     "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular"],
+    "$then": ["less", "bootstrap", "angular", "jade", "grunt"],
     "home": "http://sass-lang.com/",
     "links": [
       {
@@ -614,7 +633,7 @@
     "name": "node",
     "tags": ["backend"],
     "description": "Create a backend with javascript",
-    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular"],
+    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular", "grunt"],
     "home": "http://nodejs.org/",
     "links": [
       {
@@ -655,6 +674,44 @@
         "name": "Introduction to Express",
         "level": 0,
         "url": "http://net.tutsplus.com/tutorials/javascript-ajax/introduction-to-express/"
+      }
+    ]
+  },
+  {
+    "name": "grunt",
+    "tags": ["backend"],
+    "description": "A powerful javascript task runner",
+    "$then": ["jade", "coffeescript", "less", "sass"],
+    "home": "http://gruntjs.com/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "http://gruntjs.com/getting-started"
+      },
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "http://24ways.org/2013/grunt-is-not-weird-and-hard/"
+      }
+    ]
+  },
+  {
+    "name": "jade",
+    "tags": ["frontend"],
+    "description": "A templating language for quick html coding",
+    "$then": ["less", "bootstrap", "angular", "grunt"],
+    "home": "http://jade-lang.com/",
+    "links": [
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "http://jade-lang.com/tutorial/"
+      },
+      {
+        "name": "Learn Jade",
+        "level": 0,
+        "url": "http://www.learnjade.com/"
       }
     ]
   },
@@ -798,7 +855,7 @@
     "name": "flask",
     "tags": ["backend"],
     "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
+    "$then": ["tornado", "mongo", "couchdb", "django", "heroku", "memcached"],
     "home": "http://flask.pocoo.org/",
     "links": [
       {
@@ -817,7 +874,7 @@
     "name": "bottle",
     "tags": ["backend"],
     "description": "A fast, simple and lightweight micro framework for python",
-    "$then": ["flask", "tornado", "mongo", "django", "heroku", "memcached"],
+    "$then": ["flask", "tornado", "mongo", "couchdb", "django", "heroku", "memcached"],
     "home": "http://bottlepy.org/docs/dev/",
     "links": [
       {
@@ -831,7 +888,7 @@
     "name": "django",
     "tags": ["backend"],
     "description": "A popular web framework for python",
-    "$then": ["tornado", "mongo", "flask", "heroku", "memcached"],
+    "$then": ["tornado", "mongo", "couchdb", "flask", "heroku", "memcached"],
     "home": "http://www.djangoproject.com",
     "links": [
       {
@@ -855,7 +912,7 @@
     "name": "tornado",
     "tags": ["backend"],
     "description": "An asynchronous microframework for python on the web",
-    "$then": ["flask", "mongo", "heroku", "django", "memcached"],
+    "$then": ["flask", "mongo", "couchdb", "heroku", "django", "memcached"],
     "home": "http://www.tornadoweb.org/en/stable/",
     "links": [
       {
@@ -1111,7 +1168,7 @@
     "name": "neo4j",
     "tags": ["database"],
     "description": "The graph database",
-    "$then": ["http", "mongo", "redis", "memcached", "sql"],
+    "$then": ["http", "mongo", "couchdb", "redis", "memcached", "sql"],
     "home": "http://www.neo4j.org/",
     "links": [
       {
@@ -1125,7 +1182,7 @@
     "name": "rethinkdb",
     "tags": ["database"],
     "description": "An open-source distributed database built with love.",
-    "$then": ["heroku", "json", "http", "neo4j", "redis", "memcached", "sql"],
+    "$then": ["heroku", "json", "couchdb", "http", "neo4j", "redis", "memcached", "sql"],
     "home": "http://www.rethinkdb.com/",
     "links": [
       {
@@ -1252,7 +1309,7 @@
     "name": "coffeescript",
     "tags": ["backend"],
     "description": "A language that compiles to javascript",
-    "$then": ["underscore", "angular", "backbone"],
+    "$then": ["underscore", "angular", "backbone", "jade", "grunt"],
     "home": "http://coffeescript.org/",
     "links": [
       {
@@ -1423,7 +1480,7 @@
   {
     "name": "twig",
     "tags": ["backend"],
-    "description": "The flexible, fast, and secure template engine for PHP ",
+    "description": "The flexible, fast, and secure template engine for PHP",
     "$then": [],
     "home": "http://twig.sensiolabs.org/",
     "links": [
