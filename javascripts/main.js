@@ -65,7 +65,7 @@ app.directive('ngBlur', ['$parse', function($parse) {
 app.filter('searchFilter', function(){
   return function(boxes, searchText){
     boxFilteredArray = [];
-    if (searchText === undefined){
+    if (searchText === ''){
       return boxes;
     }else{
     
@@ -157,7 +157,7 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
 
   
   //SEARCH & AUTOCOMPLETE
-  $scope.searchText = undefined;
+  $scope.searchText = '';
   //Unique array function for autofill
   function arrayUnique(array) {
       var a = array.concat();
