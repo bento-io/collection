@@ -70,7 +70,7 @@ app.filter('searchFilter', function(){
     }else{
     
       angular.forEach(boxes, function(box){
-        if(searchText === box.name || !jQuery.inArray(searchText, box.tags) ){
+        if(box.name.contains(searchText) || !jQuery.inArray(searchText, box.tags) ){
           boxFilteredArray.push(box);
         };
     });
