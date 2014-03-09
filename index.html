@@ -104,7 +104,7 @@
                         <div class="span11">
                             <form class="form-search pull-right" ng-submit="submitSearch();">
                                 <input type="text" ng-model="searchText" typeahead="autocompleteItem for autocompleteItem in autocompleteArray | filter:$viewValue | limitTo:8" class="input-medium search-query span2">
-                                <button type="submit" class="btn">Search</button>
+                                Search
                             </form>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes">
+                    <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes | searchFilter:searchText">
                         <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }} hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-click="set_next_boxes(box, $index)">
                             <a name="{{ box.name }}"></a>
                             <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
