@@ -95,7 +95,15 @@
 
                         &nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-text="#bento An awesome cheat sheet for everything about web development. Check it out!" data-via="JonHMChan">Tweet</a>
                     </div>
-
+                    <!-- SEARCH -->
+                    <div class="row">
+                        <div class="span11">
+                            <form class="form-search pull-right" ng-submit="submitSearch();">
+                                <input type="text" ng-model="searchText" typeahead="autocompleteItem for autocompleteItem in autocompleteArray | filter:$viewValue | limitTo:8" class="input-medium search-query span2">
+                                Search
+                            </form>
+                        </div>
+                    </div>
                     <!--
                      <p id="donate_line" style="margin: 0px;">Find this useful? Consider donating $<input id="max_amount" type="text" name="max_amount" value="10" placeholder="1 min." style="width: 50px;" ng-focus="show_sponsorship()"> a month and help others learn to code
                      </p>
@@ -170,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes">
+                    <div class="span3 box_container hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-repeat="($index, box) in boxes | searchFilter:searchText">
                         <div id="{{ box.name }}" class="box highlight-{{ in_next_boxes(box.name) }} hidden-{{ in_next_boxes(box.name) }}-{{ !showInactiveBoxes }}" ng-click="set_next_boxes(box, $index)">
                             <a name="{{ box.name }}"></a>
                             <a target="_blank" class="title" name="{{ box.name }}" href="{{ box.home }}">{{ box.name }}</a>                        
@@ -228,6 +236,8 @@
 
         <!-- jQuery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.8.0.js"></script>
+
         <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="javascripts/plugins.js"></script>
