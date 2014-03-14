@@ -70,7 +70,7 @@ app.filter('searchFilter', function(){
     }else{
     
       angular.forEach(boxes, function(box){
-        if(box.name.contains(searchText) || !jQuery.inArray(searchText, box.tags) ){
+        if(box.name.indexOf(searchText) != -1 || !jQuery.inArray(searchText, box.tags) ){
           boxFilteredArray.push(box);
         };
     });
@@ -174,9 +174,9 @@ function masterCtrl($scope, $window, $http, $timeout, $location, $anchorScroll, 
   var autocompleteArray = function(){
     tagsArray = [];
     $scope.boxes.forEach(function (tagsArrayItem){
-        tagsArray = arrayUnique(tagsArray.concat(tagsArrayItem.tags).concat(tagsArrayItem.name));
-
+        tagsArray = tagsArray.concat(tagsArrayItem.tags).concat(tagsArrayItem.name);
       });
+    tagsArray = arrayUnique(tagsArray)
     return tagsArray;
   }
 
