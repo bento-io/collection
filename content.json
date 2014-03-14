@@ -234,6 +234,11 @@
         "name": "Explain Shell",
         "level": 1,
         "url": "http://explainshell.com/"
+      },
+      {
+        "name": "Advanced Topics",
+        "level": 2,
+        "url": "http://www.tldp.org/LDP/abs/html/part5.html"
       }
     ]
   },
@@ -316,6 +321,11 @@
         "name": "What is JSON?",
         "level": 0,
         "url": "http://www.copterlabs.com/blog/json-what-it-is-how-it-works-how-to-use-it/"
+      },
+      {
+        "name": "JSON Validator",
+        "level": 0,
+        "url": "http://jsonlint.com"
       }
     ]
   },
@@ -1066,6 +1076,11 @@
         "name": "Building your first app",
         "level": 0,
         "url": "http://developer.android.com/training/basics/firstapp/creating-project.html"
+      },
+      {
+        "name": "Android Development",
+        "level": 0,
+        "url": "http://www.vogella.com/tutorials/Android/article.html"
       }
     ]
   },
@@ -1562,6 +1577,11 @@
         "url": "http://www.braveclojure.com/"
       },
       {
+        "name": "Clojure for Beginners",
+        "level": 0,
+        "url": "http://blackstag.com/blog.posting?id=5"
+      },
+      {
         "name": "4clojure",
         "level": 1,
         "url": "http://4clojure.com/"
@@ -1664,6 +1684,11 @@
         "name": "metacpan",
         "level": 0,
         "url": "http://www.metacpan.org/"
+      },
+      {
+        "name": "Advanced Perl",
+        "level": 2,
+        "url": "http://docstore.mik.ua/orelly/perl/advprog/"
       }
     ]
   },
