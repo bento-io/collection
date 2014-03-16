@@ -228,6 +228,7 @@ header h1 {
     width: 100%;
     text-align: center;
     margin: 0px;
+    z-index: 1;
 }
 #donate {
     display: none;
