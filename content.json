@@ -2,7 +2,7 @@
   {
     "name": "html",
     "tags": ["frontend"],
-    "description": "Beginners start here! The very basics of putting something on a webpage",
+    "description": "The very basics of putting something on a webpage",
     "$then": ["css", "javascript", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
