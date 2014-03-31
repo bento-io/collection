@@ -1,5 +1,24 @@
 [
   {
+    "name": "fundamentals",
+    "tags": ["bridge"],
+    "description": "How the web works",
+    "$then": ["html", "css", "javascript"],
+    "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
+    "links": [
+      {
+        "name": "How the Internet Works in 5 Minutes",
+        "level": 0,
+        "url": "https://www.youtube.com/watch?v=7_LPdttKXPc"
+      },
+      {
+        "name": "20 Things I Learned",
+        "level": 0,
+        "url": "http://www.20thingsilearned.com/en-US"
+      }
+    ]
+  },
+  {
     "name": "html",
     "tags": ["frontend"],
     "description": "The very basics of putting something on a webpage",
@@ -59,7 +78,90 @@
         "name": "A Beginner's Guide to HTML & CSS",
         "level": 0,
         "url": "http://learn.shayhowe.com/html-css/"
-      }      
+      }
+    ]
+  },
+  {
+    "name": "shell",
+    "tags": ["bridge"],
+    "description": "Use the command line",
+    "$then": ["git"],
+    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
+    "links": [
+      {
+        "name": "The Command Line Crash Course",
+        "level": 0,
+        "url": "http://cli.learncodethehardway.org/book/introduction.html"
+      },
+      {
+        "name": "Introduction to Linux",
+        "level": 0,
+        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
+      },
+      {
+        "name": "Learn Shell",
+        "level": 0,
+        "url": "http://learnshell.org"
+      },
+      {
+        "name": "Explain Shell",
+        "level": 1,
+        "url": "http://explainshell.com/"
+      },
+      {
+        "name": "Advanced Topics",
+        "level": 2,
+        "url": "http://www.tldp.org/LDP/abs/html/part5.html"
+      }
+    ]
+  },
+  {
+    "name": "git",
+    "tags": ["bridge"],
+    "description": "Version control that's simple to use",
+    "$then": ["http", "heroku"],
+    "home": "http://git-scm.com/",
+    "links": [
+      {
+        "name": "Try Git",
+        "level": 0,
+        "url": "http://try.github.io/levels/1/challenges/1"
+      },
+      {
+        "name": "The simple guide",
+        "level": 0,
+        "url": "http://rogerdudler.github.io/git-guide/"
+      },
+      {
+        "name": "Git Immersion",
+        "level": 0,
+        "url": "http://gitimmersion.com/"
+      },
+      {
+        "name": "Git Basics",
+        "level": 0,
+        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
+      },
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "Git Best Practices",
+        "level": 1,
+        "url": "http://sethrobertson.github.io/GitBestPractices/"
+      },
+      {
+        "name": "Learn Git Branching",
+        "level": 1,
+        "url": "http://pcottle.github.io/learnGitBranching/"
+      },
+      {
+        "name": "Git from the bottom up",
+        "level": 2,
+        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
+      }
     ]
   },
   {
@@ -180,6 +282,25 @@
     ]
   },
   {
+    "name": "flask",
+    "tags": ["backend"],
+    "description": "A basic microframework for python on the web",
+    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
+    "home": "http://flask.pocoo.org/",
+    "links": [
+      {
+        "name": "Documentation",
+        "level": 0,
+        "url": "http://flask.pocoo.org/docs/"
+      },
+      {
+        "name": "Flaskr: Intro to Flask and Test Driven Development",
+        "level": 1,
+        "url": "https://github.com/mjhea0/flaskr-tdd"
+      }
+    ]
+  },
+  {
     "name": "sql",
     "tags": ["database"],
     "description": "A popular database language",
@@ -205,89 +326,6 @@
         "name": "Treehouse - Database Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/programming/database-foundations"
-      }
-    ]
-  },
-  {
-    "name": "shell",
-    "tags": ["bridge"],
-    "description": "Use the command line",
-    "$then": ["git"],
-    "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
-    "links": [
-      {
-        "name": "The Command Line Crash Course",
-        "level": 0,
-        "url": "http://cli.learncodethehardway.org/book/introduction.html"
-      },
-      {
-        "name": "Introduction to Linux",
-        "level": 0,
-        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
-      },
-      {
-        "name": "Learn Shell",
-        "level": 0,
-        "url": "http://learnshell.org"
-      },
-      {
-        "name": "Explain Shell",
-        "level": 1,
-        "url": "http://explainshell.com/"
-      },
-      {
-        "name": "Advanced Topics",
-        "level": 2,
-        "url": "http://www.tldp.org/LDP/abs/html/part5.html"
-      }
-    ]
-  },
-  {
-    "name": "git",
-    "tags": ["bridge"],
-    "description": "Version control that's simple to use",
-    "$then": ["http", "heroku"],
-    "home": "http://git-scm.com/",
-    "links": [
-      {
-        "name": "Try Git",
-        "level": 0,
-        "url": "http://try.github.io/levels/1/challenges/1"
-      },
-      {
-        "name": "The simple guide",
-        "level": 0,
-        "url": "http://rogerdudler.github.io/git-guide/"
-      },
-      {
-        "name": "Git Immersion",
-        "level": 0,
-        "url": "http://gitimmersion.com/"
-      },
-      {
-        "name": "Git Basics",
-        "level": 0,
-        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
-      },
-      {
-        "name": "Getting Started",
-        "level": 0,
-        "url":"http://git-scm.com/book/en/Getting-Started"
-      },
-      {
-        "name": "Git Best Practices",
-        "level": 1,
-        "url": "http://sethrobertson.github.io/GitBestPractices/"
-      },
-      {
-        "name": "Learn Git Branching",
-        "level": 1,
-        "url": "http://pcottle.github.io/learnGitBranching/"
-      },
-      {
-        "name": "Git from the bottom up",
-        "level": 2,
-        "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
       }
     ]
   },
@@ -805,25 +843,6 @@
     ]
   },
   {
-    "name": "flask",
-    "tags": ["backend"],
-    "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
-    "home": "http://flask.pocoo.org/",
-    "links": [
-      {
-        "name": "Documentation",
-        "level": 0,
-        "url": "http://flask.pocoo.org/docs/"
-      },
-      {
-        "name": "Flaskr: Intro to Flask and Test Driven Development",
-        "level": 1,
-        "url": "https://github.com/mjhea0/flaskr-tdd"
-      }
-    ]
-  },
-    {
     "name": "bottle",
     "tags": ["backend"],
     "description": "A fast, simple and lightweight micro framework for python",
@@ -1713,7 +1732,7 @@
   },
   {
     "name": "docker",
-    "tags": ["bridge"], 
+    "tags": ["bridge"],
     "description": "Create lightweight, portable, self-sufficient containers",
     "home": "http://www.docker.io/",
     "$then": ["vagrant"],
