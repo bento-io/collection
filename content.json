@@ -961,6 +961,11 @@
     "home": "http://rubyonrails.org/",
     "links": [
       {
+        "name": "Michael Hartl's Tutorial",
+        "level": 0,
+        "url": "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book"
+      },
+      {
         "name": "The Best Way to Learn Rails",
         "level": 0,
         "url": "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
@@ -989,11 +994,6 @@
         "name": "Recommendations for a Rails Tutorial",
         "level": 0,
         "url": "https://tutorials.railsapps.org/rails-tutorial"
-      },
-      {
-        "name": "Michael Hartl's Tutorial",
-        "level": 0,
-        "url": "http://ruby.railstutorial.org/"
       },
       {
         "name": "RailsCasts",
@@ -1322,11 +1322,6 @@
     "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
     "home": "http://php.net/",
     "links": [
-      {
-        "name": "Treehouse - Become a PHP Developer",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/programming/build-a-simple-php-application/getting-started-with-php"
-      },
       {
         "name": "Learn X in Y Minutes",
         "level": 0,
