@@ -1271,6 +1271,11 @@
     "$then": ["sugar", "backbone", "coffeescript","underscore"],
     "home": "http://lodash.com/",
     "links": [
+      {
+        "name": "Documentation"
+        "level": 0,
+        "url": "http://lodash.com/docs"
+      }
     ]
   },
   {
