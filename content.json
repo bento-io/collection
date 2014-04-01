@@ -1272,7 +1272,7 @@
     "home": "http://lodash.com/",
     "links": [
       {
-        "name": "Documentation"
+        "name": "Documentation",
         "level": 0,
         "url": "http://lodash.com/docs"
       }
