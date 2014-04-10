@@ -3,7 +3,7 @@
 Curated by [@jonhmchan](http://twitter.com/jonhmchan)
 
 ## About
-This is where all the community submitted resources on Bento is managed and stored. The main site at http://www.bentobox.io/ uses all the data here to render the link share on the main site, in addition to supplementary content on the detail views. Read the instructions below to submit links and contribute.
+This is where all the community submitted resources on Bento are managed and stored. The main site at http://www.bentobox.io/ uses all the data here to render the link share on the main page, in addition to supplementary content on the detail views. Read the instructions below to submit links and contribute.
 
 ## Make a contribution
 **content.json** (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
