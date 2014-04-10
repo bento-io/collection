@@ -1,11 +1,11 @@
-bento
+[Bento](http://www.bentobox.io/)
 =====
+Curated by [@jonhmchan](http://twitter.com/jonhmchan)
 
-http://www.bentobox.io/
+## About
+This is where all the community submitted resources on Bento is managed and stored. The main site at http://www.bentobox.io/ uses all the data here to render the link share on the main site, in addition to supplementary content on the detail views. Read the instructions below to submit links and contribute.
 
-Everything you need to know about web development. Neatly packaged.
-
-# Make a contribution
+## Make a contribution
 **content.json** (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
 
 1. Links should be free (no pay walls) and take the user *immediately* to the relevant information (i.e. for html go to the html exercise in codecademy, rather than codeacademy's home page - the user should not have to do any searching to start learning)
