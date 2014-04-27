@@ -89,19 +89,19 @@
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
-        "name": "The Command Line Crash Course",
+        "name": "Learning the Shell",
         "level": 0,
-        "url": "http://cli.learncodethehardway.org/book/introduction.html"
-      },
-      {
-        "name": "Introduction to Linux",
-        "level": 0,
-        "url": "http://www.vtc.com/products/Introduction-to-Linux-tutorials.htm"
+        "url": "http://linuxcommand.org/learning_the_shell.php"
       },
       {
         "name": "Learn Shell",
         "level": 0,
         "url": "http://learnshell.org"
+      },
+      {
+        "name": "The Command Line Crash Course",
+        "level": 0,
+        "url": "http://cli.learncodethehardway.org/book/introduction.html"
       },
       {
         "name": "Explain Shell",
@@ -177,14 +177,14 @@
         "url": "http://www.codecademy.com/courses/getting-started-v2/0/1?curriculum_id=506324b3a7dffd00020bf661"
       },
       {
-        "name": "Learn JS",
-        "level": 0,
-        "url": "http://www.learn-js.org/"
-      },
-      {
         "name": "Learn X in Y Minutes",
         "level": 0,
         "url": "http://learnxinyminutes.com/docs/javascript/"
+      },
+      {
+        "name": "Learn JS",
+        "level": 0,
+        "url": "http://www.learn-js.org/"
       },
       {
         "name": "Treehouse - JavaScript Foundations",
@@ -240,6 +240,11 @@
     "home": "http://www.python.org/",
     "links": [
       {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/tracks/python"
+      },
+      {
         "name": "Intro to Computer Science",
         "level": 0,
         "url": "https://www.udacity.com/course/cs101"
@@ -255,23 +260,13 @@
         "url": "http://learnxinyminutes.com/docs/python/"
       },
       {
-        "name": "New Coder",
-        "level": 0,
-        "url": "http://newcoder.io"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/tracks/python"
-      },
-      {
         "name": "Learn Python the Hard Way",
         "level": 0,
         "url": "http://learnpythonthehardway.org/book/"
       },
       {
         "name": "Think Python: How to Think Like a Computer Scientist",
-        "level": 0,
+        "level": 1,
         "url": "http://www.greenteapress.com/thinkpython/html/thinkpython002.html"
       },
       {
@@ -321,11 +316,6 @@
         "name": "Problems and Solutions",
         "level": 0,
         "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
-      },
-      {
-        "name": "Treehouse - Database Foundations",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/programming/database-foundations"
       }
     ]
   },
@@ -375,9 +365,9 @@
     "home": "http://jquery.com/",
     "links": [
       {
-        "name":"Try jQuery",
+        "name": "Try jQuery",
         "level": 0,
-        "url":"http://try.jquery.com/"
+        "url": "http://try.jquery.com/"
       },
       {
         "name": "Codecademy",
@@ -409,9 +399,9 @@
         "url": "http://lesscss.org/#synopsis"
       },
       {
-        "name": "Try It!",
-        "level": 1,
-        "url": "http://less2css.org/"
+        "name": "Verekia's Tutorial",
+        "level": 0,
+        "url": "http://verekia.com/less-css/dont-read-less-css-tutorial-highly-addictive"
       }
     ]
   },
