@@ -23,4 +23,4 @@ Please make sure that you *validate your JSON before submitting a pull request* 
 10. Only the first two "easy" links are shown, in the order of the array
 11. Link names should be the title of the destination
 
-If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
+If you have any questions, please don't hesitate to contact me by tweeting [@jonhmchan](http://twitter.com/jonhmchan)
