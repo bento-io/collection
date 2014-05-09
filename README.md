@@ -1,9 +1,12 @@
-[Bento](http://www.bentobox.io/)
+![Bento](http://bentobox.io/static/twitter_card.png "Bento")
 =====
 Curated by [@jonhmchan](http://twitter.com/jonhmchan)
 
 ## About
 This is where all the community submitted resources on Bento are managed and stored. The main site at http://www.bentobox.io/ uses all the data here to render the link share on the main page, in addition to supplementary content on the detail views. Read the instructions below to submit links and contribute.
+
+## About Testing and Validation
+Please make sure that you *validate your JSON before submitting a pull request* using [JSONLint](http://jsonlint.com/). Invalid JSON that passes through will break the site. Also, there is currently no way to test any drafts of your JSON changes on the new site since Bento is no longer static. There are plans to change this to make it easier for developers, but when that change may happen is unclear.
 
 ## Make a contribution
 **content.json** (in the gh-pages branch) is where all the resources are defined. In each resource there is a name of the technology, a short description, what the user should learn next, and an ordered list of resources related to that technology. There are a few things to keep in mind when doing editing:
@@ -19,6 +22,5 @@ This is where all the community submitted resources on Bento are managed and sto
 9. Each LINK (not the box) must be categorized as "easy" (level: 0, no previous experience necessary), "medium" (level: 1, requires "easy" information), and "hard" (level: 2, requires "medium" information)
 10. Only the first two "easy" links are shown, in the order of the array
 11. Link names should be the title of the destination
-12. Make sure that if you are testing locally to open in Firefox - Chrome does not allow for local pulls of JSON files
 
 If you have any questions, please don't hesitate to contact me by tweeting @jonhmchan
