@@ -5,7 +5,7 @@ Curated by [@jonhmchan](http://twitter.com/jonhmchan)
 ## About
 This is where all the community submitted resources on Bento are managed and stored. The main site at http://www.bentobox.io/ uses all the data here to render the link share on the main page, in addition to supplementary content on the detail views. Read the instructions below to submit links and contribute.
 
-## About Testing and Validation
+## Testing and validation
 Please make sure that you *validate your JSON before submitting a pull request* using [JSONLint](http://jsonlint.com/). Invalid JSON that passes through will break the site. Also, there is currently no way to test any drafts of your JSON changes on the new site since Bento is no longer static. There are plans to change this to make it easier for developers, but when that change may happen is unclear.
 
 ## Make a contribution
