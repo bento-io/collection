@@ -192,11 +192,6 @@
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
       },
       {
-        "name": "Velocity.js UI Animation",
-        "level": 0,
-        "url": "http://velocityjs.org"
-      },
-      {
         "name": "A Dive Into Plain Javascript",
         "level": 1,
         "url": "http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/"
@@ -388,11 +383,6 @@
         "name": "Treehouse - Build an Interactive Website",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
-      },
-      {
-        "name": "Velocity.js UI Animation",
-        "level": 0,
-        "url": "http://velocityjs.org"
       }
     ]
   },
@@ -1144,7 +1134,7 @@
   {
     "name": "velocity",
     "tags": ["frontend"],
-    "description": "Smooth UI animation.",
+    "description": "Smooth JavaScript animation",
     "home": "http://velocityjs.org",
     "$then": ["d3"],
     "links":[
@@ -1152,6 +1142,11 @@
         "name": "Documentation",
         "level": 0,
         "url": "http://velocityjs.org"
+      },
+      {
+        "name": "Improving UI Animation Workflow",
+        "level": 0,
+        "url": "http://css-tricks.com/improving-ui-animation-workflow-velocity-js/"
       }
     ]
   },
