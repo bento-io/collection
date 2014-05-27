@@ -161,6 +161,11 @@
         "name": "Git from the bottom up",
         "level": 2,
         "url": "http://ftp.newartisans.com/pub/git.from.bottom.up.pdf"
+      },
+      {
+        "name": "A Hacker's Guide to Git",
+        "level": 1,
+        "url": "http://wildlyinaccurate.com/a-hackers-guide-to-git"
       }
     ]
   },
