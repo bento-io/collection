@@ -1046,9 +1046,23 @@
     ]
   },
   {
-    "name": "ios",
+    "name": "swift",
     "tags": ["mobile"],
     "description": "Build apps for iOS devices",
+    "home": "https://developer.apple.com/devcenter/ios/index.action",
+    "$then": ["windows phone", "android", "objective-c"],
+    "links":[
+      {
+        "name": "A swift tour",
+        "level": 0,
+        "url": "https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2"
+      }
+    ]
+  },
+  {
+    "name": "objective-c",
+    "tags": ["mobile"],
+    "description": "Legacy code for iOS development",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
     "$then": ["windows phone", "android"],
     "links":[
@@ -1079,7 +1093,7 @@
     "tags": ["mobile"],
     "description": "Build apps for Android devices",
     "home": "http://developer.android.com/index.html",
-    "$then": ["windows phone", "ios"],
+    "$then": ["windows phone", "swift"],
     "links":[
       {
         "name": "Building your first app",
@@ -1098,7 +1112,7 @@
     "tags": ["mobile"],
     "description": "Build apps for windows phones",
     "home": "https://dev.windowsphone.com/en-us",
-    "$then": [".net", "ios", "android"],
+    "$then": [".net", "swift", "android"],
     "links":[
       {
         "name": "Windows App Builder",
