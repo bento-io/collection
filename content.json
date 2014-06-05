@@ -950,7 +950,7 @@
   },
   {
     "name": "rails",
-    "tags": ["backend"],
+    "tags": ["backend", "mvc"],
     "description": "An awesome web framework for ruby",
     "$then": ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
     "home": "http://rubyonrails.org/",
