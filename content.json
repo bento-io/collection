@@ -21,8 +21,8 @@
   {
     "name": "html",
     "tags": ["frontend"],
-    "description": "Beginners start here! The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "sublime text", "jade"],
+    "description": "The very basics of putting something on a webpage",
+    "$then": ["css", "javascript", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -46,7 +46,7 @@
     "name": "css",
     "tags": ["frontend"],
     "description": "Styling your webpage",
-    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text", "grunt"],
+    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/CSS",
     "links": [
       {
@@ -119,7 +119,7 @@
     "name": "git",
     "tags": ["bridge"],
     "description": "Version control that's simple to use",
-    "$then": ["http", "heroku"],
+    "$then": ["http", "heroku", "javascript"],
     "home": "http://git-scm.com/",
     "links": [
       {
@@ -173,7 +173,7 @@
     "name": "javascript",
     "tags": ["frontend"],
     "description": "Make your pages interactive",
-    "$then": ["big-o", "python", "jquery", "mongo", "couchdb", "json", "node", "angular", "underscore", "ember", "backbone", "sugar", "coffeescript", "regex", "meteor", "flight", "sublime text", "d3", "leaflet", "grunt"],
+    "$then": ["python", "jquery", "json", "node", "underscore", "sugar", "coffeescript", "regex"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -227,7 +227,7 @@
     "name": "sublime text",
     "tags": ["ide"],
     "description": "A popular text editor",
-    "$then": ["vim"],
+    "$then": ["vim", "python"],
     "home": "http://www.sublimetext.com/",
     "links": [
       {
@@ -241,7 +241,7 @@
     "name": "python",
     "tags": ["backend"],
     "description": "A programming language to easily pick up",
-    "$then": ["big-o", "flask", "django", "tornado", "mongo", "heroku", "ruby", "node", "go", "sql"],
+    "$then": ["big-o", "flask", "django", "tornado", "heroku", "ruby", "node", "go"],
     "home": "http://www.python.org/",
     "links": [
       {
@@ -328,7 +328,7 @@
     "name": "heroku",
     "tags": ["bridge"],
     "description": "Easily deploy your applications",
-    "$then": ["git", "python", "node", "ruby"],
+    "$then": ["git", "postgresql", "javascript", "ruby", "python", "php"],
     "home": "http://heroku.com/",
     "links": [
       {
@@ -347,7 +347,7 @@
     "name": "json",
     "tags": ["database"],
     "description": "How data is sent between applications",
-    "$then": ["mongo", "couchdb", "http", "jquery", "rest", "xml"],
+    "$then": ["mongo", "couchdb", "http", "rest", "xml", "redis", "memcached"],
     "home": "http://www.json.org/",
     "links": [
       {
@@ -366,7 +366,7 @@
     "name": "jquery",
     "tags": ["frontend"],
     "description": "Control the DOM with javascript",
-    "$then": ["python", "ruby", "node", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
+    "$then": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
     "home": "http://jquery.com/",
     "links": [
       {
@@ -395,7 +395,7 @@
     "name": "less",
     "tags": ["frontend"],
     "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap", "angular", "jade", "grunt"],
+    "$then": ["sass", "bootstrap"],
     "home": "http://lesscss.org/",
     "links": [
       {
@@ -457,7 +457,7 @@
     "name": "data structures",
     "tags": ["bridge"],
     "description": "Efficiently organize your data in code",
-    "$then": ["big-o", "algorithms"],
+    "$then": ["big-o"],
     "home": "http://en.wikipedia.org/wiki/Data_structure",
     "links": [
       {
@@ -476,7 +476,7 @@
     "name": "http",
     "tags": ["bridge"],
     "description": "The basics of making web requests",
-    "$then": ["python", "node", "heroku", "json", "rest", "https"],
+    "$then": ["python", "javascript", "ruby", "heroku", "json", "rest", "https"],
     "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
     "links": [
       {
@@ -533,7 +533,7 @@
     "name": "mongo",
     "tags": ["database"],
     "description": "A simple javascript based database",
-    "$then": ["heroku", "json", "http", "couchdb", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "$then": ["elasticsearch", "couchdb", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
     "home": "http://www.mongodb.org/",
     "links": [
       {
@@ -571,7 +571,7 @@
     "name": "elasticsearch",
     "tags": ["database"],
     "description": "Distributed, restful, open-source search",
-    "$then": ["mongo", "couchdb", "sql", "json"],
+    "$then": ["mongo", "couchdb", "sql", "json", "memcached", "redis", "neo4j"],
     "home": "http://www.elasticsearch.org/",
     "links": [
       {
@@ -595,7 +595,7 @@
     "name": "redis",
     "tags": ["database"],
     "description": "A basic key-value store",
-    "$then": ["mongo", "couchdb", "memcached", "heroku", "neo4j", "sql"],
+    "$then": ["mongo", "couchdb", "memcached", "neo4j", "sql"],
     "home": "http://redis.io/",
     "links": [
       {
@@ -657,7 +657,7 @@
     "name": "sass",
     "tags": ["frontend"],
     "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular", "jade", "grunt"],
+    "$then": ["less", "bootstrap", "angular"],
     "home": "http://sass-lang.com/",
     "links": [
       {
@@ -676,7 +676,7 @@
     "name": "node",
     "tags": ["backend"],
     "description": "Create a backend with javascript",
-    "$then": ["express", "json", "http", "heroku", "mongo", "ember", "angular", "grunt"],
+    "$then": ["express", "heroku", "mongo", "ember", "angular", "grunt"],
     "home": "http://nodejs.org/",
     "links": [
       {
@@ -705,7 +705,7 @@
     "name": "express",
     "tags": ["backend"],
     "description": "The most popular web framework for node",
-    "$then": ["heroku", "http", "angular", "ember"],
+    "$then": ["heroku", "angular", "ember"],
     "home": "http://expressjs.com/",
     "links": [
       {
@@ -778,54 +778,10 @@
     ]
   },
   {
-    "name": "d3",
-    "tags": ["frontend"],
-    "description": "A javascript library for visualizing data",
-    "$then": ["angular", "backbone","leaflet"],
-    "home": "http://d3js.org/",
-    "links": [
-      {
-        "name": "D3 Tutorials",
-        "level": 0,
-        "url": "http://alignedleft.com/tutorials/d3/"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
-      },
-      {
-        "name": "Interactive Data Visualization for the Web",
-        "level": 1,
-        "url": "http://chimera.labs.oreilly.com/books/1230000000345/index.html"
-      }
-    ]
-  },
-  {
-    "name": "leaflet",
-    "tags": ["frontend"],
-    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
-    "$then": ["d3"],
-    "home": "http://leafletjs.com/index.html",
-    "links": [
-      {
-        "name": "Leaflet Tutorials",
-        "level": 0,
-        "url": "http://leafletjs.com/examples.html"
-      },
-      {
-        "name": "API Reference",
-        "level": 0,
-        "url": "http://leafletjs.com/reference.html"
-      }
-    ]
-  },
-
-  {
     "name": "vim",
     "tags": ["ide"],
     "description": "A text editor in your console",
-    "$then": ["vim"],
+    "$then": ["sublime text"],
     "home": "http://vim.sourceforge.net/",
     "links": [
       {
@@ -898,7 +854,7 @@
     "name": "flask",
     "tags": ["backend"],
     "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "couchdb", "django", "heroku", "memcached"],
+    "$then": ["tornado", "mongo", "postgresql", "django", "heroku"],
     "home": "http://flask.pocoo.org/",
     "links": [
       {
@@ -931,7 +887,7 @@
     "name": "django",
     "tags": ["backend"],
     "description": "A popular web framework for python",
-    "$then": ["tornado", "mongo", "couchdb", "flask", "heroku", "memcached"],
+    "$then": ["tornado", "flask", "heroku"],
     "home": "http://www.djangoproject.com",
     "links": [
       {
@@ -955,7 +911,7 @@
     "name": "tornado",
     "tags": ["backend"],
     "description": "An asynchronous microframework for python on the web",
-    "$then": ["flask", "mongo", "couchdb", "heroku", "django", "memcached"],
+    "$then": ["flask", "heroku", "django"],
     "home": "http://www.tornadoweb.org/en/stable/",
     "links": [
       {
@@ -969,7 +925,7 @@
     "name": "ruby",
     "tags": ["backend"],
     "description": "An easy, expressive and dynamic scripting language",
-    "$then": ["rails", "heroku", "python"],
+    "$then": ["rails", "python"],
     "home": "http://www.ruby-lang.org/en/",
     "links": [
       {
@@ -1028,7 +984,7 @@
     "name": "rails",
     "tags": ["backend", "mvc"],
     "description": "An awesome web framework for ruby",
-    "$then": ["heroku", "ruby", "coffeescript", "less", "sass", "sql", "http"],
+    "$then": ["heroku", "coffeescript", "less", "sass", "sql"],
     "home": "http://rubyonrails.org/",
     "links": [
       {
@@ -1103,6 +1059,63 @@
     ]
   },
   {
+    "name": "java",
+    "tags": ["backend"],
+    "description": "A popular programming language",
+    "home": "",
+    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
+    "links": [
+        {
+        "name": "Intro to Programming in Java",
+        "level": 0,
+        "url": "https://www.udacity.com/course/cs046"
+      },
+      {
+        "name": "Programming Methodology",
+        "level": 0,
+        "url": "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
+      }
+    ]
+  },
+  {
+    "name": "scala",
+    "tags": ["backend"],
+    "description": "A highly performant language that works with Java",
+    "home": "http://www.scala-lang.org/",
+    "$then": ["play"],
+    "links":[
+      {
+        "name": "Scala Tutorials",
+        "level": 0,
+        "url": "http://scalatutorials.com/tour/"
+      },
+      {
+        "name": "Learning Scala",
+        "level": 0,
+        "url": "http://stackoverflow.com/a/1380699"
+      },
+      {
+        "name": "Coursera",
+        "level": 0,
+        "url": "https://www.coursera.org/course/progfun"
+      }
+    ]
+  },
+  {
+    "name": "play",
+    "tags": ["backend"],
+    "description": "A popular web framework for scala",
+    "home": "http://www.playframework.com/",
+    "$then": [],
+    "links":[
+      {
+        "name": "Your first Play application",
+        "level": 0,
+        "url": "http://www.playframework.com/documentation/2.2.x/ScalaTodoList"
+      }
+    ]
+  },
+  {
     "name": "elixir",
     "tags": ["backend"],
     "description": "A functional language built on top of the Erlang VM",
@@ -1145,7 +1158,7 @@
     "tags": ["mobile"],
     "description": "Legacy code for iOS development",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
-    "$then": ["windows phone", "android"],
+    "$then": ["windows phone", "android", "swift"],
     "links":[
       {
         "name": "A primer in Objective-C",
@@ -1203,26 +1216,45 @@
     ]
   },
   {
-    "name": "windows",
-    "tags": ["mobile"],
-    "description": "A full toolkit of resources from Microsoft",
-    "home": "http://developers.microsoft.com/",
-    "$then": ["mobile"],
+    "name": "d3",
+    "tags": ["frontend"],
+    "description": "A javascript library for visualizing data",
+    "$then": ["leaflet"],
+    "home": "http://d3js.org/",
     "links": [
       {
-        "name": "Hackathon Guide to Windows 8",
+        "name": "D3 Tutorials",
         "level": 0,
-        "url": "http://marianaggaga.azurewebsites.net/?p=5651"
+        "url": "http://alignedleft.com/tutorials/d3/"
       },
       {
-        "name": "Dev Center",
+        "name": "Codecademy",
         "level": 0,
-        "url": "http://www.bing.com/dev/en-us/dev-center"
+        "url": "http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1"
       },
       {
-        "name": "Windows App Starter Kits",
+        "name": "Interactive Data Visualization for the Web",
+        "level": 1,
+        "url": "http://chimera.labs.oreilly.com/books/1230000000345/index.html"
+      }
+    ]
+  },
+  {
+    "name": "leaflet",
+    "tags": ["frontend"],
+    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
+    "$then": ["d3", "api"],
+    "home": "http://leafletjs.com/index.html",
+    "links": [
+      {
+        "name": "Leaflet Tutorials",
         "level": 0,
-        "url": "https://github.com/winappkits"
+        "url": "http://leafletjs.com/examples.html"
+      },
+      {
+        "name": "API Reference",
+        "level": 0,
+        "url": "http://leafletjs.com/reference.html"
       }
     ]
   },
@@ -1249,7 +1281,7 @@
     "name": "neo4j",
     "tags": ["database"],
     "description": "The graph database",
-    "$then": ["http", "mongo", "couchdb", "redis", "memcached", "sql"],
+    "$then": ["mongo", "couchdb", "redis", "memcached", "sql"],
     "home": "http://www.neo4j.org/",
     "links": [
       {
@@ -1262,7 +1294,7 @@
   {
     "name": "rethinkdb",
     "tags": ["database"],
-    "description": "An open-source distributed database built with love.",
+    "description": "An open-source distributed database to store JSON",
     "$then": ["heroku", "json", "couchdb", "http", "neo4j", "redis", "memcached", "sql"],
     "home": "http://www.rethinkdb.com/",
     "links": [
@@ -1283,7 +1315,7 @@
     "tags": ["frontend"],
     "description": "An event-driven web framework for javascript",
     "home": "http://flightjs.github.io",
-    "$then": ["ember", "angular", "backbone", "bootstrap"],
+    "$then": ["ember", "angular", "backbone", "meteor"],
     "links": [
       {
         "name": "Learn Flight",
@@ -1428,7 +1460,7 @@
     "name": "php",
     "tags": ["backend"],
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony","yii", "phpixie", "cakephp"],
+    "$then": ["python", "node", "sql", "laravel", "symfony", "yii", "phpixie", "cakephp"],
     "home": "http://php.net/",
     "links": [
       {
@@ -1508,7 +1540,7 @@
   {
     "name": "symfony",
     "tags": ["backend"],
-    "description": "High Performance PHP Framework for Web Development",
+    "description": "High Performance PHP Framework for web development",
     "$then": ["twig"],
     "home": "http://symfony.com/",
     "links": [
@@ -1626,25 +1658,6 @@
     ]
   },
   {
-    "name": "java",
-    "tags": ["backend"],
-    "description": "A popular programming language",
-    "home": "",
-    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
-    "links": [
-        {
-        "name": "Intro to Programming in Java",
-        "level": 0,
-        "url": "https://www.udacity.com/course/cs046"
-      },
-      {
-        "name": "Programming Methodology",
-        "level": 0,
-        "url": "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
-      }
-    ]
-  },
-  {
     "name": "groovy",
     "tags": ["backend"],
     "description": "A dynamic language that works with Java",
@@ -1660,30 +1673,6 @@
         "name": "The Groovy Goodness Blog",
         "level": 0,
         "url": "http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness"
-      }
-    ]
-  },
-  {
-    "name": "scala",
-    "tags": ["backend"],
-    "description": "A new, highly performant language that works with Java",
-    "home": "http://www.scala-lang.org/",
-    "$then": ["play"],
-    "links":[
-      {
-        "name": "Scala Tutorials",
-        "level": 0,
-        "url": "http://scalatutorials.com/tour/"
-      },
-      {
-        "name": "Learning Scala",
-        "level": 0,
-        "url": "http://stackoverflow.com/a/1380699"
-      },
-      {
-        "name": "Coursera",
-        "level": 0,
-        "url": "https://www.coursera.org/course/progfun"
       }
     ]
   },
@@ -1708,20 +1697,6 @@
         "name": "4clojure",
         "level": 1,
         "url": "http://4clojure.com/"
-      }
-    ]
-  },
-  {
-    "name": "play",
-    "tags": ["backend"],
-    "description": "A popular web framework for scala",
-    "home": "http://www.playframework.com/",
-    "$then": [],
-    "links":[
-      {
-        "name": "Your first Play application",
-        "level": 0,
-        "url": "http://www.playframework.com/documentation/2.2.x/ScalaTodoList"
       }
     ]
   },
