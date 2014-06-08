@@ -241,7 +241,7 @@
     "name": "python",
     "tags": ["backend"],
     "description": "A programming language to easily pick up",
-    "$then": ["big-o", "flask", "django", "tornado", "heroku", "ruby", "node", "go"],
+    "$then": ["big-o", "flask", "django", "pybuilder", "tornado", "heroku", "ruby", "node", "go"],
     "home": "http://www.python.org/",
     "links": [
       {
@@ -278,6 +278,50 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
+      }
+    ]
+  },
+  {
+    "name": "pybuilder",
+    "tags": ["backend"],
+    "description": "A build automation tool for python",
+    "$then": ["flask", "django", "tornado", "heroku"],
+    "home": "http://pybuilder.github.io",
+    "links": [
+      {
+        "name": "PyBuilder Manual",
+        "level": 0,
+        "url": "http://pybuilder.github.io/documentation/manual.html"
+      },
+      {
+        "name": "PyBuilder Tutorial",
+        "level": 0,
+        "url": "http://pybuilder.github.io/documentation/tutorial.html"
+      },
+      {
+        "name": "How to install PyBuilder",
+        "level": 0,
+        "url": "http://pybuilder.github.io/documentation/installation.html"
+      },
+      {
+        "name": "PyBuilder Plugins",
+        "level": 0,
+        "url": "http://pybuilder.github.io/documentation/plugins.html"
+      },
+      {
+        "name": "PyBuilder Examples",
+        "level": 0,
+        "url": "http://pybuilder.github.io/documentation/examples.html"
+      },
+      {
+        "name": "Writing PyBuilder Plugins",
+        "level": 1,
+        "url": "http://pybuilder.github.io/documentation/writing_plugins.html"
+      },
+      {
+        "name": "Developing PyBuilder",
+        "level": 2,
+        "url": "http://pybuilder.github.io/documentation/developing_pybuilder.html"
       }
     ]
   },
