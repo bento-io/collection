@@ -50,14 +50,19 @@
     "home": "http://developer.mozilla.org/en-US/docs/Web/CSS",
     "links": [
       {
+        "name": "Codecademy - CSS Overview",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b"
+      },
+      {
+        "name": "Codecademy - CSS Positioning",
+        "level": 1,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-6merh/0/1?curriculum_id=50579fb998b470000202dc8b"
+      },
+      {
         "name": "Dash",
         "level": 0,
         "url": "http://dash.ga.co/?vip=bento"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b"
       },
       {
         "name": "HTML Dog",
