@@ -302,6 +302,11 @@
         "name": "Flaskr: Intro to Flask and Test Driven Development",
         "level": 1,
         "url": "https://github.com/mjhea0/flaskr-tdd"
+      },
+      {
+        "name": "Explore Flask",
+        "level": 0,
+        "url": "http://exploreflask.com/preface.html"
       }
     ]
   },
