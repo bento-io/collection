@@ -856,25 +856,6 @@
     ]
   },
   {
-    "name": "flask",
-    "tags": ["backend"],
-    "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "postgresql", "django", "heroku"],
-    "home": "http://flask.pocoo.org/",
-    "links": [
-      {
-        "name": "Documentation",
-        "level": 0,
-        "url": "http://flask.pocoo.org/docs/"
-      },
-      {
-        "name": "Flaskr: Intro to Flask and Test Driven Development",
-        "level": 1,
-        "url": "https://github.com/mjhea0/flaskr-tdd"
-      }
-    ]
-  },
-    {
     "name": "bottle",
     "tags": ["backend"],
     "description": "A fast, simple and lightweight micro framework for python",
