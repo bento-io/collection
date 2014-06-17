@@ -647,6 +647,11 @@
     "home": "http://angularjs.org/",
     "links": [
       {
+        "name": "Shaping up with Angular",
+        "level": 0,
+        "url": "http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro"
+      },
+      {
         "name": "egghead.io",
         "level": 0,
         "url": "http://egghead.io/lessons"
