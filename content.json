@@ -1051,6 +1051,16 @@
         "name": "Go by Example",
         "level": 0,
         "url": "https://gobyexample.com/"
+      },
+      {
+        "name": "Writing, building, installing, and testing Go code",
+        "level": 0,
+        "url": "https://www.youtube.com/watch?v=XCsL89YtqCs"
+      },
+      {
+        "name": "Effective Go",
+        "level": 1,
+        "url": "http://golang.org/doc/effective_go.html"
       }
     ]
   },
