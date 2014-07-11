@@ -280,6 +280,11 @@
         "url": "http://learnpythonthehardway.org/book/"
       },
       {
+        "name": "Full Stack Python",
+        "level": 1,
+        "url": "http://www.fullstackpython.com/"
+      },
+      {
         "name": "Think Python: How to Think Like a Computer Scientist",
         "level": 1,
         "url": "http://www.greenteapress.com/thinkpython/html/thinkpython002.html"
