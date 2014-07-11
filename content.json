@@ -1274,7 +1274,7 @@
     "tags": ["frontend"],
     "description": "Smooth JavaScript animation",
     "home": "http://velocityjs.org",
-    "$then": ["d3"],
+    "$then": ["d3", "three.js"],
     "links":[
       {
         "name": "Documentation",
@@ -1288,6 +1288,25 @@
       }
     ]
   },
+  {
+    "name": "three.js",
+    "tags": ["frontend"],
+    "description": "A JavaScript 3D Library which makes WebGL simpler.",
+    "home": "http://threejs.org/",
+    "$then": ["d3", "velocity"],
+    "links":[
+      {
+        "name": "Documentation",
+        "level": 0,
+        "url": "http://threejs.org/docs/"
+      },
+      {
+        "name": "Getting Started With three.js",
+        "level": 0,
+        "url": "http://aerotwist.com/tutorials/getting-started-with-three-js/"
+      }      
+    ]
+  },  
   {
     "name": "neo4j",
     "tags": ["database"],
@@ -1351,6 +1370,11 @@
         "name": "EventedMind advanced screencasts",
         "level": 0,
         "url": "https://www.eventedmind.com/"
+      },
+      {
+        "name": "Meteor Manual",
+        "level": 0,
+        "url": "http://manual.meteor.com/"
       }
     ]
   },
