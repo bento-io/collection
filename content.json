@@ -212,6 +212,11 @@
         "url": "http://superherojs.com/"
       },
       {
+        "name": "JS: The right way",
+        "level": 1,
+        "url": "http://jstherightway.org/"
+      },
+      {
         "name": "Learning Javascript Design Patterns",
         "level": 2,
         "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
