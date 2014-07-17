@@ -15,6 +15,11 @@
         "name": "20 Things I Learned",
         "level": 0,
         "url": "http://www.20thingsilearned.com/en-US"
+      },
+      {
+        "name": "How the DNS work, and why it is important.",
+        "level": 0,
+        "url": "https://www.youtube.com/watch?v=72snZctFFtA"
       }
     ]
   },
