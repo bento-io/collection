@@ -1085,7 +1085,38 @@
         "name": "Programming Methodology",
         "level": 0,
         "url": "http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111"
+      },
+      {
+        "name": "BuckysRoom: Java",
+        "level": 0,
+        "url": "https://buckysroom.org/videos.php?cat=31"
+      },
+      {
+        "name": "Eclipse and Java",
+        "level": 0,
+        "url": "http://eclipsetutorial.sourceforge.net/totalbeginner.html"
+      },
+      {
+        "name": "Java Video Tutes",
+        "level": 0,
+        "url": "http://www.javavideotutes.com/lessons"
+      },
+      {
+        "name": "Java for the Beginning Programmer",
+        "level": 0,
+        "url": "http://www.heatonresearch.com/articles/series/15"
+      },
+      {
+        "name": "Learning Java",
+        "level": 0,
+        "url": "http://chimera.labs.oreilly.com/books/1234000001805/index.html"
+      },
+      {
+        "name": "BuckysRoom: Intermediate Java",
+        "level": 1,
+        "url": "https://buckysroom.org/videos.php?cat=25"
       }
+      
     ]
   },
   {
