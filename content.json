@@ -2169,12 +2169,12 @@
   {
     "name": "lob",
     "tags": ["api"],
-    "description": "A printing API",
+    "description": "An API that lets you seamlessly print and mail documents, postcards, photos, and more.",
     "home": "http://lob.com",
-    "$then": [],
+    "$then": ["facebook", "foursquare", "twilio"],
     "links": [
       {
-        "name": "Docs",
+        "name": "docs",
         "level": 0,
         "url": "https://www.lob.com/docs"
       }
