@@ -2162,19 +2162,14 @@
     ]
   },
   {
-    "name": "Lob",
+    "name": "lob",
     "tags": ["api"],
-    "description": "Lob lets you seamlessly print and mail documents, postcards, photos, and more.",
+    "description": "An API that lets you seamlessly print and mail documents, postcards, photos, and more.",
     "home": "http://lob.com",
     "$then": ["facebook", "foursquare", "twilio"],
     "links": [
       {
-        "name": "Register",
-        "level": 0,
-        "url": "https://www.lob.com/auth/register/"
-      },
-      {
-        "name": "Docs",
+        "name": "docs",
         "level": 0,
         "url": "https://www.lob.com/docs"
       }
