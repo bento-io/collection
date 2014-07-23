@@ -309,6 +309,11 @@
         "url": "http://flask.pocoo.org/docs/"
       },
       {
+        "name": "Flask Mega Tutorial",
+        "level": 0,
+        "url": "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"
+      },
+      {
         "name": "Flaskr: Intro to Flask and Test Driven Development",
         "level": 1,
         "url": "https://github.com/mjhea0/flaskr-tdd"
