@@ -1161,6 +1161,20 @@
     ]
   },
   {
+    "name": "terraform",
+    "tags": ["foundational"],
+    "description": "A common configuration to launch infrastructure",
+    "home": "http://www.terraform.io/",
+    "$then": ["heroku"],
+    "links": [
+      {
+        "name": "Introduction to Terraform",
+        "level": 0,
+        "url": "http://www.terraform.io/intro/index.html"
+      }
+    ]
+  },
+  {
     "name": "swift",
     "tags": ["mobile"],
     "description": "Build apps for iOS devices",
