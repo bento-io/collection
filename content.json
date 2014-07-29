@@ -1162,7 +1162,7 @@
   },
   {
     "name": "terraform",
-    "tags": ["foundational"],
+    "tags": ["bridge"],
     "description": "A common configuration to launch infrastructure",
     "home": "http://www.terraform.io/",
     "$then": ["heroku"],
