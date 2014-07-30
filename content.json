@@ -3,7 +3,8 @@
     "name": "fundamentals",
     "tags": ["bridge"],
     "description": "How the web works",
-    "$then": ["html", "css", "javascript"],
+    "before": [],
+    "after": ["html", "css", "javascript"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -27,7 +28,8 @@
     "name": "html",
     "tags": ["frontend"],
     "description": "The very basics of putting something on a webpage",
-    "$then": ["css", "javascript", "sublime text"],
+    "before": [],
+    "after": ["css", "javascript", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
@@ -51,7 +53,8 @@
     "name": "css",
     "tags": ["frontend"],
     "description": "Styling your webpage",
-    "$then": ["javascript", "less", "sass", "bootstrap", "sublime text"],
+    "before": [],
+    "after": ["javascript", "less", "sass", "bootstrap", "sublime text"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/CSS",
     "links": [
       {
@@ -90,7 +93,8 @@
     "name": "shell",
     "tags": ["bridge"],
     "description": "Use the command line",
-    "$then": ["git"],
+    "before": [],
+    "after": ["git"],
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
@@ -124,7 +128,8 @@
     "name": "git",
     "tags": ["bridge"],
     "description": "Version control that's simple to use",
-    "$then": ["http", "heroku", "javascript"],
+    "before": [],
+    "after": ["http", "heroku", "javascript"],
     "home": "http://git-scm.com/",
     "links": [
       {
@@ -178,7 +183,8 @@
     "name": "javascript",
     "tags": ["frontend"],
     "description": "Make your pages interactive",
-    "$then": ["python", "jquery", "json", "node", "underscore", "sugar", "coffeescript", "regex"],
+    "before": [],
+    "after": ["python", "jquery", "json", "node", "underscore", "sugar", "coffeescript", "regex"],
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
@@ -237,7 +243,8 @@
     "name": "sublime text",
     "tags": ["ide"],
     "description": "A popular text editor",
-    "$then": ["vim", "python"],
+    "before": [],
+    "after": ["vim", "python"],
     "home": "http://www.sublimetext.com/",
     "links": [
       {
@@ -251,7 +258,8 @@
     "name": "python",
     "tags": ["backend"],
     "description": "A programming language to easily pick up",
-    "$then": ["big-o", "flask", "django", "tornado", "heroku", "ruby", "node", "go"],
+    "before": [],
+    "after": ["big-o", "flask", "django", "tornado", "heroku", "ruby", "node", "go"],
     "home": "http://www.python.org/",
     "links": [
       {
@@ -300,7 +308,8 @@
     "name": "flask",
     "tags": ["backend"],
     "description": "A basic microframework for python on the web",
-    "$then": ["tornado", "mongo", "django", "heroku", "memcached"],
+    "before": [],
+    "after": ["tornado", "mongo", "django", "heroku", "memcached"],
     "home": "http://flask.pocoo.org/",
     "links": [
       {
@@ -329,7 +338,8 @@
     "name": "sql",
     "tags": ["database"],
     "description": "A popular database language",
-    "$then": ["mongo", "couchdb", "neo4j", "redis", "memcached", "postgresql"],
+    "before": [],
+    "after": ["mongo", "couchdb", "neo4j", "redis", "memcached", "postgresql"],
     "home": "http://www.mysql.com/",
     "links": [
       {
@@ -353,7 +363,8 @@
     "name": "heroku",
     "tags": ["bridge"],
     "description": "Easily deploy your applications",
-    "$then": ["git", "postgresql", "javascript", "ruby", "python", "php"],
+    "before": [],
+    "after": ["git", "postgresql", "javascript", "ruby", "python", "php"],
     "home": "http://heroku.com/",
     "links": [
       {
@@ -372,7 +383,8 @@
     "name": "json",
     "tags": ["database"],
     "description": "How data is sent between applications",
-    "$then": ["mongo", "couchdb", "http", "rest", "xml", "redis", "memcached"],
+    "before": [],
+    "after": ["mongo", "couchdb", "http", "rest", "xml", "redis", "memcached"],
     "home": "http://www.json.org/",
     "links": [
       {
@@ -391,7 +403,8 @@
     "name": "jquery",
     "tags": ["frontend"],
     "description": "Control the DOM with javascript",
-    "$then": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
+    "before": [],
+    "after": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
     "home": "http://jquery.com/",
     "links": [
       {
@@ -420,7 +433,8 @@
     "name": "less",
     "tags": ["frontend"],
     "description": "A dynamic stylesheet language",
-    "$then": ["sass", "bootstrap"],
+    "before": [],
+    "after": ["sass", "bootstrap"],
     "home": "http://lesscss.org/",
     "links": [
       {
@@ -439,7 +453,8 @@
     "name": "bootstrap",
     "tags": ["frontend"],
     "description": "A popular frontend framework",
-    "$then": ["angular", "ember", "backbone", "sass", "less", "flight"],
+    "before": [],
+    "after": ["angular", "ember", "backbone", "sass", "less", "flight"],
     "home": "http://getbootstrap.com/",
     "links": [
       {
@@ -458,7 +473,8 @@
     "name": "big-o",
     "tags": ["bridge"],
     "description": "How to measure your code's performance",
-    "$then": ["data structures", "algorithms"],
+    "before": [],
+    "after": ["data structures", "algorithms"],
     "home": "http://en.wikipedia.org/wiki/Big_O_notation",
     "links": [
       {
@@ -482,7 +498,8 @@
     "name": "data structures",
     "tags": ["bridge"],
     "description": "Efficiently organize your data in code",
-    "$then": ["big-o"],
+    "before": [],
+    "after": ["big-o"],
     "home": "http://en.wikipedia.org/wiki/Data_structure",
     "links": [
       {
@@ -501,7 +518,8 @@
     "name": "http",
     "tags": ["bridge"],
     "description": "The basics of making web requests",
-    "$then": ["python", "javascript", "ruby", "heroku", "json", "rest", "https"],
+    "before": [],
+    "after": ["python", "javascript", "ruby", "heroku", "json", "rest", "https"],
     "home": "http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
     "links": [
       {
@@ -515,7 +533,8 @@
     "name": "security",
     "tags": ["bridge"],
     "description": "General tips around security",
-    "$then": ["https"],
+    "before": [],
+    "after": ["https"],
     "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
     "links": [
       {
@@ -539,7 +558,8 @@
     "name": "https",
     "tags": ["bridge"],
     "description": "The basics of secure connections",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://en.wikipedia.org/wiki/HTTP_Secure",
     "links": [
       {
@@ -558,7 +578,8 @@
     "name": "mongo",
     "tags": ["database"],
     "description": "A simple javascript based database",
-    "$then": ["elasticsearch", "couchdb", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "before": [],
+    "after": ["elasticsearch", "couchdb", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
     "home": "http://www.mongodb.org/",
     "links": [
       {
@@ -577,7 +598,8 @@
     "name": "couchdb",
     "tags": ["database"],
     "description": "A nosql database for the web",
-    "$then": ["mongo", "json", "elasticsearch", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
+    "before": [],
+    "after": ["mongo", "json", "elasticsearch", "neo4j", "redis", "memcached", "sql", "rethinkdb"],
     "home": "http://couchdb.apache.org/",
     "links": [
       {
@@ -596,7 +618,8 @@
     "name": "elasticsearch",
     "tags": ["database"],
     "description": "Distributed, restful, open-source search",
-    "$then": ["mongo", "couchdb", "sql", "json", "memcached", "redis", "neo4j"],
+    "before": [],
+    "after": ["mongo", "couchdb", "sql", "json", "memcached", "redis", "neo4j"],
     "home": "http://www.elasticsearch.org/",
     "links": [
       {
@@ -620,7 +643,8 @@
     "name": "redis",
     "tags": ["database"],
     "description": "A basic key-value store",
-    "$then": ["mongo", "couchdb", "memcached", "neo4j", "sql"],
+    "before": [],
+    "after": ["mongo", "couchdb", "memcached", "neo4j", "sql"],
     "home": "http://redis.io/",
     "links": [
       {
@@ -639,7 +663,8 @@
     "name": "memcached",
     "tags": ["database"],
     "description": "A way to cache your data in memory",
-    "$then": ["mongo", "couchdb", "redis", "heroku", "neo4j", "sql"],
+    "before": [],
+    "after": ["mongo", "couchdb", "redis", "heroku", "neo4j", "sql"],
     "home": "http://memcached.org/",
     "links": [
       {
@@ -658,7 +683,8 @@
     "name": "angular",
     "tags": ["frontend"],
     "description": "Build powerful data-driven html and javascript",
-    "$then": ["ember", "jquery", "backbone", "flight"],
+    "before": [],
+    "after": ["ember", "jquery", "backbone", "flight"],
     "home": "http://angularjs.org/",
     "links": [
       {
@@ -687,7 +713,8 @@
     "name": "sass",
     "tags": ["frontend"],
     "description": "An extension of css",
-    "$then": ["less", "bootstrap", "angular"],
+    "before": [],
+    "after": ["less", "bootstrap", "angular"],
     "home": "http://sass-lang.com/",
     "links": [
       {
@@ -706,7 +733,8 @@
     "name": "node",
     "tags": ["backend"],
     "description": "Create a backend with javascript",
-    "$then": ["express", "heroku", "mongo", "ember", "angular", "grunt"],
+    "before": [],
+    "after": ["express", "heroku", "mongo", "ember", "angular", "grunt"],
     "home": "http://nodejs.org/",
     "links": [
       {
@@ -735,7 +763,8 @@
     "name": "express",
     "tags": ["backend"],
     "description": "The most popular web framework for node",
-    "$then": ["heroku", "angular", "ember"],
+    "before": [],
+    "after": ["heroku", "angular", "ember"],
     "home": "http://expressjs.com/",
     "links": [
       {
@@ -754,7 +783,8 @@
     "name": "grunt",
     "tags": ["backend"],
     "description": "A powerful javascript task runner",
-    "$then": ["jade", "coffeescript", "less", "sass"],
+    "before": [],
+    "after": ["jade", "coffeescript", "less", "sass"],
     "home": "http://gruntjs.com/",
     "links": [
       {
@@ -773,7 +803,8 @@
     "name": "jade",
     "tags": ["frontend"],
     "description": "A templating language for quick html coding",
-    "$then": ["less", "bootstrap", "angular", "grunt"],
+    "before": [],
+    "after": ["less", "bootstrap", "angular", "grunt"],
     "home": "http://jade-lang.com/",
     "links": [
       {
@@ -793,7 +824,8 @@
     "tags": ["bridge"],
     "description": "A popular syntax for pattern matching",
     "home": "http://www.regular-expressions.info/",
-    "$then": ["json", "rest"],
+    "before": [],
+    "after": ["json", "rest"],
     "links":[
       {
         "name": "RegexOne",
@@ -811,7 +843,8 @@
     "name": "vim",
     "tags": ["ide"],
     "description": "A text editor in your console",
-    "$then": ["sublime text"],
+    "before": [],
+    "after": ["sublime text"],
     "home": "http://vim.sourceforge.net/",
     "links": [
       {
@@ -851,7 +884,8 @@
     "tags": ["api"],
     "description": "A way to architecture your applications around verbs and resources",
     "home": "",
-    "$then": ["json", "xml", "http"],
+    "before": [],
+    "after": ["json", "xml", "http"],
     "links": [
       {
         "name": "Best Practices for Designing Pragmatic RESTful APIs",
@@ -884,7 +918,8 @@
     "name": "bottle",
     "tags": ["backend"],
     "description": "A fast, simple and lightweight micro framework for python",
-    "$then": ["flask", "tornado", "mongo", "couchdb", "django", "heroku", "memcached"],
+    "before": [],
+    "after": ["flask", "tornado", "mongo", "couchdb", "django", "heroku", "memcached"],
     "home": "http://bottlepy.org/docs/dev/",
     "links": [
       {
@@ -898,7 +933,8 @@
     "name": "django",
     "tags": ["backend"],
     "description": "A popular web framework for python",
-    "$then": ["tornado", "flask", "heroku"],
+    "before": [],
+    "after": ["tornado", "flask", "heroku"],
     "home": "http://www.djangoproject.com",
     "links": [
       {
@@ -922,7 +958,8 @@
     "name": "tornado",
     "tags": ["backend"],
     "description": "An asynchronous microframework for python on the web",
-    "$then": ["flask", "heroku", "django"],
+    "before": [],
+    "after": ["flask", "heroku", "django"],
     "home": "http://www.tornadoweb.org/en/stable/",
     "links": [
       {
@@ -936,7 +973,8 @@
     "name": "ruby",
     "tags": ["backend"],
     "description": "An easy, expressive and dynamic scripting language",
-    "$then": ["rails", "python"],
+    "before": [],
+    "after": ["rails", "python"],
     "home": "http://www.ruby-lang.org/en/",
     "links": [
       {
@@ -995,7 +1033,8 @@
     "name": "rails",
     "tags": ["backend", "mvc"],
     "description": "An awesome web framework for ruby",
-    "$then": ["heroku", "coffeescript", "less", "sass", "sql"],
+    "before": [],
+    "after": ["heroku", "coffeescript", "less", "sass", "sql"],
     "home": "http://rubyonrails.org/",
     "links": [
       {
@@ -1055,7 +1094,8 @@
     "tags": ["backend"],
     "description": "A new language for the web",
     "home": "http://golang.org/",
-    "$then": ["python", "ruby", "node"],
+    "before": [],
+    "after": ["python", "ruby", "node"],
     "links": [
       {
         "name": "Tour",
@@ -1084,7 +1124,8 @@
     "tags": ["backend"],
     "description": "A popular programming language",
     "home": "",
-    "$then": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
+    "before": [],
+    "after": ["python", "ruby", "node", "coldfusion", "scala", "clojure", "groovy"],
     "links": [
         {
         "name": "Intro to Programming in Java",
@@ -1103,7 +1144,8 @@
     "tags": ["backend"],
     "description": "A highly performant language that works with Java",
     "home": "http://www.scala-lang.org/",
-    "$then": ["play"],
+    "before": [],
+    "after": ["play"],
     "links":[
       {
         "name": "Scala Tutorials",
@@ -1127,7 +1169,8 @@
     "tags": ["backend"],
     "description": "A popular web framework for scala",
     "home": "http://www.playframework.com/",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links":[
       {
         "name": "Your first Play application",
@@ -1140,7 +1183,8 @@
     "name": "elixir",
     "tags": ["backend"],
     "description": "A functional language built on top of the Erlang VM",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://elixir-lang.org/",
     "links": [
       {
@@ -1165,7 +1209,8 @@
     "tags": ["bridge"],
     "description": "A common configuration to launch infrastructure",
     "home": "http://www.terraform.io/",
-    "$then": ["heroku"],
+    "before": [],
+    "after": ["heroku"],
     "links": [
       {
         "name": "Introduction to Terraform",
@@ -1179,7 +1224,8 @@
     "tags": ["mobile"],
     "description": "Build apps for iOS devices",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
-    "$then": ["windows phone", "android", "objective-c"],
+    "before": [],
+    "after": ["windows phone", "android", "objective-c"],
     "links":[
       {
         "name": "A swift tour",
@@ -1193,7 +1239,8 @@
     "tags": ["mobile"],
     "description": "Legacy code for iOS development",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
-    "$then": ["windows phone", "android", "swift"],
+    "before": [],
+    "after": ["windows phone", "android", "swift"],
     "links":[
       {
         "name": "A primer in Objective-C",
@@ -1222,7 +1269,8 @@
     "tags": ["mobile"],
     "description": "Build apps for Android devices",
     "home": "http://developer.android.com/index.html",
-    "$then": ["windows phone", "swift"],
+    "before": [],
+    "after": ["windows phone", "swift"],
     "links":[
       {
         "name": "Building your first app",
@@ -1241,7 +1289,8 @@
     "tags": ["mobile"],
     "description": "Build apps for windows phones",
     "home": "https://dev.windowsphone.com/en-us",
-    "$then": [".net", "swift", "android"],
+    "before": [],
+    "after": [".net", "swift", "android"],
     "links":[
       {
         "name": "Windows App Builder",
@@ -1254,7 +1303,8 @@
     "name": "d3",
     "tags": ["frontend"],
     "description": "A javascript library for visualizing data",
-    "$then": ["leaflet"],
+    "before": [],
+    "after": ["leaflet"],
     "home": "http://d3js.org/",
     "links": [
       {
@@ -1278,7 +1328,8 @@
     "name": "leaflet",
     "tags": ["frontend"],
     "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
-    "$then": ["d3", "api"],
+    "before": [],
+    "after": ["d3", "api"],
     "home": "http://leafletjs.com/index.html",
     "links": [
       {
@@ -1298,7 +1349,8 @@
     "tags": ["frontend"],
     "description": "Smooth JavaScript animation",
     "home": "http://velocityjs.org",
-    "$then": ["d3", "three.js"],
+    "before": [],
+    "after": ["d3", "three.js"],
     "links":[
       {
         "name": "Documentation",
@@ -1317,7 +1369,8 @@
     "tags": ["frontend"],
     "description": "A JavaScript 3D Library which makes WebGL simpler.",
     "home": "http://threejs.org/",
-    "$then": ["d3", "velocity"],
+    "before": [],
+    "after": ["d3", "velocity"],
     "links":[
       {
         "name": "Documentation",
@@ -1335,7 +1388,8 @@
     "name": "neo4j",
     "tags": ["database"],
     "description": "The graph database",
-    "$then": ["mongo", "couchdb", "redis", "memcached", "sql"],
+    "before": [],
+    "after": ["mongo", "couchdb", "redis", "memcached", "sql"],
     "home": "http://www.neo4j.org/",
     "links": [
       {
@@ -1349,7 +1403,8 @@
     "name": "rethinkdb",
     "tags": ["database"],
     "description": "An open-source distributed database to store JSON",
-    "$then": ["heroku", "json", "couchdb", "http", "neo4j", "redis", "memcached", "sql"],
+    "before": [],
+    "after": ["heroku", "json", "couchdb", "http", "neo4j", "redis", "memcached", "sql"],
     "home": "http://www.rethinkdb.com/",
     "links": [
       {
@@ -1369,7 +1424,8 @@
     "tags": ["frontend"],
     "description": "An event-driven web framework for javascript",
     "home": "http://flightjs.github.io",
-    "$then": ["ember", "angular", "backbone", "meteor"],
+    "before": [],
+    "after": ["ember", "angular", "backbone", "meteor"],
     "links": [
       {
         "name": "Learn Flight",
@@ -1382,7 +1438,8 @@
     "name": "meteor",
     "tags": ["backend"],
     "description": "A framework to build realtime web applications in JavaScript",
-    "$then": ["angular", "ember", "backbone", "flight"],
+    "before": [],
+    "after": ["angular", "ember", "backbone", "flight"],
     "home": "https://www.meteor.com",
     "links": [
       {
@@ -1406,7 +1463,8 @@
     "name": "ember",
     "tags": ["backend"],
     "description": "Build robust single-page apps with javascript",
-    "$then": ["angular", "jquery", "backbone", "flight"],
+    "before": [],
+    "after": ["angular", "jquery", "backbone", "flight"],
     "home": "http://emberjs.com/",
     "links": [
       {
@@ -1430,7 +1488,8 @@
     "name": "backbone",
     "tags": ["backend"],
     "description": "A framework that makes handling data easier in javascript",
-    "$then": ["angular", "jquery", "ember", "flight"],
+    "before": [],
+    "after": ["angular", "jquery", "ember", "flight"],
     "home": "http://backbonejs.org/",
     "links": [
       {
@@ -1444,7 +1503,8 @@
     "name": "underscore",
     "tags": ["backend"],
     "description": "A utility belt for javascript",
-    "$then": ["sugar", "backbone", "coffeescript","lodash", "flight"],
+    "before": [],
+    "after": ["sugar", "backbone", "coffeescript","lodash", "flight"],
     "home": "http://underscorejs.org/",
     "links": [
       {
@@ -1458,7 +1518,8 @@
     "name": "lodash",
     "tags": ["backend"],
     "description": "A utility library delivering performance",
-    "$then": ["sugar", "backbone", "coffeescript","underscore"],
+    "before": [],
+    "after": ["sugar", "backbone", "coffeescript","underscore"],
     "home": "http://lodash.com/",
     "links": [
       {
@@ -1472,7 +1533,8 @@
     "name": "sugar",
     "tags": ["backend"],
     "description": "Extend the functionality of javascript",
-    "$then": ["underscore", "backbone", "coffeescript"],
+    "before": [],
+    "after": ["underscore", "backbone", "coffeescript"],
     "home": "http://sugarjs.com/",
     "links": [
     ]
@@ -1481,7 +1543,8 @@
     "name": "coffeescript",
     "tags": ["backend"],
     "description": "A language that compiles to javascript",
-    "$then": ["underscore", "angular", "backbone", "jade", "grunt"],
+    "before": [],
+    "after": ["underscore", "angular", "backbone", "jade", "grunt"],
     "home": "http://coffeescript.org/",
     "links": [
       {
@@ -1495,7 +1558,8 @@
     "name": "dart",
     "tags": ["backend"],
     "description": "A new language for structured web app engineering",
-    "$then": ["node"],
+    "before": [],
+    "after": ["node"],
     "home": "http://dartlang.org",
     "links": [
       {
@@ -1514,7 +1578,8 @@
     "name": "php",
     "tags": ["backend"],
     "description": "A server-side language for the web",
-    "$then": ["python", "node", "sql", "laravel", "symfony", "yii", "phpixie", "cakephp"],
+    "before": [],
+    "after": ["python", "node", "sql", "laravel", "symfony", "yii", "phpixie", "cakephp"],
     "home": "http://php.net/",
     "links": [
       {
@@ -1538,7 +1603,8 @@
     "name":"mvc",
     "tags": ["bridge"],
     "description": "Popular software architecture pattern",
-    "$then": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
+    "before": [],
+    "after": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
     "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
     "links": [
       {
@@ -1557,7 +1623,8 @@
     "name": "cakephp",
     "tags": ["backend"],
     "description": "CakePHP makes building web applications simpler, faster and require less code",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://cakephp.org/",
     "links": [
       {
@@ -1581,7 +1648,8 @@
     "name": "codeigniter",
     "tags": ["backend"],
     "description": "An awesome MVC PHP Framework",
-    "$then": ["mysql"],
+    "before": [],
+    "after": ["mysql"],
     "home": "http://ellislab.com/codeigniter",
     "links": [
       {
@@ -1595,7 +1663,8 @@
     "name": "symfony",
     "tags": ["backend"],
     "description": "High Performance PHP Framework for web development",
-    "$then": ["twig"],
+    "before": [],
+    "after": ["twig"],
     "home": "http://symfony.com/",
     "links": [
       {
@@ -1619,7 +1688,8 @@
     "name": "yii",
     "tags": ["backend"],
     "description": "The Fast, Secure and Professional PHP Framework",
-    "$then": ["twig"],
+    "before": [],
+    "after": ["twig"],
     "home": "http://yiiframework.com/",
     "links": [
       {
@@ -1648,7 +1718,8 @@
     "name": "twig",
     "tags": ["backend"],
     "description": "The flexible, fast, and secure template engine for PHP",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://twig.sensiolabs.org/",
     "links": [
       {
@@ -1662,7 +1733,8 @@
     "name": "laravel",
     "tags": ["backend"],
     "description": "The php framework for web artisans",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://www.laravel.com",
     "links": [
       {
@@ -1696,7 +1768,8 @@
     "name": "phpixie",
     "tags": ["backend"],
     "description": "Lightweight, fast and easy to learn framework",
-    "$then": [],
+    "before": [],
+    "after": [],
     "home": "http://phpixie.com/",
     "links": [
       {
@@ -1716,7 +1789,8 @@
     "tags": ["backend"],
     "description": "A dynamic language that works with Java",
     "home": "",
-    "$then": ["scala"],
+    "before": [],
+    "after": ["scala"],
     "links": [
         {
         "name": "Beginner's Tutorial",
@@ -1735,7 +1809,8 @@
     "tags": ["backend"],
     "description": "A lisp dialect which runs on the JVM",
     "home": "http://www.clojure.org/",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links":[
       {
         "name": "Clojure for the Brave and True",
@@ -1759,7 +1834,8 @@
     "tags": ["database"],
     "description": "An alternative to json",
     "home": "",
-    "$then": ["json", "http"],
+    "before": [],
+    "after": ["json", "http"],
     "links": [
       {
         "name": "XML Tutorial",
@@ -1773,7 +1849,8 @@
     "tags": ["backend"],
     "description": "A realtime backend for your web or mobile app",
     "home": "https://www.firebase.com/index.html",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links": [
       {
         "name": "5 Minute Chat Tutorial",
@@ -1792,7 +1869,8 @@
     "tags": ["bridge"],
     "description": "A very popular http web server",
     "home": "https://httpd.apache.org/",
-    "$then": ["http", "rest", "nginx"],
+    "before": [],
+    "after": ["http", "rest", "nginx"],
     "links":[
       {
         "name": "Apache Documentation",
@@ -1806,7 +1884,8 @@
     "tags": ["bridge"],
     "description": "A popular http web server, load balancer and http cache",
     "home": "http://nginx.org/",
-    "$then": ["http", "rest", "apache"],
+    "before": [],
+    "after": ["http", "rest", "apache"],
     "links":[
       {
         "name": "Beginner's Guide",
@@ -1820,7 +1899,8 @@
     "tags": ["backend"],
     "description": "A web programming language great for text manipulation and rapid development",
     "home": "http://www.perl.org/",
-    "$then": ["sql", "postgresql", "vagrant"],
+    "before": [],
+    "after": ["sql", "postgresql", "vagrant"],
     "links":[
       {
         "name": "Learn Perl",
@@ -1849,7 +1929,8 @@
     "tags": ["bridge"],
     "description": "A tool for building and managing virtual environments",
     "home": "http://www.vagrantup.com/",
-    "$then": ["docker"],
+    "before": [],
+    "after": ["docker"],
     "links":[
       {
         "name":"Why Vagrant?",
@@ -1868,7 +1949,8 @@
     "tags": ["bridge"],
     "description": "Create lightweight, portable, self-sufficient containers",
     "home": "http://www.docker.io/",
-    "$then": ["vagrant"],
+    "before": [],
+    "after": ["vagrant"],
     "links":[
       {
         "name": "Docker Interactive Tutorial",
@@ -1882,7 +1964,8 @@
     "tags": ["backend"],
     "description": "A development framework for the web",
     "home": "http://www.microsoft.com/net",
-    "$then": ["api","sql","bootstrap"],
+    "before": [],
+    "after": ["api","sql","bootstrap"],
     "links":[
       {
         "name": "Intro to ASP.NET MVC 5",
@@ -1896,7 +1979,8 @@
     "tags": ["backend"],
     "description": "A development framework for the web/mobile",
     "home": "http://msdn.microsoft.com/en-us/vstudio/ff796201",
-    "$then": [".net","sql"],
+    "before": [],
+    "after": [".net","sql"],
     "links":[
       {
         "name": "Intro to Lightswitch",
@@ -1910,7 +1994,8 @@
     "tags": ["backend"],
     "description": "A server application for java",
     "home": "http://www.adobe.com/products/coldfusion-family.html",
-    "$then": ["sql"],
+    "before": [],
+    "after": ["sql"],
     "links":[
       {
         "name":"Coldfusion Tutorials",
@@ -1939,7 +2024,8 @@
     "tags": ["bridge"],
     "description": "Ranking well in search engines",
     "home": "",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links":[
       {
         "name": "Google's Starter Guide",
@@ -1958,7 +2044,8 @@
     "tags": ["api"],
     "description": "How to expose and access data from different services",
     "home": "",
-    "$then": ["rest", "webhooks", "mashape"],
+    "before": [],
+    "after": ["rest", "webhooks", "mashape"],
     "links": [
       {
         "name": "Designing an API",
@@ -1982,7 +2069,8 @@
     "tags": ["api"],
     "description": "Simple HTTP Push Notifications",
     "home": "",
-    "$then": ["api"],
+    "before": [],
+    "after": ["api"],
     "links": [
       {
         "name": "RequestBin - Inspect HTTP Requests",
@@ -2006,7 +2094,8 @@
     "tags": ["api"],
     "description": "An enormous collection of apis from Google",
     "home": "http://developers.google.com",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links": [
       {
         "name": "Google API Explorer",
@@ -2020,7 +2109,8 @@
     "tags": ["api"],
     "description": "An easy way to distribute, monetize and consume multiple APIs",
     "home": "",
-    "$then": ["facebook", "foursquare", "twilio", "ribbon"],
+    "before": [],
+    "after": ["facebook", "foursquare", "twilio", "ribbon"],
     "links": [
       {
         "name": "Codecademy",
@@ -2034,7 +2124,8 @@
     "tags": ["api"],
     "description": "Get data about people and their networks",
     "home": "https://developers.facebook.com/",
-    "$then": ["foursquare", "ribbon", "twilio"],
+    "before": [],
+    "after": ["foursquare", "ribbon", "twilio"],
     "links":[
       {
         "name": "Explore",
@@ -2048,7 +2139,8 @@
     "tags": ["api"],
     "description": "Get data about places",
     "home": "http://developer.foursquare.com/",
-    "$then": ["facebook", "twilio", "ribbon"],
+    "before": [],
+    "after": ["facebook", "twilio", "ribbon"],
     "links":[
       {
         "name": "Tutorial",
@@ -2067,7 +2159,8 @@
     "tags": ["api"],
     "description": "An email API",
     "home": "http://sendgrid.com",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links":[
       {
         "name": "Docs",
@@ -2086,7 +2179,8 @@
     "tags": ["api"],
     "description": "An email API",
     "home": "http://mandrill.com",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links": [
       {
         "name": "Getting Started with Mandrill",
@@ -2100,7 +2194,8 @@
     "tags": ["api"],
     "description": "A text and sentiment analysis API",
     "home": "http://semantria.com",
-    "$then": [],
+    "before": [],
+    "after": [],
     "links":[
       {
         "name": "Developer Portal",
@@ -2114,7 +2209,8 @@
     "tags": ["api"],
     "description": "Send and receive texts and calls",
     "home": "http://twilio.com/",
-    "$then": ["facebook", "foursquare", "ribbon"],
+    "before": [],
+    "after": ["facebook", "foursquare", "ribbon"],
     "links":[
       {
         "name": "Quickstart",
@@ -2128,7 +2224,8 @@
     "tags": ["api"],
     "description": "Accept payments on your site",
     "home": "http://bit.ly/UHd0Et",
-    "$then": ["facebook", "foursquare", "twilio"],
+    "before": [],
+    "after": ["facebook", "foursquare", "twilio"],
     "links":[
       {
         "name": "About video",
@@ -2142,7 +2239,8 @@
     "tags": ["backend"],
     "description": "A backend for mobile apps",
     "home": "https://parse.com/",
-    "$then": ["facebook", "foursquare", "twilio"],
+    "before": [],
+    "after": ["facebook", "foursquare", "twilio"],
     "links":[
       {
         "name": "Tutorials",
@@ -2156,7 +2254,8 @@
     "tags": ["api"],
     "description": "A NLP text analysis API",
     "home": "http://www.alchemyapi.com/",
-    "$then": ["facebook", "foursquare", "twilio"],
+    "before": [],
+    "after": ["facebook", "foursquare", "twilio"],
     "links":[
       {
         "name": "Getting started guide",
@@ -2185,7 +2284,8 @@
     "tags": ["api"],
     "description": "An API that lets you seamlessly print and mail documents, postcards, photos, and more.",
     "home": "http://lob.com",
-    "$then": ["facebook", "foursquare", "twilio"],
+    "before": [],
+    "after": ["facebook", "foursquare", "twilio"],
     "links": [
       {
         "name": "docs",
