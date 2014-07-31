@@ -208,6 +208,11 @@
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
       },
       {
+        "name": "A re-introduction to JavaScript",
+        "level": 1,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+      },
+      {
         "name": "A Dive Into Plain Javascript",
         "level": 1,
         "url": "http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/"
@@ -223,9 +228,19 @@
         "url": "http://jstherightway.org/"
       },
       {
+        "name": "Introduction to Object-Oriented JavaScript",
+        "level": 2,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
+      },
+      {
         "name": "Learning Javascript Design Patterns",
         "level": 2,
         "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+      },
+      {
+        "name": "Learning Advanced JavaScript",
+        "level": 2,
+        "url": "http://ejohn.org/apps/learn/"
       },
       {
         "name": "Fight Code Game",
