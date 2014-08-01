@@ -98,6 +98,11 @@
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
+        "name": "The Fundamentals of Bash Scripting",
+        "level": 0,
+        "url": "http://code.tutsplus.com/tutorials/the-fundamentals-of-bash-scripting--net-32093"
+      },
+      {
         "name": "Learning the Shell",
         "level": 0,
         "url": "http://linuxcommand.org/learning_the_shell.php"
@@ -156,6 +161,11 @@
         "name": "Getting Started",
         "level": 0,
         "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "Git Workflows",
+        "level": 1,
+        "url": "https://www.atlassian.com/git/workflows"
       },
       {
         "name": "Git Best Practices",
@@ -248,9 +258,14 @@
     "home": "http://www.sublimetext.com/",
     "links": [
       {
-        "name": "tuts+",
+        "name": "Getting Started with Sublime Text 2",
         "level": 0,
-        "url": "https://tutsplus.com/lesson/hello-2/"
+        "url": "http://opensoul.org/2012/01/12/getting-started-with-sublime-text-2/"
+      },
+      {
+        "name": "Perfect Workflow in Sublime Text",
+        "level": 0,
+        "url": "http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293"
       }
     ]
   },
@@ -301,6 +316,11 @@
         "name": "Python Module of the Week",
         "level": 1,
         "url": "http://pymotw.com/2/"
+      },
+      {
+        "name": "Python Challenge",
+        "level": 2,
+        "url": "http://www.pythonchallenge.com/"
       }
     ]
   },
