@@ -742,7 +742,7 @@
   },
   {
     "name": "grunt",
-    "tags": ["backend"],
+    "tags": ["foundational"],
     "description": "A powerful javascript task runner",
     "$then": ["jade", "coffeescript", "less", "sass"],
     "home": "http://gruntjs.com/",
@@ -1380,7 +1380,7 @@
   },
   {
     "name": "ember",
-    "tags": ["backend"],
+    "tags": ["frontend"],
     "description": "Build robust single-page apps with javascript",
     "$then": ["angular", "jquery", "backbone", "flight"],
     "home": "http://emberjs.com/",
@@ -1404,7 +1404,7 @@
   },
   {
     "name": "backbone",
-    "tags": ["backend"],
+    "tags": ["frontend"],
     "description": "A framework that makes handling data easier in javascript",
     "$then": ["angular", "jquery", "ember", "flight"],
     "home": "http://backbonejs.org/",
@@ -1455,7 +1455,7 @@
   },
   {
     "name": "coffeescript",
-    "tags": ["backend"],
+    "tags": ["frontend"],
     "description": "A language that compiles to javascript",
     "$then": ["underscore", "angular", "backbone", "jade", "grunt"],
     "home": "http://coffeescript.org/",
