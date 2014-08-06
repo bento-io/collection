@@ -83,6 +83,11 @@
         "url": "http://smacss.com/book/"
       },
       {
+        "name": "AtoZ CSS video series",
+        "level": 0,
+        "url": "http://atozcss.com/"
+      },
+      {
         "name": "A Beginner's Guide to HTML & CSS",
         "level": 0,
         "url": "http://learn.shayhowe.com/html-css/"
@@ -1381,9 +1386,9 @@
         "name": "Getting Started With three.js",
         "level": 0,
         "url": "http://aerotwist.com/tutorials/getting-started-with-three-js/"
-      }      
+      }
     ]
-  },  
+  },
   {
     "name": "neo4j",
     "tags": ["database"],
