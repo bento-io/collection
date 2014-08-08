@@ -1053,6 +1053,11 @@
         "url": "http://railsforzombies.org/"
       },
       {
+        "name": "Install Rails",
+        "level":0,
+        "url": "http://installrails.com/"
+      },
+      {
         "name": "Rails Anatomy",
         "level": 0,
         "url": "https://www.codeschool.com/code_tv/rails-anatomy"
