@@ -238,11 +238,6 @@
         "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/"
       },
       {
-        "name": "Learning Advanced JavaScript",
-        "level": 2,
-        "url": "http://ejohn.org/apps/learn/"
-      },
-      {
         "name": "Fight Code Game",
         "level": 1,
         "url": "http://fightcodegame.com/"
@@ -251,6 +246,16 @@
         "name": "Code Wars",
         "level": 1,
         "url": "http://www.codewars.com/"
+      },
+      {
+        "name": "Human Javascript",
+        "level": 1,
+        "url": "http://read.humanjavascript.com/"
+      },
+      {
+        "name": "Learning Advanced JavaScript",
+        "level": 2,
+        "url": "http://ejohn.org/apps/learn/"
       }
     ]
   },
