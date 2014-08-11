@@ -98,14 +98,14 @@
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
-        "name": "The Fundamentals of Bash Scripting",
-        "level": 0,
-        "url": "http://code.tutsplus.com/tutorials/the-fundamentals-of-bash-scripting--net-32093"
-      },
-      {
         "name": "Learning the Shell",
         "level": 0,
         "url": "http://linuxcommand.org/learning_the_shell.php"
+      },
+      {
+        "name": "The Fundamentals of Bash Scripting",
+        "level": 0,
+        "url": "http://code.tutsplus.com/tutorials/the-fundamentals-of-bash-scripting--net-32093"
       },
       {
         "name": "Learn Shell",
@@ -258,14 +258,14 @@
     "home": "http://www.sublimetext.com/",
     "links": [
       {
+        "name": "Perfect Workflow in Sublime Text",
+        "level": 0,
+        "url": "http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2"
+      },
+      {
         "name": "Getting Started with Sublime Text 2",
         "level": 0,
         "url": "http://opensoul.org/2012/01/12/getting-started-with-sublime-text-2/"
-      },
-      {
-        "name": "Perfect Workflow in Sublime Text",
-        "level": 0,
-        "url": "http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293"
       }
     ]
   },
