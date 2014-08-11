@@ -710,6 +710,21 @@
     ]
   },
   {
+    "name": "ractive",
+    "tags": ["frontend"],
+    "description": "Live, reactive templates in JavaScript",
+    "home": "http://ractivejs.org",
+    "before": [],
+    "after": ["node"],
+    "links": [
+      {
+        "name": "Learn Ractive.js",
+        "level": 0,
+        "url": "http://learn.ractivejs.org"
+      }
+    ]
+  },
+  {
     "name": "sass",
     "tags": ["frontend"],
     "description": "An extension of css",
@@ -2291,21 +2306,6 @@
         "name": "docs",
         "level": 0,
         "url": "https://www.lob.com/docs"
-      }
-    ]
-  },
-  {
-    "name": "ractive",
-    "tags": ["frontend"],
-    "description": "Next generation DOM manipulation! Live, reactive templates",
-    "home": "http://ractivejs.org",
-    "before": [],
-    "after": ["data structures", "node"],
-    "links": [
-      {
-        "name": "Learn Ractive.js",
-        "level": 0,
-        "url": "http://learn.ractivejs.org"
       }
     ]
   }
