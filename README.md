@@ -14,12 +14,12 @@ Please make sure that you *validate your JSON before submitting a pull request* 
 1. Links should be free (no pay walls) and take the user *immediately* to the relevant information (i.e. for html go to the html exercise in codecademy, rather than codeacademy's home page - the user should not have to do any searching to start learning)
 2. Links should come from a single source on a single topic, so a blog post rather than the homepage for a blog, a tutorial rather than a list of tutorials, etc.
 3. Links should generally be about the topic as a whole, and not about a special subject *within* that topic (i.e. an introduction to CSS rather than different ways to float divs)
-4. All names must be lowercase (even in the $then fields and descriptions)
+4. All names must be lowercase (even in the "after" fields and descriptions)
 5. Descriptions should be no more than 100 characters long
-6. Descriptions should *not* use any complex jargon when possible
+6. Descriptions should *not* use any complex jargon when possible and should *not* be treated as a space for ad-like vocabulary
 7. Home should be the top domain when possible (official documentation or the wikipedia article if a concept)
-8. Next lessons ($then) are meant to signify what the next lesson should be (1) **immediate** and (2) **obvious** (3) **next or related steps** from the current box
-9. Next lessons should *not* include prerequisites (javascript should not be in angular $then)
+8. Next lessons ("after") are meant to signify what the next lesson should be (1) **immediate** and (2) **obvious** (3) **next or related steps** from the current box
+9. Prerequisites for a box should be in the "before" array. They must be clearly "necessary" to know in order to be included. Topics that are simply helpful to know, but not essential should be avoided
 10. Each LINK (not the box) must be categorized as "easy" (level: 0, no previous experience necessary), "medium" (level: 1, requires "easy" information), and "hard" (level: 2, requires "medium" information)
 11. Only the first two "easy" links are shown, in the order of the array
 12. Link names should be the title of the destination
