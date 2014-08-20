@@ -1521,6 +1521,10 @@
         "name": "Developing Backbone.js Applications",
         "level": 0,
         "url": "http://addyosmani.github.io/backbone-fundamentals/"
+      },
+      {
+        "name":"Backbone.js for Absolute Beginners",
+        "url":"http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/"
       }
     ]
   },
