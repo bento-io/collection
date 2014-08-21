@@ -885,6 +885,31 @@
     ]
   },
   {
+    "name": "yeoman",
+    "tags": ["foundational"],
+    "description": "a scaffolding tool for modern webapps",
+    "before": [],
+    "after": ["grunt", "node"],
+    "home": "http://yeoman.io/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "http://yeoman.io/learning/index.html"
+      },
+      {
+        "name": "Mastering Front-end Workflow with Yeoman",
+        "level": 0,
+        "url": "https://www.youtube.com/watch?v=gKiaLSJW5xI"
+      },
+      {
+        "name": "Improving your Development Workflow with Yeoman",
+        "level": 0,
+        "url": "http://blog.teamtreehouse.com/improving-development-workflow-yeoman"
+      }
+    ]
+  }
+  {
     "name": "jade",
     "tags": ["frontend"],
     "description": "A templating language for quick html coding",
