@@ -78,6 +78,11 @@
         "url": "http://teamtreehouse.com/library/css-foundations"
       },
       {
+        "name": "MDN - Getting Started with CSS",
+        "level": 0,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started"
+      },
+      {
         "name": "Scalable and Modular Architecture for CSS",
         "level": 1,
         "url": "http://smacss.com/book/"
@@ -86,6 +91,16 @@
         "name": "A Beginner's Guide to HTML & CSS",
         "level": 0,
         "url": "http://learn.shayhowe.com/html-css/"
+      },
+      {
+        "name": "Mastering CSS: Part 1",
+        "level": 2,
+        "url": "http://www.smashingmagazine.com/2009/08/03/mastering-css-styling-design-elements/"
+      },
+      {
+        "name": "Mastering CSS: Part 2",
+        "level": 2,
+        "url": "http://www.smashingmagazine.com/2009/08/10/mastering-css-advanced-techniques-and-tools/"
       }
     ]
   },
@@ -271,6 +286,16 @@
         "name": "tuts+",
         "level": 0,
         "url": "https://tutsplus.com/lesson/hello-2/"
+      },
+      {
+        "name": "Level Up Tuts: Sublime Text 2 Tutorials",
+        "level": 0,
+        "url": "http://leveluptuts.com/tutorials/sublime-text-2-tutorials" 
+      },
+      {
+        "name": "The Complete Visual Guide to Sublime Text 3",
+        "level": 0,
+        "url": "http://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts"
       }
     ]
   },
@@ -446,6 +471,11 @@
         "name": "Treehouse - Build an Interactive Website",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      },
+      {
+        "name": "jQuery Tutorial for Beginners: Nothing but the Goods",
+        "level": 0,
+        "url": "http://www.impressivewebs.com/jquery-tutorial-for-beginners/"
       }
     ]
   },
@@ -466,6 +496,11 @@
         "name": "Verekia's Tutorial",
         "level": 0,
         "url": "http://verekia.com/less-css/dont-read-less-css-tutorial-highly-addictive"
+      },
+      {
+        "name": "Get Into LESS: The Programmable Stylesheet Language",
+        "level": 0,
+        "url": "https://webdesign.tutsplus.com/articles/get-into-less-the-programmable-stylesheet-language--webdesign-5216"
       }
     ]
   },
@@ -743,9 +778,24 @@
         "url": "http://sass-lang.com/tutorial.html"
       },
       {
+        "name": "Level Up Tuts: Sass Tutorial",
+        "level": 0,
+        "url": "http://leveluptuts.com/tutorials/sass-tutorials"
+      },
+      {
+        "name": "Mastering Sass",
+        "level": 0,
+        "url": "https://code.tutsplus.com/series/mastering-sass--net-19077"
+      },
+      {
         "name": "SassMeister",
         "level": 1,
         "url": "http://sassmeister.com"
+      },
+      {
+        "name": "The Sass Way",
+        "level": 1,
+        "url": "http://thesassway.com/"
       }
     ]
   },
@@ -816,6 +866,21 @@
         "name": "Tutorial",
         "level": 0,
         "url": "http://24ways.org/2013/grunt-is-not-weird-and-hard/"
+      },
+      {
+        "name": "Up and Running with Grunt",
+        "level": 0,
+        "url": "http://www.smashingmagazine.com/2013/10/29/get-up-running-grunt/"
+      },
+      {
+        "name": "Supercharging your Gruntfile",
+        "level": 1,
+        "url": "http://www.html5rocks.com/en/tutorials/tooling/supercharging-your-gruntfile/"
+      },
+      {
+        "name": "Advanced Grunt Tooling",
+        "level": 2,
+        "url": "http://chrisawren.com/posts/Advanced-Grunt-tooling"
       }
     ]
   },
@@ -851,6 +916,11 @@
         "name": "RegexOne",
         "level": 0,
         "url": "http://regexone.com/"
+      },
+      {
+        "name": "Rexegg",
+        "level": 0,
+        "url": "http://www.rexegg.com/"
       },
       {
         "name": "Learn Regex the Hard Way",
