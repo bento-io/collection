@@ -726,6 +726,11 @@
         "name": "Beginner to expert guide to AngularJS 7-part series",
         "level": 0,
         "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
+      },
+      {
+        "name": "AngularJS Tutorial",
+        "level": 0,
+        "url": "https://docs.angularjs.org/tutorial"
       }
     ]
   },
@@ -1406,9 +1411,9 @@
         "name": "Getting Started With three.js",
         "level": 0,
         "url": "http://aerotwist.com/tutorials/getting-started-with-three-js/"
-      }      
+      }
     ]
-  },  
+  },
   {
     "name": "neo4j",
     "tags": ["database"],
