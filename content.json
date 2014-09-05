@@ -801,7 +801,7 @@
   },
   {
     "name": "grunt",
-    "tags": ["foundational"],
+    "tags": ["bridge"],
     "description": "A powerful javascript task runner",
     "before": [],
     "after": ["jade", "coffeescript", "less", "sass"],
