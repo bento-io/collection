@@ -380,6 +380,41 @@
     ]
   },
   {
+    "name": "sqlalchemy",
+    "tags": ["database"],
+    "description": "Keep your python models and database objects in sync",
+    "before": ["sql", "flask"],
+    "after": ["postgresql", "alembic"],
+    "home": "http://www.sqlalchemy.org/",
+    "links": [
+      {
+        "name": "Object Relational Tutorial",
+        "level": 0,
+        "url": "http://docs.sqlalchemy.org/en/rel_0_9/orm/tutorial.html"
+      }
+    ]
+  },
+  {
+    "name": "alembic",
+    "tags": ["database"],
+    "description": "Manage your database changes in python",
+    "before": ["sqlalchemy", "flask"],
+    "after": [],
+    "home": "",
+    "links": [
+      {
+        "name": "A Practical Guide to Using Alembic",
+        "level": 0,
+        "url": "http://www.chesnok.com/daily/2013/07/02/a-practical-guide-to-using-alembic/"
+      },
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "http://alembic.readthedocs.org/en/latest/tutorial.html"
+      }
+    ]
+  },
+  {
     "name": "heroku",
     "tags": ["bridge"],
     "description": "Easily deploy your applications",
