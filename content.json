@@ -256,6 +256,11 @@
         "name": "Learning Advanced JavaScript",
         "level": 2,
         "url": "http://ejohn.org/apps/learn/"
+      },
+      {
+        "name": "Modular JavaScript",
+        "level": 1,
+        "url": "http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html#show-last-Point"
       }
     ]
   },
@@ -376,6 +381,21 @@
         "name": "Problems and Solutions",
         "level": 0,
         "url": "http://www.sql-tutorial.ru/en/book_Intro.html"
+      }
+    ]
+  },
+  {
+    "name": "database design",
+    "tags": ["database"],
+    "description": "How to organize your database",
+    "before": ["sql"],
+    "after": ["postgresql"],
+    "home": "",
+    "links": [
+      {
+        "name": "tuts+",
+        "level": 0,
+        "url": "http://code.tutsplus.com/tutorials/relational-databases-for-dummies--net-30244"
       }
     ]
   },
@@ -731,6 +751,21 @@
         "name": "Distributed Caching with Memcached",
         "level": 0,
         "url": "http://www.linuxjournal.com/article/7451"
+      }
+    ]
+  },
+  {
+    "name": "uilang",
+    "tags": ["frontend"],
+    "description": "A minimal programming language for web designers",
+    "before": [],
+    "after": ["jquery"],
+    "home": "http://uilang.com/",
+    "links": [
+      {
+        "name": "Home",
+        "level": 0,
+        "url": "http://uilang.com/"
       }
     ]
   },
