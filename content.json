@@ -455,6 +455,21 @@
     ]
   },
   {
+    "name": "cloudflare",
+    "tags": ["bridge"],
+    "description": "protect your website",
+    "before": [],
+    "after": [],
+    "home": "https://www.cloudflare.com/",
+    "links": [
+      {
+        "name": "Overview",
+        "level": 0,
+        "url": "https://www.cloudflare.com/overview"
+      }
+    ]
+  },
+  {
     "name": "json",
     "tags": ["database"],
     "description": "How data is sent between applications",
@@ -2196,6 +2211,21 @@
         "name": "Troubleshooting Webhooks",
         "level": 0,
         "url": "https://www.runscope.com/provider-guide/troubleshooting-webhooks"
+      }
+    ]
+  },
+  {
+    "name": "stack exchange",
+    "tags": ["api"],
+    "description": "Access all of Stack Exchange and Stack Overflow",
+    "home": "https://api.stackexchange.com/",
+    "before": [],
+    "after": [],
+    "links": [
+      {
+        "name": "Docs",
+        "level": 0,
+        "url": "https://api.stackexchange.com/docs"
       }
     ]
   },
