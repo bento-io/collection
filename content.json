@@ -18,7 +18,7 @@
         "url": "http://www.20thingsilearned.com/en-US"
       },
       {
-        "name": "How the DNS work, and why it is important.",
+        "name": "DNS Explained",
         "level": 0,
         "url": "https://www.youtube.com/watch?v=72snZctFFtA"
       }
@@ -33,14 +33,14 @@
     "home": "http://developer.mozilla.org/en-US/docs/Web/HTML",
     "links": [
       {
-        "name": "Dash",
-        "level": 0,
-        "url": "http://dash.ga.co/?vip=bento"
-      },
-      {
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1?curriculum_id=50579fb998b470000202dc8b"
+      },
+      {
+        "name": "Dash",
+        "level": 0,
+        "url": "http://dash.ga.co/?vip=bento"
       },
       {
         "name": "HTML Dog",
@@ -127,7 +127,7 @@
   {
     "name": "git",
     "tags": ["bridge"],
-    "description": "Version control that's simple to use",
+    "description": "Simple to use version control",
     "before": [],
     "after": ["http", "heroku", "javascript"],
     "home": "http://git-scm.com/",
@@ -138,7 +138,7 @@
         "url": "http://try.github.io/levels/1/challenges/1"
       },
       {
-        "name": "The simple guide",
+        "name": "The Simple Guide",
         "level": 0,
         "url": "http://rogerdudler.github.io/git-guide/"
       },
@@ -208,7 +208,7 @@
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
       },
       {
-        "name": "A re-introduction to JavaScript",
+        "name": "A Re-introduction to JavaScript",
         "level": 1,
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
       },
@@ -223,7 +223,7 @@
         "url": "http://superherojs.com/"
       },
       {
-        "name": "JS: The right way",
+        "name": "JS: The Right Way",
         "level": 1,
         "url": "http://jstherightway.org/"
       },
@@ -457,7 +457,7 @@
   {
     "name": "cloudflare",
     "tags": ["bridge"],
-    "description": "protect your website",
+    "description": "Protect your website",
     "before": [],
     "after": [],
     "home": "https://www.cloudflare.com/",
@@ -472,7 +472,7 @@
   {
     "name": "json",
     "tags": ["database"],
-    "description": "How data is sent between applications",
+    "description": "Represent your data in text",
     "before": [],
     "after": ["mongo", "couchdb", "http", "rest", "xml", "redis", "memcached"],
     "home": "http://www.json.org/",
@@ -492,7 +492,7 @@
   {
     "name": "jquery",
     "tags": ["frontend"],
-    "description": "Control the DOM with javascript",
+    "description": "Control webpage elements with javascript",
     "before": [],
     "after": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
     "home": "http://jquery.com/",
@@ -585,6 +585,21 @@
     ]
   },
   {
+    "name": "algorithms",
+    "tags": ["bridge"],
+    "description": "Popular methods to manipulate data",
+    "before": [],
+    "after": ["data structures"],
+    "home": "http://en.wikipedia.org/wiki/Algorithm",
+    "links": [
+      {
+        "name": "Problem Solving with Algorithms and Data Structures",
+        "level": 0,
+        "url": "http://interactivepython.org/runestone/static/pythonds/index.html#"
+      }
+    ]
+  },
+  {
     "name": "data structures",
     "tags": ["bridge"],
     "description": "Efficiently organize your data in code",
@@ -622,9 +637,9 @@
   {
     "name": "security",
     "tags": ["bridge"],
-    "description": "General tips around security",
+    "description": "How to protect your website",
     "before": [],
-    "after": ["https"],
+    "after": ["https", "cloudflare"],
     "home": "https://www.owasp.org/index.php/Category:OWASP_Guide_Project",
     "links": [
       {
@@ -638,7 +653,7 @@
         "url": "http://math.scu.edu/~eschaefe/book.pdf"
       },
       {
-        "name": "Google security handbook",
+        "name": "Google Security Handbook",
         "level": 1,
         "url": "https://code.google.com/p/browsersec/wiki/Main"
       }
@@ -658,7 +673,7 @@
         "url": "http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html"
       },
       {
-        "name": "Switch your website to use https",
+        "name": "Switch Your Website To Use https",
         "level": 0,
         "url": "https://konklone.com/post/switch-to-https-now-for-free"
       }
@@ -707,7 +722,7 @@
   {
     "name": "elasticsearch",
     "tags": ["database"],
-    "description": "Distributed, restful, open-source search",
+    "description": "A popular search engine for your application",
     "before": [],
     "after": ["mongo", "couchdb", "sql", "json", "memcached", "redis", "neo4j"],
     "home": "http://www.elasticsearch.org/",
@@ -732,7 +747,7 @@
   {
     "name": "redis",
     "tags": ["database"],
-    "description": "A basic key-value store",
+    "description": "A basic key-value store for caching",
     "before": [],
     "after": ["mongo", "couchdb", "memcached", "neo4j", "sql"],
     "home": "http://redis.io/",
@@ -787,13 +802,13 @@
   {
     "name": "angular",
     "tags": ["frontend"],
-    "description": "Build powerful data-driven html and javascript",
+    "description": "A javascript framework for data-driven applications",
     "before": [],
     "after": ["ember", "jquery", "backbone", "flight"],
     "home": "http://angularjs.org/",
     "links": [
       {
-        "name": "Shaping up with Angular",
+        "name": "Shaping Up with Angular",
         "level": 0,
         "url": "http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro"
       },
@@ -808,7 +823,7 @@
         "url": "http://www.thinkster.io/pick/GtaQ0oMGIl/"
       },
       {
-        "name": "Beginner to expert guide to AngularJS 7-part series",
+        "name": "Beginner to Expert Guide to AngularJS",
         "level": 0,
         "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
       }
@@ -817,7 +832,7 @@
   {
     "name": "sass",
     "tags": ["frontend"],
-    "description": "An extension of css",
+    "description": "An dynamic extension of css",
     "before": [],
     "after": ["less", "bootstrap", "angular"],
     "home": "http://sass-lang.com/",
@@ -907,7 +922,7 @@
   {
     "name": "jade",
     "tags": ["frontend"],
-    "description": "A templating language for quick html coding",
+    "description": "A templating language forhtml",
     "before": [],
     "after": ["less", "bootstrap", "angular", "grunt"],
     "home": "http://jade-lang.com/",
@@ -981,6 +996,26 @@
         "name": "Vim Golf",
         "level": 2,
         "url": "http://vimgolf.com/"
+      }
+    ]
+  },
+  {
+    "name":"mvc",
+    "tags": ["bridge"],
+    "description": "Popular software architecture pattern",
+    "before": [],
+    "after": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
+    "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "links": [
+      {
+        "name":"The Model-View-Controller Pattern",
+        "level": 0,
+        "url":"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
+      },
+      {
+        "name":"What are the benefits of MVC?",
+        "level": 0,
+        "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
       }
     ]
   },
@@ -1077,7 +1112,7 @@
   {
     "name": "ruby",
     "tags": ["backend"],
-    "description": "An easy, expressive and dynamic scripting language",
+    "description": "A simple scripting language",
     "before": [],
     "after": ["rails", "python"],
     "home": "http://www.ruby-lang.org/en/",
@@ -1137,7 +1172,7 @@
   {
     "name": "rails",
     "tags": ["backend", "mvc"],
-    "description": "An awesome web framework for ruby",
+    "description": "The most popular web framework for ruby",
     "before": [],
     "after": ["heroku", "coffeescript", "less", "sass", "sql"],
     "home": "http://rubyonrails.org/",
@@ -1252,7 +1287,7 @@
   {
     "name": "scala",
     "tags": ["backend"],
-    "description": "A highly performant language that works with Java",
+    "description": "A highly performant language that works with java",
     "home": "http://www.scala-lang.org/",
     "before": [],
     "after": ["play"],
@@ -1292,7 +1327,7 @@
   {
     "name": "elixir",
     "tags": ["backend"],
-    "description": "A functional language built on top of the Erlang VM",
+    "description": "A language built on top of the Erlang VM",
     "before": [],
     "after": [],
     "home": "http://elixir-lang.org/",
@@ -1332,7 +1367,7 @@
   {
     "name": "swift",
     "tags": ["mobile"],
-    "description": "Build apps for iOS devices",
+    "description": "The primary language for iOS",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
     "before": [],
     "after": ["windows phone", "android", "objective-c"],
@@ -1352,7 +1387,7 @@
   {
     "name": "objective-c",
     "tags": ["mobile"],
-    "description": "Legacy code for iOS development",
+    "description": "The previous language for iOS",
     "home": "https://developer.apple.com/devcenter/ios/index.action",
     "before": [],
     "after": ["windows phone", "android", "swift"],
@@ -1430,9 +1465,24 @@
     ]
   },
   {
+    "name": "firebase",
+    "tags": ["backend"],
+    "description": "Build realtime apps",
+    "before": [],
+    "after": ["parse"],
+    "home": "http://www.firebase.com/",
+    "links": [
+      {
+        "name": "Tutorial",
+        "level": 0,
+        "url": "https://www.firebase.com/tutorial/#gettingstarted"
+      }
+    ]
+  },
+  {
     "name": "d3",
     "tags": ["frontend"],
-    "description": "A javascript library for visualizing data",
+    "description": "A JavaScript library for visualizing data",
     "before": [],
     "after": ["leaflet"],
     "home": "http://d3js.org/",
@@ -1457,7 +1507,7 @@
   {
     "name": "leaflet",
     "tags": ["frontend"],
-    "description": "An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps",
+    "description": "A JavaScript library for maps",
     "before": [],
     "after": ["d3", "api"],
     "home": "http://leafletjs.com/index.html",
@@ -1497,7 +1547,7 @@
   {
     "name": "three.js",
     "tags": ["frontend"],
-    "description": "A JavaScript 3D Library which makes WebGL simpler.",
+    "description": "A JavaScript 3D library",
     "home": "http://threejs.org/",
     "before": [],
     "after": ["d3", "velocity"],
@@ -1517,7 +1567,7 @@
   {
     "name": "neo4j",
     "tags": ["database"],
-    "description": "The graph database",
+    "description": "A graph database",
     "before": [],
     "after": ["mongo", "couchdb", "redis", "memcached", "sql"],
     "home": "http://www.neo4j.org/",
@@ -1532,8 +1582,8 @@
   {
     "name": "rethinkdb",
     "tags": ["database"],
-    "description": "An open-source distributed database to store JSON",
-    "before": [],
+    "description": "An database to store JSON",
+    "before": ["json"],
     "after": ["heroku", "json", "couchdb", "http", "neo4j", "redis", "memcached", "sql"],
     "home": "http://www.rethinkdb.com/",
     "links": [
@@ -1552,7 +1602,7 @@
   {
     "name": "flight",
     "tags": ["frontend"],
-    "description": "An event-driven web framework for javascript",
+    "description": "An event-driven web framework for JavaScript",
     "home": "http://flightjs.github.io",
     "before": [],
     "after": ["ember", "angular", "backbone", "meteor"],
@@ -1573,12 +1623,12 @@
     "home": "https://www.meteor.com",
     "links": [
       {
-        "name": "Friendly walkthrough",
+        "name": "Friendly Walkthrough",
         "level": 0,
         "url": "http://andrewscala.com/meteor/"
       },
       {
-        "name": "EventedMind advanced screencasts",
+        "name": "EventedMind Advanced Screencasts",
         "level": 0,
         "url": "https://www.eventedmind.com/"
       },
@@ -1592,7 +1642,7 @@
   {
     "name": "ember",
     "tags": ["frontend"],
-    "description": "Build robust single-page apps with javascript",
+    "description": "Build robust single-page apps with JavaScript",
     "before": [],
     "after": ["angular", "jquery", "backbone", "flight"],
     "home": "http://emberjs.com/",
@@ -1617,7 +1667,7 @@
   {
     "name": "backbone",
     "tags": ["frontend"],
-    "description": "A framework that makes handling data easier in javascript",
+    "description": "A framework that makes handling data easier in JavaScript",
     "before": [],
     "after": ["angular", "jquery", "ember", "flight"],
     "home": "http://backbonejs.org/",
@@ -1632,7 +1682,7 @@
   {
     "name": "underscore",
     "tags": ["backend"],
-    "description": "A utility belt for javascript",
+    "description": "A utility belt for JavaScript",
     "before": [],
     "after": ["sugar", "backbone", "coffeescript","lodash", "flight"],
     "home": "http://underscorejs.org/",
@@ -1662,17 +1712,22 @@
   {
     "name": "sugar",
     "tags": ["backend"],
-    "description": "Extend the functionality of javascript",
+    "description": "Extend the functionality of JavaScript",
     "before": [],
     "after": ["underscore", "backbone", "coffeescript"],
     "home": "http://sugarjs.com/",
     "links": [
+      {
+        "name": "Features",
+        "level": 0,
+        "url": "http://sugarjs.com/features"
+      }
     ]
   },
   {
     "name": "coffeescript",
     "tags": ["frontend"],
-    "description": "A language that compiles to javascript",
+    "description": "A language that compiles to JavaScript",
     "before": [],
     "after": ["underscore", "angular", "backbone", "jade", "grunt"],
     "home": "http://coffeescript.org/",
@@ -1687,7 +1742,7 @@
   {
     "name": "dart",
     "tags": ["backend"],
-    "description": "A new language for structured web app engineering",
+    "description": "An alternative to JavaScript",
     "before": [],
     "after": ["node"],
     "home": "http://dartlang.org",
@@ -1730,139 +1785,9 @@
     ]
   },
   {
-    "name":"mvc",
-    "tags": ["bridge"],
-    "description": "Popular software architecture pattern",
-    "before": [],
-    "after": ["codeigniter", "laravel", "symfony", "yii","cakephp"],
-    "home": "http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
-    "links": [
-      {
-        "name":"The Model-View-Controller Pattern",
-        "level": 0,
-        "url":"https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller"
-      },
-      {
-        "name":"What are the benefits of MVC?",
-        "level": 0,
-        "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
-      }
-    ]
-  },
-  {
-    "name": "cakephp",
-    "tags": ["backend"],
-    "description": "CakePHP makes building web applications simpler, faster and require less code",
-    "before": [],
-    "after": [],
-    "home": "http://cakephp.org/",
-    "links": [
-      {
-        "name": "CakePHP Cookbook (Docs)",
-        "level": 0,
-        "url": "http://book.cakephp.org/2.0/en/"
-      },
-      {
-        "name": "Blog Tutorial",
-        "level": 0,
-        "url": "http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html"
-      },
-      {
-        "name": "Community & Help",
-        "level": 0,
-        "url": "http://community.cakephp.org/"
-      }
-    ]
-  },
-  {
-    "name": "codeigniter",
-    "tags": ["backend"],
-    "description": "An awesome MVC PHP Framework",
-    "before": [],
-    "after": ["mysql"],
-    "home": "http://ellislab.com/codeigniter",
-    "links": [
-      {
-        "name": "CodeIgniter user manual",
-        "level": 0,
-        "url": "http://ellislab.com/codeigniter/user-guide/"
-      }
-    ]
-  },
-  {
-    "name": "symfony",
-    "tags": ["backend"],
-    "description": "High Performance PHP Framework for web development",
-    "before": [],
-    "after": ["twig"],
-    "home": "http://symfony.com/",
-    "links": [
-      {
-        "name": "Symfony in 5 minutes",
-        "level": 0,
-        "url": "http://symfony.com/in-five-minutes"
-      },
-      {
-        "name": "Get started",
-        "level": 0,
-        "url": "http://symfony.com/get-started"
-      },
-      {
-        "name": "Cookbook",
-        "level": 0,
-        "url": "http://symfony.com/doc/current/book/index.html"
-      }
-    ]
-  },
-    {
-    "name": "yii",
-    "tags": ["backend"],
-    "description": "The Fast, Secure and Professional PHP Framework",
-    "before": [],
-    "after": ["twig"],
-    "home": "http://yiiframework.com/",
-    "links": [
-      {
-        "name": "The Definitive Guide to Yii",
-        "level": 0,
-        "url": "http://www.yiiframework.com/doc/guide/1.1/en/quickstart.what-is-yii"
-      },
-      {
-        "name": "Larry Ullman's Learning Yii Series",
-        "level": 0,
-        "url": "http://www.larryullman.com/series/learning-the-yii-framework/"
-      },
-      {
-        "name":"Yii Screencasts",
-        "level": 0,
-        "url": "http://www.yiiframework.com/screencasts/"
-      },
-      {
-        "name": "The Yii Blog Tutorial",
-        "level": 1,
-        "url": "http://www.yiiframework.com/doc/blog/"
-      }
-    ]
-  },
-  {
-    "name": "twig",
-    "tags": ["backend"],
-    "description": "The flexible, fast, and secure template engine for PHP",
-    "before": [],
-    "after": [],
-    "home": "http://twig.sensiolabs.org/",
-    "links": [
-      {
-        "name": "Documentation",
-        "level": 0,
-        "url": "http://twig.sensiolabs.org/documentation"
-      }
-    ]
-  },
-  {
     "name": "laravel",
     "tags": ["backend"],
-    "description": "The php framework for web artisans",
+    "description": "The most popular php web framework",
     "before": [],
     "after": [],
     "home": "http://www.laravel.com",
@@ -1895,9 +1820,134 @@
     ]
   },
   {
+    "name": "phalcon",
+    "tags": ["backend"],
+    "description": "A popular high-performance php framework",
+    "before": [],
+    "after": [],
+    "home": "http://phalconphp.com/en/",
+    "links": [
+      {
+        "name": "Let's Learn By Example",
+        "level": 0,
+        "url": "http://docs.phalconphp.com/en/latest/reference/tutorial.html"
+      }
+    ]
+  },
+  {
+    "name": "symfony",
+    "tags": ["backend"],
+    "description": "A high performance php framework",
+    "before": [],
+    "after": ["twig"],
+    "home": "http://symfony.com/",
+    "links": [
+      {
+        "name": "Symfony in 5 minutes",
+        "level": 0,
+        "url": "http://symfony.com/in-five-minutes"
+      },
+      {
+        "name": "Get started",
+        "level": 0,
+        "url": "http://symfony.com/get-started"
+      },
+      {
+        "name": "Cookbook",
+        "level": 0,
+        "url": "http://symfony.com/doc/current/book/index.html"
+      }
+    ]
+  },
+  {
+    "name": "codeigniter",
+    "tags": ["backend"],
+    "description": "A php web framework",
+    "before": [],
+    "after": ["mysql"],
+    "home": "http://ellislab.com/codeigniter",
+    "links": [
+      {
+        "name": "CodeIgniter user manual",
+        "level": 0,
+        "url": "http://ellislab.com/codeigniter/user-guide/"
+      }
+    ]
+  },
+  {
+    "name": "cakephp",
+    "tags": ["backend"],
+    "description": "A framework for php applications",
+    "before": [],
+    "after": [],
+    "home": "http://cakephp.org/",
+    "links": [
+      {
+        "name": "CakePHP Cookbook (Docs)",
+        "level": 0,
+        "url": "http://book.cakephp.org/2.0/en/"
+      },
+      {
+        "name": "Blog Tutorial",
+        "level": 0,
+        "url": "http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html"
+      },
+      {
+        "name": "Community & Help",
+        "level": 0,
+        "url": "http://community.cakephp.org/"
+      }
+    ]
+  },
+  {
+    "name": "yii",
+    "tags": ["backend"],
+    "description": "A php framework built for ajax",
+    "before": [],
+    "after": ["twig"],
+    "home": "http://yiiframework.com/",
+    "links": [
+      {
+        "name": "The Definitive Guide to Yii",
+        "level": 0,
+        "url": "http://www.yiiframework.com/doc/guide/1.1/en/quickstart.what-is-yii"
+      },
+      {
+        "name": "Larry Ullman's Learning Yii Series",
+        "level": 0,
+        "url": "http://www.larryullman.com/series/learning-the-yii-framework/"
+      },
+      {
+        "name":"Yii Screencasts",
+        "level": 0,
+        "url": "http://www.yiiframework.com/screencasts/"
+      },
+      {
+        "name": "The Yii Blog Tutorial",
+        "level": 1,
+        "url": "http://www.yiiframework.com/doc/blog/"
+      }
+    ]
+  },
+  {
+    "name": "twig",
+    "tags": ["backend"],
+    "description": "A template engine for php",
+    "before": [],
+    "after": [],
+    "home": "http://twig.sensiolabs.org/",
+    "links": [
+      {
+        "name": "Documentation",
+        "level": 0,
+        "url": "http://twig.sensiolabs.org/documentation"
+      }
+    ]
+  },
+  {
     "name": "phpixie",
     "tags": ["backend"],
-    "description": "Lightweight, fast and easy to learn framework",
+    "description": "An easy-to-learn php framework",
     "before": [],
     "after": [],
     "home": "http://phpixie.com/",
@@ -2012,7 +2062,7 @@
   {
     "name": "nginx",
     "tags": ["bridge"],
-    "description": "A popular http web server, load balancer and http cache",
+    "description": "A popular http web server, load balancer, and http cache",
     "home": "http://nginx.org/",
     "before": [],
     "after": ["http", "rest", "apache"],
@@ -2027,7 +2077,7 @@
   {
     "name": "perl",
     "tags": ["backend"],
-    "description": "A web programming language great for text manipulation and rapid development",
+    "description": "A popular programming language",
     "home": "http://www.perl.org/",
     "before": [],
     "after": ["sql", "postgresql", "vagrant"],
@@ -2090,9 +2140,24 @@
     ]
   },
   {
+    "name": "c#",
+    "tags": ["backend"],
+    "description": "A popular web programming language",
+    "home": "http://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+    "before": [],
+    "after": [".net"],
+    "links": [
+      {
+        "name": "Learn X in Y Minutes",
+        "level": 0,
+        "url": "http://learnxinyminutes.com/docs/csharp/"
+      }
+    ]
+  },
+  {
     "name": ".net",
     "tags": ["backend"],
-    "description": "A development framework for the web",
+    "description": "A web framework for c#",
     "home": "http://www.microsoft.com/net",
     "before": [],
     "after": ["api","sql","bootstrap"],
@@ -2107,7 +2172,7 @@
   {
     "name": "lightswitch",
     "tags": ["backend"],
-    "description": "A development framework for the web/mobile",
+    "description": "A development framework for the web and mobile",
     "home": "http://msdn.microsoft.com/en-us/vstudio/ff796201",
     "before": [],
     "after": [".net","sql"],
@@ -2122,7 +2187,7 @@
   {
     "name": "coldfusion",
     "tags": ["backend"],
-    "description": "A server application for java",
+    "description": "A server application for Java",
     "home": "http://www.adobe.com/products/coldfusion-family.html",
     "before": [],
     "after": ["sql"],
@@ -2197,18 +2262,13 @@
   {
     "name": "webhooks",
     "tags": ["api"],
-    "description": "Simple HTTP Push Notifications",
+    "description": "HTTP based integrations",
     "home": "",
     "before": [],
     "after": ["api"],
     "links": [
       {
-        "name": "RequestBin - Inspect HTTP Requests",
-        "level": 0,
-        "url": "http://requestb.in"
-      },
-      {
-        "name": "7 Reasons Webhooks are Magic",
+        "name": "7 Reasons Webhooks Are Magic",
         "level": 0,
         "url": "http://blog.iron.io/2013/09/7-reasons-webhooks-are-magic.html"
       },
@@ -2237,7 +2297,7 @@
   {
     "name": "google",
     "tags": ["api"],
-    "description": "An enormous collection of apis from Google",
+    "description": "An enormous collection of APIs from Google",
     "home": "http://developers.google.com",
     "before": [],
     "after": [],
@@ -2252,7 +2312,7 @@
   {
     "name": "mashape",
     "tags": ["api"],
-    "description": "An easy way to distribute, monetize and consume multiple APIs",
+    "description": "Distribute, monetize, and consume multiple APIs",
     "home": "",
     "before": [],
     "after": ["facebook", "foursquare", "twilio", "ribbon"],
@@ -2322,7 +2382,7 @@
   {
     "name": "mandrill",
     "tags": ["api"],
-    "description": "An email API",
+    "description": "An email API by Mailchimp",
     "home": "http://mandrill.com",
     "before": [],
     "after": [],
@@ -2365,35 +2425,40 @@
     ]
   },
   {
-    "name": "ribbon",
+    "name": "stripe",
     "tags": ["api"],
     "description": "Accept payments on your site",
-    "home": "http://bit.ly/UHd0Et",
+    "home": "https://stripe.com/",
     "before": [],
-    "after": ["facebook", "foursquare", "twilio"],
-    "links":[
+    "after": [],
+    "links": [
       {
-        "name": "About video",
+        "name": "Get Started",
         "level": 0,
-        "url": "http://vimeo.com/65430073"
+        "url": "https://stripe.com/docs"
+      },
+      {
+        "name": "Making Your First Charge",
+        "level": 0,
+        "url": "https://stripe.com/docs/tutorials/charges"
       }
     ]
   },
   {
-    "name": "alchemyapi",
+    "name": "alchemy",
     "tags": ["api"],
-    "description": "A NLP text analysis API",
+    "description": "A text analysis API",
     "home": "http://www.alchemyapi.com/",
     "before": [],
     "after": ["facebook", "foursquare", "twilio"],
     "links":[
       {
-        "name": "Getting started guide",
+        "name": "Getting Started Guide",
         "level": 0,
         "url": "http://www.alchemyapi.com/developers/getting-started-guide/"
       },
       {
-        "name": "Interactive web demo",
+        "name": "Interactive Web Demo",
         "level": 0,
         "url": "http://www.alchemyapi.com/products/demo/"
       },
@@ -2412,7 +2477,7 @@
   {
     "name": "lob",
     "tags": ["api"],
-    "description": "An API that lets you seamlessly print and mail documents, postcards, photos, and more.",
+    "description": "An API that lets you print and mail documents",
     "home": "http://lob.com",
     "before": [],
     "after": ["facebook", "foursquare", "twilio"],
@@ -2422,6 +2487,21 @@
         "level": 0,
         "url": "https://www.lob.com/docs"
       }
+    ]
+  },
+  {
+    "name": "shirts.io",
+    "tags": ["api"],
+    "description": "An API to send custom shirts",
+    "home": "https://www.shirts.io/",
+    "before": [],
+    "after": [],
+    "links": [
+      {
+       "name": "Products API",
+       "level": 0,
+       "url": "https://www.shirts.io/docs/products_reference/"
+      }  
     ]
   }
 ]
