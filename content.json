@@ -1341,6 +1341,11 @@
         "name": "A swift tour",
         "level": 0,
         "url": "https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2"
+      },
+      {
+        "name": "RunSwift",
+        "level": 0,
+        "url": "http://www.runswiftlang.com/learn#1"
       }
     ]
   },
