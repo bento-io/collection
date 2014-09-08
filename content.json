@@ -2315,7 +2315,7 @@
     "description": "Distribute, monetize, and consume multiple APIs",
     "home": "",
     "before": [],
-    "after": ["facebook", "foursquare", "twilio", "ribbon"],
+    "after": ["facebook", "foursquare", "twilio"],
     "links": [
       {
         "name": "Codecademy",
@@ -2330,7 +2330,7 @@
     "description": "Get data about people and their networks",
     "home": "https://developers.facebook.com/",
     "before": [],
-    "after": ["foursquare", "ribbon", "twilio"],
+    "after": ["foursquare", "twilio"],
     "links":[
       {
         "name": "Explore",
@@ -2345,7 +2345,7 @@
     "description": "Get data about places",
     "home": "http://developer.foursquare.com/",
     "before": [],
-    "after": ["facebook", "twilio", "ribbon"],
+    "after": ["facebook", "twilio"],
     "links":[
       {
         "name": "Tutorial",
@@ -2415,7 +2415,7 @@
     "description": "Send and receive texts and calls",
     "home": "http://twilio.com/",
     "before": [],
-    "after": ["facebook", "foursquare", "ribbon"],
+    "after": ["facebook", "foursquare"],
     "links":[
       {
         "name": "Quickstart",
