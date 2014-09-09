@@ -1166,6 +1166,11 @@
         "name": "Why's (Poignant) Guide to Ruby",
         "level": 0,
         "url": "http://mislav.uniqpath.com/poignant-guide/"
+      },
+      {
+        "name": "Ruby in Twenty Minutes",
+        "level": 0,
+        "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
       }
     ]
   },
