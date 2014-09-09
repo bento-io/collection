@@ -265,6 +265,36 @@
     ]
   },
   {
+    "name": "jquery",
+    "tags": ["frontend"],
+    "description": "Control webpage elements with javascript",
+    "before": [],
+    "after": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
+    "home": "http://jquery.com/",
+    "links": [
+      {
+        "name": "Try jQuery",
+        "level": 0,
+        "url": "http://try.jquery.com/"
+      },
+      {
+        "name": "Codecademy",
+        "level": 0,
+        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
+      },
+      {
+        "name": "jQuery in 30 Minutes",
+        "level": 0,
+        "url": "http://screencastaday.s3.amazonaws.com/Video_80/JQueryPresentation.swf"
+      },
+      {
+        "name": "Treehouse - Build an Interactive Website",
+        "level": 0,
+        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
+      }
+    ]
+  },
+  {
     "name": "sublime text",
     "tags": ["ide"],
     "description": "A popular text editor",
@@ -486,36 +516,6 @@
         "name": "JSON Validator",
         "level": 0,
         "url": "http://jsonlint.com"
-      }
-    ]
-  },
-  {
-    "name": "jquery",
-    "tags": ["frontend"],
-    "description": "Control webpage elements with javascript",
-    "before": [],
-    "after": ["python", "angular", "backbone", "ember", "sugar", "coffeescript", "flight", "dart", "d3"],
-    "home": "http://jquery.com/",
-    "links": [
-      {
-        "name": "Try jQuery",
-        "level": 0,
-        "url": "http://try.jquery.com/"
-      },
-      {
-        "name": "Codecademy",
-        "level": 0,
-        "url": "http://www.codecademy.com/courses/web-beginner-en-bay3D/0/1?curriculum_id=50a3fad8c7a770b5fd0007a1"
-      },
-      {
-        "name": "jQuery in 30 Minutes",
-        "level": 0,
-        "url": "http://screencastaday.s3.amazonaws.com/Video_80/JQueryPresentation.swf"
-      },
-      {
-        "name": "Treehouse - Build an Interactive Website",
-        "level": 0,
-        "url": "http://teamtreehouse.com/library/websites/build-an-interactive-website"
       }
     ]
   },
