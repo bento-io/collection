@@ -878,6 +878,11 @@
         "url": "http://stackoverflow.com/a/5511507/1043674"
       },
       {
+        "name": "Node.js for Beginners",
+        "level": 0,
+        "url": "http://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314"
+      },
+      {
         "name": "Style Guide",
         "level": 1,
         "url": "http://nodeguide.com/style.html"
