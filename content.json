@@ -826,6 +826,11 @@
         "name": "Beginner to Expert Guide to AngularJS",
         "level": 0,
         "url": "http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html"
+      },
+      {
+        "name": "AngularJS Tutorial",
+        "level": 0,
+        "url": "https://docs.angularjs.org/tutorial"
       }
     ]
   },
@@ -1566,9 +1571,9 @@
         "name": "Getting Started With three.js",
         "level": 0,
         "url": "http://aerotwist.com/tutorials/getting-started-with-three-js/"
-      }      
+      }
     ]
-  },  
+  },
   {
     "name": "neo4j",
     "tags": ["database"],
@@ -1681,6 +1686,11 @@
         "name": "Developing Backbone.js Applications",
         "level": 0,
         "url": "http://addyosmani.github.io/backbone-fundamentals/"
+      },
+      {
+        "name": "Backbone.js for Absolute Beginners",
+        "level": 0,
+        "url": "http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/"
       }
     ]
   },
