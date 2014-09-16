@@ -1428,6 +1428,11 @@
     "after": ["windows phone", "swift"],
     "links":[
       {
+        "name": "How to Develop Android Apps",
+        "level": 0,
+        "url": "https://www.udacity.com/course/ud853"
+      },
+      {
         "name": "Building your first app",
         "level": 0,
         "url": "http://developer.android.com/training/basics/firstapp/creating-project.html"
@@ -1436,13 +1441,7 @@
         "name": "Android Development",
         "level": 0,
         "url": "http://www.vogella.com/tutorials/Android/article.html"
-      },
-      {
-        "name": "How to Develop Android Apps",
-        "level": 1,
-        "url": "https://www.udacity.com/course/ud853"
       }
-      
     ]
   },
   {
