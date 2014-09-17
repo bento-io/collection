@@ -150,12 +150,22 @@
       {
         "name": "Git Basics",
         "level": 0,
-        "url": "https://www.atlassian.com/git/tutorial/git-basics#!overview"
+        "url": "https://www.atlassian.com/git/tutorials/setting-up-a-repository/"
       },
       {
         "name": "Getting Started",
         "level": 0,
         "url":"http://git-scm.com/book/en/Getting-Started"
+      },
+      {
+        "name": "Collaborating",
+        "level": 1,
+        "url": "https://www.atlassian.com/git/tutorials/syncing/"
+      },
+      {
+        "name": "Migrating to Git",
+        "level": 1,
+        "url": "https://www.atlassian.com/git/tutorials/migrating-overview/"
       },
       {
         "name": "Git Best Practices",
@@ -166,6 +176,11 @@
         "name": "Learn Git Branching",
         "level": 1,
         "url": "http://pcottle.github.io/learnGitBranching/"
+      },
+      {
+        "name": "Advanced Tips",
+        "level": 2,
+        "url": "https://www.atlassian.com/git/tutorials/advanced-overview/"
       },
       {
         "name": "Git from the bottom up",
