@@ -1348,11 +1348,6 @@
     "home": "http://elixir-lang.org/",
     "links": [
       {
-        "name": "Try Elixir",
-        "level": 0,
-        "url": "http://tryelixir.org/"
-      },
-      {
         "name": "Getting Started",
         "level": 0,
         "url": "http://elixir-lang.org/getting_started/1.html"
@@ -2526,7 +2521,7 @@
        "name": "Products API",
        "level": 0,
        "url": "https://www.shirts.io/docs/products_reference/"
-      }  
+      }
     ]
   }
 ]
