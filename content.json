@@ -113,6 +113,11 @@
         "url": "http://cli.learncodethehardway.org/book/introduction.html"
       },
       {
+        "name": "The Fundamentals of Bash Scripting",
+        "level": 0,
+        "url": "http://code.tutsplus.com/tutorials/the-fundamentals-of-bash-scripting--net-32093"
+      },
+      {
         "name": "Explain Shell",
         "level": 1,
         "url": "http://explainshell.com/"
@@ -318,9 +323,9 @@
     "home": "http://www.sublimetext.com/",
     "links": [
       {
-        "name": "tuts+",
+        "name": "Perfect Workflow in Sublime Text 2",
         "level": 0,
-        "url": "https://tutsplus.com/lesson/hello-2/"
+        "url": "http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2"
       }
     ]
   },
