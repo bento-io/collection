@@ -855,6 +855,21 @@
     ]
   },
   {
+    "name": "ractive",
+    "tags": ["frontend"],
+    "description": "Live, reactive templates in JavaScript",
+    "home": "http://ractivejs.org",
+    "before": [],
+    "after": ["node"],
+    "links": [
+      {
+        "name": "Learn Ractive.js",
+        "level": 0,
+        "url": "http://learn.ractivejs.org"
+      }
+    ]
+  },
+  {
     "name": "sass",
     "tags": ["frontend"],
     "description": "An dynamic extension of css",
