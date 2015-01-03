@@ -406,6 +406,11 @@
         "name": "Explore Flask",
         "level": 0,
         "url": "http://exploreflask.com/preface.html"
+      },
+      {
+        "name": "Discover Flask",
+        "level": 1,
+        "url": "http://discoverflask.com"
       }
     ]
   },
@@ -921,6 +926,11 @@
         "name": "Style Guide",
         "level": 1,
         "url": "http://nodeguide.com/style.html"
+      },
+      {
+        "name": "Node, Express, and MongoDB - a Primer",
+        "level": 1,
+        "url": "http://mherman.org/blog/2014/12/31/node-and-mongoose-a-primer"
       }
     ]
   },
@@ -1061,6 +1071,11 @@
         "name":"What are the benefits of MVC?",
         "level": 0,
         "url":"http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/"
+      },
+      {
+        "name":"Model-View-Controller (MVC) Explained",
+        "level": 0,
+        "url":"https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/"
       }
     ]
   },
