@@ -545,6 +545,21 @@
     ]
   },
   {
+    "name": "data science",
+    "tags": ["bridge"],
+    "description": "Get meaningful insights from your data",
+    "before": [],
+    "after": [],
+    "home": "",
+    "links": [
+      {
+        "name": "DataQuest",
+        "level": 0,
+        "url": "https://dataquest.io/"
+      }
+    ]
+  },
+  {
     "name": "less",
     "tags": ["frontend"],
     "description": "A dynamic stylesheet language",
