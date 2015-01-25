@@ -651,11 +651,6 @@
         "name": "Basic Data Structures",
         "level": 0,
         "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
-      },
-      {
-        "name": "Data Structure Visualizations",
-        "level": 1,
-        "url": "http://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
       }
     ]
   },
