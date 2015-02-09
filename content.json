@@ -1263,6 +1263,11 @@
         "url": "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book"
       },
       {
+        "name": "Learn Ruby on Rails as You Modify a Craigslist Clone",
+        "level": 0,
+        "url": "http://www.thinkful.com/learn/ruby-on-rails-tutorial/"
+      },
+      {
         "name": "The Best Way to Learn Rails",
         "level": 0,
         "url": "http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/"
