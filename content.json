@@ -636,6 +636,11 @@
         "name": "Problem Solving with Algorithms and Data Structures",
         "level": 0,
         "url": "http://interactivepython.org/runestone/static/pythonds/index.html#"
+      },
+      {
+        "name": "Khan Academy",
+        "level": 0,
+        "url": "https://www.khanacademy.org/computing/computer-science/algorithms"
       }
     ]
   },
@@ -1316,6 +1321,21 @@
         "name": "When Should You Use Scaffolding?",
         "level": 0,
         "url": "http://gun.io/blog/using-scaffolding/"
+      }
+    ]
+  },
+  {
+    "name": "jekyll",
+    "tags": ["backend"],
+    "description": "Simple blogging",
+    "home": "http://jekyllrb.com/",
+    "before": ["git", "html", "css"],
+    "after": [],
+    "links": [
+      {
+        "name": "Documentation",
+        "level": 0,
+        "url": "http://jekyllrb.com/docs/home/"
       }
     ]
   },
