@@ -213,11 +213,6 @@
         "url": "http://www.codecademy.com/courses/getting-started-v2/0/1?curriculum_id=506324b3a7dffd00020bf661"
       },
       {
-        "name": "CoderMania",
-        "level": 0,
-        "url": "http://www.codermania.com/javascript/lesson/1a/hello-world"
-      },
-      {
         "name": "Learn X in Y Minutes",
         "level": 0,
         "url": "http://learnxinyminutes.com/docs/javascript/"
@@ -231,6 +226,11 @@
         "name": "Treehouse - JavaScript Foundations",
         "level": 0,
         "url": "http://teamtreehouse.com/library/websites/javascript-foundations"
+      },
+      {
+        "name": "CoderMania",
+        "level": 0,
+        "url": "http://www.codermania.com/javascript/lesson/1a/hello-world"
       },
       {
         "name": "A Re-introduction to JavaScript",
