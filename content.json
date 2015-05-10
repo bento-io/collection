@@ -98,6 +98,11 @@
     "home": "http://en.wikipedia.org/wiki/Shell_(computing)",
     "links": [
       {
+        "name": "Don't Fear the Command Line",
+        "level": 0,
+        "url": "http://readwrite.com/2014/07/18/command-line-tutorial-intro"
+      },
+      {
         "name": "Learning the Shell",
         "level": 0,
         "url": "http://linuxcommand.org/lc3_learning_the_shell.php"
