@@ -336,6 +336,11 @@
         "name": "The Complete Visual Guide to Sublime Text 3",
         "level": 0,
         "url": "https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts"
+      },
+      {
+        "name": "Getting Started with Sublime Text 3: 25 Tips, Tricks, and Shortcuts",
+        "level": 0,
+        "url": "https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/"
       }
     ]
   },
