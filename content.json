@@ -1569,6 +1569,11 @@
     "after": ["windows phone", "swift"],
     "links":[
       {
+        "name": "Learn android development in 2 minutes ",
+        "level": 0,
+        "url": "https://www.youtube.com/playlist?list=PLe60o7ed8E-QdcotGSHvyfyGnmfw6CVQi"
+      },
+      {
         "name": "How to Develop Android Apps",
         "level": 0,
         "url": "https://www.udacity.com/course/ud853"
