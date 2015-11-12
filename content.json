@@ -640,7 +640,7 @@
       {
         "name": "Algorithm Analysis",
         "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/AlgorithmAnalysis/analysis.html"
+        "url": "http://interactivepython.org/runestone/static/pythonds/index.html#analysis"
       },
       {
         "name": "Big-O Cheat Sheet",
@@ -665,7 +665,7 @@
       {
         "name": "Problem Solving with Algorithms and Data Structures",
         "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/index.html#"
+        "url": "http://interactivepython.org/runestone/static/pythonds/index.html"
       },
       {
         "name": "Khan Academy",
@@ -685,7 +685,7 @@
       {
         "name": "Basic Data Structures",
         "level": 0,
-        "url": "http://interactivepython.org/runestone/static/pythonds/BasicDS/basic.html"
+        "url": "http://interactivepython.org/runestone/static/pythonds/index.html"
       }
     ]
   },
