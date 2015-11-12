@@ -2306,7 +2306,7 @@
       {
         "name": "Docker Interactive Tutorial",
         "level": 0,
-        "url": "http://www.docker.io/gettingstarted/#h_tutorial"
+        "url": "http://docs.docker.com/linux/started/"
       }
     ]
   },
