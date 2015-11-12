@@ -213,6 +213,11 @@
     "home": "http://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "links": [
       {
+        "name": "Javascript for Cats",
+        "level": 0,
+        "url": "http://jsforcats.com/"
+      },
+      {
         "name": "Codecademy",
         "level": 0,
         "url": "http://www.codecademy.com/courses/getting-started-v2/0/1?curriculum_id=506324b3a7dffd00020bf661"
@@ -236,6 +241,11 @@
         "name": "CoderMania",
         "level": 0,
         "url": "http://www.codermania.com/javascript/lesson/1a/hello-world"
+      },
+      {
+        "name": "Eloquent Javascript",
+        "level": 1,
+        "url": "http://eloquentjavascript.net/"
       },
       {
         "name": "A Re-introduction to JavaScript",
