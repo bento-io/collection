@@ -1806,10 +1806,30 @@
     ]
   },
   {
+    "name": "react",
+    "tags": ["frontend"],
+    "description": "A JavaScript library for building user interfaces",
+    "before": ["javascript"],
+    "after": ["angular", "jquery", "backbone", "flight"],
+    "home": "https://facebook.github.io/react/",
+    "links": [
+      {
+        "name": "Getting Started",
+        "level": 0,
+        "url": "https://facebook.github.io/react/docs/getting-started.html"
+      },
+      {
+        "name": "React.js Introduction For People Who Know jQuery",
+        "level": 0,
+        "url": "http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/"
+      }
+    ]
+  },
+  {
     "name": "ember",
     "tags": ["frontend"],
     "description": "Build robust single-page apps with JavaScript",
-    "before": [],
+    "before": ["javascript"],
     "after": ["angular", "jquery", "backbone", "flight"],
     "home": "http://emberjs.com/",
     "links": [
@@ -1834,7 +1854,7 @@
     "name": "backbone",
     "tags": ["frontend"],
     "description": "A framework that makes handling data easier in JavaScript",
-    "before": [],
+    "before": ["javascript"],
     "after": ["angular", "jquery", "ember", "flight"],
     "home": "http://backbonejs.org/",
     "links": [
