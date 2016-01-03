@@ -758,6 +758,11 @@
     "home": "http://www.mongodb.org/",
     "links": [
       {
+        "name": "MongoDB Introduction - Features and Use Case Examples",
+        "level": 0,
+        "url": "http://specify.io/systems/mongodb/features-and-usecases"
+      },
+      {
         "name": "Try Mongo",
         "level": 0,
         "url": "http://try.mongodb.org/"
