@@ -766,6 +766,11 @@
         "name": "MongoDB University",
         "level": 0,
         "url": "https://education.mongodb.com/"
+      },
+      {
+        "name": "Learn you mongo",
+        "level": 0,
+        "url": "https://github.com/evanlucas/learnyoumongo"
       }
     ]
   },
