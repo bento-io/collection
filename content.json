@@ -758,11 +758,6 @@
     "home": "http://www.mongodb.org/",
     "links": [
       {
-        "name": "Try Mongo",
-        "level": 0,
-        "url": "http://try.mongodb.org/"
-      },
-      {
         "name": "MongoDB University",
         "level": 0,
         "url": "https://education.mongodb.com/"
