@@ -578,6 +578,11 @@
     "home": "",
     "links": [
       {
+        "name": "DataCamp",
+        "level": 0,
+        "url": "https://www.datacamp.com/"
+      },
+      {
         "name": "DataQuest",
         "level": 0,
         "url": "https://dataquest.io/"
@@ -2712,6 +2717,21 @@
         "name": "Getting Started",
         "level": 0,
         "url": "https://www.plivo.com/docs/getting-started/"
+      }
+    ]
+  },
+  {
+    "name": "R",
+    "tags": ["bridge"],
+    "description": "Learn R with interactive tutorials in the browser",
+    "before": [],
+    "after": [],
+    "home": "",
+    "links": [
+      {
+        "name": "Introduction to R",
+        "level": 0,
+        "url": "https://www.datacamp.com/courses/free-introduction-to-r"
       }
     ]
   }
