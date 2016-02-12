@@ -143,6 +143,11 @@
     "home": "http://git-scm.com/",
     "links": [
       {
+        "name": "[Video] Introduction to Git and the Command Line",
+        "level": 0,
+        "url": "https://vimeo.com/147393467"
+      },
+      {
         "name": "Try Git",
         "level": 0,
         "url": "http://try.github.io/levels/1/challenges/1"
