@@ -1453,11 +1453,16 @@
   {
     "name": "scala",
     "tags": ["backend"],
-    "description": "A highly performant language that works with java",
+    "description": "A highly performant language that works with Java",
     "home": "http://www.scala-lang.org/",
     "before": [],
     "after": ["play"],
     "links":[
+      {
+        "name": "ScalaCourses.com",
+        "level": 0,
+        "url": "http://getscala.com/"
+      },
       {
         "name": "Scala Tutorials",
         "level": 0,
