@@ -83,6 +83,11 @@
         "url": "http://smacss.com/book/"
       },
       {
+        "name": "AtoZ CSS video series",
+        "level": 0,
+        "url": "http://atozcss.com/"
+      },
+      {
         "name": "A Beginner's Guide to HTML & CSS",
         "level": 0,
         "url": "http://learn.shayhowe.com/html-css/"
