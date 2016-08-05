@@ -1157,6 +1157,10 @@
         "level": 0,
         "url": "http://www.realpython.com/blog/python/create-a-super-basic-rest-api-with-django-tastypie"
       }
+      { 
+      	"name": "Flask Tutorial",
+      	"url": "http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"
+      },
     ]
   },
   {
