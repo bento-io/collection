@@ -1097,6 +1097,11 @@
         "level": 2,
         "url": "http://vimgolf.com/"
       }
+      {
+        "name": "Vimcasts",
+        "level": 1,
+        "url": "http://vimcasts.org/episodes/archive/"
+      }
     ]
   },
   {
