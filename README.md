@@ -1,4 +1,4 @@
-![Bento](http://bentobox.io/static/img/twitter_card.png "Bento")
+#![Bento](https://github.com/bento-io/static/raw/master/logo_text.png "Bento")
 =====
 Curated by [@jonhmchan](http://twitter.com/jonhmchan). Like Bento? [Leave me a tip](http://gittip.com/jonhmchan).
 
